@@ -1,0 +1,10 @@
+import SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentFixedComponents
+#print axioms SupersingularCurves.Geometry.FrobeniusDescent.fixedCoefficientAction
+#print axioms SupersingularCurves.Geometry.FrobeniusDescent.fixedAlgebra
+#print axioms SupersingularCurves.Geometry.FrobeniusDescent.homogeneousAction
+#print axioms SupersingularCurves.Geometry.FrobeniusDescent.homogeneousAction_semilinear
+#print axioms SupersingularCurves.Geometry.FrobeniusDescent.homogeneousAction_injective
+#print axioms SupersingularCurves.Geometry.FrobeniusDescent.fixedComponent
+#print axioms SupersingularCurves.Geometry.FrobeniusDescent.fixedComponentEquiv
+#print axioms SupersingularCurves.Geometry.FrobeniusDescent.fixedComponentMap
+#print axioms SupersingularCurves.Geometry.FrobeniusDescent.fixedComponent_isBaseChange

@@ -1,0 +1,277 @@
+⚠ [8764/8794] Replayed Definitions.Def_AlgebraicGeometry_ProjSpace
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:38:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:69:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:70:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:72:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:213:19: `Away.val_mk._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:251:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8768/8794] Replayed Definitions.Def_AlgebraicGeometry_OrderedAffineCoverCech
+warning: Definitions/Def_AlgebraicGeometry_OrderedAffineCoverCech.lean:179:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_OrderedAffineCoverCech.lean:190:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_OrderedAffineCoverCech.lean:195:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_OrderedAffineCoverCech.lean:196:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8775/8794] Replayed P2M.Sol.S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective
+warning: P2M/Sol/S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective.lean:30:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective.lean:31:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective.lean:41:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective.lean:189:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective.lean:190:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective.lean:281:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+⚠ [8778/8794] Replayed Definitions.Def_AlgebraicGeometry_ProjSpaceCechTwist
+warning: Definitions/Def_AlgebraicGeometry_ProjSpaceCechTwist.lean:20:55: This simp argument is unused:
+  Fin.val_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.lt_def, Fin.castSucc_mk, Fin.succ_mk, Fin.val_castSucc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpaceCechTwist.lean:100:35: Variable name `s` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _s
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpaceCechTwist.lean:103:31: Variable name `s` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _s
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8779/8794] Replayed Definitions.Def_AlgebraicGeometry_ProjSpaceCechGradedModule
+warning: Definitions/Def_AlgebraicGeometry_ProjSpaceCechGradedModule.lean:58:28: This simp argument is unused:
+  Finset.subset_insert
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpaceCechGradedModule.lean:115:24: This simp argument is unused:
+  Finset.subset_insert
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpaceCechGradedModule.lean:121:24: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpaceCechGradedModule.lean:470:45: `if_false` has been deprecated: Use `ite_false` instead
+warning: Definitions/Def_AlgebraicGeometry_ProjSpaceCechGradedModule.lean:471:39: This simp argument is unused:
+  Submodule.zero_mem
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [GradedModule.freeXMul, hm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpaceCechGradedModule.lean:533:50: This simp argument is unused:
+  Finset.subset_insert
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpaceCechGradedModule.lean:619:39: This simp argument is unused:
+  Finset.subset_insert
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpaceCechGradedModule.lean:620:26: This simp argument is unused:
+  Finset.subset_insert
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8780/8794] Replayed Definitions.Def_AlgebraicGeometry_ProjTwistDatum
+warning: Definitions/Def_AlgebraicGeometry_ProjTwistDatum.lean:22:32: Variable name `k` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _k
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Definitions/Def_AlgebraicGeometry_ProjTwistDatum.lean:158:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjTwistDatum.lean:159:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjTwistDatum.lean:249:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjTwistDatum.lean:390:14: Variable name `π` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _π
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Definitions/Def_AlgebraicGeometry_ProjTwistDatum.lean:445:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjTwistDatum.lean:527:50: `if_true` has been deprecated: Use `ite_true` instead
+warning: Definitions/Def_AlgebraicGeometry_ProjTwistDatum.lean:583:32: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [8784/8794] Replayed P2M.Sol.S_AlgebraicGeometry_ProjSpace_awayToSection_mk_mem_span_iff_exists_X_pow_mul_mem
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_awayToSection_mk_mem_span_iff_exists_X_pow_mul_mem.lean:92:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_awayToSection_mk_mem_span_iff_exists_X_pow_mul_mem.lean:94:69: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_awayToSection_mk_mem_span_iff_exists_X_pow_mul_mem.lean:98:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_awayToSection_mk_mem_span_iff_exists_X_pow_mul_mem.lean:102:76: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_awayToSection_mk_mem_span_iff_exists_X_pow_mul_mem.lean:162:78: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_awayToSection_mk_mem_span_iff_exists_X_pow_mul_mem.lean:307:30: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8786/8794] Replayed P2M.Sol.S_MvPolynomial_exists_finset_sum_mul_eq_of_isHomogeneous_of_mem_span
+warning: P2M/Sol/S_MvPolynomial_exists_finset_sum_mul_eq_of_isHomogeneous_of_mem_span.lean:53:79: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [8788/8794] Replayed P2M.Sol.S_AlgebraicGeometry_ProjSpace_exists_forall_awayToSection_mk_X_pow_mul_mem_ideal_of_mem_ideal
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_exists_forall_awayToSection_mk_X_pow_mul_mem_ideal_of_mem_ideal.lean:43:30: This simp argument is unused:
+  ← pow_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_exists_forall_awayToSection_mk_X_pow_mul_mem_ideal_of_mem_ideal.lean:128:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_exists_forall_awayToSection_mk_X_pow_mul_mem_ideal_of_mem_ideal.lean:129:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8790/8794] Replayed P2M.Sol.S_AlgebraicGeometry_ProjSpace_eq_ker_of_ideal_basicOpen_eq_span_of_isClosedImmersion
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_eq_ker_of_ideal_basicOpen_eq_span_of_isClosedImmersion.lean:92:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_eq_ker_of_ideal_basicOpen_eq_span_of_isClosedImmersion.lean:122:21: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_eq_ker_of_ideal_basicOpen_eq_span_of_isClosedImmersion.lean:129:19: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+⚠ [8792/8794] Replayed P2M.Sol.S_AlgebraicGeometry_ProjSpace_eq_comap_map_of_ideal_basicOpen_eq_span
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_eq_comap_map_of_ideal_basicOpen_eq_span.lean:126:95: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: P2M/Sol/S_AlgebraicGeometry_ProjSpace_eq_comap_map_of_ideal_basicOpen_eq_span.lean:129:93: `if_neg` has been deprecated: Use `ite_eq_right` instead
+✔ [8794/8794] Built SupersingularCurves.Geometry.FrobeniusFixedSectionCoordinateIdeal (7.4s)
+Build completed successfully (8794 jobs).

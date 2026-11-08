@@ -1,0 +1,46 @@
+{
+  "checkpoint": 20,
+  "started_at_utc": "2026-09-20T00:55:05.201078+00:00",
+  "verification_mode": "Full project build using existing checked artifacts; source/provenance and admission checks; actual genus-two Frobenius/Cech integration examples; all declarations in seven new project and eight new vendor modules audited transitively. Historical audits and nine prior integration suites retained for byte-identical sources, not rerun.",
+  "new_proof_modules": 7,
+  "retained_proof_modules": 78,
+  "public_theorems": 622,
+  "new_public_theorems": 38,
+  "new_vendor_modules": 8,
+  "required_current_checks": [
+    "checkpoint-20-project-build.log",
+    "checkpoint-20-source-audit.log",
+    "frobenius-cech-examples.log",
+    "checkpoint-20-axiom-audit.log"
+  ],
+  "all_current_checks_passed": true,
+  "complete_frobenius_cochain_comparison": true,
+  "complete_cartier_v_identity": false,
+  "complete_geometric_criteria": false,
+  "completed_at_utc": "2026-09-20T00:58:24.550552+00:00",
+  "build_exit_code": 0,
+  "source_checks_exit_code": 0,
+  "frobenius_cech_examples_exit_code": 0,
+  "new_module_axiom_audit_exit_code": 0,
+  "new_module_declaration_entries_audited": 230,
+  "new_project_declarations_audited": 65,
+  "new_vendor_declaration_entries_audited": 165,
+  "shared_generated_entries_also_audited_by_stored_type_and_body": 0,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "full_previous_audit_rerun": false,
+  "proof_sources_unchanged_after_verification": true,
+  "build_jobs": 10377,
+  "new_integration_examples": 5,
+  "checked_source_hashes": 156,
+  "source_files_scanned": 1613,
+  "log_sha256": {
+    "checkpoint-20-project-build.log": "e8d7b227e9939a977ff703f47623dac25f91dfa35d0a75bff16da1a786ef4e55",
+    "checkpoint-20-source-audit.log": "0b1c082b64729770ccaef2c23062ddf9dffaf9b47d103bb497bb046041e31edf",
+    "frobenius-cech-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checkpoint-20-axiom-audit.log": "d54c1761d32d79f4288d6b005184ab51ce554984ddc285fa54270dbdff05cef9"
+  }
+}

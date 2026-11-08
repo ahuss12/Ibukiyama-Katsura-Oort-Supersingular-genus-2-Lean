@@ -1,0 +1,4 @@
+import SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentFiniteSections
+#print axioms SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.finite_sections_of_isProper
+#print axioms SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.abelianVariety_finite_sections
+#print axioms SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.exists_fixedSectionBasis

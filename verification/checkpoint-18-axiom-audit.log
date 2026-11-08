@@ -1,0 +1,4 @@
+Audited 16 declarations from SupersingularCurves.Geometry.SchemeCechCohomology.
+Audited 22 declarations from SupersingularCurves.Geometry.CechRepartition.
+Audited 18 declarations from SupersingularCurves.Geometry.JacobianRepartition.
+Checkpoint 18 transitive axiom audit passed: 56 new-module declarations.

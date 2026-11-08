@@ -1,0 +1,15 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.sectionRingGradedAction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.sectionRingGradedAction_irrelevant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.sectionRingModel_equivariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.exists_fixedField_equivariant_scheme_model' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.exists_finiteField_equivariant_scheme_model_of_verschiebungCotangent_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,55 @@
+{
+  "status": "recovered drafts; compilation not yet reproduced",
+  "files": [
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusDifferentialTwist.lean",
+      "sha256": "46ce337b0d38ae4776ea4dbef8e6fdb04f00f0e973eae12d885daba299b11e47",
+      "recovered_from": "/workspace/scratch/071b87c96e86/supersingular-curves-mini/SupersingularCurves/Geometry/FrobeniusDifferentialTwist.lean"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CartierResidueAdjoint.lean",
+      "sha256": "0836e59c48d91f02f25710ceddce164a8f5ad11c0d980b1db5950230e23e1e58",
+      "recovered_from": "/workspace/scratch/071b87c96e86/supersingular-curves-mini/SupersingularCurves/Geometry/CartierResidueAdjoint.lean"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CartierResidueLocal.lean",
+      "sha256": "2681918c0829db8d66cc686224f17dcd2f99b4a91adbc1bc06ed98e2ab44fdd7",
+      "recovered_from": "/workspace/scratch/071b87c96e86/supersingular-curves-mini/SupersingularCurves/Geometry/CartierResidueLocal.lean"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CartierVerschiebung.lean",
+      "sha256": "6809ec1f82ed79c379a3931a369f8e731ff6570c65d20754387108fb0bdedb8a",
+      "recovered_from": "/workspace/scratch/071b87c96e86/supersingular-curves-mini/SupersingularCurves/Geometry/CartierVerschiebung.lean"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusCechSemilinear.lean",
+      "sha256": "67284c0d70bebacee0857b75eef318015cd3b6b17cbd2d4210f3f8ea381320ff",
+      "recovered_from": "/workspace/scratch/071b87c96e86/supersingular-curves-mini/SupersingularCurves/Geometry/FrobeniusCechSemilinear.lean"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CartierTransport.lean",
+      "sha256": "717fa440fd6fedcd7d1cf86004f52f6c0c1f4e2bdc69560d4b62a096248f161f",
+      "recovered_from": "/workspace/scratch/071b87c96e86/supersingular-curves-mini/SupersingularCurves/Geometry/CartierTransport.lean"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/JacobianFrobeniusUntwist.lean",
+      "sha256": "0e94ac3bbe6993c86599a0ef2c27c088ba13c8a192c15eec5cba4f23082f85a4",
+      "recovered_from": "/workspace/scratch/071b87c96e86/supersingular-curves-mini/SupersingularCurves/Geometry/JacobianFrobeniusUntwist.lean"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/GlobalCartierModels.lean",
+      "sha256": "58f957844e041f2e57008292e620606a8321b5283f0b240cc1fc468f82dd00e0",
+      "recovered_from": "/workspace/scratch/071b87c96e86/supersingular-curves-mini/SupersingularCurves/Geometry/GlobalCartierModels.lean"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/GlobalCartier.lean",
+      "sha256": "f35799da8e55155d22781d4fbd81b1b7db9ec0352a18820a126ed9a0f7ba3c82",
+      "recovered_from": "/workspace/scratch/071b87c96e86/supersingular-curves-mini/SupersingularCurves/Geometry/GlobalCartier.lean"
+    },
+    {
+      "path": "SupersingularCurves/IKO/VerschiebungCriteria.lean",
+      "sha256": "9c6059eba0085a479bccc956c98edcc5796e9992ec6b7fcc81e0d7056b495023",
+      "recovered_from": "/workspace/scratch/071b87c96e86/supersingular-curves-mini/SupersingularCurves/IKO/VerschiebungCriteria.lean"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "checkpoint": 32,
+  "lean_files_scanned": 5007,
+  "scope": "Project proof modules, aggregate import, and all vendored Lean modules; nested block and line comments stripped.",
+  "forbidden_markers": "\\b(?:sorry|sorryAx|admit|axiom|native_decide|ofReduceBool)\\b",
+  "findings": []
+}

@@ -1,0 +1,9 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.finite_sections_of_isProper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.abelianVariety_finite_sections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.exists_fixedSectionBasis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

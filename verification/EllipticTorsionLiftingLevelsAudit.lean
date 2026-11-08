@@ -1,0 +1,11 @@
+import SupersingularCurves.Geometry.EllipticTorsionLiftingImage
+import SupersingularCurves.Geometry.EllipticTorsionLiftingComparison
+#print axioms SupersingularCurves.Geometry.TorsionLevels.multiplication_isPullback
+#print axioms SupersingularCurves.Geometry.TorsionLevels.identity_fibre_isPullback
+#print axioms SupersingularCurves.Geometry.TorsionLevels.multiplication_flat
+#print axioms SupersingularCurves.Geometry.TorsionLevels.multiplication_surjective
+#print axioms SupersingularCurves.Geometry.TorsionLevels.multiplication_finrank
+#print axioms SupersingularCurves.Geometry.TorsionLevels.coordinateImageEquiv
+#print axioms SupersingularCurves.Geometry.TorsionLevels.coordinateImageEquiv_restriction
+#print axioms SupersingularCurves.Geometry.PerfectHopfVerschiebung.eq_canonical_of_two_levels
+#print axioms SupersingularCurves.Geometry.PerfectHopfVerschiebung.pairing_of_two_levels

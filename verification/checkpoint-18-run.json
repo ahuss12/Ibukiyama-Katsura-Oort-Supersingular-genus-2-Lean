@@ -1,0 +1,44 @@
+{
+  "checkpoint": 18,
+  "started_at_utc": "2026-09-19T23:29:26.778349+00:00",
+  "verification_mode": "Full project build; current source and provenance checks; new actual-curve integration suite; all new-module declarations transitively audited. Prior full audit and seven example suites retained with unchanged sources; not re-executed.",
+  "retained_proof_modules": 71,
+  "new_proof_modules": 3,
+  "public_theorems": 565,
+  "new_public_theorems": 20,
+  "new_vendor_modules": 0,
+  "required_current_checks": [
+    "project-build.log",
+    "source-audit.log",
+    "repartition-examples.log",
+    "checkpoint-18-axiom-audit.log"
+  ],
+  "prior_full_audit": {
+    "checkpoint": 17,
+    "project_declarations": 1631,
+    "vendor_declarations": 26817,
+    "log": "verification/checkpoint-17-axiom-audit.log"
+  },
+  "complete_cartier_v_identity": false,
+  "complete_geometric_criteria": false,
+  "completed_at_utc": "2026-09-19T23:36:29.088095+00:00",
+  "all_current_checks_passed": true,
+  "build_exit_code": 0,
+  "source_checks_exit_code": 0,
+  "repartition_examples_exit_code": 0,
+  "new_module_axiom_audit_exit_code": 0,
+  "new_module_declarations_audited": 56,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "full_previous_audit_rerun": false,
+  "proof_sources_unchanged_after_verification": true,
+  "log_sha256": {
+    "project-build.log": "e02b9e9593deffe3319494d38b72ab8bbb1af0f37f71a8ccd154b6ee99d8b851",
+    "source-audit.log": "514f9e2e1e1a022b0109805141945b0e0f7cc8ac465aa6b164c89856d1462e17",
+    "repartition-examples.log": "eb1c0ceb3c96e89ac6066fc2b9cb679742cbb2a2fc51888ebdf580e9b7e20433",
+    "checkpoint-18-axiom-audit.log": "54f9defddf435e18e12e39a4abfc4b3c9640ef631e17e9c52f4123b7a395dfc9"
+  }
+}

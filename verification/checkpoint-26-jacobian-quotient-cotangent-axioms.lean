@@ -1,0 +1,6 @@
+import SupersingularCurves.Geometry.JacobianQuotientCotangent
+
+#print axioms SupersingularCurves.Geometry.Jacobian.groupScheme_twiceTwistZero_eq
+#print axioms SupersingularCurves.Geometry.Jacobian.quotient_twistedVerschiebungCotangent_eq_zero_iff
+#print axioms SupersingularCurves.Geometry.Jacobian.quotient_twistedVerschiebungCotangent_ne_zero
+#print axioms SupersingularCurves.Geometry.Jacobian.quotient_twistedVerschiebungCotangent_comp_eq_zero_of_globalCartier_square_zero

@@ -1,0 +1,136 @@
+{
+  "checkpoint": 32,
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/ScalarFrobeniusTatePolarizedGraph.lean",
+      "sha256": "2d09ff0c5336e618a84d5f0c536ddf9ce5556098f9b2396ba95a74ea29d920e3"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/AbelianVerschiebungBinaryProducts.lean",
+      "sha256": "45b8e57d258e797f5b127c9f19e07aa9dd40813c563dcdf4c0aea9e0fbb81abe"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FiniteBySectionsExternalProduct.lean",
+      "sha256": "0d3ccd6257ad8c5be2e7c6b92e059efc6be29bd2a104b7faace640def24b53c4"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/PolarisationRootKernel.lean",
+      "sha256": "ba27efb05ff285c2a5dff96f6e4fa2eb2af650fa225e7d240f6cb4127b545cf6"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/AbelianProductLineBundle.lean",
+      "sha256": "cd56b5067dcfc536e378a569b82c21323977628ac48ac9292c0514b162b8dd9c"
+    }
+  ],
+  "vendor_additions": [],
+  "new_compatibility_ports": [],
+  "draft_modules_excluded_from_build_and_proved_inventory": [
+    {
+      "path": "drafts/checkpoint32/SupersingularCurves/Geometry/AbelianIsogenyRootNumerics.lean",
+      "sha256": "ebc4faf93ca61c143758f31408deada8febca2997f159557bb8254f206e04da0"
+    },
+    {
+      "path": "drafts/checkpoint32/SupersingularCurves/Geometry/AbelianTateProductPolarization.lean",
+      "sha256": "83fc0dd36440d518db9602e14f5297929ba31d1fbd2b1df62b1813ac94166e98"
+    },
+    {
+      "path": "drafts/checkpoint32/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+      "sha256": "ce8e25af1d4a64d32311a34dd725f57c294831d5341f72fa8920113448d3efd0"
+    },
+    {
+      "path": "drafts/checkpoint32/SupersingularCurves/Geometry/PolarizedFiniteModels.lean",
+      "sha256": "dc48e80dfb3334827119e3ad686c22e5e288bd298f8ffe586bf56185883ab0fd"
+    },
+    {
+      "path": "drafts/checkpoint32/SupersingularCurves/Geometry/ScalarFrobeniusPolarizedDescentRank.lean",
+      "sha256": "20ac463829243dde1601b44f16bdc9d917c59f7afa4be95749e54ca095e1d06c"
+    },
+    {
+      "path": "drafts/checkpoint32/SupersingularCurves/Geometry/ScalarFrobeniusTateQuotientRoots.lean",
+      "sha256": "555ca9d500c58ba57b08a3453abe2456bee97b5ec925c3c4a998cd8f1f95e6db"
+    },
+    {
+      "path": "drafts/checkpoint32/SupersingularCurves/Geometry/ScalarFrobeniusTateUniformPolarization.lean",
+      "sha256": "a0f448832cb9e3353a928cd5e1f74fe37210d0d4153b77c72c772dd398c57dfe"
+    }
+  ],
+  "checked_public_theorems": [
+    {
+      "name": "SupersingularCurves.Geometry.ScalarFrobeniusTate.mem_integralIntersection_productGraph_iff",
+      "source": "SupersingularCurves/Geometry/ScalarFrobeniusTatePolarizedGraph.lean",
+      "origin": "checkpoint-32-checked"
+    },
+    {
+      "name": "SupersingularCurves.Geometry.ScalarFrobeniusTate.integralProductPairing_graph_isotropic",
+      "source": "SupersingularCurves/Geometry/ScalarFrobeniusTatePolarizedGraph.lean",
+      "origin": "checkpoint-32-checked"
+    },
+    {
+      "name": "SupersingularCurves.Geometry.ScalarFrobeniusTate.exists_isotropic_productGraph_of_perfect_pairings",
+      "source": "SupersingularCurves/Geometry/ScalarFrobeniusTatePolarizedGraph.lean",
+      "origin": "checkpoint-32-checked"
+    },
+    {
+      "name": "SupersingularCurves.Geometry.ScalarFrobeniusTate.exists_isotropic_graph_quotients_with_degree_and_zeroDV",
+      "source": "SupersingularCurves/Geometry/ScalarFrobeniusTatePolarizedGraph.lean",
+      "origin": "checkpoint-32-checked"
+    },
+    {
+      "name": "SupersingularCurves.Geometry.PointedCotangent.differential_eq_zero_of_abelian_prod_components",
+      "source": "SupersingularCurves/Geometry/AbelianVerschiebungBinaryProducts.lean",
+      "origin": "checkpoint-32-checked"
+    },
+    {
+      "name": "SupersingularCurves.Geometry.AbelianVariety.verschiebungCotangent_prod_eq_zero",
+      "source": "SupersingularCurves/Geometry/AbelianVerschiebungBinaryProducts.lean",
+      "origin": "checkpoint-32-checked"
+    },
+    {
+      "name": "SupersingularCurves.Geometry.finiteBySections_externalProduct",
+      "source": "SupersingularCurves/Geometry/FiniteBySectionsExternalProduct.lean",
+      "origin": "checkpoint-32-checked"
+    },
+    {
+      "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.kernelPts_eq_of_iso",
+      "source": "SupersingularCurves/Geometry/PolarisationRootKernel.lean",
+      "origin": "checkpoint-32-checked"
+    },
+    {
+      "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.kernelPts_subset_tensorPow",
+      "source": "SupersingularCurves/Geometry/PolarisationRootKernel.lean",
+      "origin": "checkpoint-32-checked"
+    },
+    {
+      "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.finite_kernelPts_of_root",
+      "source": "SupersingularCurves/Geometry/PolarisationRootKernel.lean",
+      "origin": "checkpoint-32-checked"
+    },
+    {
+      "name": "SupersingularCurves.Geometry.AbelianTate.productLineBundle_isInvertible",
+      "source": "SupersingularCurves/Geometry/AbelianProductLineBundle.lean",
+      "origin": "checkpoint-32-checked"
+    },
+    {
+      "name": "SupersingularCurves.Geometry.AbelianTate.productLineBundle_finiteBySections",
+      "source": "SupersingularCurves/Geometry/AbelianProductLineBundle.lean",
+      "origin": "checkpoint-32-checked"
+    }
+  ],
+  "proof_reuse": [
+    {
+      "module": "FiniteBySectionsExternalProduct",
+      "upstream_helpers": "P2MW.S_AlgebraicGeometry_Scheme_Modules_FiniteBySections_tensor.P2mSegre",
+      "source": "vendor/flt/P2M/Sol/S_AlgebraicGeometry_Scheme_Modules_FiniteBySections_tensor.lean",
+      "note": "Uses the pinned Segre presentation helpers, with a new proof for two different schemes over the base."
+    },
+    {
+      "module": "ScalarFrobeniusTatePolarizedGraph",
+      "project_dependencies": [
+        "AbelianTateRiemannRational",
+        "ScalarFrobeniusTateSymplectic",
+        "ScalarFrobeniusTateGraphQuotients"
+      ],
+      "note": "Constructs the anti-isometry using the existing checked four-dimensional symplectic classification."
+    }
+  ]
+}

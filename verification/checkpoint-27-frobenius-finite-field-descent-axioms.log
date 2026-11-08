@@ -1,0 +1,21 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.doubleProjection_over' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.schemeAutomorphism' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.schemeAutomorphism_hom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.schemeAutomorphism_over' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.invariantBundleIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.endomorphism_comp_schemeAutomorphism' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.exists_frobeniusSquare_automorphism_invariant_bundle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

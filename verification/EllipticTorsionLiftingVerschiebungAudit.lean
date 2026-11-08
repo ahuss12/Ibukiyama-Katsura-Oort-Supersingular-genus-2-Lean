@@ -1,0 +1,8 @@
+import SupersingularCurves.Geometry.EllipticTorsionLiftingVerschiebung
+#print axioms SupersingularCurves.Geometry.PerfectHopfVerschiebung.pairing
+#print axioms SupersingularCurves.Geometry.PerfectHopfVerschiebung.unique
+#print axioms SupersingularCurves.Geometry.PerfectHopfVerschiebung.ringHom
+#print axioms SupersingularCurves.Geometry.PerfectHopfVerschiebung.verschiebung_pow
+#print axioms SupersingularCurves.Geometry.PerfectHopfVerschiebung.verschiebung_pow_arg
+#print axioms SupersingularCurves.Geometry.PerfectHopfVerschiebung.comul_verschiebung
+#print axioms SupersingularCurves.Geometry.PerfectHopfVerschiebung.naturality

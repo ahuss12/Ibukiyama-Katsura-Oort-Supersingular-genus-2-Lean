@@ -1,0 +1,20 @@
+{
+  "commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "purpose": "Canonical global Kaehler-section / regular function-field differential equivalence",
+  "modules": [
+    "Definitions.Def_AlgebraicCurve_DifferentialPushPull",
+    "Definitions.Def_AlgebraicCurve_KaehlerToFunctionField",
+    "Definitions.Def_AlgebraicGeometry_TwoAffineOpenCoverH1BaseChange",
+    "Definitions.Def_AlgebraicGeometry_TwoAffineOpenCoverKaehler",
+    "P2M.Sol.S_AlgebraicCurve_exists_kaehlerToFunctionField_eq_smul_dCoord_of_mem_placesOf",
+    "P2M.Sol.S_AlgebraicCurve_pullbackAlong_mem_regularDifferentials_of_mem_of_algEquiv",
+    "P2M.Sol.S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_exists_linearEquiv_kaehlerSectionsH0_regularDifferentials_apply_eq_kaehlerToFunctionField",
+    "P2M.Sol.S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_kaehlerToFunctionField_mem_regularDifferentials",
+    "P2M.Sol.S_AlgebraicGeometry_SmoothProperCurve_exists_twoAffineOpenCover_mem_of_isAlgClosed",
+    "Theorems.Thm_AlgebraicCurve_exists_kaehlerToFunctionField_eq_smul_dCoord_of_mem_placesOf",
+    "Theorems.Thm_AlgebraicCurve_pullbackAlong_mem_regularDifferentials_of_mem_of_algEquiv",
+    "Theorems.Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_exists_linearEquiv_kaehlerSectionsH0_regularDifferentials_apply_eq_kaehlerToFunctionField",
+    "Theorems.Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_kaehlerToFunctionField_mem_regularDifferentials",
+    "Theorems.Thm_AlgebraicGeometry_SmoothProperCurve_exists_twoAffineOpenCover_mem_of_isAlgClosed"
+  ]
+}

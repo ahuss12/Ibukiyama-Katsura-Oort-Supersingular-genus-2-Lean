@@ -1,0 +1,30 @@
+{
+  "source_archive": "supersingular-genus-5-checkpoint-12-legendre-cartier-verified-2026-09-14(1).zip",
+  "source_archive_sha256": "c47db3db8867a6f70314f1755e9e3f5bab457b77a0c0cc3b653b36a6af9cf91a",
+  "vendor_git_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "vendor_sources_checked_against_git_blobs": 192,
+  "selected_compatibility_ports": 1,
+  "reused_modules": [
+    {
+      "original_path": "supersingular-genus-5/SupersingularGenus5/Direct/Cartier.lean",
+      "original_sha256": "59658f4f49b2659a6d596d1005d139b3bab6e4d006f4bad28620e98e6e4b9c23",
+      "new_path": "SupersingularCurves/Differentials/Cartier.lean",
+      "adapted_sha256": "7dc9251228d1aa21e253ce327981215bfcf81f53f22275d3028f2b1a2569d0bd",
+      "adaptation": "Existing Cartier interface copied with only its namespace changed."
+    },
+    {
+      "original_path": "supersingular-genus-5/SupersingularGenus5/Direct/CartierResidue.lean",
+      "original_sha256": "39b199c71fc14f85005debc2bb81ef948682d71fc9b6ee1d38082988117e458c",
+      "new_path": "SupersingularCurves/Differentials/Monomials.lean",
+      "adapted_sha256": "5b8e32bb14e0e2d2ba2fc5d99ace0a721cf8b00a2d8b2aea09fb665dc12181e1",
+      "adaptation": "The scalar law and three monomial lemmas are extracted unchanged in proof; imports and namespace are narrowed."
+    },
+    {
+      "original_path": "supersingular-genus-5/SupersingularGenus5/Direct/CartierCoefficients.lean",
+      "original_sha256": "fbbb5892c91c43326ff6c4b93e6b9ce60ec989071737da9f1c7be9bed47aaa03",
+      "new_path": "SupersingularCurves/Differentials/Polynomial.lean",
+      "adapted_sha256": "a6db82ed0855e87ef8e72c3d54dfa524b13a617424319e19f7182abdf1567cfa",
+      "adaptation": "Existing coefficient-extraction proofs copied with import and namespace changes only."
+    }
+  ]
+}

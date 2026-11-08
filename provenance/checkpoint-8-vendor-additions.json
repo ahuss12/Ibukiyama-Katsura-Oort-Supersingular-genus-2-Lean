@@ -1,0 +1,13 @@
+{
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "purpose": "Actual smooth proper scheme models over perfect infinite fields",
+  "added_modules": [
+    "Theorems.Thm_AlgebraicCurve_CurveModel_nonempty_of_perfectField",
+    "P2M.Sol.S_AlgebraicCurve_CurveModel_nonempty_of_perfectField",
+    "Theorems.Thm_AlgebraicCurve_CurveModel_isProper_smooth_places_affineCover_glued",
+    "P2M.Sol.S_AlgebraicCurve_CurveModel_isProper_smooth_places_affineCover_glued",
+    "Definitions.Def_AlgebraicCurve_CurveModelConstruction",
+    "Definitions.Def_AlgebraicCurve_CurveModelSmooth",
+    "Definitions.Def_JacJ1_ChartAlgebra"
+  ]
+}

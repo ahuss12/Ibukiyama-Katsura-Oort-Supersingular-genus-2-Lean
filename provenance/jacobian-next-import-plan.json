@@ -1,0 +1,16 @@
+{
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "candidate_roots": [
+    "Theorems.Thm_AlgebraicCurve_CurveModel_exists_representsRelSubPic_abelJacobi_of_isAlgClosed",
+    "Theorems.Thm_AlgebraicCurve_CurveModel_smoothOfRelativeDimension_genusFF_of_representsRelSubPic"
+  ],
+  "full_explored_closure_module_count": 1419,
+  "current_verified_closure_module_count": 411,
+  "additional_modules_not_imported": 1008,
+  "status": "Dependency exploration only; these Jacobian existence/dimension results are not compiled or imported in checkpoint 8.",
+  "next_mathematical_steps": [
+    "Construct the Picard-representing Jacobian with smooth dimension equal to genus.",
+    "Transport the actual divisor-class group to scheme-valued Jacobian points, respecting the group law.",
+    "Identify cotangent/differential and Cartier data before proving geometric criteria."
+  ]
+}

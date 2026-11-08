@@ -1,0 +1,3 @@
+'SupersingularCurves.Geometry.AbelianVariety.exists_equivariant_model_of_symmetric_finite_bundle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,62 @@
+{
+  "source_archive": "supersingular-mini-checkpoint-3-cartier-differentials-2026-09-16.zip",
+  "source_archive_sha256": "f2031811cb991d022e45e0f8769c8d39a7a7b0c27d6aee375727b2519f192ce3",
+  "unchanged_proof_modules": [
+    {
+      "path": "SupersingularCurves/Differentials/Cartier.lean",
+      "sha256": "7dc9251228d1aa21e253ce327981215bfcf81f53f22275d3028f2b1a2569d0bd"
+    },
+    {
+      "path": "SupersingularCurves/Differentials/Hyperelliptic.lean",
+      "sha256": "a3c3526496f3b62660fd1b6fe366a7abd06e3ebc11270ef97c27eb0b4c0c1048"
+    },
+    {
+      "path": "SupersingularCurves/Differentials/Monomials.lean",
+      "sha256": "5b8e32bb14e0e2d2ba2fc5d99ace0a721cf8b00a2d8b2aea09fb665dc12181e1"
+    },
+    {
+      "path": "SupersingularCurves/Differentials/Polynomial.lean",
+      "sha256": "a6db82ed0855e87ef8e72c3d54dfa524b13a617424319e19f7182abdf1567cfa"
+    },
+    {
+      "path": "SupersingularCurves/Elliptic/Legendre.lean",
+      "sha256": "2b1db323a5fd886a1f6af3a8d63690949f57e9f8e97b2e392a1505e6b6a28385"
+    },
+    {
+      "path": "SupersingularCurves/Elliptic/Supersingular.lean",
+      "sha256": "50bcc136fa032db5e3d05bc2a5f4c38f022800f1b000e6bdc4ebe2de1fead4aa"
+    },
+    {
+      "path": "SupersingularCurves/IKO/CartierCompatibility.lean",
+      "sha256": "7aa81f25c8c0770b0bcb651f9339a877c91d01aa6ff383320493f245da987bff"
+    },
+    {
+      "path": "SupersingularCurves/IKO/CartierFamilies.lean",
+      "sha256": "601ebffb5725d6adf0bf127505885189575420ee229fc3714a8b18c63ad3b4d2"
+    },
+    {
+      "path": "SupersingularCurves/IKO/CoefficientMatrix.lean",
+      "sha256": "713a7ed2770318a23f337c443919e76ba50fee7a65f3d662b1f126e0f38fe023"
+    },
+    {
+      "path": "SupersingularCurves/IKO/MatrixCriteria.lean",
+      "sha256": "e24fd2c81530c11577c531c380be611b6e4dafb3841e930028894bcb7740487b"
+    },
+    {
+      "path": "SupersingularCurves/IKO/Polynomials.lean",
+      "sha256": "b9aa07beee00f7abda895193242a177e1a112e17f905a7936f374726832b77c1"
+    },
+    {
+      "path": "SupersingularCurves/IKO/QuadraticCoefficients.lean",
+      "sha256": "cd493240e4087718eb37457cf4dfc3ac1c7529db3d0e3cc5c625765a7c54574b"
+    },
+    {
+      "path": "SupersingularCurves/IKO/Semilinear.lean",
+      "sha256": "690d96258fe354dfa21f83b3462bd6e56c8d1b7b1685355df0c01e8620357da7"
+    },
+    {
+      "path": "SupersingularCurves/IKO/UniformMatrices.lean",
+      "sha256": "d1b94a62aa6322cf2622badb8733d1a9026ac5f552788e14ceda15b6bd0638ee"
+    }
+  ]
+}

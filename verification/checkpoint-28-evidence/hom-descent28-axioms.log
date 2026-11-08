@@ -1,0 +1,12 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldHomDescent.exists_fixedField_hom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldHomDescent.changeBase_respectsMul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.frobeniusSquare_descent_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.frobeniusSquare_descent_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

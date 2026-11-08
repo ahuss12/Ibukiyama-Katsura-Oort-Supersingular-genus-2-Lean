@@ -1,0 +1,5 @@
+Audited 3 declarations from SupersingularCurves.Geometry.ScalarFrobeniusTateQuotientDegree.
+Audited 4 declarations from SupersingularCurves.Geometry.ScalarFrobeniusTateQuotientPairing.
+Audited 5 declarations from SupersingularCurves.Geometry.ScalarFrobeniusTateGraphQuotients.
+Inspected 0 shared generated entries by stored type/body as well as resolved declaration.
+Checkpoint 31 transitive axiom audit passed: 12 new project declaration entries.

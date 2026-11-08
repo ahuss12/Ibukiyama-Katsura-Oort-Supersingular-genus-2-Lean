@@ -1,0 +1,44 @@
+⚠ [8765/8767] Replayed P2M.Sol.S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective
+warning: P2M/Sol/S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective.lean:30:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective.lean:31:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective.lean:41:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective.lean:189:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective.lean:190:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Submodule_span_fixedPoints_eq_top_of_frobenius_semilinear_injective.lean:281:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+✔ [8767/8767] Built SupersingularCurves.Geometry.FrobeniusInvariantIdeal (6.4s)
+Build completed successfully (8767 jobs).

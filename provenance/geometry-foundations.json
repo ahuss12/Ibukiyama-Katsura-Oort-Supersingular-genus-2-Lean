@@ -1,0 +1,34 @@
+{
+  "commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "new_roots": [
+    "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroGroupCut",
+    "Definitions.Def_AlgebraicGeometry_RelSubPicGroup",
+    "Definitions.Def_AlgebraicCurve_CurveModel"
+  ],
+  "added_modules": [
+    "Definitions.Def_AlgebraicCurve_CurveModel",
+    "Definitions.Def_AlgebraicGeometry_ModulesPullbackMonoidal",
+    "Definitions.Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier",
+    "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroCut",
+    "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroGroupCut",
+    "Definitions.Def_AlgebraicGeometry_RelSubPicGroup",
+    "Definitions.Def_AlgebraicGeometry_RelSubPicPresheaf",
+    "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+    "Definitions.Def_AlgebraicGeometry_RelativeGroupLawGrpObj",
+    "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+    "Definitions.Def_AlgebraicGeometry_RepresentsRelSubPic",
+    "Definitions.Def_JacJ1Iface",
+    "Definitions.Def_PresheafOfModules_InternalHom",
+    "Definitions.Def_PresheafOfModules_PullbackMonoidal",
+    "Definitions.Def_SheafOfModules_Monoidal",
+    "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_tensor_inverse",
+    "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_tensor",
+    "P2M.Sol.S_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf",
+    "P2M.Sol.S_PresheafOfModules_isSheaf_ihomObj",
+    "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_tensor_inverse",
+    "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_IsInvertible_tensor",
+    "Theorems.Thm_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf",
+    "Theorems.Thm_PresheafOfModules_isSheaf_ihomObj"
+  ],
+  "all_added_sources_verified_against_pinned_git_blobs": true
+}

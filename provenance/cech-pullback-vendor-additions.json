@@ -1,0 +1,120 @@
+{
+  "checkpoint": 20,
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "vendor_additions": [
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback.lean",
+      "upstream_git_blob": "7a8788942f99b77b18f9a00fc48547eac6d3563b",
+      "upstream_sha256": "cd1daea2ed284df13ed43e5203863a4ef3f028305be68e46b8a01c76e6e875b6",
+      "current_sha256": "cd1daea2ed284df13ed43e5203863a4ef3f028305be68e46b8a01c76e6e875b6",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_ModulesSectionsTensor",
+        "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_exists_isFrameOn_of_pullback_iso_unit",
+        "Theorems.Thm_AlgebraicGeometry_OModulePresheaf_isQuasicoherent_ofModules_of_locallyTrivial",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback_of_le",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback_of_le.lean",
+      "upstream_git_blob": "bc8a2d30fea972cd4a3af76e72943640a017df18",
+      "upstream_sha256": "4249ab274542d2a6b5d43618cc9a397e33f9c18cf8eff6797fd585d9631a9f13",
+      "current_sha256": "4249ab274542d2a6b5d43618cc9a397e33f9c18cf8eff6797fd585d9631a9f13",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_ModulesPullbackLocalSection",
+        "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback",
+        "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_pullbackComp_hom_app_pullbackLocalSection",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_exists_isFrameOn_of_pullback_iso_unit",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_Modules_exists_isFrameOn_of_pullback_iso_unit.lean",
+      "upstream_git_blob": "2595127844421eafd474b7bc1a53542a34d59c4a",
+      "upstream_sha256": "662d19f71ec2ca5c23a5a4502d254bf6195086f2e1320ae3d120c7e11a639e8b",
+      "current_sha256": "662d19f71ec2ca5c23a5a4502d254bf6195086f2e1320ae3d120c7e11a639e8b",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_ModulesSectionsTensor",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_pullbackComp_hom_app_pullbackLocalSection",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_Modules_pullbackComp_hom_app_pullbackLocalSection.lean",
+      "upstream_git_blob": "7fa9229ea06aa12ac8bed01f8fed9eeabb2e5417",
+      "upstream_sha256": "94506edbce0679e6ce0de42a93652b969ec95474c39625a9d50d32806fc6ffdb",
+      "current_sha256": "94506edbce0679e6ce0de42a93652b969ec95474c39625a9d50d32806fc6ffdb",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_ModulesPullbackLocalSection",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback",
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback.lean",
+      "upstream_git_blob": "3673107fcb5a0aa291e7d8edd07ffb176374486d",
+      "upstream_sha256": "82dca18d81a99d725d46ea5e7fe2efa3453b6da67c3e2969757ee320a7097885",
+      "current_sha256": "82dca18d81a99d725d46ea5e7fe2efa3453b6da67c3e2969757ee320a7097885",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback_of_le",
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback_of_le.lean",
+      "upstream_git_blob": "37c6a471c5117bc29becb939f29e3212cfe76583",
+      "upstream_sha256": "2789a37b6334217a949f74aa0600a75e350ece9f4a4ebd0ef987efa591f20b4a",
+      "current_sha256": "2789a37b6334217a949f74aa0600a75e350ece9f4a4ebd0ef987efa591f20b4a",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_ModulesPullbackLocalSection",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback_of_le"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_exists_isFrameOn_of_pullback_iso_unit",
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_Modules_exists_isFrameOn_of_pullback_iso_unit.lean",
+      "upstream_git_blob": "0ebb8f65136d99576d946b2c7f74c97cf0d62476",
+      "upstream_sha256": "9759faeae316a28a3e4656f3ac94dd90394fd36c758cdd5c9f10ff5074f68fe6",
+      "current_sha256": "9759faeae316a28a3e4656f3ac94dd90394fd36c758cdd5c9f10ff5074f68fe6",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_ModulesSectionsTensor",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_exists_isFrameOn_of_pullback_iso_unit"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_pullbackComp_hom_app_pullbackLocalSection",
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_Modules_pullbackComp_hom_app_pullbackLocalSection.lean",
+      "upstream_git_blob": "7e12a47eb31cdbfabeee857aebb0d6fb77194cc2",
+      "upstream_sha256": "f7863ec71d8f15cea105223af0ef44b7e5a36923f206c93e540c89ce57ab7a78",
+      "current_sha256": "f7863ec71d8f15cea105223af0ef44b7e5a36923f206c93e540c89ce57ab7a78",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_ModulesPullbackLocalSection",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_pullbackComp_hom_app_pullbackLocalSection"
+      ]
+    }
+  ],
+  "new_compatibility_ports": [],
+  "selected_roots": [
+    "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback_of_le"
+  ],
+  "scope": "Exact pinned upstream local-frame pullback theorems and their missing import closure. Compilation and transitive axiom audit are recorded separately."
+}

@@ -1,0 +1,6 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.exists_frame_cover_of_finiteBySections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.exists_canonicalToProj_of_finiteBySections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

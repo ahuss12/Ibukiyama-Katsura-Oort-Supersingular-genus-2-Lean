@@ -1,0 +1,6 @@
+'SupersingularCurves.Geometry.DifferentialChart.globalCartier_square_residue_adjoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.DifferentialChart.absoluteCech_square_zero_of_globalCartier_square_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

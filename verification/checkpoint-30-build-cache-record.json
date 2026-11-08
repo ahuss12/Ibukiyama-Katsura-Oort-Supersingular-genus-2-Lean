@@ -1,0 +1,12 @@
+{
+  "checkpoint": 30,
+  "filename": "supersingular-curves-checkpoint-30-build-cache.tar.zst",
+  "size_bytes": 357294039,
+  "sha256": "2a3ee84d4208b7dca4349149827cb6d38628d45c030f9083a66aa8f332eb0cac",
+  "manifest": "verification/checkpoint-30-build-cache-manifest.json",
+  "compiled_project_modules": 195,
+  "compiled_vendor_modules": 2375,
+  "full_aggregate_included": false,
+  "external_dependencies_included": false,
+  "toolchain_included": false
+}

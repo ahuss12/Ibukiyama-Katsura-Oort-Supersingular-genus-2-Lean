@@ -1,0 +1,9 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.finitePresentation_preimage_basicOpen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.finiteSectionRing_affineCover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.finiteSectionRing_sectionFractions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

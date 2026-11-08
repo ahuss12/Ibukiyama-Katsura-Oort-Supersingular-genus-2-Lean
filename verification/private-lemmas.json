@@ -1,0 +1,412 @@
+[
+  {
+    "name": "SupersingularCurves.IKO.prime_mod_six",
+    "source": "SupersingularCurves/IKO/MatrixCriteria.lean",
+    "origin": "checkpoint-2-retained"
+  },
+  {
+    "name": "SupersingularCurves.IKO.sub_pow_expansion",
+    "source": "SupersingularCurves/IKO/QuadraticCoefficients.lean",
+    "origin": "checkpoint-2-retained"
+  },
+  {
+    "name": "SupersingularCurves.IKO.coeff_sub_one_pow",
+    "source": "SupersingularCurves/IKO/QuadraticCoefficients.lean",
+    "origin": "checkpoint-2-retained"
+  },
+  {
+    "name": "SupersingularCurves.IKO.quadratic_coeff_expansion",
+    "source": "SupersingularCurves/IKO/QuadraticCoefficients.lean",
+    "origin": "checkpoint-2-retained"
+  },
+  {
+    "name": "SupersingularCurves.IKO.coeff_sub_C_pow",
+    "source": "SupersingularCurves/IKO/QuadraticCoefficients.lean",
+    "origin": "checkpoint-2-retained"
+  },
+  {
+    "name": "SupersingularCurves.IKO.coprime_X_X_pow_sub_C",
+    "source": "SupersingularCurves/IKO/RegularFamilies.lean",
+    "origin": "checkpoint-4-new"
+  },
+  {
+    "name": "SupersingularCurves.IKO.coefficientPolynomial_eq_g",
+    "source": "SupersingularCurves/IKO/UniformMatrices.lean",
+    "origin": "checkpoint-2-retained"
+  },
+  {
+    "name": "SupersingularCurves.IKO.coefficientPolynomial_eq_h",
+    "source": "SupersingularCurves/IKO/UniformMatrices.lean",
+    "origin": "checkpoint-2-retained"
+  },
+  {
+    "name": "SupersingularCurves.IKO.prime_mod_six_torsion",
+    "source": "SupersingularCurves/IKO/TorsionCriteria.lean",
+    "origin": "checkpoint-6-new"
+  },
+  {
+    "name": "SupersingularCurves.IKO.polynomial_eq_monomial_of_only_zero_root",
+    "source": "SupersingularCurves/IKO/GenusTwoFixedVectors.lean",
+    "origin": "checkpoint-21-new"
+  },
+  {
+    "name": "SupersingularCurves.IKO.exists_nonzero_scalar_fixed",
+    "source": "SupersingularCurves/IKO/GenusTwoFixedVectors.lean",
+    "origin": "checkpoint-21-new"
+  },
+  {
+    "name": "SupersingularCurves.IKO.twisted_square_zero_of_fixed_trivial",
+    "source": "SupersingularCurves/IKO/GenusTwoFixedVectors.lean",
+    "origin": "checkpoint-21-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.CechGluingPullback.expand_in_frame",
+    "source": "SupersingularCurves/Geometry/CechGluingPullback.lean",
+    "origin": "checkpoint-20-new"
+  },
+  {
+    "name": "SupersingularCurves.Hyperelliptic.FifthPowerClassification.odd_prime_ge_three",
+    "source": "SupersingularCurves/Hyperelliptic/FifthPowerClassification.lean",
+    "origin": "checkpoint-23-new"
+  },
+  {
+    "name": "SupersingularCurves.IKO.coeff_sub_one_pow_fifth",
+    "source": "SupersingularCurves/IKO/FifthPowerCongruences.lean",
+    "origin": "checkpoint-23-new"
+  },
+  {
+    "name": "SupersingularCurves.IKO.card_scalarRoots_zero",
+    "source": "SupersingularCurves/IKO/GenusTwoOrdinaryFixedVectors.lean",
+    "origin": "checkpoint-23-new"
+  },
+  {
+    "name": "SupersingularCurves.IKO.card_frobeniusTrinomialRoots_eq_prime_sq_iff",
+    "source": "SupersingularCurves/IKO/GenusTwoOrdinaryFixedVectors.lean",
+    "origin": "checkpoint-23-new"
+  },
+  {
+    "name": "SupersingularCurves.IKO.card_offDiagonalFixed_eq_prime_sq_iff",
+    "source": "SupersingularCurves/IKO/GenusTwoOrdinaryFixedVectors.lean",
+    "origin": "checkpoint-23-new"
+  },
+  {
+    "name": "SupersingularCurves.IKO.card_diagonalFixed_eq_prime_sq_iff",
+    "source": "SupersingularCurves/IKO/GenusTwoOrdinaryFixedVectors.lean",
+    "origin": "checkpoint-23-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusSectionDescent.pow_injective",
+    "source": "SupersingularCurves/Geometry/FrobeniusSectionDescent.lean",
+    "origin": "checkpoint-24-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusSectionDescent.rootHom_pow",
+    "source": "SupersingularCurves/Geometry/FrobeniusSectionDescent.lean",
+    "origin": "checkpoint-24-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusSectionDescent.root_stalk_pow",
+    "source": "SupersingularCurves/Geometry/FrobeniusSectionDescent.lean",
+    "origin": "checkpoint-24-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusSectionDescent.relative_epi",
+    "source": "SupersingularCurves/Geometry/FrobeniusSectionDescent.lean",
+    "origin": "checkpoint-24-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.NormalFrobeniusFactorization.root_pow",
+    "source": "SupersingularCurves/Geometry/NormalFrobeniusFactorization.lean",
+    "origin": "checkpoint-24-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PointedCotangent.liftHom_zero",
+    "source": "SupersingularCurves/Geometry/CotangentDifferentialKernel.lean",
+    "origin": "checkpoint-25-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.one_coe",
+    "source": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroup.lean",
+    "origin": "checkpoint-25-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.verschiebungPoint_one",
+    "source": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroup.lean",
+    "origin": "checkpoint-25-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.map_inv_of_mul",
+    "source": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroup.lean",
+    "origin": "checkpoint-25-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.AbelianVariety.schemeNsmul_eq_power",
+    "source": "SupersingularCurves/Geometry/FrobeniusFactorSymmetricBundle.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.one_coe",
+    "source": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientDescent.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.map_one_of_mul",
+    "source": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientFactorHom.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.nsmul_recovery",
+    "source": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientFactorization.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.schemeNsmul_recovery",
+    "source": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientFactorization.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusionPoint_liftPoint",
+    "source": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroupGroup.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusionPoint_mul",
+    "source": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroupGroup.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusionPoint_one",
+    "source": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroupGroup.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusionPoint_inv",
+    "source": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroupGroup.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.GroupHomFibre.one_coe",
+    "source": "SupersingularCurves/Geometry/GroupHomFibre.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.GroupHomFibre.inclusionPoint_mul",
+    "source": "SupersingularCurves/Geometry/GroupHomFibre.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.GroupHomFibre.inclusionPoint_one",
+    "source": "SupersingularCurves/Geometry/GroupHomFibre.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.GroupHomFibre.inclusionPoint_inv",
+    "source": "SupersingularCurves/Geometry/GroupHomFibre.lean",
+    "origin": "checkpoint-26-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.EllipticTorsionRealization.FrobeniusKernelHopf.kernel_points_one",
+    "source": "SupersingularCurves/Geometry/EllipticFrobeniusKernelHopf.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.EllipticTorsionRealization.FrobeniusKernelHopf.torsion_points_one",
+    "source": "SupersingularCurves/Geometry/EllipticFrobeniusKernelHopf.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.EllipticTorsionRealization.one_coe",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionRealization.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.EllipticTorsionRealization.one_left",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionRealizationDivisibility.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.EllipticTorsionRealization.pow_left",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionRealizationDivisibility.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.EllipticTorsionRealization.dividedMap_one",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionRealizationDivisibility.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.EllipticTorsionRealization.dividedMap_mul",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionRealizationDivisibility.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.sectionRingAddAction_one",
+    "source": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionAction.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.sectionRingAddAction_mul",
+    "source": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionAction.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusDescent.boundedIdealFrobenius_semilinear",
+    "source": "SupersingularCurves/Geometry/FrobeniusInvariantIdeal.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusDescent.boundedIdeal_span_fixed",
+    "source": "SupersingularCurves/Geometry/FrobeniusInvariantIdeal.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.GradedFixedSubalgebra.includeSum_injective",
+    "source": "SupersingularCurves/Geometry/GradedFixedSubalgebra.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.GradedFixedSubalgebra.includeSum_decomposeFixed",
+    "source": "SupersingularCurves/Geometry/GradedFixedSubalgebra.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.GradedFixedSubalgebra.includeSum_recompose",
+    "source": "SupersingularCurves/Geometry/GradedFixedSubalgebra.lean",
+    "origin": "checkpoint-27-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.AbelianTate.ofUnitPt_mul",
+    "source": "SupersingularCurves/Geometry/AbelianTateRiemannPoints.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.AbelianTate.integralGeometricEquiv_symm_level",
+    "source": "SupersingularCurves/Geometry/AbelianTateRiemannPullback.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.AbelianVariety.pointMap_one",
+    "source": "SupersingularCurves/Geometry/AbelianVarietyProductCategorical.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.AbelianVariety.pointMap_mul",
+    "source": "SupersingularCurves/Geometry/AbelianVarietyProductCategorical.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.AbelianVariety.pointMap_one",
+    "source": "SupersingularCurves/Geometry/AbelianVarietyProductMaps.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.AbelianVariety.pointMap_mul",
+    "source": "SupersingularCurves/Geometry/AbelianVarietyProductMaps.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.TorsionLevels.Presentation.spec_absolute",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingCanonical.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.WeierstrassGroupModel.actual_mul",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingEndGroup.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.TorsionLevels.pow_left",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingLevels.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.TorsionLevels.torsion_pow",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingPresentation.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.TorsionLevels.Presentation.nsmul_pow",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingProjection.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.TorsionLevels.Presentation.nsmul_mem",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingProjection.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PerfectHopfVerschiebung.nontrivial_coord",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingVerschiebung.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PerfectHopfVerschiebung.coord_charP",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingVerschiebung.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PerfectHopfVerschiebung.dual_nontrivial",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingVerschiebung.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PerfectHopfVerschiebung.dual_charP",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingVerschiebung.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PerfectHopfVerschiebung.dual_expansion",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingVerschiebung.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PerfectHopfVerschiebung.basisMap_pairing",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingVerschiebung.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PerfectHopfVerschiebung.eq_of_pairing",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingVerschiebung.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PerfectHopfVerschiebung.dual_pow_one",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingVerschiebung.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PerfectHopfVerschiebung.tensor_pairing",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingVerschiebung.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PerfectHopfVerschiebung.pairing_map_semilinear",
+    "source": "SupersingularCurves/Geometry/EllipticTorsionLiftingVerschiebung.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusFiniteFieldHomDescent.mul_base_eq",
+    "source": "SupersingularCurves/Geometry/FrobeniusFiniteFieldHomDescent.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.FrobeniusFiniteFieldHomDescent.mul_base_eq",
+    "source": "SupersingularCurves/Geometry/FrobeniusFiniteFieldHomGroup.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PointedCotangent.pointsEquiv_zero_as_one",
+    "source": "SupersingularCurves/Geometry/PointedCotangentGroupAdd.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.existsUnique_desc_pointMap",
+    "source": "SupersingularCurves/Geometry/ScalarFrobeniusTateQuotientDescent.lean",
+    "origin": "checkpoint-28-new"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.descPointMap_spec",
+    "source": "SupersingularCurves/Geometry/ScalarFrobeniusTateQuotientDescent.lean",
+    "origin": "checkpoint-28-new"
+  }
+]

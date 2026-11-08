@@ -1,0 +1,3611 @@
+{
+  "repository": "https://github.com/anthropics/fermats-last-theorem",
+  "commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "total_indexed_lean_files": 30961,
+  "selected_source_count": 359,
+  "previously_inspected_count": 167,
+  "new_source_count": 192,
+  "retrieval_errors": [],
+  "sources": [
+    {
+      "path": "Definitions/Def_CerednikDrinfeld_FakeEllipticFrobenius.lean",
+      "git_blob": "474320fb2683420cd46cc7501478009482349dd2",
+      "sha256": "69638291b21001231a373d7c714c92a65fb324f1f61b25e475ba6eb878cf69f6",
+      "bytes": 3820,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Definitions/Def_Dieudonne_DatumAndHonda.lean",
+      "git_blob": "7cbf9f9efe5e7f389875b61b305ca5fe6401bd27",
+      "sha256": "86ba03fc33b24355ffaee067d0b9a12519b4fa27ac08e8a514641e77dbcfd4ed",
+      "bytes": 2143,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Definitions/Def_Dieudonne_FontaineFunctor.lean",
+      "git_blob": "0b344e7d031efa48eddecacbe880b396b3bbd4ec",
+      "sha256": "92f7c2acf672296b54c0a46facb2f267386a2816124c4e21c693934c9abe9b5b",
+      "bytes": 32496,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Definitions/Def_Dieudonne_FontaineHodge.lean",
+      "git_blob": "151bffe3cec7dd853a56c6955b2305b77d2df27f",
+      "sha256": "0b9e8b7b0a846ce32357d7e6da0abef60eea106f21c69d307b0760c5aef913a3",
+      "bytes": 17397,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Definitions/Def_Dieudonne_HondaSelfExt.lean",
+      "git_blob": "775e718286bde98d3238b9a10b8476665b28da18",
+      "sha256": "b79093fc27819b35b8dbc3b079e194511a025e3035f4d29b8cc34c23e0189855",
+      "bytes": 3373,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Definitions/Def_Dieudonne_ModpRealization.lean",
+      "git_blob": "a105ad0ef7e68985246498ff9198c02e58970340",
+      "sha256": "e1c614245d75a3f6bb3ff939a122de3877179692591779924ab67a05758b3e14",
+      "bytes": 1055,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Definitions/Def_Dieudonne_UnipotentWittCovector.lean",
+      "git_blob": "e49cfe69ae09cce059af4e834685d0f758f42f01",
+      "sha256": "277c3602199d424fef837f4892d38d64d37880a7ea101d2f6b74da1879b9ead6",
+      "bytes": 25487,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Definitions/Def_Dieudonne_WittGroupHopf.lean",
+      "git_blob": "11d88addcc54d46e5a5dd31868e9a5211d6b3f50",
+      "sha256": "021c3c55d44b66d7d25793f76fc17d912a1d91e1d68d2722b56dce5ddcac92a8",
+      "bytes": 21065,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Definitions/Def_Dieudonne_WittHomColimit.lean",
+      "git_blob": "53ba7913e94ddf4d4de877a6605e4986bda379ad",
+      "sha256": "49a5ccb858a761feac127d06909e87aeeabaad9e908064121c17ba372bf6ffc8",
+      "bytes": 20016,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Definitions/Def_Dieudonne_WittKernelHopf.lean",
+      "git_blob": "563c1b8abc6b96edda8045344d78c74552f68b68",
+      "sha256": "c6140fef3105c7ef7b4296383c25c61761b7efa8d4e05cfc3d4f106d8876cbf2",
+      "bytes": 18079,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Definitions/Def_Dieudonne_WittVectorHom.lean",
+      "git_blob": "b37f2c3dfbaa1d55b69618c6077524991815e195",
+      "sha256": "75fa3e88ed820ca90b49884d209353247cf9fb2050cb2a4760cb97557bae2110",
+      "bytes": 24429,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Definitions/Def_GoodReductionJacobian_RelativeGroupLawProd.lean",
+      "git_blob": "573fecb58c5fb28d788c457247c7dbd35fc2e893",
+      "sha256": "0d9c40e6bb47cb50deaab7603704c90d2221b114b6f4eeb82e47f0be2caba3fc",
+      "bytes": 17051,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_AlgebraicGeometry_SplitTorus_exists_relativeGroupLaw_isCommutative_torusPt_convMul_schemeNsmul_eq.lean",
+      "git_blob": "e312354c353757844cc6d85de32f64ea7891b744",
+      "sha256": "17807c930517658fbf22cd57d96a697349b3e9f25435639c69c6b67ee02d4ada",
+      "bytes": 1921,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_ExtraLevel_exists_forall_factorsThrough_imp_of_isIsogenyPair_pow_of_ne_of_intCast_mem.lean",
+      "git_blob": "4d4b7c0b0aa380518bdaf66bbf4db23ff6f40509",
+      "sha256": "dce7eacc901ab3c2013d4ac709b6757ff0f2edb18d8c8f14bef9f1033d9b35fb",
+      "bytes": 1852,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_FullLevel_exists_P_eq_mapPt_of_isIsogenyPair_pow_of_coprime_of_intCast_mem.lean",
+      "git_blob": "67390a225711faf8204119e9d8e5a83618104b5a",
+      "sha256": "ec0909471957247bc086869f4835873f410c8e1375562aa56c5f0f8a390478fe",
+      "bytes": 1200,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_IsIsogenyPair_comp.lean",
+      "git_blob": "3ae41d66870146948b99d6625a066eef8f9e17c0",
+      "sha256": "fd4f052f22cb337391cd4e82f727f3dfe0ff0a1b96041dad6cf714c7899f91fa",
+      "bytes": 971,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_IsogenyPair_existsUnique_hom_isPullback_of_representsOn.lean",
+      "git_blob": "4241356a10a151110800594035c9db1a9c59cb3b",
+      "sha256": "614d02e944791166e4e93fcabac264b9e78ac1ab03082bd6327cbf6cd894244e",
+      "bytes": 7772,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_Rigidification_act_pow_comp_map_comp_eq_act_pow_comp_comp_frob_of_corr_relFrobenius_of_represents.lean",
+      "git_blob": "5bb4f39bee54ca0031431a306f389573172ff72d",
+      "sha256": "8a94db53b6368d0fa8559bfbd137fe3dfb0118f320a5bbf3a4aed7c27f849bf2",
+      "bytes": 6631,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_Rigidification_exists_comp_act_eq_comp_act_of_corr_of_isIsogenyPair.lean",
+      "git_blob": "ec747798deb5336d8fdeb68fa08de85a4bf59c62",
+      "sha256": "3230e616e7a358b7ca5352379f5073a3955d845c6138d673050a021fcd39bb09",
+      "bytes": 2172,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_Rigidification_exists_comp_act_eq_comp_act_of_corr_of_isIsogenyPair_explicit.lean",
+      "git_blob": "95f904ea34e752150a68b7a5997f3cc7ff865b1d",
+      "sha256": "2d461553e4daa4e8573069f0616c5d618c5636b3c584d9d337f222b75af0835b",
+      "bytes": 2226,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_Rigidification_exists_comp_of_isPullbackVia_residueLeg_of_isogenyPair.lean",
+      "git_blob": "4658240e53ae79247bdf14fd5dbe6034e06e6766",
+      "sha256": "12646fcf8183637aa6a5aa56fe1301086de1f6a56b60a3cdb740fcb128625249",
+      "bytes": 5658,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_Rigidification_exists_frobTwist_one_corr_relFrobenius_of_isAtkinLehnerQuotientVia_of_not_dvd.lean",
+      "git_blob": "43692040626024adcd7b5fb134a66f624686925b",
+      "sha256": "7d8e577974cf3c187c6c6bdb322749b3b267f1199d895dfe60d1672282130002",
+      "bytes": 6488,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_Rigidification_exists_isIsogenyOfHeight_comp_of_act_pow_comp_eq_of_isAdmissible_of_nontrivial.lean",
+      "git_blob": "fef581d2715859ae7cb9694dfb1f02892a7a0494",
+      "sha256": "51284cac59829adec0197adb45c5261e6112a4ab7408894b4866b9545164c0be",
+      "bytes": 9215,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_Rigidification_exists_isTranslateBy_of_isIsogenyPair.lean",
+      "git_blob": "e7bacf486451a5f5719e1aec5b28145143a4c924",
+      "sha256": "0e0ae7f0a1c821d95a8bd0a25d8d2cb0c25dfacf1396385952a5299892dbb408",
+      "bytes": 2329,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_Rigidification_isPiTranslate_of_isRigTransport_of_corr_relFrobenius_of_isAtkinLehnerQuotientVia.lean",
+      "git_blob": "9d9b1b6f0b59ab6a79ff5dc9aaa3434563bf38cd",
+      "sha256": "74a28d3c5f8d63c423a328f631f714575e1530a067c598cfd703b6ff77be9fae",
+      "bytes": 19908,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_exists_fin_forall_isLevelIsogeny_iso.lean",
+      "git_blob": "4f3c667e98b3739cbd70f6b0c98c06b2abbc6f86",
+      "sha256": "f1e8650fb3c54e2d82078cc09a6d003605e879b6904e246a155d5deffd179c41",
+      "bytes": 33402,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_exists_fin_isLevelIsogeny_iso_of_dvd.lean",
+      "git_blob": "88669f9037d9d4f23d5be2a35d0c6fdd4987c626",
+      "sha256": "8308612b2a70a855a5375e9f717c0167168db2663ab9d028cf716a0955ec0d43",
+      "bytes": 80675,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_exists_isAtkinLehnerQuotient.lean",
+      "git_blob": "698664d258e9c376354a0024f90d7bfcec840b17",
+      "sha256": "829922dc1fb1f12f8f28ac48f6495e98677d68c326fac8fdc2bc9b07825f4e6d",
+      "bytes": 1565,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_exists_isLevelIsogeny.lean",
+      "git_blob": "300fc629f044bbc1d48b2edb1e6fb0e5eed8dffe",
+      "sha256": "f6e64b2701e165b5756140c91ceacab856eab6f3e805a93753ed3a95b9301591",
+      "bytes": 3677,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_exists_isogenyData_forall_mem_iff_of_levelExt.lean",
+      "git_blob": "c4e96a6627ccbaaac7404f70e857f465c13834db",
+      "sha256": "afd065face167e56666e0a43f723cbb7b8e392895c150bd37139146afba8cd6b",
+      "bytes": 37220,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_exists_zmod_mul_prod_equiv_factorsThrough_of_coprime.lean",
+      "git_blob": "111ace881968c525bb47f7991c2059ba362ecff1",
+      "sha256": "c0cf71eb04d625af13ef65bf7c6a565148c7a1b217535dab4cd50e4a9f6a3229",
+      "bytes": 1467,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_isAtkinLehnerQuotient_of_isPullback.lean",
+      "git_blob": "c52f4110cd62c8421055947d1a40d0ab01766171",
+      "sha256": "f0805812aa2461951c04c37d9f4fd74af5ff3ea576d8c6b82a6b90f3dd8248c8",
+      "bytes": 2764,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_isAtkinLehnerQuotient_of_iso_of_iso.lean",
+      "git_blob": "31a7108d50ec7e6259fd162ad5022fdeea767238",
+      "sha256": "68288caac25d1d8eb57149d8a15d1af01ff66f1483b541a0cb6b373a7d69da8c",
+      "bytes": 991,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_isPullback_of_isAtkinLehnerQuotient_of_isAtkinLehnerQuotient.lean",
+      "git_blob": "13c3571de6d9fb5aca1a4e084032e490353734a2",
+      "sha256": "8bcd8ac50e4ce3c2c4bd1596ced0765ea9c66faf4ae3211470409aaf012badde",
+      "bytes": 34817,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_iso_of_isAtkinLehnerQuotient_comm.lean",
+      "git_blob": "7af03b5ed69b535dd4970680545a802d97bf1ad0",
+      "sha256": "a22a83b91d5ccef28f67b2d9e1a66c1ed75afebcec603f5844dc23da83a5b79b",
+      "bytes": 33588,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_iso_of_isAtkinLehnerQuotient_comp.lean",
+      "git_blob": "300e4ed348f41e82256793986fc1e6f92350bf9a",
+      "sha256": "a0b917145c6445ccf743308af860e710d609a589346ff15cba397cc37f0cb63d",
+      "bytes": 33559,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_iso_of_isAtkinLehnerQuotient_comp_of_commRing.lean",
+      "git_blob": "b0dc554a1e3678eba75f2addb71ce63e9fa01db9",
+      "sha256": "f696c905fbd68a989c38630a5cf84822d071cad9ab53f44614a34af90b15226c",
+      "bytes": 34756,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_iso_of_isAtkinLehnerQuotient_of_isAtkinLehnerQuotient.lean",
+      "git_blob": "f45b82eba8471897b0872052383b28bd0f658066",
+      "sha256": "10ae1b980c43da8d695f01e2f7473ffa64723f84b0d190d67cc3bb94fc39b1f0",
+      "bytes": 33472,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_WithExtraLevel_iso_of_iso_of_isAtkinLehnerQuotient_of_isAtkinLehnerQuotient.lean",
+      "git_blob": "07306b29381221c76b255201aefb536e202464d2",
+      "sha256": "73c00144f5b856ae9fb4c29f12169839dd502f2e2bbf0a574b501a2ab8e0611f",
+      "bytes": 34722,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_comp_act_eq_comp_act_of_isPullbackVia_of_isIsogenyPair_of_ker_pow_eq_bot.lean",
+      "git_blob": "47daedbf0922459b3f10ca62f7d6976800103663",
+      "sha256": "20ea3d286750ea3fdfe8f3a00f731f74e90eaeb47f4e1a9c16fc61dea8db381f",
+      "bytes": 6760,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_eq_zero_of_eq_smul_tmul_sub_tmul_of_forall_map_eq_map_star_of_isSplit_of_charP.lean",
+      "git_blob": "7f798cd51871c53379b500408d3e69fbbfd92c76",
+      "sha256": "c0f800cbea0ea0d7d48c134c0c0c466bd676b974cde9e1e38fe4b5e38ac1b3b3",
+      "bytes": 34414,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_existsUnique_factorsThrough_mapPt_relFrobenius_eq_of_not_dvd_of_isAlgClosed.lean",
+      "git_blob": "c6346b01bbd5e6208eca1d0dab8b431918e3b041",
+      "sha256": "2b8e29b74497002dc49088b2b0e5cca464e8e4d2a5d5a1f4915bf76bf21c5b45",
+      "bytes": 2519,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_chain_isLevelIsogeny_or_isAtkinLehnerQuotient_of_mapPt_mapPt_mul_zpow_eq_zpow.lean",
+      "git_blob": "a8e0d3efecda770fb764946f74dc3a8b0a50cb41",
+      "sha256": "5a31f80bfdb717e1e9ef65ae8c1bb39cf489cf7b3df568e2a24937ff0aff9a6a",
+      "bytes": 35534,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_closedSubgroup_factorsThrough_iff_nilEval_eq_zero_of_isIsogenyOfHeight_of_isAlgClosed.lean",
+      "git_blob": "48f1682de4a339391957830ba3e18d4631bd5752",
+      "sha256": "9a58ec08c697ff9bd52a101e2d3ee98012860efdb934146ff20145d771c35084",
+      "bytes": 2784,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_comp_act_eq_comp_act_of_isIsogenyPair_of_isPullback_prod_of_forall_exists_eq.lean",
+      "git_blob": "344e6617b1da346404af8fd259ac91c10ce86238",
+      "sha256": "34cbe6a3c195040fe873bb2a5cabb9fe3c40d734df762dedf215b5aa6e270e9f",
+      "bytes": 5791,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_comp_eq_act_comp_of_quotients.lean",
+      "git_blob": "89d935318e523b852d12faa2dc48ba7379344997",
+      "sha256": "4de7958c1cb19a18c1758fcc8d35f554c3d7866c309210f54d3df3e3899a9d4a",
+      "bytes": 3778,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_dictionary_family_of_isPullback_prod_of_forall_mem_awayUnits_iff.lean",
+      "git_blob": "4994181aa34e6b098bfb509fe47f87a7aae91060",
+      "sha256": "8451c4027e9dce877fd3d92c2f83bfcef2024241c237a805d28d9833e21a1e83",
+      "bytes": 41623,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_end_forall_nilEval_eq_mapPt_and_mul_eq_natCast_of_isIsogenyPair.lean",
+      "git_blob": "af11063e0e2d7fed5f028b52df64f6b73fa46a7a",
+      "sha256": "43c3bc7e5bfcca3eb82c813fcebf034a02b7a81cd7008c9f16fec4b6bec7b2ac",
+      "bytes": 2573,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_end_forall_nilEval_eq_mapPt_and_mul_eq_of_isIsogenyPair.lean",
+      "git_blob": "e81adb2a79573129253e4c8d2122c908586ae160",
+      "sha256": "57cee95dcbdfa38bba3f81ef7dfbadda585d875f9696e3a038aae33ba3e13881",
+      "bytes": 2563,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_eq_act_of_mapPt_mul_of_isPullback_prod_of_forall_exists_eq.lean",
+      "git_blob": "36806d0bf812c029c4978c2fa7b180cf1bba67bf",
+      "sha256": "e96d1e81ff0737ab6b504b1ecd0a6151c6185d7359c2d583f097a06200df740a",
+      "bytes": 5258,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_extraLevel_forall_factorsThrough_iff_of_comp_eq_act_of_not_isIsogenyPair.lean",
+      "git_blob": "57791fd0b0cc60018bd43da34676b312f8c89c22",
+      "sha256": "064e898d3ab685e300f9bca33ed7a2670c92a4c97b72f2f486a7dc18d1c24a9a",
+      "bytes": 36611,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_extraLevel_isLevelIsogenyVia_isIsogenyPair_comp_eq_of_comp_eq_act_of_not_isIsogenyPair.lean",
+      "git_blob": "2fc5cb46e97c5ec289abeb9cca8bd321f189c7de",
+      "sha256": "b7e852d1246275d392169e3933e8e6ba2f9850656a9d19974f214e829d8b6cef",
+      "bytes": 36909,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_extraLevel_isLevelIsogeny_of_finrank_kernel_eq.lean",
+      "git_blob": "26f10c029f1c02c351ba44047e0d1533372b6a23",
+      "sha256": "f8a631313053c534cba3daa15685681d74feec21f82bdfeeb3b1f5363cf507c4",
+      "bytes": 2972,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_extraLevel_isLevelIsogeny_of_frobeniusVerschiebungData.lean",
+      "git_blob": "209114a6f36a641f975db2ffd99226fde73fae9f",
+      "sha256": "15389febdb4f42697c2a380ba460a5114b9fc4fa0409780727da92abf08dd956",
+      "bytes": 33375,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_extraLevel_isLevelIsogeny_of_isPullback.lean",
+      "git_blob": "88342c702841a4c5bbdbb488c7dd36bb7fef8fd3",
+      "sha256": "a153a7e371ce150b0b9fc10fd07d316574435a1b2381e3629d6adce4d448eb0d",
+      "bytes": 3087,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_extraLevel_isLevelIsogeny_of_isPullback_valuationSubring_of_coprime_of_one_mem_of_isPullback_inf.lean",
+      "git_blob": "881d6ae3145aed08288147de1c60635de73865c4",
+      "sha256": "7007611585772565f7753c14b23ee775c18233392b33bf7a895f5010cea959ec",
+      "bytes": 36981,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_extraLevel_isLevelIsogeny_of_quotients_of_card_eq_mul_sq.lean",
+      "git_blob": "ca5d6f843b578162924b140418c91ef8f8639ce9",
+      "sha256": "42e9e92609bfeeaae2e0bb9352ec028436c91759eb55948514ee7695d516997c",
+      "bytes": 5331,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_extraLevel_isLevelIsogeny_sublattice_lattLev_of_pointEquiv.lean",
+      "git_blob": "7a077857856e72b73047b4b8d1cc33e57b7e9aaa",
+      "sha256": "5c362312188f2578acc661f92bd55e1300f89feb196d72f3e5d66601f639b8c7",
+      "bytes": 40328,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_extraLevel_isLevelIsogeny_sublattice_of_pointEquiv.lean",
+      "git_blob": "dcfa2c93edfcd229a572f854f1784230e9175b14",
+      "sha256": "ccd7d2872d09e4d43cfb109d6b6b30ab5b4c2ec9265d7608cd713b0ef1caf7e6",
+      "bytes": 39095,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_extraLevel_isLevelIsogeny_symm_of_not_dvd.lean",
+      "git_blob": "faa353491221ad859acecd72dea6e454f39f0c83",
+      "sha256": "08434943fcc48696f1dbcf1b7f5f667870206cfb51704fde2c5c2e27b6fcdc84",
+      "bytes": 33472,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_fin_forall_factorsThrough_iff_of_iso_of_isLevelIsogeny.lean",
+      "git_blob": "9c561e2f99eec65af073bf650f2c19687eda9b72",
+      "sha256": "7dd2ef0a70dd259cfacb152240e4ce3c2471a861ca02c942738388e2e3373916",
+      "bytes": 80831,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_forall_isActBy_rigidifiedToG_star_of_isTranslateBy_of_isLevelIsogeny_of_isAtkinLehnerQuotient_of_endIsoFull.lean",
+      "git_blob": "e9dbbc27f22b4cd048be71e6d7bc7f0b150acdef",
+      "sha256": "563ad6252e16e60c51b58a6aad260946143bedcb86630fe95ddf2fe7c408f031",
+      "bytes": 36608,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_germ_dual_and_transport_and_hasKernelOfDegree_of_isIsogenyPair.lean",
+      "git_blob": "3a7cc0d1ac12acdc13f2e59a95ef8c9b2675457e",
+      "sha256": "afd60bcb3ee1fe689343b90e97519eca1fe582686a4595825e7b7e682c482f5e",
+      "bytes": 6614,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_germ_dual_rescaled_and_transport_and_hasKernelOfDegree_of_isIsogenyPair_of_isUnit.lean",
+      "git_blob": "31a5c954798730cfb7f8a020e504332fc732decf",
+      "sha256": "867a017f4c737a47f1e359d054b539c51511966141ba05ec5c9be4091569cb1c",
+      "bytes": 6930,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_hasFrobeniusVerschiebung_of_prime_not_dvd.lean",
+      "git_blob": "3e78a7b18421b6c96275559dd37c0ce20e722c30",
+      "sha256": "b53e47e8eb0f49fc20fda9faf51f213a5e8dabbf7bd8859d6f6b1c83387db243",
+      "bytes": 3578,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isActBy_scalar_zpow_rigidifiedToG_frobTwist_one_of_comp_relFrobenius.lean",
+      "git_blob": "a3345d8096f9d7e9d711684f327cceb5c8246248",
+      "sha256": "4820f7cbedb7b9165093bcf8667599f668a33e1d5a2ae03bab54a2ef46258734",
+      "bytes": 14594,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isAtkinLehnerQuotient.lean",
+      "git_blob": "382521cf2504a5b0c570bd5ee5536dbe9ca6658e",
+      "sha256": "7762587eadf55e1915b1d2aaa03c815c21c32c8ab9ae7b5f63c8e75fe9db95a3",
+      "bytes": 1339,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isAtkinLehnerQuotientVia_comp_eq_of_isPullbackVia.lean",
+      "git_blob": "1b8245c29aa293a165e242b807604b0ad1fe0445",
+      "sha256": "4bb8fcd1e85232a01ad587076861d14817191bccce5eb0e3cb5c4613194aceb5",
+      "bytes": 3745,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isAtkinLehnerQuotientVia_epi_and_forall_existsUnique_comp_eq.lean",
+      "git_blob": "69ddeeadba2eef921a6ecd88f6d7c5cecd7935fb",
+      "sha256": "49d020b5cbb3a21afe918a1f685ac3f871e5b702fcbbb8a0db533c81ca6baa7f",
+      "bytes": 36127,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isAtkinLehnerQuotientVia_isIsogenyPair_comp_eq_of_comp_eq_act_of_not_isIsogenyPair.lean",
+      "git_blob": "145ece847813714f46b54429e4d9cb44dd022aa1",
+      "sha256": "c8babfa5fa1658786316b0ffbdcaa4945144a49e0a9df89afe70b997b754e440",
+      "bytes": 36686,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isAtkinLehnerQuotient_of_isUnit.lean",
+      "git_blob": "4f64f52588e8a42992d1198ef376dc07a144616f",
+      "sha256": "efa1d32414a44e90ebc44c2737047d594d43ce196d38eecd4792b4a74614d8a4",
+      "bytes": 1400,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isClosedImmersion_locallyOfFinitePresentation_preservesLevel_iff_of_represents_isIsogenyPair.lean",
+      "git_blob": "bd5f60b3421929b16a72b356245b1430a798d0c4",
+      "sha256": "dc59311158a1bc443cc5e6d81555cf824d180515c523da6022b90a286c127b0b",
+      "bytes": 11379,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isEichlerOrder_forall_mem_awayUnits_iff_forall_exists_smul_mem_preservesLevel_and_exists_isMaximalOrder_inf_eq_of_isPullback_prod.lean",
+      "git_blob": "03a5dbb408004effb392cf5ab03d8d457fcc10c5",
+      "sha256": "a4f94a5fe12d325884f0228449e04506b31fa7fc5c53f698923c7819c6925662",
+      "bytes": 10900,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isFormalCoordinates_quotient_comp_eq_nilEval_of_factorsThrough_iff_nilEval_eq_zero_of_isAlgClosed.lean",
+      "git_blob": "cc61fdc9cfd2187d049b1eff76820c1098077f81",
+      "sha256": "ecca12f32af3c790d33ceb298400ecf7b3b0ee1a8f7ab87a66f37bab3c4b68db",
+      "bytes": 8284,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isIsogenyPair_comp_eq_of_isPullbackVia_of_isPullbackVia.lean",
+      "git_blob": "ce09a6a55ec2c9f268ceb8872f8011ecaf853c88",
+      "sha256": "0a6d3d40e97b6c6aacb61336610483d4b061527409e83f0132f5190803cdc9a2",
+      "bytes": 1287,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isIsogenyPair_preservesLevel_comp_act_eq_of_schemeNsmul_comp_eq_of_forall_ker.lean",
+      "git_blob": "8b0d11999a4dd21d7fd77af9ab8c80cc73077c95",
+      "sha256": "7e675b0cae60d59854768eca820618204c605f48ebc2e7909dc0170c2828ef50",
+      "bytes": 35373,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isIsogenyPair_preservesLevel_isFormalModuleVia_of_quotient_groupCore_of_coprime_germ.lean",
+      "git_blob": "583644d5cf371109a79c406b629817cc5e609f5e",
+      "sha256": "e9457320b4ef8a4e1b7e06f24b8af89a479bde5975d0d239c99828d81f022f2b",
+      "bytes": 5853,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isLevelIsogenyVia_epi_and_forall_existsUnique_comp_eq.lean",
+      "git_blob": "a2c6ae1834baa84deeac0c5bdcfc5d3e6c6c15a9",
+      "sha256": "d43f5c04a25343ce4c68763ffafa93b939cfc9d174828248fb43bc377ed2556d",
+      "bytes": 4876,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isLevelIsogeny_of_isUnit.lean",
+      "git_blob": "33527d85838b5d8ed23e6b091e22c66071b4f2b8",
+      "sha256": "25239635b631c71d1b7f121eba187ea6488ee9e94da06bdd6253b24ea9ef0240",
+      "bytes": 34291,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isOrder_and_act_comp_eq_of_isPullback_prod_of_algHom_comm.lean",
+      "git_blob": "a7f7c33cde3e5dcb4282e4d80f5add1d4808eef5",
+      "sha256": "0fa80f74acebb8ccbe8ff923af6bc9ed4106b462381358e0ed8d43c3ea1994fe",
+      "bytes": 6128,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isPullbackVia_quotient_comp_eq_of_isPullbackVia_of_le_ker.lean",
+      "git_blob": "b1f64ecc0d0208cb161259d796bc6c8387275bc0",
+      "sha256": "dc906829b4ac83bdb91371f0bbaf69a39841b616001ced3e124800affd93042a",
+      "bytes": 3596,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isPullbackVia_residueLeg_frobeniusLift_relFrobenius_verschiebung_of_not_dvd.lean",
+      "git_blob": "034aca5c9123d45505f714672411f8aa4fe61527",
+      "sha256": "98218477d31632e992fa8a048ac510d8345551b85a5a8da753926dc4080209fc",
+      "bytes": 6028,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isPullbackVia_residueLeg_frobeniusLift_symm_verschiebung_relFrobenius_of_not_dvd.lean",
+      "git_blob": "f35e614f44bafec0b234af26938d4f6900a28080",
+      "sha256": "31f0fff07a4f3c4c4aa78791ba294779c9dcb31b9725b289e38b4b6dbb9ebd89",
+      "bytes": 6049,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isPullback_and_isLevelIsogeny_of_withExtraLevel_isPullback.lean",
+      "git_blob": "ffa569c89166a73de7708064349792b83d1b5674",
+      "sha256": "b92c3c9f2cdad043f14f522d03d9613a7cdc5f6fa575b199c6e14cd7414f3c68",
+      "bytes": 3426,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_isPullback_prod_and_act_eq_of_iso_of_isPullback_prod.lean",
+      "git_blob": "ffdcf0491ba222025f53f9c7f83fb751e0c3b02d",
+      "sha256": "1e5ca56c8fcaba4bd74375fe03aead2be80573b9f9a85d3ed82e84d92bf4545c",
+      "bytes": 6912,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_iso_comp_eq_of_formalIso_comp_germ_eq_of_isIsogenyPair_of_hasHeight_four_of_isAlgClosed_of_constantCoeff_eq_zero.lean",
+      "git_blob": "8c89a9b348a986ffdb82b9541f5735ec68cd6d5c",
+      "sha256": "5959942cf6ce495963663cbcaa770e9b5d04dd03f6f4b833c8d705239875dcc5",
+      "bytes": 37807,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_locallyOfFinitePresentation_isSeparated_represents_isIsogenyPair_of_closedImmersionBySections.lean",
+      "git_blob": "12926e54d981c0dc38ae95ee4455eaf9a5a83c12",
+      "sha256": "aafbcdb59ed7938cc0d9206384a53cb0ced724774ada99e6c679aefbeac296b9",
+      "bytes": 23643,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_locallyOfFinitePresentation_represents_isIsogenyPair_preservesLevel_of_closedImmersionBySections_of_intCast_mem.lean",
+      "git_blob": "54fd709e53a4b93a9605649ac7f9b93d2e81a9c8",
+      "sha256": "39b56733ac243bf994b4cff3d4c12debfcd23a613051bed51eb35fac1a907789",
+      "bytes": 41334,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_nrd_mul_pow_eq_of_isIsogenyPair_pow_of_endomorphismDictionary.lean",
+      "git_blob": "1b29848c047c08a0c07160ea74512b154a10c1e6",
+      "sha256": "028099d2dc806de4887461fae32328f3c78c173cac264de51f3ee80a4a570635",
+      "bytes": 3516,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_pos_pow_rep_tateModule_eq_one_of_mem_inertiaSubgroupIn_of_forall_isUnit_tensorProduct_padic.lean",
+      "git_blob": "f4d15eab86fd3476a5ec67eb1baae194aef3ce46",
+      "sha256": "d790526ba10dcdfdb53c0ecaf9f30877b90a00817d11ed1ad0726b2ac1a056b4",
+      "bytes": 34871,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_quotient_core_of_isAlgClosed.lean",
+      "git_blob": "8e784f981cecf57a33a996844f49624dc983b51d",
+      "sha256": "3ab94a4dd40d6de7406870a17527814e5428d91a3396c973126e5f719de8172e",
+      "bytes": 8041,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_quotient_core_of_isAlgClosed_of_nsmulPt_eq_one.lean",
+      "git_blob": "0c0d41834f4906cc384a043338b6a674ad85d9ea",
+      "sha256": "c4a7f24fc592492513ca61d576c9154e2c2e0ea6ab853bd0a986363f26cba1b3",
+      "bytes": 5709,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_quotient_forall_factorsThrough_iff_mem.lean",
+      "git_blob": "1a4d9f24c59fd9c5cc72cb3a1688b46bb98eaa64",
+      "sha256": "0216c313d294cb82a201c0bd0d9910b19fefadaa867ca7c946a08ae6234dc6af",
+      "bytes": 4912,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_quotient_of_finiteFlat_stable_subgroup.lean",
+      "git_blob": "36b23012f011b216f45533cb646420615a05cc80",
+      "sha256": "8453113758fefa5812a1f008fd171ee87fe7bdb9e756cb08b6e3f728991f4845",
+      "bytes": 38561,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_relFrobenius_of_isPullback_frobenius.lean",
+      "git_blob": "315a73abed22a7d4cdf1bd0fdc55733f8cc72f6a",
+      "sha256": "0c811169c5d928b1f2df86c9ebf1448f75a90acc1a34fd6708d8c0103ba6ef82",
+      "bytes": 2588,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_rigidification_frobTwist_isPiTranslate_of_isAtkinLehnerQuotient.lean",
+      "git_blob": "da49331ecdaab050990a3cc92d9c8ae2ee11f80b",
+      "sha256": "521a647c040c4119646fd265a19dbc81245b11dc67565e790377850b64132f94",
+      "bytes": 16631,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_rigidification_of_isAtkinLehnerQuotient.lean",
+      "git_blob": "672b559149add15b9ea5d794ed89643db0f002ef",
+      "sha256": "9c8f33d28819491129f8e7bfb0083f6526cc457d520423ffc62cea4958f5af43",
+      "bytes": 35871,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_rigidification_of_isLevelIsogeny.lean",
+      "git_blob": "2b5b43963ca593f9cdb2a02d39e63d2a63725cff",
+      "sha256": "202941163bcb4deccadd0921060803942008fcc39a8bae8a866b4004d9d2b712",
+      "bytes": 36200,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_rigidifiedCurve_isRigTransport_zero_isIsomorphic_of_quotient_of_isFormalModuleVia.lean",
+      "git_blob": "3886ec336628e29e9e2daf7c280dcd90dc701c2b",
+      "sha256": "62d1e1022f2da7d3ab30d58db4ff75e522cd44cfba5fa1389c4ae7abfed69dce",
+      "bytes": 10991,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_smul_latt_atkinLehnerQuotient_of_pointEquiv.lean",
+      "git_blob": "5d2d2d7521f0e99c68bde59afc70f13b3ad27f18",
+      "sha256": "58a1aee5ac2531668fa797810510748c898de27a62bff5206209bca408241cd8",
+      "bytes": 4427,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_smul_latt_eq_of_isLevelIsogeny_of_pointEquiv.lean",
+      "git_blob": "98c74a0a6de9e47d0cc149982b85c15839e7bfdd",
+      "sha256": "79fb076937f7cd244ed8a88673a7c9fa6ba04f34d36c8c35805896b5bfb19a8f",
+      "bytes": 3285,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_smul_latt_lattLev_atkinLehnerQuotient_of_pointEquiv.lean",
+      "git_blob": "e410a501aaabb9832c35e3f2c97193c90f3c104b",
+      "sha256": "07a1fb3fdf026eb8665fb24c7c7736e9fa81ba4716188b09dc2a6b7d4e593104",
+      "bytes": 5703,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_smul_latt_lattLev_eq_of_isLevelIsogeny_of_pointEquiv.lean",
+      "git_blob": "7f2502fb05a3c0f41b37ef17f7a4ad3278b3ff53",
+      "sha256": "96905576227efccd928891b31c700304e90b8577150389600c9fa063accc349e",
+      "bytes": 4040,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_submodule_forall_preservesLevel_iff_forall_mem_of_isPullback_prod.lean",
+      "git_blob": "533ab7b5f4ae96cce2a94b17e93cd7d48cb23387",
+      "sha256": "51c0bf0dd5dec8a4ba3eea899a76e040de2bf48fd71c16e4bc6ac8ff3e6da9a0",
+      "bytes": 9119,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_withExtraLevel_isLevelIsogeny.lean",
+      "git_blob": "8b345af565a7927062836de5e0171299d0030f23",
+      "sha256": "475e92e72c83a7460482c57d673e388b3501baab43891727be18245bddcb593e",
+      "bytes": 34761,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_withExtraLevel_isLevelIsogeny_of_dvd.lean",
+      "git_blob": "8f5fa38c4be8976ed5b70823cb6c7c1fdcc215ea",
+      "sha256": "b2e1c4284e9ac14436d4ed0eafa4af186bb0349d7529253ed6b298c87a8d826d",
+      "bytes": 34636,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_withExtraLevel_isLevelIsogeny_of_levelLift.lean",
+      "git_blob": "5b57f7f7630a4c6702d329771f4575f66ec78175",
+      "sha256": "a9bd06a3fb19febe6044c526de0863ba0a3387f8dcbcc99f2e94e9a1d3fc9067",
+      "bytes": 37138,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_zmod_prod_equiv_factorsThrough_kernel_dual_of_not_dvd.lean",
+      "git_blob": "41d1f145868dfabad21801f96d63b7a7167d084e",
+      "sha256": "a62c46a8b0b026fb16342bf90fc58a6da694ca4e33f5ef2bb205dde7846d699c",
+      "bytes": 34484,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_zmod_prod_equiv_factorsThrough_lev_and_nsmulPt_eq_one_of_dvd.lean",
+      "git_blob": "66d9f26469e4223c67dfae5ad7053a951cc624c0",
+      "sha256": "88fa6fa900a0776a27b8dbf44ffb09da51d30cbc4cc623afac383dc95b31fefd",
+      "bytes": 1184,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_zmod_prod_equiv_factorsThrough_of_isPullback_algebraMap_of_injective.lean",
+      "git_blob": "b386354dd344c6a0d06dd48cfb2f4cce535bde18",
+      "sha256": "d45db84779fd44e4ee36e25152f74704f89f9b0e560cb5ad8f56ac03aedf9a13",
+      "bytes": 2008,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_zmod_prod_equiv_factorsThrough_of_isPullback_valuationSubring.lean",
+      "git_blob": "eb78108326f241726aa51e6dd746a4f5d8d77dae",
+      "sha256": "a7a612d9860ec82b7211c9d8fbaf5b62d94e7bd011bb03ce212d0ac147b98a04",
+      "bytes": 4894,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_exists_zmod_prod_injective_mul_iff_nsmulPt_eq_one_and_mapPt_eq_one_of_not_isIsogenyPair.lean",
+      "git_blob": "341f1be937d33f5107aa27464490b94e8e2bb7a7",
+      "sha256": "f3b6e03233a7b5edbf6de867e92f98a1a2fc9eb95b0d3315a7a5a9f88170354d",
+      "bytes": 36506,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_factorsThrough_kerAlgebra_iff_nilEval_eq_zero_of_isIsogenyOfHeight_of_isAlgClosed.lean",
+      "git_blob": "c954c699194603a4224e7814735005cf82ec2db2",
+      "sha256": "cd8a408024da4bdebb1f45b7f30a4f9045bac3fd3c41413254c50fb73bebfb41",
+      "bytes": 1888,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_factorsThrough_kerAlgebra_one_mul_inv_act_nsmulPt_of_isIsogenyOfHeight_of_isAlgClosed.lean",
+      "git_blob": "3f66e6428c5ab3eca66585b6f817905eb540eb2e",
+      "sha256": "a5a6573e74efaf42a49f57c758b690a93553d7989edd97c470cb569eb49f7e30",
+      "bytes": 3157,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_finite_projective_sections_and_exists_linearEquiv_tensorProduct_pullback_tensor_four_of_isCanonicalPol_of_isNoetherianRing.lean",
+      "git_blob": "2e0f7c7a8a6200ef90e62b4baaa276604fd9e3fd",
+      "sha256": "9bb4819dec07cccda00764cb212a289c77e4e7d920ee73b1182a952fdc5dce91",
+      "bytes": 42063,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_finite_projective_sections_and_exists_linearEquiv_tensorProduct_pullback_tensor_three_of_isCanonicalPol_of_isNoetherianRing.lean",
+      "git_blob": "f4cd7c3d39a3988c11a82abf0f1bc6d80a8fb654",
+      "sha256": "79cfe4fc9cfa77f5e790a76fb096605da4539cc2432f3bb29f1200094be7f1a2",
+      "bytes": 41994,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_finrank_quotient_span_nthSeries_map_eq_pow_four_of_isFormalModuleVia.lean",
+      "git_blob": "d3e101d1707449fa038a8ce2594c17c83242e467",
+      "sha256": "92f3726bcebd336fc97498e2f95fc5885b844dd8a9e0c759cc09290f29539045",
+      "bytes": 35458,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_forall_act_comp_eq_imp_eq_of_isPullback_prod_of_injective.lean",
+      "git_blob": "3cc64f463aaa482c009e38e0e19b1a24e07635a2",
+      "sha256": "437ac47ba21e6d399328c268ea662edc847cb58766040b91a248768ba6331281",
+      "bytes": 4664,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_forall_factorsThrough_eq_one_iff_isFrobeniusKernel.lean",
+      "git_blob": "196a4c3d7afb0310848f29b8eea407217b5c6937",
+      "sha256": "aadf39ac98b698938fe7b3cdebc71075ea9ade5486c9a91fc4b2c02b5e5818b7",
+      "bytes": 2689,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_forall_mapPt_eq_one_iff_torsionPrime_of_comp_eq_act_of_not_isIsogenyPair.lean",
+      "git_blob": "9a70fe2415eef37eefb02729caf7b588eb1a9b32",
+      "sha256": "4d8d31dd990a331e9d3c2d87c218a259040363ab7595bb63fbd66b6334494b69",
+      "bytes": 36936,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_forall_mapPt_eq_one_of_isLevelIsogeny_of_exists_factorsThrough_ne_one.lean",
+      "git_blob": "38901b814671e4599ff4e4567f30516ecbb58391",
+      "sha256": "10fbc6bdbbd784e91f8c31bc6e8f517144a305670a0a9bb6855586822aca5a4a",
+      "bytes": 36476,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_formallyUnramified_of_represents_isIsogenyPair_preservesLevel.lean",
+      "git_blob": "d74a4275c3503e4a33f921795b5a7a0760c20489",
+      "sha256": "03da03065f6a4f550386ed26cdf20a185a4a6e6ae17717dad2cac3ebdb0411fc",
+      "bytes": 12963,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_hasFrobeniusVerschiebung_of_isLevelIsogeny_of_exists_factorsThrough_ne_one.lean",
+      "git_blob": "b0d3a9b21787f598eb873d331809b610ca435712",
+      "sha256": "86cb08c226ae467a05ab16b96a0f4775ea830206b673558d85ea6d5452c5f008",
+      "bytes": 35345,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_hasFrobeniusVerschiebung_of_iso.lean",
+      "git_blob": "7f303bfb5125c51e473f318d0d5f592c28ff6ed0",
+      "sha256": "5dbb2c72311d76c26bfbd62c33aedc59b12e97197254e633a77c378c3e2fb03a",
+      "bytes": 875,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_hasFrobeniusVerschiebung_of_relFrobenius_of_flat.lean",
+      "git_blob": "1da7651561f3df54760e5de722c3d0796ebe3d85",
+      "sha256": "259ca55a5321eaa6c1c41827b6e535b53092b0a3850b8ebd7824ba70e794d5e3",
+      "bytes": 2725,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_heckeNeighbour_iff_exists_isLevelIsogeny.lean",
+      "git_blob": "111875573d26623fd1680b48e20f8a922f7a1d55",
+      "sha256": "816c9e509693665cf4071b2a66ed0f56e483b9c0a60406d469c2eea7825ffe68",
+      "bytes": 33349,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_heckeNeighbour_of_isAtkinLehnerQuotient.lean",
+      "git_blob": "d4f5bed2d64aa697894e5c50d44d68cac859178c",
+      "sha256": "258ffd308002c6d5cdd0415abaf3c6716b55596113fd8a36e3fdb529a805e6af",
+      "bytes": 32684,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_hom_comp_eq_comp_hom_of_isIsogenyPair_of_isoVia.lean",
+      "git_blob": "133c4c2454926a7f326cb5a17c8c140a6b80f917",
+      "sha256": "80bfc45919572a9118f984176eee0346696ad719418ffd0645e573cf5b8d8791",
+      "bytes": 34742,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isAtkinLehnerQuotient_of_isLevelIsogeny_of_isLevelIsogeny.lean",
+      "git_blob": "3b237e5756c6adcb797930a751ffa6e44df76cb7",
+      "sha256": "1a1132a95381ca63162d97c25450cf5ff084ac572f3eb87b16790457708fc9ae",
+      "bytes": 33540,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isAtkinLehnerQuotient_of_isPullback.lean",
+      "git_blob": "1beeb26d31489b62b248c14e2bc55f6287959274",
+      "sha256": "07a1927b8ed749c2b3c651b2bd6f0d220b5377dae342b62b18e72d304bb62a0e",
+      "bytes": 922,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isAtkinLehnerQuotient_of_iso_of_iso.lean",
+      "git_blob": "a425463fd300603c424a0f907f1f27a9d49dd905",
+      "sha256": "430d318d68ad10f43cb660b5e27649d2410d15bc365bf8e7174a30d71d3c00c6",
+      "bytes": 814,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isAtkinLehnerQuotient_of_quotients_of_card_eq_mul_sq.lean",
+      "git_blob": "6c0b841ba8f53e9411cdae7adea587b6f02d1cf3",
+      "sha256": "db2980ed39fbf168fb028d9ae12744e666c950ec7660717c078a8887937af1d6",
+      "bytes": 37799,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isClosedImmersion_formalCoordinates_kerAlgebra_of_isIsogenyOfHeight_of_isAlgClosed.lean",
+      "git_blob": "611916348b5d3fa51388d932df71cd4c570d4634",
+      "sha256": "786cdbea6c5b9a88b023f75636b2120b37448cf91e7d68315d7cff6de7e57669",
+      "bytes": 2116,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isFinite_flat_surjective_of_isIsogenyPair.lean",
+      "git_blob": "77633df0c972255fe834f867c0983b35043666f7",
+      "sha256": "b8e8b51e9822e370736395be03284013211b48bf50be49d264aa464cb6105d4e",
+      "bytes": 34399,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isFormalModuleVia_mapPt_of_isIsogenyPair_of_isUnit.lean",
+      "git_blob": "cebc1feb682878fc4ad2cfdf077073be847fda64",
+      "sha256": "bed7d34a8bf3d735dc1234067e2354245c4aba586c587dd4a749c0e44697dea8",
+      "bytes": 1544,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isIsogenyPair_of_isIsogenyPair_of_comp_eq_comp_of_isPullbackVia.lean",
+      "git_blob": "10cacd1754e25ac06dd2e86c254935623822a2a8",
+      "sha256": "8a6923607953b616416bf0504287ff45ddd53d3f064fcb27fb3702fdc845c9da",
+      "bytes": 2305,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isIsogenyPair_pow_add_of_comp_eq_nsmulPt_pow_comp_of_isNilpotent_ker.lean",
+      "git_blob": "50a976502557365eaf5031a5e330fd52bec51cae",
+      "sha256": "dae47775beec2914b115514f7b32e850d1dfcde328b26e1e264c866993086eaa",
+      "bytes": 7517,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isLevelIsogeny_of_isLevelIsogeny_of_iso.lean",
+      "git_blob": "fbd46f2c6c6ddb8c3257852de6d0858738cecaac",
+      "sha256": "5e7afc1a3b19ec57a2ddbe31b2de6e36a296a9f17585a1db63682808677bcb2f",
+      "bytes": 886,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isLevelIsogeny_of_iso_of_isLevelIsogeny.lean",
+      "git_blob": "41d9ea02a92d74cbfc3363a06168235a99a1fe3a",
+      "sha256": "acbcaca849b35662fcfa12e3133c5ffd0c186f30eab671d65e7389eb82c6ab52",
+      "bytes": 846,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isPiTranslate_rigidifiedToG_of_corr_relFrobenius_of_isAtkinLehnerQuotientVia.lean",
+      "git_blob": "4bdf12f2e14639c436c1fe5ca84cf9108e3e006b",
+      "sha256": "adc943279703155c6b0cf3f3576f533a900d2c053fa8a02ca5b2bb4a1d2cd95d",
+      "bytes": 18592,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_isPullback_of_isAtkinLehnerQuotient_of_isAtkinLehnerQuotient.lean",
+      "git_blob": "f06a3a47641435396c960311162a7ffcb459f413",
+      "sha256": "50c6b7c1a94df0cc1e2019d2f15de639c4d2f0d54eff3eeb08cf9f269d61a9e5",
+      "bytes": 34542,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_iso_frobeniusTwist_frobeniusTwist_of_forall_nsmulPt_eq_one.lean",
+      "git_blob": "73545b11ce2fc3a879099a0d0e7a587188e73c1d",
+      "sha256": "4293afb0aae3a79eac7e930b77f64170511e06736bee33572807bf7261383866",
+      "bytes": 34071,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_iso_frobeniusTwist_of_isLevelIsogeny_of_forall_factorsThrough_eq_one.lean",
+      "git_blob": "2637c5fd08b1221837a8d7aa52da6de69464d1c4",
+      "sha256": "a0ad5523de96e32d9f26f8af55e07362b81e92f17a72fe61e53cc7556fc46830",
+      "bytes": 34083,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_iso_of_isAtkinLehnerQuotient_comm.lean",
+      "git_blob": "1ce7beac23338a626c58dfa306b28798f9c08f0d",
+      "sha256": "932dcb4bb073895a17589a8810ecfa7fb2516cb935c042975c1d96f67d59c8ce",
+      "bytes": 33303,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_iso_of_isAtkinLehnerQuotient_comp.lean",
+      "git_blob": "de49f4aeb1ea50feaf7a3d228fa913e5ceec4090",
+      "sha256": "5b38fa741e6cc573fcee07802c85fa8b4d438e2e58a31892e6c2a6dc8e3b38b7",
+      "bytes": 34479,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_iso_of_isLevelIsogeny_of_forall_factorsThrough_iff_of_isOrder.lean",
+      "git_blob": "8a93ff364767390be714f190fe3177c09b23b8fd",
+      "sha256": "bbc1012b418d00dcb5a6c6d9602094302bfbb62dcf87ec2f4f77a1418022128f",
+      "bytes": 33774,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_iso_of_isLevelIsogeny_of_isFrobeniusKernel.lean",
+      "git_blob": "d7c0119e4aab90cc60e382ceb1bb5c04327fd8a3",
+      "sha256": "74acee9273d7afd31d59537db7ae28c05b9f1492ad7bd6c9ad1c7036416e44b4",
+      "bytes": 33339,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_iso_of_isLevelIsogeny_of_isLevelIsogeny.lean",
+      "git_blob": "749dc8e4e84f92d25e1ddc4c90f5b595d7fc91b9",
+      "sha256": "6057ea8790dc3a4b2250179b698ec508db3d0a31e713fc71780c2ff57247a62f",
+      "bytes": 34261,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_iso_of_isLevelIsogeny_of_iso_of_isOrder.lean",
+      "git_blob": "89505014235ef6b9ce31dc584d8817e9b5072d1d",
+      "sha256": "7e4f726158e93cf13e72a7882523cb94601ef1fb06b9cc73b3e1a0d135c81d9a",
+      "bytes": 33179,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_iso_of_isLevelIsogeny_transfer_swap.lean",
+      "git_blob": "ac4896ff205059a6cef503c1a558c88d707d31ca",
+      "sha256": "3e927dcb37c116d022d600c5c74090f59c1ebd7f598973404277eea30cb0206c",
+      "bytes": 36442,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_iso_of_iso_of_isAtkinLehnerQuotient_of_isAtkinLehnerQuotient.lean",
+      "git_blob": "3827a31558e84559ba096c10dc19e04125af4651",
+      "sha256": "8d1ff6d8b7b80661c2ddce2a5fa42f4c6477aa0da49aa4e4c30ec2244d53c874",
+      "bytes": 34470,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_iso_of_quotient_ker_of_mapPt_mapPt_mul_zpow_eq_zpow.lean",
+      "git_blob": "dd8bea1ea354193c4dec3aba8c264aa103c617f9",
+      "sha256": "b581a914912c8206d3ccedc8a606fcae0ba4db44b326e6075b502d404bf2b2a4",
+      "bytes": 34635,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_lift_pt_comp_atkinLehnerBaseChange_eq_of_isAtkinLehnerQuotient.lean",
+      "git_blob": "4a66cef912f490b6129e2cbfebb9997a85e3ce38",
+      "sha256": "cb19b0d16134be612d7fb62a9ef0e82c8c9ea40e568b3847d72901290b719c14",
+      "bytes": 5775,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_nsmulPt_eq_of_mapPt_relFrobenius_eq.lean",
+      "git_blob": "bc44df7600c716d706ad4b0667c6606903e6b97c",
+      "sha256": "4e7c6df33183dccc029aa2ce0020765195adb701a1b78494b73d13efd45f671e",
+      "bytes": 2525,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_preservesLevel_of_isAtkinLehnerQuotientVia_comp_eq_of_preservesLevel.lean",
+      "git_blob": "8db9f3644f42fc335d23d107d10847c9fb282314",
+      "sha256": "d39c43c8aa3dfe63346de9bcbaaa1fc87df8a3cc96d327fee1811056b7d99858",
+      "bytes": 2048,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_preservesLevel_of_isIsogenyPair_of_preservesLevel_of_coprime.lean",
+      "git_blob": "4df298964c184c5b2fb6180ea0f8a500884ed116",
+      "sha256": "e52e17d8afac6b5049df8b42bb8f238d74c3adc30c602351627a399b86dc4323",
+      "bytes": 34601,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_preservesLevel_of_isLevelIsogenyVia_comp_eq_of_preservesLevel.lean",
+      "git_blob": "9d17ceebda626bb0ac272418e8956ed1ea282cea",
+      "sha256": "5c3468c786214fc9f27b12fe438129d4f96bc4233da473ddaa36e938de92bab9",
+      "bytes": 35270,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_preservesLevel_symm_of_isAtkinLehnerQuotientVia_of_not_dvd.lean",
+      "git_blob": "2245a875f59dddcda355074791b493784f2de98f",
+      "sha256": "12f63db250fd8b6c527b0cbf3bb9adcc14ed62e1b88f47ad636f4f50e111cb2a",
+      "bytes": 1149,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_FakeEllipticCurve_span_range_eq_span_range_varpi_of_isAtkinLehnerQuotientVia_of_forall_comp_eq_apply_nilEval.lean",
+      "git_blob": "5298d8699e560c2f5145781f535ce2f52a0a175a",
+      "sha256": "f0607c2a6671ed59f314c6fd8bec4b9da8d0e64121e3fa3fcaa7e7c9fc80cf8f",
+      "bytes": 2262,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_CerednikDrinfeld_QM_exists_intermediateField_abelianSchemePropertyBundle_isPullback_of_quaternionOrder_action_of_forall_isUnit_tensorProduct_padic.lean",
+      "git_blob": "b753799a24c4b148a53c36e74a09627f131ed4ea",
+      "sha256": "5526c73e0e9fafc3843421697084f1b4e983a419bfdb791de834664766bd5b50",
+      "bytes": 44924,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneDatum_exists_free_cover_of_isNilpotent.lean",
+      "git_blob": "310ae681591ceea779d98bbc48b9a48bab9eb363",
+      "sha256": "ae2d4c18882a1d71b948c90523aac60bcd0c1da93a2a569a25fac4ea99107871",
+      "bytes": 859,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneDatum_exists_free_cover_of_isNilpotent_V.lean",
+      "git_blob": "0d9f8e8242bce9ffa5370c5ea1e3b3c5345e91d0",
+      "sha256": "6afe3820973b2da5e95333ddc334f7f46d73fa441068b48a0ef7fe6ace57ea7f",
+      "bytes": 939,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneDatum_exists_hopfAlgebra_zmod_addEquiv_dieudonneModule_of_isNilpotent.lean",
+      "git_blob": "d5e06f561099a37c7818abb405ea482c1048ad14",
+      "sha256": "a6dab5ba5d1f34f76cac55021f9d5ff6a5de72fe1746248c63db2e883644840f",
+      "bytes": 4072,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneDatum_exists_pDivisibleTower_zmod_dieudonneModule_of_range_pow_le.lean",
+      "git_blob": "2168154ba9fa4ff0be2a377c62ebaca7dd1a05e5",
+      "sha256": "00203bacf8097627a988db5d5758c5bf0573424a20b9cbd91d5403853180bcc2",
+      "bytes": 5048,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_bijective_prod_map_of_bijective_tensorProduct_comul.lean",
+      "git_blob": "049a349084726fe65ed7dfa25d0a1786c7aa5b1f",
+      "sha256": "95160697232b8465008759e8160689b72198818b751172ba1a39aa7049719cbb",
+      "bytes": 1199,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_eq_of_map_eq_of_isLocalRing_cartierDual.lean",
+      "git_blob": "9acc44e39608b170e8bd6b9d18bbc5b3aed2768c",
+      "sha256": "43963dad01b840c238a6101a517805da95c2cd9fa6ef70bc6494e8585c2bec87",
+      "bytes": 2576,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_eq_zero_of_mem_fontaineHodge_of_verschiebung_eq_zero.lean",
+      "git_blob": "639ab66a318233bb3eb6b7365b3836729da34eea",
+      "sha256": "de19c37ec51e4ae38600bd071b4f97d45d191bd20cf33135b84dd5da44d48297",
+      "bytes": 961,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_eval_injective_and_exists_eval_eq_of_isLocalRing_cartierDual.lean",
+      "git_blob": "3ed2abe116080f014d566d8d6e896dc1abaa68d4",
+      "sha256": "de5794d16e07455c31e4537db57e18633d51dc45478db8f62c21bf73fa1ff84c",
+      "bytes": 4268,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exact_map_hopfKerVal_map.lean",
+      "git_blob": "b27466e9a175eea126ea5a992d9c50e306eb25ee",
+      "sha256": "46e732bf880377bc8e00706d45d31bf0b4d7f774d81aee74bb9a1cd058875e0b",
+      "bytes": 847,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_addEquiv_prod_apply_eq_map_of_tensorProduct.lean",
+      "git_blob": "b8aec9a2add17cf9705b50f2ebdd05bebe6d6c88",
+      "sha256": "44a7a3b4833f4b7133746b0ac7fdb19c140133e98bf6ed4d159cf7041f5cb938",
+      "bytes": 2259,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_addMonoidHom_cotangent_surjective_ker_eq_range_frobenius_of_isLocalRing_cartierDual.lean",
+      "git_blob": "52cbd868631ddce850e1bee43bcf5e7f456a04e9",
+      "sha256": "8573367fac5587130ed2be8b384824fa3a38faa222e7d5a147ecc41a26b6919d",
+      "bytes": 4886,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_bijective_map_eq_of_addEquiv_of_isLocalRing_cartierDual.lean",
+      "git_blob": "e79db773a010f9c748cc7868357cfaa22aebda6e",
+      "sha256": "1162a344ca8e1fa4ecea6a5e5a744cf127afa9e791829c2efce9257512dd2f2d",
+      "bytes": 3124,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_coe_eq_nsmulAlgHom_and_map_eq_nsmul.lean",
+      "git_blob": "84186a600c7b4648524d2c7c289c96dcef664408",
+      "sha256": "412fc5fa04cdb67d6be900e6353a86e5fe03672111eee80026730d883235aefe",
+      "bytes": 864,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_finrank_eq_pow_and_natCard_eq_pow_of_isLocalRing_cartierDual.lean",
+      "git_blob": "3909ba9ad69405f0de628edd08b02b915efb2d10",
+      "sha256": "55af7f8f0f6d7fe231c14029f480dd36142e093492e5b498fa96657f7a48cc20",
+      "bytes": 2594,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_finrank_eq_pow_and_natCard_le_pow_of_isLocalRing_cartierDual.lean",
+      "git_blob": "c0181b1bff99bdb09633a128f504737997a50f1d",
+      "sha256": "34049e209f64cc0a46d30f3be08a6d1147eb33f16bd1d0bbcdfc882c71bb8e6c",
+      "bytes": 1851,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_frobenius_iterate_eq_zero_of_isLocalRing.lean",
+      "git_blob": "61fb32124184a771551b129f6fb4680768e921ec",
+      "sha256": "dfb1d36bb500615c9459182dc01cc95d0aee9bcbf40ab5c43f460ea803357e15",
+      "bytes": 757,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_hondaSystem_L_eq_fontaineHodge.lean",
+      "git_blob": "f4935ccc28c8f746c0e6fbe49323873f48ffb603",
+      "sha256": "b7aa7459dee1154922d8f275ef32b0044d71700bd495e309742333b55e5358ac",
+      "bytes": 1360,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_hondaSystem_addEquiv_smul_eq_map_of_isLocalRing_cartierDual.lean",
+      "git_blob": "f507949f48f082431730b483a8037ed90b5ab224",
+      "sha256": "25c2256f05024517ac331b740bd924d8d9d325ffcb2425e1ad4928347447be21",
+      "bytes": 4058,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_ker_verschiebung_addEquiv_primitives_apply_of_eq_and_apply_map.lean",
+      "git_blob": "e69339bca69ea68109877ae33baab012170e1673",
+      "sha256": "407fb8dd7e26556ae97b0f1e1ceebe1979dd128f023e33b8bd85a5351afd698f",
+      "bytes": 1388,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_map_eq_of_isLocalRing_cartierDual.lean",
+      "git_blob": "875ffc8143df371b05b6f8f1a8f6a1e58ae226b5",
+      "sha256": "f1b04a1ba62a167d8c4dd8f37d16cc9264762e37a4f027dd9b9e0dc169741364",
+      "bytes": 2934,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_mem_fontaineHodge_add_eq_of_smul_eq_zero.lean",
+      "git_blob": "f093368db54df4fddd92f4b55dc12dd68a02ff74",
+      "sha256": "6ea55c0a5979f5cecdbf97e7cc53dccee3bd17164dbbb6a512b3da3569a6ebe6",
+      "bytes": 1307,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_mem_fontaineHodge_frobenius_eq_smul.lean",
+      "git_blob": "061955ade84882f45aa10a275200d6e28a87008c",
+      "sha256": "02f4d06b646e3e11d1c114cbcfda27732c436d830779645bf826650690778803",
+      "bytes": 1419,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_mem_fontaineHodge_map_eq_of_isLocalRing_cartierDual.lean",
+      "git_blob": "0e6c87592497f09eb05eb979f6ca855899890c8c",
+      "sha256": "04f60596fa8b4feba0a4978f49dd048fa3a91de6dda42e60a351e53bfc9b9193",
+      "bytes": 3604,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_mem_fontaineHodge_verschiebung_eq_of_frobenius_eq_zero.lean",
+      "git_blob": "90264225a650f34bb6fdf8ea3df1936eb7e63720",
+      "sha256": "f3411c2a90fb20208d092d1745ab7b3fc1d979862b7889a1aa92da0aa9ac3cdb",
+      "bytes": 1330,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_mvPowerSeries_coeff_eq_apply_of_forall_map_eq.lean",
+      "git_blob": "952a3d31d706ae83ed50c210e37959f518e26cf8",
+      "sha256": "1314825cd598b58ae50e77d933f5cd694fe3c84bbb684ca09375d8a3a08f8045",
+      "bytes": 2353,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_natCard_algHom_eq_pow_and_natCard_baseChange_eq_pow_of_isLocalRing_cartierDual.lean",
+      "git_blob": "a64488e7dd89708bad0f4e0dab3f310fccd04c18",
+      "sha256": "f02b45a9d99e27aa57ab69d42d7d7ffdbbc0f66ff5f22a19df2bf7981261c1e9",
+      "bytes": 3497,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_ringHom_addMonoidEnd_apply_eq_map.lean",
+      "git_blob": "4f26c0bc18c4be3bd0689c144f2269cd1422a43f",
+      "sha256": "96841ee6b6283b25e73b5bf9b04f5a370397fbbeaa2a0809e6b997d0d540f345",
+      "bytes": 1205,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_surjective_ker_map_of_bottomLayer.lean",
+      "git_blob": "c2564234b086778161f1abb7541e5ed123a12400",
+      "sha256": "bef40a36ee9bdc889faa3cf6abd696ba75578eb1bd4391af55495bd3b267b890",
+      "bytes": 6996,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_exists_surjective_of.lean",
+      "git_blob": "b301df71a0b079649cc0f2be8450898575b1a2f0",
+      "sha256": "511cb801fb5139c04c690f28ff3c292104a483394de659174f023f7855b0f641",
+      "bytes": 665,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_finrank_adjoin_coeff_le_natCard.lean",
+      "git_blob": "cb9f7ce0497d724e4a51eeab9eb501cf419cdd31",
+      "sha256": "7e508ca35dae825ad261a3b333cb2fd09360c8a2d26d3387884e2c166000f244",
+      "bytes": 1239,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_fontaineHodge_map_surjective_and_exists_of_mem_range_of_surjective.lean",
+      "git_blob": "1300a74c21ea49cd77ae7e5d29c176b7c66760c6",
+      "sha256": "634586f3042b4f8af92f61ae058beedb3126a1e5c416544b89a50095c3090daf",
+      "bytes": 3888,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_frobenius_bijective_of_isReduced.lean",
+      "git_blob": "1f8dbbad244733d1d2e43e065a4548362141c014",
+      "sha256": "0c9e24a48c53bae3db17c623e43b7bf89b7c0e4bcb716e83b01906ffe016e468",
+      "bytes": 650,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_map_apply_eq_add_of_toLinearMap_eq_mul_comp_map_comp_comul.lean",
+      "git_blob": "ce07c5d58f36db972f7f493746afdbf3f0b0d640",
+      "sha256": "58e94da59cbd85065e3dafb28e482b984768a23faba791eea617ca39ce1ff809",
+      "bytes": 1124,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_map_baseChange_injective_and_exists_map_baseChange_eq.lean",
+      "git_blob": "65bec98f1986f7e7119640d7dc2f6382a48e2da0",
+      "sha256": "74c2a0fccee851fc2288526a8c5fad9fac3f9700350da56ef527e70175296051",
+      "bytes": 9337,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_map_baseChange_surjective_injective_fontaineHodge_of_range_eq_hopfKer.lean",
+      "git_blob": "22e7a4dae3ba4133025a4fe27dc53c1b6c5a241a",
+      "sha256": "dc2790c1d5964be254a5c8bed88809ce663a626b71bc4fe8825ad703a7b0ecbe",
+      "bytes": 4938,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_map_injective_and_exists_map_eq_of_isLocalRing_cartierDual.lean",
+      "git_blob": "4f91b3eccc2b6786e7b84f75164768545eb2b2c0",
+      "sha256": "99a4c7cf915e9420336a3d5fba6e6b272a06c5d7ab0659747c8bd30bdd5e3adb",
+      "bytes": 3255,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_map_surjective_and_exact_map_of_ker_eq_map_ker_counit.lean",
+      "git_blob": "053fa698407c0b1d04aa7c711811e30c794e8926",
+      "sha256": "4dbb9fc54748d48c9d2f8d3ab1f8ce008ff4f7ec1cda5cb7dc98172cfb731e60",
+      "bytes": 3016,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_map_surjective_of_surjective.lean",
+      "git_blob": "fdb62713e062dd1130d3a08bdfbf3748c6b74d78",
+      "sha256": "aaee37799a3114f06a2dcb635ec373715c857fd65c61d575926f9e12e476e5a4",
+      "bytes": 3037,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_natCard_ker_frobenius_eq_natCard_quot_range_verschiebung_of_cyclotomicPairing.lean",
+      "git_blob": "5b4aa13b64e1246aeb1fc9e1ec543ae477103e6a",
+      "sha256": "33504d8d87b1c36473cc34e6c9d83bb94b76e5aa39ea918412f5de6161ef1da7",
+      "bytes": 5231,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_natCard_ker_frobenius_eq_natCard_quot_range_verschiebung_of_nonempty_bialgEquiv_cartierDual_zmodp.lean",
+      "git_blob": "de02214a0712068847dcb112208b4c21428dc821",
+      "sha256": "1724953e495e0f69d793424a0c81b173ac3db6d46c4b08c73f723e512219a3c3",
+      "bytes": 3261,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_natCard_quot_range_frobenius_eq_natCard_of_ker_eq_map_frobenius_ker_counit_zmodp.lean",
+      "git_blob": "b6170489d45ee4ac8b2c37f9270d4d3a194e45c5",
+      "sha256": "0a8ce26b6f51c98c03719b59ab7e9db37f63ad5b4b73a68e566012295e2e91c4",
+      "bytes": 3040,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_natCard_quot_range_verschiebung_sup_iSup_range_map_eq_natCard_primitives_quot_of_pow_eq_one.lean",
+      "git_blob": "d0a631e38caa1f81e934382454d8311ada4b98a1",
+      "sha256": "006f751026583e9885c608ba587be81ffbdfb92bc555f39d5d04eb477921f7cd",
+      "bytes": 1786,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_DieudonneModule_nonempty_ker_verschiebung_addEquiv_primitives.lean",
+      "git_blob": "e14ed703c157cceea3a85a83497fa80a36fdd883",
+      "sha256": "1b5989e7da42d6c337162769a73d8a6b07461f5e6e1b8d73014ed98238ef5c4d",
+      "bytes": 756,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_SplitCoordinates_map_eq_phi0_of_forall_exists_convMul_apply_kappa_X.lean",
+      "git_blob": "45b261268c6e9ece469a542f9d7722b459db284f",
+      "sha256": "69e4770c7e7e90d1bd948f0f27b4ddce6a311bd83820924239de35872d4a7568",
+      "bytes": 2304,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_SplitCoordinates_map_mem_fontaineFunctor_and_described.lean",
+      "git_blob": "607a745048a242bd8427371bae80cb74f7babbeb",
+      "sha256": "5510a9ba7b40f09241c58542d79395a726bf8694d5999ea484d1c5a297b238a9",
+      "bytes": 4899,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_comap_L_eq_of_injective_of_map_L_le.lean",
+      "git_blob": "e2a8df2c07042260ac4b9f1cd32d1d3648cb9c19",
+      "sha256": "624245dec3faec4e518e56f2364bac45e9341bf702836ebd368f54d1a62a5135",
+      "bytes": 818,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_existsUnique_coords_of_mem_fontaineFunctor_of_splitCoordinates.lean",
+      "git_blob": "c4fe972bd4761bec0a0bff3ac809378d5b2a1d91",
+      "sha256": "2aa70a24c58250d4f4521fd97d3388fdd6ca50de726a9b847bec7ca1ab8124fa",
+      "bytes": 6715,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_basis_isUnit_mulVec_eq_single_of_isNilpotent.lean",
+      "git_blob": "b1aa3e68e4c11cfc8dc99c6b178d2c8720b08d9a",
+      "sha256": "f64284aeedbb60e4fa85293213e6d662bb4cc5a43abbced1d46e7094d3d99946",
+      "bytes": 1344,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_bijective_tensorProduct_specialFibre_of_cocycle.lean",
+      "git_blob": "35ebebd3d6d1c2069bc9bab982d65a934e5ea9ce",
+      "sha256": "2f39f904d1380bfb7b8c8aefb3b2732f4f4fdfef7c6022c013cee49b5736b609",
+      "bytes": 4146,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_free_resolution_of_isNilpotent.lean",
+      "git_blob": "dc8886f8d1a3bbc2afb972894115a30c87c314c9",
+      "sha256": "fd1d45b9304fde9fd9c2405212258f3346fd75a8c189bd9792695d7d59dd9574",
+      "bytes": 1245,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_hondaSystem_lifts_of_equivariant_surjective.lean",
+      "git_blob": "76f9a7df75eab60c118a3b5b0f3be35447b0769f",
+      "sha256": "519f7022db99f7efa352a20cf5c9ff0cb4f1c6aeefc1d19b5c50c69249795be7",
+      "bytes": 1313,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_isCompl_pow_F_le_and_L_inf_eq_bot.lean",
+      "git_blob": "f42612887f6759b0aeb347355f258397329a1853",
+      "sha256": "04ce6cbd058425c96336bc5fcdbdbc975f5adebd9327bdc21e5f5b3532387c48",
+      "bytes": 1886,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_lift_linearPart_map_eq_one_of_coeff_eq.lean",
+      "git_blob": "4ed1b24c092ed22580a8b30f2189338d0b171817",
+      "sha256": "222019b28c938f4d59c39a9fdc6f42b950fb1ff1dd6b852b8b7f2879fc140c6c",
+      "bytes": 1412,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_linearMap_surjective_mulVec_isNilpotent_coeff_eq.lean",
+      "git_blob": "05173119ced8565e249c793acbafd5a6ff21693c",
+      "sha256": "a1afcf193e422b0bc13658d67b081eccc4793a9767a283020b2ba270c45a068f",
+      "bytes": 7890,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_mem_fontaineFunctor_of_coords_of_splitCoordinates.lean",
+      "git_blob": "b933e823a17b8e793219da700b445aa7a0b812ae",
+      "sha256": "6cb225fa8fa29fa63e14f8f78b25d37a0ef8c835022cd3a99f825a2f81d4d9f4",
+      "bytes": 7536,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_mvFormalGroup_basis_coeff_eq_normalForm.lean",
+      "git_blob": "e0da4d97eee73dadac7387eb79bbc62815ae2b21",
+      "sha256": "62ce0423b7f7c2914fea5b6592ea3333e545209773bff2fec8397bf8086925e4",
+      "bytes": 8996,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_mvFormalGroup_cocycle_of_splitCoordinates.lean",
+      "git_blob": "a654fc8e54951a31d56719ccb6f443a29565903e",
+      "sha256": "5a6b5e9c210852179b6a889a10f01a5338f18772b9d33445ab0807b3f9d146d7",
+      "bytes": 12745,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_pDivisibleTower_bijective_map_mem_fontaineHodge_of_pDivisibleTower_zmod.lean",
+      "git_blob": "a3cad9f0529ad146381f484ac282a8d65c7bbc6c",
+      "sha256": "052402818444408640970d0e4d306d0b07a0527506820e1acf42dd334a5d1176",
+      "bytes": 8655,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_pDivisibleTower_bijective_map_mem_fontaineHodge_of_splitCoordinates_of_cocycle.lean",
+      "git_blob": "b0dbda2a9b70eb795e41055772ee778c705888d0",
+      "sha256": "447eceb3c73b3071f877272ca43b990b5bac017dd6b6088831b996e52a3c433d",
+      "bytes": 7187,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_pDivisibleTower_dieudonneModule_of_range_pow_le.lean",
+      "git_blob": "d2ff57ad8980f0a3c1eff5b0f809ebd4b38db57d",
+      "sha256": "0d55d40da7ee067d6bfbb15b5ed753280b0db4619f7016b01778f244656d3255",
+      "bytes": 8529,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_splitCoordinates_lawful_normalForm.lean",
+      "git_blob": "8fed665f70ac37281ba1e05241154bf6d65b0455",
+      "sha256": "6ff8e65267d19b86ea8fa54e21a38524263beae172bb7f9f153ecbd3b35aafae",
+      "bytes": 5706,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_exists_towerHom_map_comp_eq_comp_of_map_L_le.lean",
+      "git_blob": "135f102a70fd4cacaddce94f595f6ed28af6a169",
+      "sha256": "6f9901f62447e514db7b4105215b09e939dbc94fba8262bc7e5fcb347982b8ee",
+      "bytes": 7611,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_finrank_eq_of_isCompl_of_bijective_tensorProduct_comul.lean",
+      "git_blob": "1186d89eb989b7b13c1a5ae2d2d90a352897e22f",
+      "sha256": "549a925cfb33d526537b382d8c750134e2497bd99024cbfababacabdd7e4ae93",
+      "bytes": 5125,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_finrank_selfExt_eq_finrank_endHonda_of_L_eq_bot.lean",
+      "git_blob": "65fb7eeea7a169f95e78713ef8fe237c2d5bc6e3",
+      "sha256": "abb67bdd863763de0b0e968b9e5f9f1aa0ff5fb70252c1fc2aa45286a783387b",
+      "bytes": 706,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_finrank_selfExt_eq_finrank_endHonda_of_L_eq_top.lean",
+      "git_blob": "77fc3844744f683321d64696b697c96ab991efd4",
+      "sha256": "222d63f55370cd17a8769c027b41257bb4996b8f0f80f6a819c7b14a3d8f5f51",
+      "bytes": 706,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_finrank_selfExt_eq_one_add_finrank_endHonda.lean",
+      "git_blob": "2941d809937de63d17d2cdfef4ac8ea682c243e4",
+      "sha256": "2b684a09e14377db955afadac970edf2b44863f4ba58a20b065f1591fe4ff284",
+      "bytes": 712,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_finrank_selfExt_le_finrank_endHonda_add_one.lean",
+      "git_blob": "e71a010279a5822fce74b4fc82bba09837c4fa9c",
+      "sha256": "40ce1bc35401b5662de5eb4c67c066600f2c01e618b5e2924ddfd237828554b3",
+      "bytes": 713,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_map_apply_basis_mem_fontaineHodge_of_cocycle.lean",
+      "git_blob": "d6bbc3c3decbb147afd44a9fdb3c0bfc895172b6",
+      "sha256": "efa4f3389214715c43ceba59150c8c5713134211de1a9f31d4694dce8abea5dc",
+      "bytes": 5152,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_map_comp_surjective_and_ker_and_fontaineHodge_eq_of_ker_eq_map_ker_counit.lean",
+      "git_blob": "5285acc6bf05ff9dd4de9b55b3644f79a6d5fada",
+      "sha256": "6afe9395ebabba18209533f22142a36cd428bb8a701ccf59d7520944ab0f35dc",
+      "bytes": 5433,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_map_eq_zero_of_mem_of_isCompl_of_bijective_tensorProduct.lean",
+      "git_blob": "47736bf072054be9453a51dbad4284284fbb3782",
+      "sha256": "dbd16a1ebae532175fb1013c638bddda260270eba7d8bbe7ca004617d2715f76",
+      "bytes": 2466,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_Deformation_HondaSystem_range_sup_eq_top_of_isArtinian_of_isNoetherian.lean",
+      "git_blob": "b92ba5b2dd52dfbbd99a8627885ed8d4c07c287c",
+      "sha256": "5874d1d0c14f2b46bfa7e81aac4949eb2c8a495166b3c457307c74b4041b4ac1",
+      "bytes": 985,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_AbelianSchemePropertyBundle_eq_schemeHomOverId_of_forall_schemeHomOverComp_eq_quotient_of_isDomain.lean",
+      "git_blob": "96dd037a6a9c27b34e37f98f0abd3d018ecc069a",
+      "sha256": "363a7e0cb8f7a37bec896970249a6cc7bf52e13164f69153136343dfa32ca009",
+      "bytes": 5051,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_AbelianSchemePropertyBundle_exists_hom_curve_mapPt_eq_pointEquiv_symm_quotientMap_mapPt.lean",
+      "git_blob": "8dfe34dddb4ae6244d269ead332792d47255f282",
+      "sha256": "00fe73cb4b068e4af137a80ae83648611a4f3c971684128540cf948fc1199aa5",
+      "bytes": 15998,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_AbelianSchemePropertyBundle_exists_hom_mapPt_eq_pointEquiv_symm_quotientMap_of_le_comap.lean",
+      "git_blob": "97ee5683ed431d1e06479efd01bc77e463dee054",
+      "sha256": "1eb3949ce1df049a19f3d6dd69591ca89744d3e88401b37446d22f890c38625f",
+      "bytes": 24711,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_AbelianSchemePropertyBundle_exists_linearEquiv_tensorProduct_sections_pullback_type0.lean",
+      "git_blob": "7095c6628eeabcee2a4d351cbcd559aa68e21cb1",
+      "sha256": "fa4f23a5a99772c295028c4b6e89dd31c992572c477c1ef1b49a2a4911cd07db",
+      "bytes": 45752,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_AbelianSchemePropertyBundle_exists_submodule_pointEquiv_quotient_differentiableOn_appLE.lean",
+      "git_blob": "a5061cd86ba236ba24e2eb1a879b5a4b1ac47962",
+      "sha256": "52fed7c5ae2365ce7254989812d55c17527ec7113dab5df3d0e650942bbb1fb4",
+      "bytes": 16562,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_AbelianSchemePropertyBundle_prodStr_commRing.lean",
+      "git_blob": "588982532ee4d63708e0be8d7d39171a1de31a64",
+      "sha256": "b9170bf8dcd53c0f5de7a78a5b894871721b22c60c905354ba8bd9e629720596",
+      "bytes": 2752,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_IsFormalCoordinates_val_apply_pow_eq_specMap_frobenius_comp_val_apply.lean",
+      "git_blob": "0909a63aad28b1982da987cf3a4d9c5f11926cdb",
+      "sha256": "18b756ff1ae02bb746529b98b45e6433cd8d6e05d8923f8b37619ce93ab24611",
+      "bytes": 1131,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_abelianSchemePropertyBundle_quotient.lean",
+      "git_blob": "50f8f564f381ec198b0d7092f1f73807362a46e0",
+      "sha256": "788720d15f22b69f36fd8a401a7b846ab140b99d64cb9b47513f3ac0ef918018",
+      "bytes": 2973,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_abelianSchemePropertyBundle_quotient_of_commRing.lean",
+      "git_blob": "cba5ff9d2e6845b1d59e0d1af94a918d03bf72de",
+      "sha256": "698d51566184dd5a4d232d80661eebac13217e8d26de3ec013854755b195d8b8",
+      "bytes": 2987,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_comp_schemeNsmul_eq_of_comp_frobenius_eq_of_isCommutative.lean",
+      "git_blob": "e68a0b16335316e863d46c4da1b0c34b2a3674ab",
+      "sha256": "ac714edbeb08641fd79d49114d1ddacfba3a6347a9b20b1956a2c86aeff06375",
+      "bytes": 1243,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_existsUnique_quotient_desc_hom_of_isColimit.lean",
+      "git_blob": "071a0a67d635934a79b9d0091222a0ae738bed30",
+      "sha256": "faee214c2978afa69b3f0f5ed7b802a82e444e933c219a46b5bd838e827101c2",
+      "bytes": 2366,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_closedImmersion_isIso_torsion_tensorProduct_baseChange_of_isIso_torsion.lean",
+      "git_blob": "b6087ecf08847c0f0aba3b46f17cfd3902ef8143",
+      "sha256": "045167145727a80f173c3a6e0635e997ab348297048e9245c0547eec5ac38b76",
+      "bytes": 5258,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_existsUnique_eq_prod_zpow_of_forall_comm_of_forall_endDegree_ne_zero.lean",
+      "git_blob": "5ddbc1e62494758dca72b5e94cfd4d55b9e73e61",
+      "sha256": "ab167bb0ca7aeab6b8e46ff13086c8d756f89fae4e7f1cf9c25bdbc1facc6d89",
+      "bytes": 38222,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_fppf_quotient_isPullback_action_of_isClosedImmersion.lean",
+      "git_blob": "77eb82a27813b9eaed700ce8e8af35d2a2c7c7b0",
+      "sha256": "f93f6c4f6c6d5dff5654273d56177b946aa5274f4f33b53497aea10c47f7cb74",
+      "bytes": 2355,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_opens_saturated_fppf_quotient_of_isClosedImmersion_of_isAlgClosed.lean",
+      "git_blob": "f9c64f2150545354f0a2e2f00b2768dfd5a59381",
+      "sha256": "9c90f0f379ea8ea03235695992f792087aaf75062e34778e1a0bdc3e3e4cf89d",
+      "bytes": 2217,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_opens_saturated_fppf_quotient_of_sliceQuotient.lean",
+      "git_blob": "8dd15aceeddba1b2ed6c7842c658b5c79be4c339",
+      "sha256": "2572190177a7e246035a01a2a8301dedd65e77a763df45a7c96f29397fd4391a",
+      "bytes": 4817,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_pDivisibleGroup_closedImmersion_finitePart_of_henselianLocalRing.lean",
+      "git_blob": "d3a6d6ea4b1cc369ce893dd2486686c7f1a339f7",
+      "sha256": "13ddc2a929203d5e2b2893b91c3a2cb9e20bc8de2a672b6e5c6d1857f7254b5e",
+      "bytes": 4790,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_pDivisibleGroup_closedImmersion_isIso_torsion_of_abelianSchemePropertyBundle.lean",
+      "git_blob": "6b4a89e7a5ffaaf9a3332f69ca82939dcad5b4d2",
+      "sha256": "fa7619529ff7bba12e4b7b6d9c359947fe17394708297c594bd1d2a4d06dc599",
+      "bytes": 40104,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_pDivisibleGroup_closedImmersion_isIso_torsion_of_smoothOfRelativeDimension.lean",
+      "git_blob": "e0b4050a964ddd937fa1148cf4be58b902b1def4",
+      "sha256": "3780b00282596ba819e505c018f5948908e16d18b2d44ed223d14e37369c97b7",
+      "bytes": 4688,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_pDivisibleGroup_point_equiv_torsionSubset_of_isFinite_of_flat.lean",
+      "git_blob": "db801e7c09685b70e70047dd6b9b43815ebdec4c",
+      "sha256": "1b96ea4e9ac9d63bc33615118a6a26818c02596262da26ca576b570ea7f2f247",
+      "bytes": 2725,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_product_local_lifts_of_local_lifts.lean",
+      "git_blob": "2b0e15262aaa78591b7487fc7981b7cd0b5c3312",
+      "sha256": "189f80efddf68c744f9d49c3687c6d0ea0b2824e869f7a8931ba441d34e42d81",
+      "bytes": 4910,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_quotient_abelianSchemePropertyBundle_of_finiteFlat_subgroup.lean",
+      "git_blob": "754909f58d8053bd2de0289beb761d630675e14b",
+      "sha256": "7e49790e25f95664d5b6f52ed9f441474a9f1cbeeecf28d8e7aad97ff1ce043d",
+      "bytes": 3656,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_quotient_abelianSchemePropertyBundle_of_finiteFlat_subgroup_of_affineOrbit_of_commRing.lean",
+      "git_blob": "63fae2a970ff695b207bb8ba68e63f5396147c48",
+      "sha256": "ff19b3ef5f536a3dddcdb63cb8773bc242252b3f2ef9870cb8ea473eb3ad9825",
+      "bytes": 3792,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_quotient_smoothOfRelativeDimension_sub_of_isClosedImmersion_of_isAlgClosed.lean",
+      "git_blob": "5ec8e0b1fe6f17c890efb45d99cd27df593f9df0",
+      "sha256": "14bedb6ba6be6405a51c587bb094c5cc890dcb98618201b82c3652f977c851db",
+      "bytes": 2941,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_relativeGroupLaw_quotient_of_isColimit.lean",
+      "git_blob": "0e083b0a0b889b0463a5b5ada228f87c491e4fe2",
+      "sha256": "33af3da323acec9fb91bff78a9af3bae7576faee4ba88affc82654650a52c8a8",
+      "bytes": 2593,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_relativeGroupLaw_quotient_of_isPullback_action_of_surjective.lean",
+      "git_blob": "eee63b2d34bfd7f58d91a8bc4352fc4102726005",
+      "sha256": "776440b5211dd0218b6422a06f2614ecc7be8a763af6fb35021a8a8ae1bc5936",
+      "bytes": 2827,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_zmod_prod_equiv_nsmulPt_eq_one_of_smoothOfRelativeDimension_one_of_isAlgClosed.lean",
+      "git_blob": "73a6d2bd1529211012bebdaff6e2f6a2bd8b5f0c",
+      "sha256": "c83edd814cd218eb58bac26921c5b841ce1a6030447aa6e82b1c9da9eeab1b47",
+      "bytes": 35509,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_zmod_prod_equiv_of_natCard_nsmul_eq_one_eq_sq.lean",
+      "git_blob": "779ee5dc574e18dcff0011caa44f2be30a8581f3",
+      "sha256": "b468420fbc09a07d3f3d60e743d6f76d754d35685ff70b56721f8b445117c483",
+      "bytes": 1308,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_forall_exists_opens_saturated_fppf_quotient_of_isAlgClosed.lean",
+      "git_blob": "9d097882eb1eb5367b7615dd1fd3988e37c15914",
+      "sha256": "560383b7cc2401619b1a18ac0305a10e8795852abbbe92eb7c434e9e63a9b524",
+      "bytes": 2267,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_prod_zpow_baseChange_and_isHomOnPoints.lean",
+      "git_blob": "e40796a77609afe64f75a1ed862f165220715ac3",
+      "sha256": "abfc01c18e14db1e41f73028526c113964fbdee9ccda69a8c4831ddc1f45af54",
+      "bytes": 3189,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_GoodReductionJacobian_abelianSchemePropertyBundle_prodStr.lean",
+      "git_blob": "2886b0acf11998193232cb59c5740a6e034457d6",
+      "sha256": "1f45daef263a2f1377ed3e8e0e46da4dea73439f0a77ada96672ecb11c1d836a",
+      "bytes": 904,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_ModularCurve_JHNeronObjectAtP_LevelData_restrict_frobenius_eq_pow_and_cartierDual_map_restrict_verschiebung_eq_pow_of_abelianSchemePropertyBundle.lean",
+      "git_blob": "e5e91cc54ea20364ad90bdae975bfb689657249a",
+      "sha256": "0c7a68ef9db8e5fe0628fa3943941f7a94a43a1f2d3ce6ff258b9d18b4fb00ad",
+      "bytes": 5224,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_ModularCurve_XOneP_exists_relativeGroupLaw_isAffine_isClosedImmersion_iff_postComp_pullbackHom_eq_one_splitTorus_specialFibre_baseChange_x1_mul.lean",
+      "git_blob": "a4c615955121428f8d68a036f57eb72e88533fee",
+      "sha256": "703b024bf3cc3d191306ae49c0a727b30ca0044800cf2c4ba49362a51c782846",
+      "bytes": 8182,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_ModularCurve_XOneP_exists_relativeGroupLaw_isClosedImmersion_iff_postComp_pullbackHom_eq_one_splitTorus_specialFibre_baseChange_x1_mul.lean",
+      "git_blob": "0d5dbe49e50b1f5fc372ecce3a06ab36fa1d7a41",
+      "sha256": "9510ae41d9213e73901ce3234bf20861d30484271b0d7ffed7cc31cba16f5a21",
+      "bytes": 8133,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_ModularCurve_natCard_dieudonneModule_quot_range_verschiebung_le_of_local_local_model_heckeTorsion_jZero.lean",
+      "git_blob": "b042335045f2ef303a04a5ba42c9519edac4c745",
+      "sha256": "d25f547ffabed71c64544c7dbdb640e90a20a0a0243c14f54d604219a2f7029b",
+      "bytes": 59435,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_ModularCurve_natCard_dieudonneModule_quot_range_verschiebung_sup_range_map_hecke_eq_card_torsionBySet_intLattice_quotient.lean",
+      "git_blob": "29fb6d3c2ae3ed09265de5ad5de0a98d514fe5d0",
+      "sha256": "53b442c7223264bfe0ae007cbb6d7919e2647fd3c02e5304f5c253318db2e22b",
+      "bytes": 58289,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_MvFormalGroup_exists_pDivisibleTower_of_cocycle.lean",
+      "git_blob": "1cdd7c48631d82b0e5efc188747868235d7726c5",
+      "sha256": "37c92b41c3d09e865e3db4154d7da333615bd90102cb1d88d2f923b733f37b08",
+      "bytes": 5409,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_MvPolynomial_finite_and_natCard_quotient_truncatedDieudonneRelations_le_pow.lean",
+      "git_blob": "55b6814c8b899018511ee10fd418eda96c387b3a",
+      "sha256": "5f98c1e084726707136b13fab0a79dbf7a57f2f85bab2ae900cc3f61a0ac4664",
+      "bytes": 934,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_eq_one_of_forall_pair_eq_one_and_exists_pair_eq_of_isAlgClosed.lean",
+      "git_blob": "37993c5bf9f7da4a5d34078d515e826c49d09939",
+      "sha256": "16c75c5d92ba6a452651bbdf80093e19fbf826d47d49545b8684426d7f5fe46f",
+      "bytes": 1057,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_addMonoidHom_tangentSpace_cpoints_pair_eq_sum_pow_of_ker_cotangentModuleProj_eq.lean",
+      "git_blob": "043dbb047aedc003e577d651121b26a0027ac9c9",
+      "sha256": "95817188b89203740cecf0654be8741ebccb64a8ff5d88508e7e1cdb2c32df03",
+      "bytes": 2062,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_addMonoidHom_tateModule_apply_eq_charDiff.lean",
+      "git_blob": "f00b644f197539eedf09d17327bc1bbf6971bd01",
+      "sha256": "94eb2da88405edd6f2ec261c1e365b2f3d60a5a6309fcd4a404449f88f3eea0e",
+      "bytes": 1332,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_addMonoidHom_tateModule_padicComplex_smul_eq_and_norm_sub_le_of_ringOfIntegers.lean",
+      "git_blob": "2256c92b0c38b7f35bb7d5a0c2174bc399077958",
+      "sha256": "f0125294b80f3b3834b72fdaa90ffdd2c33f4aa8460a7dc2fbdde51a8e98d5e0",
+      "bytes": 2732,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_linearIndependent_invariant_dual_padicComplex_tateModule_of_hasDimension_of_ringOfIntegers.lean",
+      "git_blob": "cdb078cbde49f6a140714e07aad260096b04d2a3",
+      "sha256": "d253c94fd1098b9796d97a1c1d2bfbd1f0a3e5887b8913f45bd63ab085c0fb05",
+      "bytes": 2168,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_points_tateModule_pairing_eq_pair.lean",
+      "git_blob": "c0593a8202738d76b91558e735be97355dc8a3b1",
+      "sha256": "61dca2e72a5472aa20eade11f626494a7b0ac03872bf9918ce1c34a5f09e7db4",
+      "bytes": 1412,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_submodule_annihilator_stable_saturated_and_forall_mem_iff.lean",
+      "git_blob": "d349574d6ed91feed2dcf1c563bc2c04e265ee19",
+      "sha256": "ee533e9174fdb07bba76d74c3396e1454a3813fd4a815ef0ca30d8f06d64b43d",
+      "bytes": 2239,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_tateModule_pairing_eq_pair.lean",
+      "git_blob": "7067e1f2f60ec5da3977dc652527d5b45350e85d",
+      "sha256": "d18698c2912d004fceb64fd359eb1f48b74a4eb3fb09391ed1f2f23095982058",
+      "bytes": 1377,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_forall_point_valuation_cartierTranspose_sub_pow_lt_one_of_comp_eq_comp_verschiebung_of_bijective_tensorProduct_zmodp.lean",
+      "git_blob": "8d9f6f23b2e17679c6c90d442fcd5e92f72a98b5",
+      "sha256": "6f5c37d489dd31c182e8e2acd074bc410252048668080a0f7b2acd2feadfd716",
+      "bytes": 4512,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_mem_of_forall_pair_eq_one_and_exists_tateModule_forall_pair_eq_one.lean",
+      "git_blob": "b3c04f94dd607fea85ecd324f367524940e01661",
+      "sha256": "5fdb66a24225a95c1485885107c72c7c8bfcc3beda37b08ba3b5be1ee5af68e1",
+      "bytes": 1371,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_nsmul_mem_and_eq_zero_and_exists_nsmul_eq_of_forall_pair_eq_one_of_isIntegral_iff.lean",
+      "git_blob": "fb55accaf04bc0be5e79f47bfc590cb51a2381a3",
+      "sha256": "f6a57073dca5019fca8c96882d1b42c4442539c99aefffe11bf64eeded482b1a",
+      "bytes": 2814,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_pair_eq_one_of_forall_valuation_sub_counit_lt_one_of_bijective_tensorProduct_isReduced.lean",
+      "git_blob": "adda34f8d5b9582a3dd1e9989f3a5edc11159e10",
+      "sha256": "f0ebd2723288d82e804a50802f578367b9d348d4ade6dec2210f3ab80500103b",
+      "bytes": 5326,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_Hopf_convPow_apply_mul_eq_sum_of_apply_mul_eq.lean",
+      "git_blob": "b476146f7f279b5085dba1db36c71069ba56946f",
+      "sha256": "dc9577c9f6ccc780d7e1dfd820eaab25249b9e95c35a7260f7bc54d2a8d94de9",
+      "bytes": 819,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_Hopf_exists_forall_comp_transition_surjective_ker_eq_torsionIdeal.lean",
+      "git_blob": "bd77dde94fad3ec3944b0e7e0e0c2c482265df0c",
+      "sha256": "1ff0f9b3063e02f33b86914af186dbe71f822104828431b4644286bb58a0f668",
+      "bytes": 1604,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_Hopf_exists_verschiebung_algHom_zmodp.lean",
+      "git_blob": "bed0f29eb522b1ca87c40fbf2487486c4a5e649d",
+      "sha256": "5cad2bba7db6b47c87dacacfbca17f6fa0beb8f1edaa04463f4d48517d4c049b",
+      "bytes": 782,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_Hopf_map_id_nsmulAlgHom_eq_nsmulAlgHom_baseChange.lean",
+      "git_blob": "5caeb6e0aeadbbaf11b7338447f2b20c8b153c83",
+      "sha256": "aa30a0e083c23b559327ff25145d1f6df6357a3b6076d50588d5464439fb8a76",
+      "bytes": 666,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_Hopf_nsmulAlgHom_eq_sum_pow_apply_smul_pow.lean",
+      "git_blob": "e4558e6c32c5df8b4c5cabfcf9aaf29097d33168",
+      "sha256": "81189384f87df7a212e8b0bca7c9ca25bfcfca0e6386623512847b7834cdeb45",
+      "bytes": 743,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_Hopf_nsmulAlgHom_sub_nsmul_mem_augIdeal_sq.lean",
+      "git_blob": "82cbebe4a71b8dd8b6e90d2c8dc8c47f53e15702",
+      "sha256": "cbbb88b61e73e38164c061ad1dbf1be6d1f1534ace340b148b406cc8fb9e000b",
+      "bytes": 614,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_Tower_exists_algEquiv_range_nsmulAlgHom_and_finite_projective_rankAtStalk.lean",
+      "git_blob": "10f426bb763160cd2c70b488fcbfe8f7bbfc9905",
+      "sha256": "ed580bf4c27e8e11ca36c499db31c107b3b5968b1e337a5c63badda7ebd2d38b",
+      "bytes": 2662,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_Tower_exists_tower_hopfKer_transitionLE_of_bijOn_hopfKer.lean",
+      "git_blob": "57b9ba91dbafea7f36c75bf93bf0e1ef9abc034e",
+      "sha256": "6b05460a11586c3b57472fad4a32640bfb70307535eb67d8a49ef11088afb1fb",
+      "bytes": 3569,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_Tower_map_hopfKer_transitionLE_succ_eq.lean",
+      "git_blob": "62bbff492381da9b55c1663530d02267ce691672",
+      "sha256": "c6fffdc9852f56539781c2555b83a874d2e461b0b215b9d29b046fd4d57101bb",
+      "bytes": 2342,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_Tower_surjective_and_exists_finrank_eq_and_ker_eq_torsionIdeal_of_comp_eq_idempotent_zmodp.lean",
+      "git_blob": "e3bed7615621d81b0eb5cd0aeef1c9af6e71dc29",
+      "sha256": "8d8c0f8f7e7493de394eac0db8c668b5032d8a5e75adf3a95a89b2f39ef372f5",
+      "bytes": 3089,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_Tower_transition_apply_eq_zero_iff_mem_span_nsmulAlgHom_image_of_bijOn_hopfKer_of_isPrincipalIdealRing.lean",
+      "git_blob": "3ce281bc07b63b9ed77d7ddc003f0b4aea8220fc",
+      "sha256": "9d8c499dbcfd58a8f492e2d42bdf9b75dac0b56e6282c01d36ad060a17f6ce50",
+      "bytes": 2311,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_associated_jacobianDet_pow_of_hasDimension_of_ringOfIntegers.lean",
+      "git_blob": "40dfc82d776d2e2bd00c4ab1bbb207081c913510",
+      "sha256": "6a9392580f056dc859bc1393554f255cd6f5a0e0ab0203e19d8ddb84c18cd2e6",
+      "bytes": 1187,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_bijective_pointsMap_val_integralClosure_and_exists_tateModule_equiv.lean",
+      "git_blob": "aafe922f4459f2d16e81618cf38f14a95a0dfc3a",
+      "sha256": "ebf566f0c59bc8d839dd596540e29d968a91ee68ef81b80984bb55753ed20478",
+      "bytes": 1818,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_existsUnique_bialgHom_family_of_addMonoidHom_points_levelPreserving_galois_of_field.lean",
+      "git_blob": "6a9b152cdfe8895040738f915a025723fa29d298",
+      "sha256": "653b359efe71642011f3c754adb11fcb5c0193f1bf6bc89c84b5a38e379982a1",
+      "bytes": 1779,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_existsUnique_bialgHom_family_of_addMonoidHom_points_levelPreserving_galois_of_isDiscreteValuationRing_of_liesOverPrime.lean",
+      "git_blob": "0a85ed6ebaea1803f5051962e7159b7f79bbae23",
+      "sha256": "043fc60279a450aef7605cbe08beec2c9b0697dc5eede736e48874cd23871242",
+      "bytes": 7198,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_existsUnique_bialgHom_family_of_addMonoidHom_points_levelPreserving_galois_of_ringOfIntegers.lean",
+      "git_blob": "c3913c5d31ae171a6cb7b5c37ef1fbed0d5651ab",
+      "sha256": "9cd9d867c5dfa6ff028f051ac320d05febfaac3869bb472cc6634c847c56bfbf",
+      "bytes": 6685,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_existsUnique_cpointsMap_ofId_eq_of_forall_smul_eq_of_forall_mem_range_iff.lean",
+      "git_blob": "671a3fe5cb84862f9a10e2df776c0d5af7d4bd47",
+      "sha256": "2196e868674fa0a2114fb6a337cc1bdefd3e76c17ce2ef09e07a533e88828cdb",
+      "bytes": 1632,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_algEquiv_range_nsmulAlgHom_and_finite_projective_rankAtStalk.lean",
+      "git_blob": "63f3c0ca0abebbcbc9c6e02e1b4976ad02804599",
+      "sha256": "61def287e299937a2c386ef59da8dc4bb6d1ff6c786289054fa42d4cd9bd9fb5",
+      "bytes": 3893,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_algEquiv_range_nsmulAlgHom_and_finite_projective_rankAtStalk_of_ker_eq_torsionIdeal.lean",
+      "git_blob": "1a70aef3b5bc968a85e4a18e0dd9c8299954747f",
+      "sha256": "c9573d911e747cc1ceea2fdb13ca0e62532c58471734e966118f9362f863c9af",
+      "bytes": 2021,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_baseChange_hopf_quotient_system_points_iff_mem_of_forall_smul_mem.lean",
+      "git_blob": "93ea4d36e6532bbff6351d397699dbd28c1c9630",
+      "sha256": "69cdfa52d48f5f22607b67f77dfe00d6157ab8b5beffb5c17656bc1338c76820",
+      "bytes": 3783,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_basis_padicComplex_tateModule_eq_cyclotomicCharacter_pow_smul_of_hasDimension_of_ringOfIntegers.lean",
+      "git_blob": "9c923d6961c601449c91f929083018a77af5fe8a",
+      "sha256": "2356f6a52f69e6e1abaf7e106575d824b08b53868477ba432ea056917c483ff2",
+      "bytes": 4175,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_bialgHom_comp_eq_nsmulBialgHom_and_bijOn_hopfKer_of_hopf_quotient_system_of_ringOfIntegers.lean",
+      "git_blob": "bfc2b9248b668a61f8f8692fd0268b08b1f56df9",
+      "sha256": "3666bd0102a70cda1009d28872621678224d7491ff83b361fc916eeb298ed45d",
+      "bytes": 3626,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_bialgHom_comp_transition_eq_and_injective_of_hopf_quotient_system_of_tower_of_ringOfIntegers.lean",
+      "git_blob": "55264915f49181bd1f186e0b9cf3ba7791853310",
+      "sha256": "a59e032f5653ae43b2e74a4556899b05f5203e79274b2f2e32d03cf0b2be7d7b",
+      "bytes": 4640,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_bialgHom_comp_transition_eq_nsmulBialgHom_and_injective_and_map_ker_counit_eq_torsionIdeal_and_faithfullyFlat.lean",
+      "git_blob": "ef6008a3e1ed08fa0e014f2e77ed8bac7ead658a",
+      "sha256": "198d067de0f10f0f6e15f6df322ea63cb956237e2dec17904fc674f091953c63",
+      "bytes": 3801,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_compatible_lift_coeff_eq_of_surjective_tower_zmodp.lean",
+      "git_blob": "e3bcd4d12500f3f322b335c9bbc3a51bedaf78b1",
+      "sha256": "eaf72cacd8877d44e0bfb9d1861d2290a69fc2d8c55a8566cd3884c78362ea0c",
+      "bytes": 2160,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_compatible_specialFibre_coordinates_of_isLocalRing.lean",
+      "git_blob": "f7de91a36577f6c914c7c42a763f9fbd3a04c5d3",
+      "sha256": "4241e4f5ca712a43e9ea4d38c077ecd549e0a81e6051097f94cfc269c834c28e",
+      "bytes": 3845,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_connectedComponent_mvFormalGroup_of_isLocalRing_cartierDual.lean",
+      "git_blob": "77409c32bba608948dc70f2a54e8dd60357359da",
+      "sha256": "918f32eb60195dec04a1671fdc4450b731be909d41b0e696306a61054e843d06",
+      "bytes": 4098,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_connectedComponent_tower_of_isLocalRing_cartierDual.lean",
+      "git_blob": "c96526a2be67aa9021f102a8f5fa73326fde29e0",
+      "sha256": "5e8051e944bdbe2293d75f2847fc34f83c35f1de8941111852cc28ad9d0a813c",
+      "bytes": 2484,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_formallyEtale_tower_bijective_baseChange_zmodp.lean",
+      "git_blob": "c5cd89687df86d5189395bf754d3bf54659f85e6",
+      "sha256": "5187818980652b2b312fbe0e2206f192edd89d2ab3d3c914b46e98c36df45e3e",
+      "bytes": 2087,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_hasDimension.lean",
+      "git_blob": "276dcd07da7251483f3134b60e1930a2bc6f4bc8",
+      "sha256": "fdf80e6e501b9642819beac71b5f48e965f4f9e5289d65e5e27e88d53d690067",
+      "bytes": 4472,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_hopf_quotient_system_points_iff_mem_of_forall_smul_mem_of_ringOfIntegers.lean",
+      "git_blob": "99eddc4943b7d4f59b7b52ddc6a60ac7496c2482",
+      "sha256": "906fa4f75b3c4772fcbf24959716612f97b2be22b00c91b0adf5d3c3f8ac529a",
+      "bytes": 4327,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_isCartierDual.lean",
+      "git_blob": "14e10ddd154d5f0bea3374a8a729639d9eb496be",
+      "sha256": "87429a6f82447482d708378609ccc089829b4cfb2bb1a8978ef7080922d399fd",
+      "bytes": 1161,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_linearEquiv_tateModule_baseChange_ringOfIntegers_of_ringHom_padicAlgCl.lean",
+      "git_blob": "d2b59bd6d52daff96c25b18b0a8d093f46113f22",
+      "sha256": "76cc09d0fef370ca7da0ea7c2fe906d5a8b5c7cc624686bf10b5a05e2a375d16",
+      "bytes": 2922,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_linearEquiv_tateModule_prod_of_bialgHom_comp_transition_of_bijective_points.lean",
+      "git_blob": "e20fe531506768ccef8a94ee018749f54183f2bc",
+      "sha256": "9a5ca92ce017faee3c04bbb6847bb116d0e3cf3d91b96b063436226a118b4fc3",
+      "bytes": 3125,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_linearMap_tateModule_apply_eq_of_addMonoidHom_points.lean",
+      "git_blob": "9003da80f91363c090f5b801e8ca0b4817e6f48d",
+      "sha256": "31c91f54b4b09f772ac91eae4c5b509441794d85b324b274b7d7d69927df0cd7",
+      "bytes": 1015,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_linearMap_tateModule_injective_of_surjective_comp_transition.lean",
+      "git_blob": "318d734d328cdd07a0da169edd93f205ba89c166",
+      "sha256": "8eee349b200c20b1c589b90ae0464c9e3ea8c2985daef22c11210b1b7da28766",
+      "bytes": 3005,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_linearMap_tateModule_jOne_apply_injective_range_galois_of_injective_of_forall_iff.lean",
+      "git_blob": "c94b862482689b540dc325f434e41c851380a62c",
+      "sha256": "1d69a0abeeacfddd8e31c6ac92a8c6cf51193d12bf67dcfa57047b0f46bfcd29",
+      "bytes": 4188,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_linearMap_tateModule_of_comp_transition_eq.lean",
+      "git_blob": "cc518638da6512e3a50fad9f226d95b3c42f9d9e",
+      "sha256": "c76fe30854aaf43d2144c3b2a9c4279a04f6876b4b7035950ffae5c23e514400",
+      "bytes": 1318,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_moduleEnd_tateModule_apply_eq_pointsMkAdd_comp_of_comp_transition_eq.lean",
+      "git_blob": "eb3a9dda5100f20796295d5d06daeac80f93ff5b",
+      "sha256": "c311403d9411df98c09f851bb8b4ba32b43cfb930f478043d52c06d58dea2867",
+      "bytes": 1187,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_mulEquiv_point_addEquiv_points_eq_pointMap_of_isAlgClosed.lean",
+      "git_blob": "851def48ec73b0c416228f339f92834ca47ea89f",
+      "sha256": "3c0c95b9a21f0dab770d62c134e18ffdc2f96c9df62716129ea12d572770e8ab",
+      "bytes": 1163,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_mulEquiv_point_baseChange_and_addEquiv_points_baseChange.lean",
+      "git_blob": "7892002d9a7ddefe405e0ef8403cdb2af659d5e4",
+      "sha256": "e01ee88c76afa8783b6c77c37a2ca334f5b31e91ee4f2facab71227c7b880a8d",
+      "bytes": 1540,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_mvFormalGroup_comul_eq_adicEval_of_specialFibre_coordinates.lean",
+      "git_blob": "a7309c15f50416755475236a0bbdcac54ebf80a1",
+      "sha256": "9e4f390dd219fe80147a23b538f5c6a7237f074d7163ba4ed2bfbc00b6a669c9",
+      "bytes": 2840,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_mvFormalGroup_connectedComponent_tower_of_isLocalRing_cartierDual.lean",
+      "git_blob": "60c2b911a92b42838bfde10293de2fd8ff01d9f6",
+      "sha256": "e81f578e536a1f4c590e13002cd9c9fca16c0d13f396fd68cf72c017a4a60108",
+      "bytes": 4728,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_mvFormalGroup_ker_eq_span_nthSeries_jointly_injective_surjective_of_isLocalRing_zmodp.lean",
+      "git_blob": "d7580b28db68cc520c5de6ae75ef06727fe362a4",
+      "sha256": "527708f7437a713312458ae7e6830b5f51f76d7c343fc5a4f9cf23633bdb1305",
+      "bytes": 4489,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_mvPolynomial_specialFibre_coordinates_of_isLocalRing.lean",
+      "git_blob": "45870a350e476f698e94a6214eb62d98f0d9b456",
+      "sha256": "5849ee2a5780b03f53a5c5e41fbf903cda976f945eebaf9779169e2a03f3aa19",
+      "bytes": 3699,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_nsmul_eq_of_forall_isNilpotent_cpointsProj_one_of_isIntegral_iff.lean",
+      "git_blob": "432a2b7d27710b80eeac316f3ad683ab7091c19a",
+      "sha256": "5dcd1f24935a21ad83453743f020c3b8e0fcae70e7944a0e7685bd0e906de270",
+      "bytes": 1593,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_pDivisibleGroup_bialgHom_injective_range_eq_hopfKer_of_surjective_of_comp_eq_of_isPrincipalIdealRing.lean",
+      "git_blob": "3cb88b43d313eeeb0e4b4369ef8ba85dd082f57f",
+      "sha256": "f7cbf385d5b192c4d832bd5de05d9d64f442b85446a49138dca8fe74558d618a",
+      "bytes": 3533,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_pDivisibleGroup_bialgHom_linearMap_tateModule_injective_range_eq_of_hopf_quotient_system_of_ringOfIntegers.lean",
+      "git_blob": "7d98005f9f7762dca6a708025668a2e56a61fbdd",
+      "sha256": "1c243ae7405f2fd5be8e9fe0de96534604a5e6e1af97b14dd4c041b9382ad250",
+      "bytes": 4846,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_pDivisibleGroup_bialgHom_linearMap_tateModule_ker_eq_of_forall_smul_mem_of_ringOfIntegers.lean",
+      "git_blob": "7c4d6abf3308665c1f5db265f07d85f6866a32a2",
+      "sha256": "a1620fd83023675c15088b143f65c4a0e578a8a9b1ccc6814acdf29c0d9fa031",
+      "bytes": 6005,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_pDivisibleGroup_surjective_bijective_tensorProduct_of_comp_eq_self.lean",
+      "git_blob": "4d4843be8fa8c3fa499be4f09b78bc667474c309",
+      "sha256": "8362464a348fe6523c92d6d640af0404beb4f234ff6245df5985064655a2fd9c",
+      "bytes": 3367,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_pDivisibleGroup_surjective_bijective_tensorProduct_of_comp_eq_self_of_field.lean",
+      "git_blob": "a115e69fe44d2e9c98044e2586822bba15feea50",
+      "sha256": "75c3830ffa902cb674b6a26259c91a0bb8fefb610f42339523e1ccd3d7a23808",
+      "bytes": 3595,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_point_toAlgHom_eq_comp_of_etale_cartierDual_of_forall_comp_eq_of_reduction_pow_eq_frobenius_conv_verschiebung.lean",
+      "git_blob": "4cc8ee16f02edb28fead2e9c804090d5660ed6ed",
+      "sha256": "e158c6a6496cca7d42aac37115056d748b5dee95c2797ca0bf4095c5ce251a3f",
+      "bytes": 7828,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_prod_bialgHom_bijective_points.lean",
+      "git_blob": "35453fd983c2b3fd7d7870cbb1aff3919543bb6d",
+      "sha256": "7cff3036dca71c2a78bf7bb5e0739810f6abf485d852513a029bf17dd03d0e70",
+      "bytes": 2079,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_rep_pow_sub_smul_eq_cyclotomicCharacter_smul_of_reduction_pow_eq_frobenius_conv_verschiebung.lean",
+      "git_blob": "f347ce157eb9a4bf359d4e37a36c2d462974ff5e",
+      "sha256": "1baebcb3dc9f02e517aa93cd6c34a3c4d482f975ba70e898336b0eb820098860",
+      "bytes": 9849,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_retraction_of_points_ker_iff_of_points_surjective_of_retraction_of_isDiscreteValuationRing_of_liesOverPrime.lean",
+      "git_blob": "19d93163f6192b5aa578f702c2c7763e6b28e7ef",
+      "sha256": "3b38162bd9750d8cac2a199390746cea7afbf213ce011d53727200cbc67175ba",
+      "bytes": 7357,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_square_presentation_level_of_ringOfIntegers.lean",
+      "git_blob": "c4b51d93692cf15514ad55dc6a8cf2f002548a0d",
+      "sha256": "68e33a832cc8022f50d2b8aca658b9be1f6ad96c5910fcf462ef1975d095e7c3",
+      "bytes": 2830,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_submodule_tateModule_reduction_and_rep_sub_mem_of_mem_inertiaSubgroupIn.lean",
+      "git_blob": "854739b574e8862b2d79a54ee48c0e33a31c26c7",
+      "sha256": "6550a272d663d872c32f7186ffec0096fd9249058cee613b13d79ac5bf076e19",
+      "bytes": 2158,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_surjective_injective_ker_eq_map_of_comp_eq_self_of_field.lean",
+      "git_blob": "30a30d1d1001399b540c2a250e70d70abaeec2d8",
+      "sha256": "86d833ae1d1b343b765b451adb575fbe6030e492705c0ed4ca32f4064d8c8114",
+      "bytes": 3247,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_surjective_mvPowerSeries_comp_eq_of_isLocalRing_zmodp.lean",
+      "git_blob": "40aec47172f5c5e7898a49349c08baeaa6a4815e",
+      "sha256": "e66ccb8a105bb8a971d6d1b1a6328755daa613f3fd2b57b5159e74785ef30c6d",
+      "bytes": 5051,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_tateModule_apply_eq_and_apply_eq_zero_iff_and_free_finrank_of_natCard_point_eq.lean",
+      "git_blob": "690a3b81486c7ac75d7941bb308f7db7d9841187",
+      "sha256": "d3b38332f26c074f6b77603b9239c80ae4f824e3625de2d955288606be0aa780",
+      "bytes": 1262,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_toCPoints_pointsMkAdd_eq_of_nsmul_eq_zero_of_isIntegral_iff.lean",
+      "git_blob": "64ff5a1168a0985e8ba94db402058aac47bd7e18",
+      "sha256": "e64d28f4557d71c2c10baf3d72f0ff67815996fa43c6377dadb7d95e7d32c381",
+      "bytes": 917,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_exists_tower_isLocalRing_isReduced_bijective_tensorProduct_comul_zmodp.lean",
+      "git_blob": "96dee3edc75f4e51109915d75fe88c9019978ee3",
+      "sha256": "0496a48eed637085d2e9270e047e428eb113b5da7c8f6d420a4e84690f2153b3",
+      "bytes": 4223,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_finrank_eq_pow_mul_finrank_and_finrank_hopfKer_eq_of_hopf_quotient_system_of_ringOfIntegers.lean",
+      "git_blob": "b6c72f333f730ce13fcfd8b0c53bf8db44e9cacd",
+      "sha256": "2cb6d7fb2cb73271ad332dc99d4d630e0bb19cf6ae7c4a138e71f5aabb088822",
+      "bytes": 2930,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_forall_exists_bijective_tensorProduct_isReduced_cartierDual_of_comp_eq_idempotent_of_reduction_pow_eq_frobenius_conv_verschiebung.lean",
+      "git_blob": "505a6658c721b708901abbc862b992752309f91c",
+      "sha256": "dcf9cf6fdbfa40c78886acf6b1f6d263ad242bcc0859ee392a3c50764413f810",
+      "bytes": 9108,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_forall_exists_bijective_tensorProduct_isReduced_cartierDual_of_level_one_zmodp.lean",
+      "git_blob": "ca8ca1c36a46ffdf45d582d93c46bb3c9f23e2d3",
+      "sha256": "8d7744f4bbe501270c8af90260be4c7917f3ab7fd33304237784e655e8c9ce69",
+      "bytes": 7249,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_forall_exists_norm_sub_counit_lt_one_map_of_forall_exists_norm_sub_counit_lt_one.lean",
+      "git_blob": "9798732f103970c27fc75da338bdcf1d8f3297b5",
+      "sha256": "27bebb362762ab3a6754fb3f3e967546aacc1b5ba7da81a28538f01561c90a26",
+      "bytes": 2198,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_injective_and_range_eq_of_forall_injective_of_forall_iff_exists_mem.lean",
+      "git_blob": "001686c917302cc57595e91013f55400c780da52",
+      "sha256": "49d5cf9695b9e9011a8734f145c6fc845cb81ac99b0ebce798ab5f5c1aaa28cf",
+      "bytes": 2010,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_nsmul_eq_zero_iff_exists_pointsMkAdd_eq.lean",
+      "git_blob": "f2f26b71242d25b84f3a44d703e587cf25e619d1",
+      "sha256": "cdc317b06274f2ca127e0c95cf987e436b210c1fc4114dcd5d2346c70a97a3b9",
+      "bytes": 579,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_surjOn_transition_hopfKer_of_surjective_of_comp_eq.lean",
+      "git_blob": "06162a269afbdd3b12eb32d23462809706c26911",
+      "sha256": "98c2a8479c38d46553920662034294ab4f93d3fb077430b59e597a98401e0ed0",
+      "bytes": 2370,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_surjOn_transition_hopfKer_of_surjective_of_comp_eq_of_isPrincipalIdealRing.lean",
+      "git_blob": "2e78041976286334d1fefbab867d136980590ee5",
+      "sha256": "7b1ca67ffe6cb83678acb47e206b2e5d8362f414512ae44ea75d72c8d66a6ac5",
+      "bytes": 2553,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_surjective_and_finrank_and_ker_tensorProduct_map_transition.lean",
+      "git_blob": "c60eefd5aeb4b17c4b977e856f6a6cb5509e5ead",
+      "sha256": "1e6e42fe5377457ecb86bce647229401a5996196dba6fcd38a04654281fd4817",
+      "bytes": 956,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_PDivisibleGroup_transition_apply_eq_zero_iff_mem_torsionIdeal_hopfKer_of_surjective_of_comp_eq_of_isPrincipalIdealRing.lean",
+      "git_blob": "c78b7027bc102149519e55151ab2b44628a1e572",
+      "sha256": "655e81eca95c892a911c645d3645f0a0b0548943eba4b641eda88f10fd10d9fa",
+      "bytes": 3731,
+      "reasons": [
+        "general_pdivisible"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_ResidualGaloisRep_exists_hondaSystem_finrank_endHonda_le_injective_of_isLocalRing_cartierDual.lean",
+      "git_blob": "5abb6c787b5169dc34cc8e5dd9d6dfff32d83f02",
+      "sha256": "cee02fa11f299a91df1d23bc17de9ef07dad466fb994a2fbf37220a95f0437b1",
+      "bytes": 11680,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_ResidualGaloisRep_exists_injective_flatClassSet_selfExt_of_hondaSystem_model.lean",
+      "git_blob": "9b0e23db32133e235bee030c66fc684ff4e09ec4",
+      "sha256": "2dbdc7138da29b261f7000c2b08f9e4cb848d4e9936b1c8e0e906a874621bbdd",
+      "bytes": 12584,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_ResidualGaloisRep_exists_injective_localFlatClassesAd_selfExt_of_hondaSystem_model.lean",
+      "git_blob": "4e348cf03763379763f1b8de73e3ba9d8582bd06",
+      "sha256": "1d4b65572b17d4d9841dc90fa4d674814f3ef83a57d6c942f9b49768f899474c",
+      "bytes": 12467,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_ResidualGaloisRep_finrank_endHonda_le_finrank_invariants_of_hondaSystem_model.lean",
+      "git_blob": "c6bcf72059800d3c5f0f204debeab8105c3e4fd2",
+      "sha256": "28975ee8acc5eaf87c99b56026e618847798be8a54df16aa418cc0666cea5644",
+      "bytes": 10993,
+      "reasons": [
+        "dieudonne_honda_isocrystal"
+      ],
+      "in_checkpoint22_inspection": true
+    },
+    {
+      "path": "Theorems/Thm_WeierstrassProjModel_RelativeGroupLaw_basisDivisorOver_comap_mapOnProdOver.lean",
+      "git_blob": "2c66ad25e9a6bdeb061ad3155d8b137e31aa5a13",
+      "sha256": "10034a913cb446c2c526731a7496cc919da542ffdede06bb072c464cd5851dcd",
+      "bytes": 1184,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    },
+    {
+      "path": "Theorems/Thm_WeierstrassProjModel_RelativeGroupLaw_comap_prodKerGraph_linComb_eq_of_isPullback.lean",
+      "git_blob": "f11f0a885fd8bb203c487e7bd617e92e9180355e",
+      "sha256": "6d6cc89b48e828545bd58bffdc65c3d6b50b4d9fdcb3d0240a67e6bfb2f32964",
+      "bytes": 2727,
+      "reasons": [
+        "abelian_or_group_geometry_combination"
+      ],
+      "in_checkpoint22_inspection": false
+    }
+  ],
+  "additional_proof_body": {
+    "path": "P2M/Sol/S_CerednikDrinfeld_QM_FakeEllipticCurve_iso_frobeniusTwist_frobeniusTwist_of_forall_nsmulPt_eq_one.lean",
+    "git_blob": "0d254d6133d42e54577c9acb19ac8fe94003b4ca",
+    "sha256": "d8d14677f05b86a9d754c815f1c21b4f27cb724cd5dc1dc09abbf8fcc54d2433",
+    "bytes": 39212,
+    "commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef"
+  },
+  "checkpoint": 24,
+  "bounded_conclusion": "No directly applicable reverse geometric product-classification theorem was identified among the inspected statements and specifically reviewed proof. This is not an exhaustive absence claim for all repository bodies or external formalizations.",
+  "reading_scope": "All selected sources retrieved and hash-verified. Additional non-FakeElliptic declarations read completely; FakeElliptic candidate conclusions screened and concrete candidates read in detail. One double-Frobenius candidate proof read in full. Retrieval is not a Lean compilation claim."
+}

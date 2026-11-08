@@ -1,0 +1,59 @@
+{
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "roots": [
+    "Theorems.Thm_AlgebraicGeometry_Scheme_finite_of_isClosed_of_ne_univ_of_forall_isClosed_singleton",
+    "Theorems.Thm_AlgebraicGeometry_isClosed_singleton_or_isGenericPoint_and_exists_not_isGenericPoint_of_smoothOfRelativeDimension_one"
+  ],
+  "files": [
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Scheme_finite_of_isClosed_of_ne_univ_of_forall_isClosed_singleton",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_finite_of_isClosed_of_ne_univ_of_forall_isClosed_singleton.lean",
+      "upstream_git_blob": "1f2d691ece32236aea0a48457699eeb77059b8eb",
+      "upstream_sha256": "fdd4c7a5f5792b0e0853154b82e6fc22cd0029366c4b9f8aaff2ce947939f419",
+      "current_sha256": "fdd4c7a5f5792b0e0853154b82e6fc22cd0029366c4b9f8aaff2ce947939f419",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_isClosed_singleton_or_isGenericPoint_and_exists_not_isGenericPoint_of_smoothOfRelativeDimension_one",
+      "path": "P2M/Sol/S_AlgebraicGeometry_isClosed_singleton_or_isGenericPoint_and_exists_not_isGenericPoint_of_smoothOfRelativeDimension_one.lean",
+      "upstream_git_blob": "403e197850314e78779dedc03f553ec615f6326a",
+      "upstream_sha256": "23dc7fbc8734fd15019d32560047c3bb810246e56ffb81222e3e6eae18248496",
+      "current_sha256": "23dc7fbc8734fd15019d32560047c3bb810246e56ffb81222e3e6eae18248496",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_CurveModel",
+        "Theorems.Thm_AlgebraicCurve_isClosed_singleton_of_ne_genericPoint",
+        "Theorems.Thm_AlgebraicCurve_exists_place_range_stalk_eq",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Scheme_finite_of_isClosed_of_ne_univ_of_forall_isClosed_singleton",
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_finite_of_isClosed_of_ne_univ_of_forall_isClosed_singleton.lean",
+      "upstream_git_blob": "c95e161b9e8929452aea71af6ec5849a24cff1d5",
+      "upstream_sha256": "8587fde9373c4039eaa5f97bd9cab8721833ccc1c20c93a940b0650e75aaa173",
+      "current_sha256": "8587fde9373c4039eaa5f97bd9cab8721833ccc1c20c93a940b0650e75aaa173",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Scheme_finite_of_isClosed_of_ne_univ_of_forall_isClosed_singleton"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_isClosed_singleton_or_isGenericPoint_and_exists_not_isGenericPoint_of_smoothOfRelativeDimension_one",
+      "path": "Theorems/Thm_AlgebraicGeometry_isClosed_singleton_or_isGenericPoint_and_exists_not_isGenericPoint_of_smoothOfRelativeDimension_one.lean",
+      "upstream_git_blob": "c9957df64f0558b1c2ab14ca1db8629979ffbb71",
+      "upstream_sha256": "53761e8755aae56cceb6faba962d85ff34118890bc9776b3bbfef651c6bbc2fb",
+      "current_sha256": "53761e8755aae56cceb6faba962d85ff34118890bc9776b3bbfef651c6bbc2fb",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_isClosed_singleton_or_isGenericPoint_and_exists_not_isGenericPoint_of_smoothOfRelativeDimension_one"
+      ]
+    }
+  ]
+}

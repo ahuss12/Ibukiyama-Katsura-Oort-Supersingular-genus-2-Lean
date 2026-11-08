@@ -1,0 +1,69 @@
+{
+  "checkpoint": 24,
+  "completed_at_utc": "2026-09-23T02:13:56.960525+00:00",
+  "all_current_checks_passed": true,
+  "build_exit_code": 0,
+  "source_checks_exit_code": 0,
+  "integration_examples_exit_code": 0,
+  "new_module_axiom_audit_exit_code": 0,
+  "build_jobs": 10834,
+  "new_project_modules": 24,
+  "new_public_theorems": 94,
+  "new_private_supporting_lemmas": 5,
+  "project_proof_modules": 134,
+  "project_public_theorems": 891,
+  "project_private_supporting_lemmas": 24,
+  "new_vendor_modules": 335,
+  "new_compatibility_ports": 2,
+  "vendor_modules": 1935,
+  "prior_proof_modules_unchanged": 110,
+  "prior_vendor_lean_files_unchanged": 1601,
+  "audited_new_project_modules": 24,
+  "audited_new_vendor_modules": 335,
+  "new_module_declaration_entries_audited": 5086,
+  "new_project_declaration_entries_audited": 198,
+  "new_vendor_declaration_entries_audited": 4888,
+  "integration_examples": 6,
+  "source_files_scanned": 2070,
+  "checked_source_hashes": 236,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "full_previous_audit_rerun": false,
+  "clean_rebuild_of_all_dependencies": false,
+  "verification_mode": "Full aggregate build; all new proof modules compiled; six concrete actual-geometry integration examples; all new project/vendor declaration entries audited with stored types/bodies and transitive axiom dependencies; source/provenance checks. Unchanged checked artifacts and official pinned Mathlib cache reused. Historical suites and audits retained for byte-identical sources, not rerun.",
+  "runtime_restoration": {
+    "lean_version": "4.34.0-rc2",
+    "lean_commit": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+    "official_release_archive_sha256": "3d011041203acacf300d343a39673f7d233743397993797c941346ae9e5df1a8",
+    "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+    "all_nine_git_dependencies_restored_at_manifest_pins": true,
+    "official_mathlib_cache_files_restored": 8747,
+    "cache_utility_note": "System GCC compiled unchanged cache-utility C objects after bundled clang failed; proof sources, package pins, and Lean runtime were not changed."
+  },
+  "proved": [
+    "Over an algebraically closed field, independent geometric superspeciality implies zero actual Verschiebung cotangent map, in every dimension.",
+    "For every presented separable quintic/sextic in odd characteristic over an algebraically closed field, geometric superspeciality implies Cartier zero on the entire regular/global differential space and coefficient matrix zero, for any representing Jacobian and base point.",
+    "The original geometric elliptic p-torsion definition implies actual Verschiebung cotangent vanishing; the proof uses the actual finite kernel, its cotangent space and degree p.",
+    "Actual multiplication-by-n for n nonzero is finite, flat, surjective with degree n^(2g); actual relative Frobenius and Verschiebung have degree p^g.",
+    "Over an already algebraically closed field, the geometric product-isomorphism/isogeny predicates are equivalent to the corresponding predicates over that ground field.",
+    "The actual fifth-power curves with p congruent to 2 or 3 modulo 5 are not geometrically superspecial.",
+    "Over a perfect field, the universal differential kernel in any normal domain consists exactly of pth powers; genuine unique Frobenius factorizations are constructed for affine maps and for global scheme maps with the stated section-root or stalk-differential hypotheses."
+  ],
+  "geometric_classification_block_complete": false,
+  "still_open": [
+    "Cartier square zero to an actual supersingular elliptic-product isogeny in genus two.",
+    "Cartier zero to an actual supersingular elliptic-product isomorphism.",
+    "Applying global Frobenius descent to actual Verschiebung from identity-cotangent vanishing: the passage to vanishing universal differentials at all stalks remains unproved.",
+    "Abstract genus-two presentation, descent of full criteria to arbitrary perfect fields, scheme-projection interpretation of the cohomological scalar untwist, actual crystalline Newton attachment and comparison, remaining IKO Section 1 classifications, and sheet cyclic-cover identifications."
+  ],
+  "log_sha256": {
+    "checkpoint-24-project-build.log": "cfab6dd5ae667719b0ca50788b366c9ea1f6a2250bce055a2fa724fd18145ab3",
+    "checkpoint-24-source-audit.log": "52130afabb70ec17824731fb1f3e4ded70dd7b8c6f3cbacb1fc41758989d81a7",
+    "checkpoint-24-axiom-audit.log": "477c2778befdf656934de5d07e7fc383e806bb6c9b5e4560bcfb00df020045c5",
+    "checkpoint-24-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checkpoint-24-toolchain.log": "544b4920040fb4a18fbbf04c48a65f06739ab3268fc7d3c756bc1b64e823a094"
+  }
+}

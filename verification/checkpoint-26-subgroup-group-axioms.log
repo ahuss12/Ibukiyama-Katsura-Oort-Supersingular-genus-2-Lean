@@ -1,0 +1,54 @@
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusionPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusionPoint_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusionPoint_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.subgroupLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusionPoint_subgroupLaw_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusionPoint_subgroupLaw_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusionPoint_subgroupLaw_inv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.subgroupLaw_commutative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.subgroupGroup' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.twistGroup' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.subgroupGroup_isCommMonObj' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.twistGroup_isCommMonObj' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusion_isMonHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusionHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusionHom_left' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.subgroupGroup_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusion_mul_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusion_inv_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

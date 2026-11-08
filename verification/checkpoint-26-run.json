@@ -1,0 +1,71 @@
+{
+  "checkpoint": 26,
+  "completed_at_utc": "2026-09-23T03:42:12.506246+00:00",
+  "all_current_checks_passed": true,
+  "build_exit_code": 0,
+  "source_checks_exit_code": 0,
+  "integration_examples_exit_code": 0,
+  "new_module_axiom_audit_exit_code": 0,
+  "build_jobs": 10932,
+  "new_project_modules": 43,
+  "new_public_theorems": 183,
+  "new_private_supporting_lemmas": 13,
+  "project_proof_modules": 195,
+  "project_public_theorems": 1180,
+  "project_private_supporting_lemmas": 41,
+  "new_vendor_modules": 37,
+  "new_compatibility_ports": 0,
+  "vendor_modules": 1972,
+  "prior_proof_modules_unchanged": 152,
+  "prior_vendor_lean_files_unchanged": 1936,
+  "audited_new_project_modules": 43,
+  "audited_new_vendor_modules": 37,
+  "new_module_declaration_entries_audited": 1094,
+  "new_project_declaration_entries_audited": 466,
+  "new_vendor_declaration_entries_audited": 628,
+  "integration_examples": 9,
+  "source_files_scanned": 2168,
+  "checked_source_hashes": 310,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "full_previous_audit_rerun": false,
+  "clean_rebuild_of_all_dependencies": false,
+  "verification_mode": "Full aggregate build; all new proof modules compiled; concrete actual-curve integration examples; all new project and vendor declarations audited with stored types/bodies and transitive axiom dependencies; advertised new public theorem names resolved as theorem declarations; source/provenance checks. Unchanged checked artifacts and official pinned Mathlib cache reused. Historical suites and audits retained for byte-identical sources, not rerun.",
+  "runtime_restoration": {
+    "lean_version": "4.34.0-rc2",
+    "lean_commit": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+    "official_release_archive_sha256": "3d011041203acacf300d343a39673f7d233743397993797c941346ae9e5df1a8",
+    "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+    "all_nine_git_dependencies_restored_at_manifest_pins": true,
+    "official_mathlib_cache_files_restored": 8747,
+    "cache_utility_note": "System GCC compiled unchanged cache-utility C objects after bundled clang failed; proof sources, package pins, and Lean runtime were not changed."
+  },
+  "proved": [
+    "The actual simultaneous Frobenius/Verschiebung subgroup has a genuine group-scheme structure and actual scheme order p for every represented separable genus-two quintic/sextic with nonzero square-zero Cartier.",
+    "The local algebra order calculation uses Frobenius nilpotence and invariant derivations constructed from the actual group law. Conversely an actual one-point finite flat group of order p has cotangent dimension one.",
+    "The actual abelian quotient of the first Frobenius twist by the simultaneous subgroup exists, with finite flat surjective quotient group morphism, the exact kernel, and the same dimension.",
+    "Both actual Frobenius and Verschiebung descend through this quotient. In the nonzero-Cartier p-rank-zero surface branch the quotient and both residual group isogenies have degree p.",
+    "The original abelian variety and its actual quotient have isomorphic groups of rational points, all torsion groups agree, and geometric p-rank is preserved.",
+    "The quotient actual F and V satisfy the proved twist/factor diagram identities.",
+    "Full global Cartier squared zero implies vanishing of the actual twofold Verschiebung differential, retaining the genuine second Frobenius twist. Actual relative Cech and Picard comparisons discharge both steps.",
+    "If actual dV is zero, the simultaneous subgroup equals the V-kernel as an actual scheme and has order p^g.",
+    "The residual Frobenius isomorphism has actual symmetric invertible-sheaf p-squared tensor-power compatibility with the genuine double projection, and the symmetric sheaf with finite projective presentation is constructed; no moduli point or product decomposition is supplied.",
+    "For every represented separable genus-two quintic/sextic with nonzero square-zero Cartier, the actual quotient has zero Verschiebung cotangent differential."
+  ],
+  "geometric_classification_block_complete": false,
+  "still_open": [
+    "Cartier zero to an actual supersingular elliptic-product isomorphism. Frobenius periodicity and the actual residual group isomorphism do not construct elliptic factors.",
+    "Cartier square zero to an actual supersingular elliptic-product isogeny. The constructed quotient and its degree-p factors do not supply a product decomposition.",
+    "Abstract genus-two presentation, full descent to arbitrary perfect fields, scheme-projection interpretation of the cohomological untwist, actual crystalline Newton attachment/comparison, remaining IKO Section 1 classifications and sheet cyclic-cover identifications."
+  ],
+  "log_sha256": {
+    "checkpoint-26-project-build.log": "fdae49208d33845671e29ab53a7d3955ae32f391d7e9bd7b2c8bd84615d65cef",
+    "checkpoint-26-source-audit.log": "874eefba78725980697dc6e5edadfe6adf392bfc51e18ca22f9e4db943093a68",
+    "checkpoint-26-axiom-audit.log": "635f5677087547c5a47077c3984378b49bd4782ee7fd4cf70f76de73357b082c",
+    "checkpoint-26-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checkpoint-26-toolchain.log": "544b4920040fb4a18fbbf04c48a65f06739ab3268fc7d3c756bc1b64e823a094"
+  }
+}

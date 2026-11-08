@@ -1,0 +1,326 @@
+{
+  "checkpoint": 19,
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/ResidueFoundation.lean",
+      "sha256": "f3bdc903375726bf384c2088dc6aff5e2a2176961e2fb82e80515b12243a342b"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/ResiduePairing.lean",
+      "sha256": "c9b77c69376a6e6925988e6567bf9f7f1211f22456d4aacfbd0f5d773ad8147f"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/SchemeResidueDuality.lean",
+      "sha256": "ee2c54654e80ec97832040dff170d89b55e429b25c03e34057bc5af7bf5f23d4"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/JacobianResidue.lean",
+      "sha256": "8e454955e21dd620a76bf9009ec71d7b4780ee721a22809453e05f817c4ec68f"
+    }
+  ],
+  "vendor_additions": [
+    {
+      "module": "Definitions.Def_AlgebraicCurve_SerrePairing",
+      "path": "Definitions/Def_AlgebraicCurve_SerrePairing.lean",
+      "upstream_git_blob": "4abcfe35474bfb213a0f8ba4b0941abe3e41a3e4",
+      "upstream_sha256": "8632bd1ee1e90940521eb799a38fa3a6a5a7638921b3f68b71484845df96c69f",
+      "current_sha256": "8632bd1ee1e90940521eb799a38fa3a6a5a7638921b3f68b71484845df96c69f",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_WeilOfKaehler",
+        "Definitions.Def_AlgebraicCurve_RegularDifferentials",
+        "Definitions.Def_AlgebraicCurve_CechSectionsOfDivisor"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_exists_linearEquiv_adeleSpaceQuot_H1",
+      "path": "P2M/Sol/S_AlgebraicCurve_exists_linearEquiv_adeleSpaceQuot_H1.lean",
+      "upstream_git_blob": "5f35fb2013744c3486c1875c80e88fa2e22e57e3",
+      "upstream_sha256": "41b112962bdb7072d91009a265f400b67437aab34673359314f27bd6ccdb4bb0",
+      "current_sha256": "41b112962bdb7072d91009a265f400b67437aab34673359314f27bd6ccdb4bb0",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_Repartitions",
+        "Definitions.Def_AlgebraicCurve_AdelicIndex",
+        "Theorems.Thm_AlgebraicCurve_mem_adeleSpace_iff_mem_repartitions",
+        "Theorems.Thm_AlgebraicCurve_mem_repartitionsOf_iff_coe_mem_adeleBdd",
+        "Theorems.Thm_AlgebraicCurve_mem_principalRepartitions_iff_coe_mem_globalSub",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_exists_linearEquiv_regularDifferentials_omegaSpace_zero",
+      "path": "P2M/Sol/S_AlgebraicCurve_exists_linearEquiv_regularDifferentials_omegaSpace_zero.lean",
+      "upstream_git_blob": "f244c1ce70dc4c3a88e4f3fc53d93fef7977812a",
+      "upstream_sha256": "7d933f90853dae54fd6f5bf72ba17de813d268b26c11b25559bf18afef6ca8a9",
+      "current_sha256": "7d933f90853dae54fd6f5bf72ba17de813d268b26c11b25559bf18afef6ca8a9",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_Repartitions",
+        "Definitions.Def_AlgebraicCurve_AdelicIndex",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_ModularCurve_CanonicalDivisor",
+        "Definitions.Def_AlgebraicCurve_CanonicalDivisor",
+        "Definitions.Def_AlgebraicCurve_LocalResidue",
+        "Definitions.Def_AlgebraicCurve_WeilOfKaehler",
+        "Definitions.Def_AlgebraicCurve_RegularDifferentials",
+        "Theorems.Thm_AlgebraicCurve_weilOfKaehler_ne_zero_and_maximal",
+        "Theorems.Thm_AlgebraicCurve_weilOfKaehler_mem_omegaSpace_of_residueTheorem",
+        "Theorems.Thm_AlgebraicCurve_weilDifferentialRankOne_of_isCurveOver",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_finite_H1_and_exists_linearEquiv_dual_H1_omegaSpace",
+      "path": "P2M/Sol/S_AlgebraicCurve_finite_H1_and_exists_linearEquiv_dual_H1_omegaSpace.lean",
+      "upstream_git_blob": "44611a63bdc2b0d8283f3920213554653b3fd408",
+      "upstream_sha256": "c0e0843b17b7d8ea4ab1f950a808660c1e3bc9eb645813634212a6c1f814ee8d",
+      "current_sha256": "c0e0843b17b7d8ea4ab1f950a808660c1e3bc9eb645813634212a6c1f814ee8d",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_Repartitions",
+        "Definitions.Def_AlgebraicCurve_AdelicIndex",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Theorems.Thm_AlgebraicCurve_exists_genus_riemannIndex_of_isCurveOver",
+        "Theorems.Thm_AlgebraicCurve_exists_linearEquiv_adeleSpaceQuot_H1",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_mem_principalRepartitions_iff_coe_mem_globalSub",
+      "path": "P2M/Sol/S_AlgebraicCurve_mem_principalRepartitions_iff_coe_mem_globalSub.lean",
+      "upstream_git_blob": "5d61cbbb33f81d42e693a893870d4688260ec05f",
+      "upstream_sha256": "35aefb32cec2127cf34e975b2cd456a155bb73149b56cb1eddfb67d5d79124a9",
+      "current_sha256": "35aefb32cec2127cf34e975b2cd456a155bb73149b56cb1eddfb67d5d79124a9",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_Repartitions",
+        "Definitions.Def_AlgebraicCurve_AdelicIndex",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_weilDifferentialRankOne_of_isCurveOver",
+      "path": "P2M/Sol/S_AlgebraicCurve_weilDifferentialRankOne_of_isCurveOver.lean",
+      "upstream_git_blob": "c92b0ee8a2751f195659ec2fee1b1d0b6d365615",
+      "upstream_sha256": "2af6c1e76f279a64181db6142db587da981b2892052348f8f19b2ab16feab522",
+      "current_sha256": "2af6c1e76f279a64181db6142db587da981b2892052348f8f19b2ab16feab522",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_DivisorPushPull",
+        "Definitions.Def_AlgebraicCurve_Repartitions",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_AlgebraicCurve_AdelicIndex",
+        "Definitions.Def_AlgebraicCurve_RatFuncPlaces",
+        "Definitions.Def_AlgebraicCurve_RatFuncPlaceInfty",
+        "Theorems.Thm_AlgebraicCurve_IsCurveOver_exists_separating_transcendental",
+        "Theorems.Thm_AlgebraicCurve_RationalFunctionField_stichtenothGenusExists",
+        "Theorems.Thm_AlgebraicCurve_weilDifferentialRankOne_of_stichtenothGenusExists",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_weilDifferentialRankOne_of_stichtenothGenusExists",
+      "path": "P2M/Sol/S_AlgebraicCurve_weilDifferentialRankOne_of_stichtenothGenusExists.lean",
+      "upstream_git_blob": "7b334981e33a8d326fc688a9b4a5a9f0415b2b0e",
+      "upstream_sha256": "e12b85e94341c51062df267323f166318a4071441fe012c90909d6585b2b07bb",
+      "current_sha256": "e12b85e94341c51062df267323f166318a4071441fe012c90909d6585b2b07bb",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_Repartitions",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_AlgebraicCurve_AdelicIndex",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_weilOfKaehler_mem_omegaSpace_of_residueTheorem",
+      "path": "P2M/Sol/S_AlgebraicCurve_weilOfKaehler_mem_omegaSpace_of_residueTheorem.lean",
+      "upstream_git_blob": "d2389df5999783ed4c0b3e470105d3d9d770a7dd",
+      "upstream_sha256": "b9198f834ab5a1e88fc614b2bfd388b2fbb155c82ae2f4d1c84128583950cf3c",
+      "current_sha256": "b9198f834ab5a1e88fc614b2bfd388b2fbb155c82ae2f4d1c84128583950cf3c",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_WeilOfKaehler",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_weilOfKaehler_ne_zero_and_maximal",
+      "path": "P2M/Sol/S_AlgebraicCurve_weilOfKaehler_ne_zero_and_maximal.lean",
+      "upstream_git_blob": "ac2bac0383fca6c427661ac16d44061def8b8cd2",
+      "upstream_sha256": "dd8b9ad63c4700ea09ca69cda3ea4219f0658f917b59e086f06d2b3bad480b67",
+      "current_sha256": "dd8b9ad63c4700ea09ca69cda3ea4219f0658f917b59e086f06d2b3bad480b67",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_WeilOfKaehler",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_exists_linearEquiv_adeleSpaceQuot_H1",
+      "path": "Theorems/Thm_AlgebraicCurve_exists_linearEquiv_adeleSpaceQuot_H1.lean",
+      "upstream_git_blob": "56761fd711c3a6431f9c73d22ef26e25cc291b44",
+      "upstream_sha256": "81738b267069dfff536c4aa30134b3ddbaeca056b21578dc96e212ab897fa799",
+      "current_sha256": "81738b267069dfff536c4aa30134b3ddbaeca056b21578dc96e212ab897fa799",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_Repartitions",
+        "Definitions.Def_AlgebraicCurve_AdelicIndex",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_exists_linearEquiv_adeleSpaceQuot_H1"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_exists_linearEquiv_regularDifferentials_omegaSpace_zero",
+      "path": "Theorems/Thm_AlgebraicCurve_exists_linearEquiv_regularDifferentials_omegaSpace_zero.lean",
+      "upstream_git_blob": "a0f6cf5739f4adae2b40b6236cfa056ad19ceb4b",
+      "upstream_sha256": "f449c5ca9065bd4053b3592cdbc8fe19463058636b3a7e820728951aea71d979",
+      "current_sha256": "f449c5ca9065bd4053b3592cdbc8fe19463058636b3a7e820728951aea71d979",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_Repartitions",
+        "Definitions.Def_AlgebraicCurve_AdelicIndex",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_ModularCurve_CanonicalDivisor",
+        "Definitions.Def_AlgebraicCurve_CanonicalDivisor",
+        "Definitions.Def_AlgebraicCurve_LocalResidue",
+        "Definitions.Def_AlgebraicCurve_WeilOfKaehler",
+        "Definitions.Def_AlgebraicCurve_RegularDifferentials",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_exists_linearEquiv_regularDifferentials_omegaSpace_zero"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_finite_H1_and_exists_linearEquiv_dual_H1_omegaSpace",
+      "path": "Theorems/Thm_AlgebraicCurve_finite_H1_and_exists_linearEquiv_dual_H1_omegaSpace.lean",
+      "upstream_git_blob": "eb605bf4513398163b99f3cbdff536a0b383fff3",
+      "upstream_sha256": "e7407fcfb6e366949657539edf2b118aed8d0c3ebd6ef61c5e9d68ea0bc109ea",
+      "current_sha256": "e7407fcfb6e366949657539edf2b118aed8d0c3ebd6ef61c5e9d68ea0bc109ea",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_Repartitions",
+        "Definitions.Def_AlgebraicCurve_AdelicIndex",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_finite_H1_and_exists_linearEquiv_dual_H1_omegaSpace"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_mem_principalRepartitions_iff_coe_mem_globalSub",
+      "path": "Theorems/Thm_AlgebraicCurve_mem_principalRepartitions_iff_coe_mem_globalSub.lean",
+      "upstream_git_blob": "f2508d3bf40e06efb97a857e35d2a7989c1880b7",
+      "upstream_sha256": "45e39294694ba977c2c1f2413e3804f9c5ce59518376b93a40348782d984243c",
+      "current_sha256": "45e39294694ba977c2c1f2413e3804f9c5ce59518376b93a40348782d984243c",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_Repartitions",
+        "Definitions.Def_AlgebraicCurve_AdelicIndex",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_mem_principalRepartitions_iff_coe_mem_globalSub"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_weilDifferentialRankOne_of_isCurveOver",
+      "path": "Theorems/Thm_AlgebraicCurve_weilDifferentialRankOne_of_isCurveOver.lean",
+      "upstream_git_blob": "bf31cefc1d2492acd730d6e11154abe2d5f2b047",
+      "upstream_sha256": "570c90aabd7e55e73e014617c88e3312bc79edf4dc84beb14a8b24e51e549582",
+      "current_sha256": "570c90aabd7e55e73e014617c88e3312bc79edf4dc84beb14a8b24e51e549582",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_DivisorPushPull",
+        "Definitions.Def_AlgebraicCurve_Repartitions",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_AlgebraicCurve_AdelicIndex",
+        "Definitions.Def_AlgebraicCurve_RatFuncPlaces",
+        "Definitions.Def_AlgebraicCurve_RatFuncPlaceInfty",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_weilDifferentialRankOne_of_isCurveOver"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_weilDifferentialRankOne_of_stichtenothGenusExists",
+      "path": "Theorems/Thm_AlgebraicCurve_weilDifferentialRankOne_of_stichtenothGenusExists.lean",
+      "upstream_git_blob": "849a871a274b58d1a3c466309681e319e11da8c3",
+      "upstream_sha256": "98fece74aa9f23630f0b33e670629cc6f426242ffe11c775305d45c0175a89d8",
+      "current_sha256": "98fece74aa9f23630f0b33e670629cc6f426242ffe11c775305d45c0175a89d8",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_Repartitions",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_AlgebraicCurve_AdelicIndex",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_weilDifferentialRankOne_of_stichtenothGenusExists"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_weilOfKaehler_mem_omegaSpace_of_residueTheorem",
+      "path": "Theorems/Thm_AlgebraicCurve_weilOfKaehler_mem_omegaSpace_of_residueTheorem.lean",
+      "upstream_git_blob": "b179d3e25a8c3c38e1cd5cc2154a010e10dfbef7",
+      "upstream_sha256": "4c6a93a5d3d0f325d1b18c4a44dfedf92fd57ce59b82350129af49c9ed7ac7e3",
+      "current_sha256": "4c6a93a5d3d0f325d1b18c4a44dfedf92fd57ce59b82350129af49c9ed7ac7e3",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_WeilOfKaehler",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_weilOfKaehler_mem_omegaSpace_of_residueTheorem"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_weilOfKaehler_ne_zero_and_maximal",
+      "path": "Theorems/Thm_AlgebraicCurve_weilOfKaehler_ne_zero_and_maximal.lean",
+      "upstream_git_blob": "f1b7c9da9cbbdce9bea2c447cfceef31900eb923",
+      "upstream_sha256": "6c0142b5c0c249992811b32318fbcad2a35b06301f3d1533b6d912be2b798cb7",
+      "current_sha256": "6c0142b5c0c249992811b32318fbcad2a35b06301f3d1533b6d912be2b798cb7",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_WeilOfKaehler",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_weilOfKaehler_ne_zero_and_maximal"
+      ]
+    }
+  ],
+  "new_compatibility_ports": [],
+  "prior_proof_modules_modified": 0,
+  "prior_vendor_modules_modified": 0,
+  "main_reused_sources": [
+    {
+      "path": "P2M/Sol/S_AlgebraicCurve_finite_and_finrank_regularDifferentials_eq_genus.lean",
+      "scope": "Adapt the separating-transcendental rational-subfield transport argument used in RegularDifferentialsFinrank.riemannRoch_and_constantsAreBase."
+    },
+    {
+      "path": "Definitions/Def_AlgebraicCurve_CanonicalLocalResidueInstanceV2.lean",
+      "scope": "Reuse the actual completion/coefficient-field construction of canonical local residues."
+    },
+    {
+      "path": "Theorems/Thm_AlgebraicCurve_residueTheoremK_of_isAlgClosed.lean",
+      "scope": "Reuse the proved universal-family residue theorem; supply all field hypotheses and specialize to the exact selected local-residue family."
+    },
+    {
+      "path": "Theorems/Thm_AlgebraicCurve_finite_H1_and_exists_linearEquiv_dual_H1_omegaSpace.lean",
+      "scope": "Reuse the dual-cohomology/Weil-differential equivalence together with its evaluation formula on every repartition representative."
+    },
+    {
+      "path": "Theorems/Thm_AlgebraicCurve_exists_linearEquiv_regularDifferentials_omegaSpace_zero.lean",
+      "scope": "Reuse the regular/Weil equivalence together with the actual weilOfKaehler residue formula; compose with the preceding equivalence."
+    },
+    {
+      "path": "Definitions/Def_AlgebraicCurve_SerrePairing.lean",
+      "scope": "Reuse the off-chart residue pairing and its representative formula; prove compatibility with the specified composed duality."
+    }
+  ],
+  "scope": "Actual residue-normalized global-differential / dual-repartition equivalence and actual Jacobian cotangent / global-form equivalence over algebraically closed fields, for a specified cover. Residue theorem and duality hypotheses are discharged from the scheme. This does not prove the separate Frobenius cochain formula, residue/Cartier adjointness, or either geometric classification criterion."
+}

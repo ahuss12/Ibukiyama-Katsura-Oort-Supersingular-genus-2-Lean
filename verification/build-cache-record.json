@@ -1,0 +1,10 @@
+{
+  "checkpoint": 17,
+  "filename": "supersingular-mini-checkpoint-17-build-cache.tar.zst",
+  "bytes": 235720415,
+  "sha256": "c31ef1afb8f4c462c98d15a1da629fa77d0e361d31591f839d6295207268573c",
+  "cached_build_artifacts": 11018,
+  "uncompressed_build_bytes": 858295735,
+  "instructions": "verification/BUILD_CACHE.md",
+  "manifest": "verification/build-cache-manifest.json"
+}

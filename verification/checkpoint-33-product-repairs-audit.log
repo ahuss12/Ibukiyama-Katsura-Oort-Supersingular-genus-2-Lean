@@ -1,0 +1,29 @@
+import took 11.9s
+Audited 4 declarations from SupersingularCurves.Geometry.AbelianTateProductPolarization.
+Audited 4 declarations from SupersingularCurves.Geometry.AbelianTateRiemannPullback.
+Inspected 0 shared generated entries by stored type/body as well as resolved declaration.
+Checkpoint 33 transitive axiom audit passed: 8 new or repaired project declaration entries.
+Density proof port: 22 mathematical declarations passed the transitive axiom audit.
+cumulative profiling times:
+	attribute application 0.0399ms
+	compilation (IR) 3.23ms
+	compilation (LCNF base) 114ms
+	compilation (LCNF impure) 13.3ms
+	compilation (LCNF mono) 27.8ms
+	do element elaborator 63.2ms
+	elaboration 11.5ms
+	fix level params 0.117ms
+	import 11.9s
+	initialization 29.3ms
+	instantiate metavars 0.00826ms
+	interpretation 462ms
+	let-to-have transformation 0.0466ms
+	linting 3.66ms
+	module linting 0.0122ms
+	overlappingInstancesLinter 1.6ms
+	parsing 4.31ms
+	process pre-definitions 35.4ms
+	share common exprs 0.928ms
+	tacticAnalysis 8.37ms
+	type checking 3.4ms
+	typeclass inference 41.3ms

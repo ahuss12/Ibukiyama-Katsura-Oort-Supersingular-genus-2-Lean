@@ -1,0 +1,69 @@
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.nonempty_quotient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.nonempty_quotient_of_projectiveImmersion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.nonempty_quotient_of_isAlgClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.isIsogeny' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.finrank_eq_subgroup' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.pointMap_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.desc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.map_desc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.desc_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.desc_isIsogeny' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.desc_flat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.multiplication' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.multiplication_left' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.multiplication_isIsogeny' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.multiplicationFactor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.map_multiplicationFactor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.multiplicationFactor_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.multiplicationFactor_isIsogeny' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.subgroup_rank_mul_multiplicationFactor_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.exists_mem_range_eq_of_bounded_preimages' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.exists_padic_mem_range_eq_of_bounded_preimages' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.blockDiagonal' depends on axioms: [propext, Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.eq_zero_of_blockDiagonal_of_range_in_graph' depends on axioms: [propext,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.exists_cross_component_of_mem_span_of_range_in_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

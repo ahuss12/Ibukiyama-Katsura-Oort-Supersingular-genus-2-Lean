@@ -1,0 +1,3 @@
+import SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentScheme
+#print axioms SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.exists_fixedField_scheme_model
+#print axioms SupersingularCurves.Geometry.AbelianVariety.exists_finiteField_scheme_model_of_verschiebungCotangent_eq_zero

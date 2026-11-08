@@ -1,0 +1,41 @@
+{
+  "checkpoint": 31,
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateQuotientDegree.lean",
+      "sha256": "93e643998b0b75898208a5614830b573b13a1ec1d70c44b6549f8a195a2ea6f6"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateQuotientPairing.lean",
+      "sha256": "fc0b1383b54f0f1db6d225789ce9a52e0c816a6e5023bc7e4e6403c4d6715963"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateGraphQuotients.lean",
+      "sha256": "250853a852981b9f750728ef728e1d361e2115a4eeb84320bc17d34b2591a638"
+    }
+  ],
+  "vendor_additions": [],
+  "new_compatibility_ports": [],
+  "draft_modules_excluded_from_build_and_proved_inventory": [
+    {
+      "path": "drafts/checkpoint31/SupersingularCurves/Geometry/AbelianIsogenyRootNumerics.lean",
+      "sha256": "ebc4faf93ca61c143758f31408deada8febca2997f159557bb8254f206e04da0"
+    },
+    {
+      "path": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+      "sha256": "e08d21b45a9f209302344df565026601b277132b72b81c65926ead54f2987517"
+    },
+    {
+      "path": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarizedFiniteModels.lean",
+      "sha256": "dc48e80dfb3334827119e3ad686c22e5e288bd298f8ffe586bf56185883ab0fd"
+    },
+    {
+      "path": "drafts/checkpoint31/SupersingularCurves/Geometry/ScalarFrobeniusPolarizedDescentRank.lean",
+      "sha256": "20ac463829243dde1601b44f16bdc9d917c59f7afa4be95749e54ca095e1d06c"
+    },
+    {
+      "path": "drafts/checkpoint31/SupersingularCurves/Geometry/ScalarFrobeniusTateQuotientRoots.lean",
+      "sha256": "0954fb52635fe24d587c63b3ea97d91710993c857a86f0a7c2d7cb75ad89ea99"
+    }
+  ]
+}

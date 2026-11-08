@@ -1,0 +1,6 @@
+'SupersingularCurves.Geometry.FiniteQuotientGeometry.topologicalKrullDim_eq_of_finite_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FiniteQuotientGeometry.smoothOfRelativeDimension_of_finite_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

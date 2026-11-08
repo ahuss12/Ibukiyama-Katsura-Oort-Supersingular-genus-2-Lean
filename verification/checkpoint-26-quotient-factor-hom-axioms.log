@@ -1,0 +1,30 @@
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.frobeniusFactor_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.verschiebungFactor_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.frobeniusFactor_isMonHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.verschiebungFactor_isMonHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.frobeniusFactorHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.verschiebungFactorHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.frobeniusFactorHom_left' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.verschiebungFactorHom_left' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.frobeniusFactorHom_isIsogeny' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.verschiebungFactorHom_isIsogeny' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

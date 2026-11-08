@@ -1,0 +1,28 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldScalarHom.frobenius_fixedBase' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldScalarHom.coefficientSquare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldScalarHom.baseChange_multiplication_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldScalarHom.multiplication_coefficientSquare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldScalarHom.hom_projection_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldScalarHom.changeBase_projection_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.frobeniusSquare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.geometricPoints_frobeniusSquare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.integralGaloisRep_frobeniusSquare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.rationalGaloisRep_frobeniusSquare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

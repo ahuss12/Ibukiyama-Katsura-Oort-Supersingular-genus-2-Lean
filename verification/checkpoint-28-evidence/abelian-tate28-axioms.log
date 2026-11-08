@@ -1,0 +1,31 @@
+'SupersingularCurves.Geometry.AbelianVariety.natCard_torsionBy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.finite_free_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.integralMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.rationalMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.geometric_finite_free_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.integralGaloisRep' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.rationalGaloisRep' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.integralMap_multiplication' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.rationalMap_multiplication' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.rationalEquivOfQuasiInverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.quotientRationalEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.geometricIntegralMap_galois' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.geometricRationalMap_galois' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

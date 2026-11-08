@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-19",
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "upstream_recursive_response_truncated": true,
+  "indexed_solution_modules": 29511,
+  "scope": "Read the restored project and relevant selected vendor definitions/proofs; searched the available pinned upstream filename index and inspected relevant additional raw source files. Not a claim to have audited every upstream proof body.",
+  "filename_searches": [
+    {
+      "pattern": "superspecial|aNumber|pRank|isocrys",
+      "matching_solution_paths": []
+    },
+    {
+      "pattern": "(cartier|frobenius).*(cotangent|Jacobian|RelPicard)",
+      "matching_solution_paths": [
+        "P2M/Sol/S_HopfAlgebra_finrank_primitives_cartierDual_eq_finrank_cotangentSpace.lean",
+        "P2M/Sol/S_PDivisibleGroup_CartierDuality_charElem_mul_and_charDiff_mul_and_lTensor_cotangentMap_charDiff.lean",
+        "P2M/Sol/S_PDivisibleGroup_CartierDuality_exists_addMonoidHom_tangentSpace_cpoints_pair_eq_sum_pow_of_ker_cotangentModuleProj_eq.lean",
+        "P2M/Sol/S_PDivisibleGroup_CartierDuality_finrank_cotangent_one_add_finrank_cotangent_one_eq_height.lean"
+      ]
+    },
+    {
+      "pattern": "(Jacobian|RelPicard).*(cartierOperator|frobenius)",
+      "matching_solution_paths": [
+        "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_IsFormalCoordinates_val_apply_pow_eq_specMap_frobenius_comp_val_apply.lean",
+        "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_comp_schemeNsmul_eq_of_comp_frobenius_eq_of_isCommutative.lean"
+      ]
+    }
+  ],
+  "result": "No ready-to-apply theorem establishing the two requested geometric equivalences or the full Cartier--Jacobian-Verschiebung comparison was located. Genuine local cotangent, tangent-point, Picard representability, and curve-pullback constructions were found and reused.",
+  "targets_completed": false
+}

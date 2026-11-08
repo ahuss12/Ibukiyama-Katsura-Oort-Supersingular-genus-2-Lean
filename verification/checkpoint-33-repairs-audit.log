@@ -1,0 +1,34 @@
+import took 9.59s
+Audited 4 declarations from SupersingularCurves.Geometry.AbelianTateProductPolarization.
+Audited 4 declarations from SupersingularCurves.Geometry.AbelianTateRiemannPullback.
+Audited 178 declarations from P2M.Sol.S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.
+Inspected 0 shared generated entries by stored type/body as well as resolved declaration.
+Checkpoint 33 transitive axiom audit passed: 186 new or repaired project declaration entries.
+interpretation of _private.verification.Checkpoint33RepairsAudit.0._eval._boxed took 102ms
+Density proof port: 22 mathematical declarations passed the transitive axiom audit.
+'P2MW.S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.solution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.0348ms
+	compilation (IR) 8.03ms
+	compilation (LCNF base) 120ms
+	compilation (LCNF impure) 24.3ms
+	compilation (LCNF mono) 35.4ms
+	do element elaborator 64.1ms
+	elaboration 12.6ms
+	fix level params 0.0876ms
+	import 9.59s
+	initialization 70.5ms
+	instantiate metavars 0.00741ms
+	interpretation 514ms
+	let-to-have transformation 0.0441ms
+	linting 3.22ms
+	module linting 0.00125ms
+	overlappingInstancesLinter 1.27ms
+	parsing 3.75ms
+	process pre-definitions 44.5ms
+	share common exprs 1.03ms
+	tacticAnalysis 10.3ms
+	type checking 3.12ms
+	typeclass inference 42.4ms

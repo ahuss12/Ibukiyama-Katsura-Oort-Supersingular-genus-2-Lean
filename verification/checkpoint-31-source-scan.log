@@ -1,0 +1,1 @@
+PASS: 5002 project/vendor Lean sources contain no forbidden proof-admission or native-evaluation markers.

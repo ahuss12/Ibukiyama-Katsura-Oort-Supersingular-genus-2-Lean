@@ -1,0 +1,93 @@
+{
+  "checkpoint": 21,
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/CartierResidueAdjoint.lean",
+      "sha256": "0836e59c48d91f02f25710ceddce164a8f5ad11c0d980b1db5950230e23e1e58",
+      "origin": "recovered draft, reviewed and compiled",
+      "recovered_draft_sha256": "0836e59c48d91f02f25710ceddce164a8f5ad11c0d980b1db5950230e23e1e58",
+      "changed_after_recovery": false
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CartierResidueLocal.lean",
+      "sha256": "2681918c0829db8d66cc686224f17dcd2f99b4a91adbc1bc06ed98e2ab44fdd7",
+      "origin": "recovered draft, reviewed and compiled",
+      "recovered_draft_sha256": "2681918c0829db8d66cc686224f17dcd2f99b4a91adbc1bc06ed98e2ab44fdd7",
+      "changed_after_recovery": false
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CartierTransport.lean",
+      "sha256": "717fa440fd6fedcd7d1cf86004f52f6c0c1f4e2bdc69560d4b62a096248f161f",
+      "origin": "recovered draft, reviewed and compiled",
+      "recovered_draft_sha256": "717fa440fd6fedcd7d1cf86004f52f6c0c1f4e2bdc69560d4b62a096248f161f",
+      "changed_after_recovery": false
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CartierVerschiebung.lean",
+      "sha256": "05c7779a746fb321879b9ec6063e95052b853fb70dac4210093e4361f831cc4b",
+      "origin": "recovered draft, reviewed and compiled",
+      "recovered_draft_sha256": "6809ec1f82ed79c379a3931a369f8e731ff6570c65d20754387108fb0bdedb8a",
+      "changed_after_recovery": true
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusCechSemilinear.lean",
+      "sha256": "67284c0d70bebacee0857b75eef318015cd3b6b17cbd2d4210f3f8ea381320ff",
+      "origin": "recovered draft, reviewed and compiled",
+      "recovered_draft_sha256": "67284c0d70bebacee0857b75eef318015cd3b6b17cbd2d4210f3f8ea381320ff",
+      "changed_after_recovery": false
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusDifferentialTwist.lean",
+      "sha256": "46ce337b0d38ae4776ea4dbef8e6fdb04f00f0e973eae12d885daba299b11e47",
+      "origin": "recovered draft, reviewed and compiled",
+      "recovered_draft_sha256": "46ce337b0d38ae4776ea4dbef8e6fdb04f00f0e973eae12d885daba299b11e47",
+      "changed_after_recovery": false
+    },
+    {
+      "path": "SupersingularCurves/Geometry/GlobalCartier.lean",
+      "sha256": "f35799da8e55155d22781d4fbd81b1b7db9ec0352a18820a126ed9a0f7ba3c82",
+      "origin": "recovered draft, reviewed and compiled",
+      "recovered_draft_sha256": "f35799da8e55155d22781d4fbd81b1b7db9ec0352a18820a126ed9a0f7ba3c82",
+      "changed_after_recovery": false
+    },
+    {
+      "path": "SupersingularCurves/Geometry/GlobalCartierModels.lean",
+      "sha256": "58f957844e041f2e57008292e620606a8321b5283f0b240cc1fc468f82dd00e0",
+      "origin": "recovered draft, reviewed and compiled",
+      "recovered_draft_sha256": "58f957844e041f2e57008292e620606a8321b5283f0b240cc1fc468f82dd00e0",
+      "changed_after_recovery": false
+    },
+    {
+      "path": "SupersingularCurves/Geometry/JacobianFrobeniusUntwist.lean",
+      "sha256": "0e94ac3bbe6993c86599a0ef2c27c088ba13c8a192c15eec5cba4f23082f85a4",
+      "origin": "recovered draft, reviewed and compiled",
+      "recovered_draft_sha256": "0e94ac3bbe6993c86599a0ef2c27c088ba13c8a192c15eec5cba4f23082f85a4",
+      "changed_after_recovery": false
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/GenusTwoPRank.lean",
+      "sha256": "df3fce3c595e33aa7b7b9191ce1e818b895254fc1a4a27180cc8afac3c122aae",
+      "origin": "new proof written in this continuation"
+    },
+    {
+      "path": "SupersingularCurves/IKO/GenusTwoFixedVectors.lean",
+      "sha256": "629a0b540175eeacf4391e096b41fd1f095f5769ed41c62ce56182d0433bcc55",
+      "origin": "new proof written in this continuation"
+    },
+    {
+      "path": "SupersingularCurves/IKO/VerschiebungCriteria.lean",
+      "sha256": "a2d302b61a23a8bfada43444630e7b1ed61912b867a8cb52dd12985561b5ffc2",
+      "origin": "recovered draft, reviewed and compiled",
+      "recovered_draft_sha256": "9c6059eba0085a479bccc956c98edcc5796e9992ec6b7fcc81e0d7056b495023",
+      "changed_after_recovery": true
+    }
+  ],
+  "vendor_additions": [],
+  "new_compatibility_ports": [],
+  "scope": "Ten recovered drafts repaired/reviewed, plus two new general p-rank modules. No prior proof module or vendor source changed.",
+  "repairs": {
+    "SupersingularCurves/Geometry/CartierVerschiebung.lean": "Explicit K annotation for pth-power typeclass inference.",
+    "SupersingularCurves/IKO/VerschiebungCriteria.lean": "Use definitional equality directly, not-congruence for negated criteria, valid field notation and explicit characteristic-three field parameter."
+  },
+  "dependencies": "Existing pinned FLT/mathlib import closure; no new upstream downloads."
+}

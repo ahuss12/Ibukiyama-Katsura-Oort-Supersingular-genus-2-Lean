@@ -1,0 +1,56 @@
+{
+  "checkpoint": 20,
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/CechCurvePullback.lean",
+      "sha256": "0beacbd5cb9d70f7b19d179b10de78f90312ab96944b19899de9de06aaad04ce"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CechGluingPullback.lean",
+      "sha256": "f90d62d48bd8f784b97683ab88e69562762411f5dda9ca6a278fcd8d89c6fc44"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusCechPullback.lean",
+      "sha256": "562d4b023c782279aca9276d02a1b8fa6c803bbba45deb2bf1691570e0bfda26"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CechCurveBaseChange.lean",
+      "sha256": "3e2941077ec83b0b5e8a6394eefcfc103219d1cc8d231f12d9af757f48888a48"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CechCocycleNaturality.lean",
+      "sha256": "81f0107c2c19c2f1b4efeab7a58a4e5d9f1b997e8a3b7279d7f15abdaf7f4e7f"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CechDeformationNaturality.lean",
+      "sha256": "266a0ea84e1129b00d339af73e7e6ea1de5bf72db0c58d748bb860795c918538"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusCechComparison.lean",
+      "sha256": "fa6ba822d3b99a052cbb62128fc3b83bc4038550f56328bf7553f1fc64fd840a"
+    }
+  ],
+  "prior_proof_modules_modified": 0,
+  "prior_vendor_modules_modified": 0,
+  "new_compatibility_ports": [],
+  "scope": "Actual curve-pullback on Cech cochains; normalized line-bundle pullback and deformation-cocycle naturality; actual relative-Frobenius section/cochain formulas; independent Jacobian Verschiebung tangent and dual-cohomology comparison. Does not prove residue/Cartier adjointness, Cartier=V, or geometric superspecial/supersingular classification.",
+  "proof_attribution": [
+    {
+      "source": "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_exists_sectionsOf_pullback_stageHom_equiv_lineBundle_appLE.lean",
+      "use": "Adapt normalization of local frames and transition-function argument from stage change to arbitrary compatible curve morphisms."
+    },
+    {
+      "source": "Theorems/Thm_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_baseChange_sections_linearEquiv_pullback_of_le.lean",
+      "use": "Reuse actual affine pullback section equivalence to construct normalized pulled-back local frames."
+    },
+    {
+      "source": "P2M/Sol/S_AlgebraicGeometry_RelPicard_exists_trivialModDeformations_map_H1_tensor_natural.lean",
+      "use": "Reuse E01 with its specified tensor formula, actual Nset normalized transition-unit construction, existence and independence from frames. Prove the additional curve-morphism naturality, keeping square-zero coefficients fixed."
+    },
+    {
+      "source": "Definitions/Def_AlgebraicGeometry_ModulesPullbackLocalSection.lean",
+      "use": "Reuse actual pullback local-section construction and restriction/scalar lemmas."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+import SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentTensor
+#print axioms SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.invariantTensorPowerIso
+#print axioms SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.invariantTensorPower_properties

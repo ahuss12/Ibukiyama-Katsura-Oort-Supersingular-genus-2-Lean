@@ -1,0 +1,26 @@
+{
+  "checkpoint": 31,
+  "completed_at_utc": "2026-09-28T04:57:14.466547+00:00",
+  "build_target": "SupersingularCurves.Geometry.ScalarFrobeniusTateGraphQuotients",
+  "build_exit_code": 0,
+  "audit_exit_code": 0,
+  "public_theorems_checked": 10,
+  "stored_declaration_entries_audited": 12,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "original_project_sources_unchanged": 332,
+  "original_vendor_lean_files_unchanged": 4667,
+  "full_aggregate_rerun": false,
+  "historical_examples_rerun": false,
+  "draft_modules_not_checked": 5,
+  "draft_public_theorems_not_checked": 22,
+  "abandoned_experiment": "Combined-source checking did not preserve upstream module isolation; no result from that experiment is certified.",
+  "initial_broader_build": "Interrupted while rebuilding missing dependencies; never reached the five draft modules.",
+  "source_integrity_exit_code": 0,
+  "source_scan_exit_code": 0,
+  "lean_sources_scanned": 5002,
+  "all_current_checks_passed": true
+}

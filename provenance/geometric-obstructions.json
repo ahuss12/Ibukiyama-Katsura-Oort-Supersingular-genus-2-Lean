@@ -1,0 +1,37 @@
+{
+  "checkpoint": 11,
+  "scope": "New forward geometric implications; no classification converse asserted.",
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/PointBaseChange.lean",
+      "sha256": "7894c1259165edd69104d459bb78271986a6490775c66345ab7ff18d38cd606f"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/SuperspecialTorsion.lean",
+      "sha256": "4358ebe4b9ecd5402cb6d76b553aae1945f5cddd434532d5b6b317951f824ac9"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/JacobianIndependence.lean",
+      "sha256": "6cdc96ae534280e825acb5f6e797423540fca27557bcc24c59602cf6f237d1f2"
+    },
+    {
+      "path": "SupersingularCurves/IKO/GeometricObstructions.lean",
+      "sha256": "0ff1be5e948935bc1b6d88092b79aafd08bcd4d571e301832fdc485ba157581b"
+    },
+    {
+      "path": "SupersingularCurves/IKO/SuperspecialParameters.lean",
+      "sha256": "03846f521e12130ba774872160c4fbe81c5014c2d43a6d3bb87e069ae5b15dae"
+    }
+  ],
+  "main_reused_theorems": [
+    "Mathlib: field extension is faithfully flat; flat surjective quasicompact pullback is faithful; group-object forgetful functor creates limits",
+    "AlgebraicGeometry.RelPicard.exists_pic0_equiv_points_abelJacobi_of_curveModel",
+    "AlgebraicGeometry.geometricallyIntegral_of_isAlgClosed",
+    "P2MW.S_AlgebraicCurve_CurveModel_exists_representsRelSubPic_abelJacobi_of_isAlgClosed.P2mJacK.essFiniteType_of_curveModel",
+    "Retained project actual Jacobian p-rank/root criteria, Cartier criteria, and polynomial root counts"
+  ],
+  "new_vendor_modules": 0,
+  "prior_proof_modules_modified": 0,
+  "independence_scope": "p-rank and torsion cardinalities are independent of representing Jacobian and base point; no group-scheme uniqueness theorem is claimed",
+  "mathematical_reference": "IKO, Supersingular curves of genus two and class numbers (1986), Lemma 1.1(ii); this proves its forward implication for the two explicit families through the already checked p-rank computations, not the full general lemma."
+}

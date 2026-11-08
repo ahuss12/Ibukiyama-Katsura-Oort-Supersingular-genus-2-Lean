@@ -1,0 +1,29 @@
+{
+  "source_archive": "supersingular-genus-5-checkpoint-12-legendre-cartier-verified-2026-09-14(1).zip",
+  "source_archive_sha256": "c47db3db8867a6f70314f1755e9e3f5bab457b77a0c0cc3b653b36a6af9cf91a",
+  "adaptation": "Quadratic degree-two Kummer and fibre arguments generalized from the earlier quartic field. Six public declarations retain this proof structure. Root-set enumeration, the separable degree-five/six branch analysis, the dimension bridge, and full IKO bases are new. Original source and provenance retained.",
+  "modules": [
+    {
+      "original_path": "supersingular-genus-5/SupersingularGenus5/Direct/Ramification.lean",
+      "original_sha256": "4b2eed1ceab1c52b10735e5777dc37704915f9be7ef127f4fc776cbc41f208bb",
+      "new_path": "SupersingularCurves/Hyperelliptic/Ramification.lean",
+      "generalized_declarations": [
+        "SupersingularCurves.Hyperelliptic.SimpleRootModel.ramificationIndex_formula",
+        "SupersingularCurves.Hyperelliptic.SimpleRootModel.inertiaDeg_eq_one",
+        "SupersingularCurves.Hyperelliptic.SimpleRootModel.sum_ramificationIndex_fiber",
+        "SupersingularCurves.Hyperelliptic.SimpleRootModel.card_fiber_mul_ramificationIndex",
+        "SupersingularCurves.Hyperelliptic.SimpleRootModel.ramification_contribution_fiber"
+      ],
+      "new_sha256": "3b060dbea1e070d95d12b02b393214251706b488b7c1f0c738742bd6b0a7064b"
+    },
+    {
+      "original_path": "supersingular-genus-5/SupersingularGenus5/Direct/Genus.lean",
+      "original_sha256": "3ad3665e052eb50eb6192a5063618e768b87d0645e62e2e3c5077e5da8c436a2",
+      "new_path": "SupersingularCurves/Hyperelliptic/Genus.lean",
+      "generalized_declarations": [
+        "SupersingularCurves.Hyperelliptic.SimpleRootModel.genus_eq_two"
+      ],
+      "new_sha256": "1b2ddf4b32fac316b019d502c66b35ab0b0e4acf139f128e50c6ee7abb96e559"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "checkpoint": 30,
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/PadicLatticeCompactness.lean",
+      "sha256": "2a40244090d9136cb0b18efc596593675e24991c3b42ab1a840da7ead6d7618a"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/PadicLatticeOperators.lean",
+      "sha256": "0448c74a4ca1a2bd708ab9219c7996b99da831c5533b21b9ed5faa67a93b3a93"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateRecurrence.lean",
+      "sha256": "88ee9e51e4eb2bb29a49b73c9c24e224cca4779b390bb0cecb9f601fd7a00240"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateFiniteModels.lean",
+      "sha256": "46e09cf6e7dfef57fdae442e56c36bf898ea36245700eeae65397a5481f8e23c"
+    }
+  ],
+  "vendor_additions": [],
+  "new_compatibility_ports": []
+}

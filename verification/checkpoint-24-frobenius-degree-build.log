@@ -1,0 +1,481 @@
+✔ [8764/8781] Built P2M.Sol.S_Module_Flat_of_flat_of_faithfullyFlat_right (3.2s)
+✔ [8765/8781] Built P2M.Sol.S_MvPolynomial_isStandardSmoothOfRelativeDimension_natCard (5.9s)
+⚠ [8766/8781] Built P2M.Sol.S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension (6.5s)
+warning: P2M/Sol/S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension.lean:37:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension.lean:38:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension.lean:49:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension.lean:57:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension.lean:58:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension.lean:81:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension.lean:83:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension.lean:91:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension.lean:106:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension.lean:108:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension.lean:110:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension.lean:112:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8767/8781] Built P2M.Sol.S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow (6.7s)
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:17:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:30:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:31:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:33:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:125:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:127:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:130:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:157:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:182:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:184:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:184:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:188:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: P2M/Sol/S_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow.lean:202:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8768/8781] Built Theorems.Thm_Module_Flat_of_flat_of_faithfullyFlat_right (2.7s)
+⚠ [8769/8781] Built P2M.Sol.S_RingHom_Etale_isPushout_frobenius (9.3s)
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:31:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:32:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:102:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:107:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:208:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:228:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:232:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:233:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:237:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:238:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:239:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:240:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:245:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:246:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_RingHom_Etale_isPushout_frobenius.lean:257:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8770/8781] Built Theorems.Thm_MvPolynomial_isStandardSmoothOfRelativeDimension_natCard (6.3s)
+✔ [8771/8781] Built Theorems.Thm_Algebra_Etale_of_formallyUnramified_of_isStandardSmoothOfRelativeDimension (5.0s)
+✔ [8772/8781] Built Theorems.Thm_MvPolynomial_finite_and_flat_and_finrank_expand_eq_pow (5.5s)
+✔ [8773/8781] Built P2M.Sol.S_AlgebraicGeometry_Flat_of_comp_of_isAffineHom_of_flat_of_surjective (3.3s)
+✔ [8774/8781] Built Theorems.Thm_RingHom_Etale_isPushout_frobenius (6.4s)
+⚠ [8775/8781] Built P2M.Sol.S_Algebra_IsStandardSmoothOfRelativeDimension_exists_etale_aeval (6.2s)
+warning: P2M/Sol/S_Algebra_IsStandardSmoothOfRelativeDimension_exists_etale_aeval.lean:25:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_IsStandardSmoothOfRelativeDimension_exists_etale_aeval.lean:40:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_IsStandardSmoothOfRelativeDimension_exists_etale_aeval.lean:42:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Algebra_IsStandardSmoothOfRelativeDimension_exists_etale_aeval.lean:53:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8776/8781] Built Theorems.Thm_AlgebraicGeometry_Flat_of_comp_of_isAffineHom_of_flat_of_surjective (2.8s)
+✔ [8777/8781] Built Theorems.Thm_Algebra_IsStandardSmoothOfRelativeDimension_exists_etale_aeval (5.6s)
+⚠ [8778/8781] Built P2M.Sol.S_AlgebraicGeometry_Flat_of_comp_of_flat_of_surjective (5.0s)
+warning: P2M/Sol/S_AlgebraicGeometry_Flat_of_comp_of_flat_of_surjective.lean:16:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_Flat_of_comp_of_flat_of_surjective.lean:17:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_Flat_of_comp_of_flat_of_surjective.lean:18:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_Flat_of_comp_of_flat_of_surjective.lean:20:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_Flat_of_comp_of_flat_of_surjective.lean:30:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_Flat_of_comp_of_flat_of_surjective.lean:31:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_Flat_of_comp_of_flat_of_surjective.lean:32:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8779/8781] Built P2M.Sol.S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius (7.9s)
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:96:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:105:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:112:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:120:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:129:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:145:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:146:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:147:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:159:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:167:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:184:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:186:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:187:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius.lean:81:18: Variable name `hF` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hF
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8780/8781] Built Theorems.Thm_AlgebraicGeometry_Flat_of_comp_of_flat_of_surjective (5.4s)
+✔ [8781/8781] Built Theorems.Thm_AlgebraicGeometry_SmoothOfRelativeDimension_finrank_eq_pow_of_isPullback_frobenius (5.5s)
+Build completed successfully (8781 jobs).

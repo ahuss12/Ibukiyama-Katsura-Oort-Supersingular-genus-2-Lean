@@ -1,0 +1,24 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.exists_pow_mul_eq_zero_of_finiteBySections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.exists_pow_eq_zero_of_finiteBySections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.denseRange_of_finiteBySections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.universallyClosed_of_finiteBySections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.isIso_basicOpen_of_finiteBySections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.isIso_canonicalToProj_of_finiteBySections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.exists_sectionRing_model_of_finiteBySections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.exists_frobeniusSquare_sectionRing_model' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

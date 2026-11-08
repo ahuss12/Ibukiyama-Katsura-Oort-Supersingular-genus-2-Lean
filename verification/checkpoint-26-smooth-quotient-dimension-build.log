@@ -1,0 +1,965 @@
+⚠ [8765/8788] Replayed Definitions.Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:66:8: Overlapping instance parameters in `NeronModelPropertyBundle.smooth_mathlibSpelling`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:70:8: Overlapping instance parameters in `NeronModelPropertyBundle.isSeparated_mathlibSpelling`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:74:8: Overlapping instance parameters in `NeronModelPropertyBundle.locallyOfFiniteType_mathlibSpelling`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:78:8: Overlapping instance parameters in `NeronModelPropertyBundle.quasiCompact_mathlibSpelling`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:82:8: Overlapping instance parameters in `NeronModelPropertyBundle.neronMapping_bijective`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:88:8: Overlapping instance parameters in `neronModelPropertyBundle_iff_propertyList`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:95:8: Overlapping instance parameters in `NeronModelPropertyBundle.existsUnique_extension`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:174:8: Overlapping instance parameters in `neronModelPropertyBundle_id`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+⚠ [8768/8788] Replayed Definitions.Def_AlgebraicGeometry_NeronModelEndomorphismExtension
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:105:8: Overlapping instance parameters in `NeronModelPropertyBundle.homRestrict_bijective`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:110:8: Overlapping instance parameters in `NeronModelPropertyBundle.endRestrict_bijective`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:114:8: Overlapping instance parameters in `NeronModelPropertyBundle.existsUnique_endExtension`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:120:8: Overlapping instance parameters in `NeronModelPropertyBundle.exists_endExtension_hom`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:129:8: Overlapping instance parameters in `NeronModelPropertyBundle.endExtension_unique_hom`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:136:8: Overlapping instance parameters in `NeronModelPropertyBundle.integralPoints_bijective`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:149:18: Overlapping instance parameters in `NeronModelPropertyBundle.endExtensionEquiv`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:157:8: Overlapping instance parameters in `NeronModelPropertyBundle.endExtensionEquiv_apply`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:163:8: Overlapping instance parameters in `NeronModelPropertyBundle.endExtensionEquiv_symm_restrict`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:170:8: Overlapping instance parameters in `NeronModelPropertyBundle.restrict_endExtensionEquiv_symm`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:178:8: Overlapping instance parameters in `NeronModelPropertyBundle.endExtensionEquiv_symm_id`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:187:8: Overlapping instance parameters in `NeronModelPropertyBundle.endExtensionEquiv_symm_comp`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:197:8: Overlapping instance parameters in `NeronModelPropertyBundle.endExtensionEquiv_symm_commute`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:206:8: Overlapping instance parameters in `NeronModelPropertyBundle.endExtensionEquiv_symm_involution`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:224:8: Overlapping instance parameters in `NeronModelPropertyBundle.existsUnique_familyExtension`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelEndomorphismExtension.lean:236:8: Overlapping instance parameters in `NeronModelPropertyBundle.familyExtension_relation`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+⚠ [8769/8788] Replayed Definitions.Def_AlgebraicGeometry_NeronSpecialFibreRestriction
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:181:4: Overlapping instance parameters in `neronEndRestrictEquiv`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:188:8: Overlapping instance parameters in `neronEndRestrictEquiv_apply`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:193:4: Overlapping instance parameters in `neronEndExtension`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:200:8: Overlapping instance parameters in `genericFibreRestrict_neronEndExtension`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:207:8: Overlapping instance parameters in `neronEndExtension_eq_of_restrict`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:217:8: Overlapping instance parameters in `neronEndExtension_genericFibreRestrict`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:222:8: Overlapping instance parameters in `neronEndExtension_homOverId`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:227:8: Overlapping instance parameters in `neronEndExtension_homOverComp`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:243:4: Overlapping instance parameters in `neronSpecialFibreTransfer`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:251:8: Overlapping instance parameters in `neronSpecialFibreTransfer_eq_of_restrict`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:259:8: Overlapping instance parameters in `specialFibreRestrict_congr_genericFibre`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:265:8: Overlapping instance parameters in `exists_neronExtension_specialFibreRestrict`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:273:8: Overlapping instance parameters in `neronSpecialFibreTransfer_homOverId`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean:281:8: Overlapping instance parameters in `neronSpecialFibreTransfer_homOverComp`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+⚠ [8772/8788] Replayed P2M.Sol.S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:16:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:47:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:49:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:55:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:80:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:86:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:87:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:89:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:90:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:92:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:95:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:100:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:146:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:163:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:167:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:178:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:180:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean:185:0: 'P2MW.S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.solution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [8776/8788] Replayed P2M.Sol.S_AlgebraicGeometry_Smooth_exists_mem_and_smoothOfRelativeDimension_opensInclusion_comp
+warning: P2M/Sol/S_AlgebraicGeometry_Smooth_exists_mem_and_smoothOfRelativeDimension_opensInclusion_comp.lean:17:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_Smooth_exists_mem_and_smoothOfRelativeDimension_opensInclusion_comp.lean:29:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_Smooth_exists_mem_and_smoothOfRelativeDimension_opensInclusion_comp.lean:30:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8778/8788] Replayed P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_exists_smoothOfRelativeDimension_of_smooth
+warning: P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_exists_smoothOfRelativeDimension_of_smooth.lean:21:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_exists_smoothOfRelativeDimension_of_smooth.lean:70:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_exists_smoothOfRelativeDimension_of_smooth.lean:72:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_exists_smoothOfRelativeDimension_of_smooth.lean:73:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_exists_smoothOfRelativeDimension_of_smooth.lean:76:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8780/8788] Replayed P2M.Sol.S_AlgebraicGeometry_topologicalKrullDim_preimage_eq_of_isFinite_of_surjective
+warning: P2M/Sol/S_AlgebraicGeometry_topologicalKrullDim_preimage_eq_of_isFinite_of_surjective.lean:55:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_topologicalKrullDim_preimage_eq_of_isFinite_of_surjective.lean:134:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_topologicalKrullDim_preimage_eq_of_isFinite_of_surjective.lean:127:17: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8782/8788] Replayed P2M.Sol.S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:18:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:63:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:102:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:106:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:108:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:124:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:126:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:127:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:129:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:150:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:158:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:159:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:246:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:259:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:261:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:262:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:264:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:276:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:290:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:298:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:310:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:320:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:333:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:334:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:341:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Ideal_height_add_ringKrullDim_quotient_eq_ringKrullDim_of_finiteType.lean:364:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8784/8788] Replayed P2M.Sol.S_AlgebraicGeometry_SmoothOfRelativeDimension_le_topologicalKrullDim
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_le_topologicalKrullDim.lean:28:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_le_topologicalKrullDim.lean:37:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_le_topologicalKrullDim.lean:38:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_le_topologicalKrullDim.lean:40:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_le_topologicalKrullDim.lean:42:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_le_topologicalKrullDim.lean:36:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_le_topologicalKrullDim.lean:57:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_le_topologicalKrullDim.lean:70:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_le_topologicalKrullDim.lean:82:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8786/8788] Replayed P2M.Sol.S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:32:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:69:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:71:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:72:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:73:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:75:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:78:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:79:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:85:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:86:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:94:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:96:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:133:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:134:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:135:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:151:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:152:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_topologicalKrullDim_le.lean:170:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8788/8788] Built SupersingularCurves.Geometry.SmoothFiniteQuotientDimension (6.0s)
+Build completed successfully (8788 jobs).

@@ -1,0 +1,57 @@
+{
+  "checkpoint": 19,
+  "started_at_utc": "2026-09-20T00:14:26.729289+00:00",
+  "verification_mode": "Full project build with existing checked artifacts; current provenance and source checks; new actual-curve residue integration suite; all declarations of four new project modules and 17 added vendor modules transitively audited. Prior full audit and eight prior suites retained with unchanged sources, not re-executed.",
+  "retained_proof_modules": 74,
+  "new_proof_modules": 4,
+  "public_theorems": 584,
+  "new_public_theorems": 19,
+  "new_vendor_modules": 17,
+  "required_current_checks": [
+    "checkpoint-19-project-build.log",
+    "checkpoint-19-source-audit.log",
+    "residue-examples.log",
+    "checkpoint-19-axiom-audit.log"
+  ],
+  "prior_full_audit": {
+    "checkpoint": 17,
+    "project_declarations": 1631,
+    "vendor_declarations": 26817,
+    "log": "verification/checkpoint-17-axiom-audit.log"
+  },
+  "prior_incremental_audit": {
+    "checkpoint": 18,
+    "project_declarations": 56,
+    "log": "verification/checkpoint-18-axiom-audit.log"
+  },
+  "complete_cotangent_global_forms_comparison": true,
+  "complete_cartier_v_identity": false,
+  "complete_geometric_criteria": false,
+  "all_current_checks_passed": true,
+  "completed_at_utc": "2026-09-20T00:21:52.045168+00:00",
+  "build_exit_code": 0,
+  "source_checks_exit_code": 0,
+  "residue_examples_exit_code": 0,
+  "new_module_axiom_audit_exit_code": 0,
+  "new_module_declaration_entries_audited": 359,
+  "new_project_declarations_audited": 50,
+  "new_vendor_declaration_entries_audited": 309,
+  "shared_generated_entries_also_audited_by_stored_type_and_body": 1,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "full_previous_audit_rerun": false,
+  "proof_sources_unchanged_after_verification": true,
+  "build_jobs": 10362,
+  "new_integration_examples": 4,
+  "checked_source_hashes": 142,
+  "source_files_scanned": 1598,
+  "log_sha256": {
+    "checkpoint-19-project-build.log": "05b923ee10c69208526dbbca7c3023eabb3139d72a21786ed94e21ef84616d7a",
+    "checkpoint-19-source-audit.log": "8289dc8e71a0e3605d180474157008eb87bfb966132ad3726147f2b10bef7875",
+    "residue-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checkpoint-19-axiom-audit.log": "8865eb26b48b1274807133ddbefea58e5811240dd7823c741e4ae4da76232d70"
+  }
+}

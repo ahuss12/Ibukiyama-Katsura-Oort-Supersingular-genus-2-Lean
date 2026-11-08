@@ -1,0 +1,37 @@
+{
+  "checkpoint": 14,
+  "started_at_utc": "2026-09-19T19:44:27.298362+00:00",
+  "verification_command": "bash verification/verify.sh",
+  "build_mode": "Full project build, using unchanged checked dependency artifacts and compiling all new/changed targets; not claimed to be a clean recompilation of every retained module.",
+  "retained_checkpoint_13_proof_modules": 58,
+  "new_proof_modules": 3,
+  "toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "mathlib": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "two_requested_geometric_tasks_completed": false,
+  "completed_at_utc": "2026-09-19T20:02:47.532629+00:00",
+  "verification_script_exit_code": 0,
+  "all_verification_checks_passed": true,
+  "proof_sources_unchanged_after_gate": true,
+  "compile_units_rebuilt_in_final_verification_run": 2,
+  "new_modules_compiled_this_checkpoint": 3,
+  "current_checked_source_hashes": 107,
+  "audited_project_declarations": 1386,
+  "audited_flt_declarations": 25819,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "log_sha256": {
+    "checkpoint-14-verification.log": "740491c82e0205644c86c9a13e27c446568ed610518796f2789438eacdd17b46",
+    "project-build.log": "2d4a8b707fcea0100d96029244335bcafa560c7d2b8810c703ee43fa448b1f4e",
+    "source-audit.log": "fa77e32dd4b6786ff6277f9b58ec82f0b339dfe8daa460a9a509ecbea66844d1",
+    "basis-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "torsion-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "geometric-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simple-root-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "superspecial-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "general-genus-two-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "axiom-audit.log": "843904ebbd04fa854b979f08989b0c8d0d1c440242ff8797d3fa6d7f4efd907c"
+  }
+}

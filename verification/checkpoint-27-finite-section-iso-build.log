@@ -1,0 +1,511 @@
+⚠ [8763/8794] Replayed Definitions.Def_AlgebraicGeometry_ProjSpace
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:38:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:69:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:70:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:72:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:213:19: `Away.val_mk._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:251:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8769/8839] Replayed P2M.Sol.S_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf
+warning: P2M/Sol/S_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf.lean:91:5: Ambiguous namespace `PresheafOfModules.IsMonoidalW`: it is interpreted as `_root_.P2MW.S_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf.PresheafOfModules.IsMonoidalW` because this `open` occurs inside `namespace P2MW.S_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf`, while `_root_.PresheafOfModules.IsMonoidalW` is silently not opened. Specify the namespace unambiguously, e.g. `_root_.P2MW.S_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf.PresheafOfModules.IsMonoidalW`. The warning can sometimes also be addressed by moving the `open` outside of the surrounding `namespace`.
+
+Note: This linter can be disabled with `set_option linter.ambiguousOpen false`
+⚠ [8771/8839] Replayed Definitions.Def_SheafOfModules_Monoidal
+warning: Definitions/Def_SheafOfModules_Monoidal.lean:76:8: automatically included section variable(s) unused in theorem `SheafOfModules.tensorUnit_eq`:
+  [J.HasSheafCompose (forget₂ RingCat AddCommGrpCat)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [J.HasSheafCompose (forget₂ RingCat AddCommGrpCat)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8775/8839] Replayed Definitions.Def_AlgebraicGeometry_ModulesSectionsTensor
+warning: Definitions/Def_AlgebraicGeometry_ModulesSectionsTensor.lean:59:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ModulesSectionsTensor.lean:66:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8777/8839] Replayed Definitions.Def_PresheafOfModules_PullbackMonoidal
+warning: Definitions/Def_PresheafOfModules_PullbackMonoidal.lean:315:0: automatically included section variable(s) unused in theorem `PresheafOfModules.PullbackMonoidal.unit_comp_map_e_hom`:
+  [HasFiniteProducts C]
+  [HasFiniteProducts D]
+  [PreservesFiniteProducts F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasFiniteProducts C] [HasFiniteProducts D] [PreservesFiniteProducts F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Definitions/Def_PresheafOfModules_PullbackMonoidal.lean:379:0: automatically included section variable(s) unused in theorem `PresheafOfModules.PullbackMonoidal.keyL`:
+  [HasFiniteProducts D]
+  [PreservesFiniteProducts F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasFiniteProducts D] [PreservesFiniteProducts F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Definitions/Def_PresheafOfModules_PullbackMonoidal.lean:417:62: This simp argument is unused:
+  Category.assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [CategoryTheory.Functor.map_id, Category.id_comp, PreservesLimitPair.iso_hom, prodComparison_fst,
+    prodComparison_snd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8781/8839] Replayed Definitions.Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:66:8: Overlapping instance parameters in `NeronModelPropertyBundle.smooth_mathlibSpelling`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:70:8: Overlapping instance parameters in `NeronModelPropertyBundle.isSeparated_mathlibSpelling`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:74:8: Overlapping instance parameters in `NeronModelPropertyBundle.locallyOfFiniteType_mathlibSpelling`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:78:8: Overlapping instance parameters in `NeronModelPropertyBundle.quasiCompact_mathlibSpelling`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:82:8: Overlapping instance parameters in `NeronModelPropertyBundle.neronMapping_bijective`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:88:8: Overlapping instance parameters in `neronModelPropertyBundle_iff_propertyList`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:95:8: Overlapping instance parameters in `NeronModelPropertyBundle.existsUnique_extension`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:174:8: Overlapping instance parameters in `neronModelPropertyBundle_id`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+⚠ [8785/8839] Replayed P2M.Sol.S_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen
+warning: P2M/Sol/S_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen.lean:32:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen.lean:12:37: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: P2M/Sol/S_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen.lean:12:50: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8786/8839] Replayed Theorems.Thm_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen
+warning: Theorems/Thm_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen.lean:12:37: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen.lean:12:50: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8792/8839] Built P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_isFrameOn_monoidalV2 (10s)
+✔ [8793/8839] Built P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_sheafify_mu_app_tensorSections_monoidalV2 (16s)
+⚠ [8796/8839] Built P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_rightUnitor_hom_app_tensorSections_monoidalV2 (10s)
+warning: P2M/Sol/S_AlgebraicGeometry_Scheme_Modules_rightUnitor_hom_app_tensorSections_monoidalV2.lean:79:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8798/8839] Built Theorems.Thm_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_isFrameOn_monoidalV2 (5.4s)
+✔ [8799/8839] Built P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_tensorHom_app_tensorSections_monoidalV2 (11s)
+✔ [8803/8839] Built Theorems.Thm_AlgebraicGeometry_Scheme_Modules_sheafify_mu_app_tensorSections_monoidalV2 (6.5s)
+✔ [8804/8839] Built Theorems.Thm_AlgebraicGeometry_Scheme_Modules_rightUnitor_hom_app_tensorSections_monoidalV2 (5.9s)
+✔ [8805/8839] Built Theorems.Thm_AlgebraicGeometry_Scheme_Modules_tensorHom_app_tensorSections_monoidalV2 (5.4s)
+⚠ [8806/8839] Built P2M.Sol.S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_universallyClosed (5.8s)
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_universallyClosed.lean:22:43: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_universallyClosed.lean:22:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_universallyClosed.lean:23:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_universallyClosed.lean:26:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_universallyClosed.lean:16:46: Variable name `hR` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hR
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_universallyClosed.lean:17:5: Variable name `hL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8810/8839] Replayed P2M.Sol.S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_preimage_basicOpen_eq_preimage_of_projPresentation_of_isClosedImmersion
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_preimage_basicOpen_eq_preimage_of_projPresentation_of_isClosedImmersion.lean:227:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8811/8839] Built P2M.Sol.S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_exists_pow_eq_zero_of_preimage_basicOpen_eq_bot (8.5s)
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_exists_pow_eq_zero_of_preimage_basicOpen_eq_bot.lean:164:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_exists_pow_eq_zero_of_preimage_basicOpen_eq_bot.lean:163:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8813/8839] Built P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_associator_hom_app_tensorSections_monoidalV2 (7.3s)
+⚠ [8814/8839] Built P2M.Sol.S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_exists_pow_mul_eq_zero_of_map_eq_zero (16s)
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_exists_pow_mul_eq_zero_of_map_eq_zero.lean:192:15: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_exists_pow_mul_eq_zero_of_map_eq_zero.lean:328:5: Variable name `hL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8819/8839] Built Theorems.Thm_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_universallyClosed (5.1s)
+✔ [8820/8839] Built Theorems.Thm_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_exists_pow_eq_zero_of_preimage_basicOpen_eq_bot (5.9s)
+✔ [8821/8839] Built Theorems.Thm_AlgebraicGeometry_Scheme_Modules_associator_hom_app_tensorSections_monoidalV2 (5.6s)
+⚠ [8822/8839] Replayed P2M.Sol.S_AlgebraicGeometry_GradedOAlgebra_IsSectionRing_exists_isCanonicalToProj
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsSectionRing_exists_isCanonicalToProj.lean:204:5: Variable name `hL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8823/8839] Replayed P2M.Sol.S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_exists_smul_map_pow_eq_map_of_section
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_exists_smul_map_pow_eq_map_of_section.lean:52:0: automatically included section variable(s) unused in theorem `P2MW.S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_exists_smul_map_pow_eq_map_of_section.F2SurjSol.mem_of_index_eq`:
+  [GradedAlgebra 𝓡]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [GradedAlgebra 𝓡] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_exists_smul_map_pow_eq_map_of_section.lean:105:43: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+✔ [8824/8839] Built Theorems.Thm_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_exists_pow_mul_eq_zero_of_map_eq_zero (5.4s)
+⚠ [8827/8839] Built P2M.Sol.S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_denseRange (6.0s)
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_denseRange.lean:34:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_denseRange.lean:42:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+✔ [8828/8839] Built Theorems.Thm_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_denseRange (5.3s)
+✔ [8830/8839] Built P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_tensorPowAdd_hom_app_tensorSections_tensorPowSection (10s)
+⚠ [8831/8839] Built P2M.Sol.S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_isIso_morphismRestrict_basicOpen_of_isAffineOpen (6.9s)
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_isIso_morphismRestrict_basicOpen_of_isAffineOpen.lean:27:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_isIso_morphismRestrict_basicOpen_of_isAffineOpen.lean:28:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_isIso_morphismRestrict_basicOpen_of_isAffineOpen.lean:30:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_isIso_morphismRestrict_basicOpen_of_isAffineOpen.lean:92:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8832/8839] Built Theorems.Thm_AlgebraicGeometry_Scheme_Modules_tensorPowAdd_hom_app_tensorSections_tensorPowSection (5.8s)
+✔ [8833/8839] Built SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionMap (13s)
+✔ [8834/8839] Built Theorems.Thm_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_isIso_morphismRestrict_basicOpen_of_isAffineOpen (5.7s)
+⚠ [8835/8839] Built P2M.Sol.S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_isIso (5.0s)
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_isIso.lean:60:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8836/8839] Built P2M.Sol.S_AlgebraicGeometry_GradedOAlgebra_exists_isSectionRing (12s)
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_exists_isSectionRing.lean:379:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8837/8839] Built Theorems.Thm_AlgebraicGeometry_GradedOAlgebra_IsCanonicalToProj_isIso (5.8s)
+✔ [8838/8839] Built Theorems.Thm_AlgebraicGeometry_GradedOAlgebra_exists_isSectionRing (6.0s)
+⚠ [8839/8839] Built SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionIso (7.0s)
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:39:5: Variable name `hL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:80:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:79:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:71:5: Variable name `hL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:153:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:161:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:217:43: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:217:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:218:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:221:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:211:46: Variable name `hR` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hR
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:212:5: Variable name `hL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:238:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:239:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:241:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:303:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean:359:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (8839 jobs).

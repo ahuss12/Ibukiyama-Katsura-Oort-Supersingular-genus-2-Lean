@@ -1,0 +1,105 @@
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vInclusion_over' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vInclusion_isClosedImmersion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vToBase_isFinite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusion_isClosedImmersion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.structure_isFinite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.structure_flat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.structure_locallyOfFinitePresentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.structure_eq_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusion_frobenius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusion_verschiebung' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.factors_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.factors_iff_points' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.one_factors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.mul_factors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inv_factors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.inclusion_nsmul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.identityPoint_inclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.unique_point' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.subsingleton' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vIdentityPoint_inclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vPoint_kernel_trivial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vKernel_unique_point' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vKernel_subsingleton' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vKernel_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vKernel_cotangent_not_subsingleton' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.Fibre.inclusion_over' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.Fibre.point_inclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.Fibre.inclusion_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.Fibre.tangentPoint_lift_of_differential_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.Fibre.differential_bijective_of_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vInclusion_frobenius_over' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vIdentityPoint_frobenius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vKernel_frobenius_differential_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.cotangent_bijective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.cotangent_not_subsingleton' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

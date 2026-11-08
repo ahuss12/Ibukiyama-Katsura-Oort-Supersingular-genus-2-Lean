@@ -1,0 +1,19 @@
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedCoefficientAction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedAlgebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.homogeneousAction' depends on axioms: [propext, Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.homogeneousAction_semilinear' depends on axioms: [propext, Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.homogeneousAction_injective' depends on axioms: [propext, Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedComponent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedComponentEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedComponentMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedComponent_isBaseChange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

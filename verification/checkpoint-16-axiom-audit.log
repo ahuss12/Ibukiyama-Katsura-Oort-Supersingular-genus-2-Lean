@@ -1,0 +1,903 @@
+SupersingularCurves.Geometry.Jacobian.infinitesimalPicardEquiv.{u, v} {K : Type u} [Field K] {F : Type v} [Field F]
+  [Algebra K F] {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) (V : Type u) [AddCommGroup V] [Module K V] [Module Kᵐᵒᵖ V]
+  [IsCentralScalar K V] :
+  J.InfinitesimalPoints V ≃ SupersingularCurves.Geometry.InfinitesimalPicard.DeformationClasses M.toBase s V
+SupersingularCurves.Geometry.Jacobian.infinitesimalPicardEquiv_pullback.{u, v, w} {K : Type u} [Field K] {F : Type v}
+  [Field F] [Algebra K F] {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) {V : Type u} [AddCommGroup V] [Module K V] [Module Kᵐᵒᵖ V]
+  [IsCentralScalar K V] {F' : Type w} [Field F'] [Algebra K F'] {M' : AlgebraicCurve.CurveModel K F'}
+  {s' :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M'.toBase}
+  (J' : SupersingularCurves.Geometry.Jacobian M' s') (f : M'.C ⟶ M.C)
+  (hf : CategoryTheory.CategoryStruct.comp f M.toBase = M'.toBase)
+  (hs : CategoryTheory.CategoryStruct.comp (↑s') f = ↑s) (t : J.InfinitesimalPoints V) :
+  (J'.infinitesimalPicardEquiv V) (J.pullbackInfinitesimalPoint J' f hf hs t) =
+    SupersingularCurves.Geometry.InfinitesimalPicard.pullbackClasses f hf hs ((J.infinitesimalPicardEquiv V) t)
+SupersingularCurves.Geometry.Jacobian.Cotangent.{u, v} {K : Type u} [Field K] {F : Type v} [Field F] [Algebra K F]
+  {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) : Type u
+SupersingularCurves.Geometry.Jacobian.finrank_cotangent.{u, v} {K : Type u} [Field K] {F : Type v} [Field F]
+  [Algebra K F] {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) [IsAlgClosed K] [AlgebraicCurve.IsCurveOver K F]
+  (hfg : ∃ x, Transcendental K x ∧ FiniteDimensional (↥K⟮x⟯) F) :
+  Module.finrank K J.Cotangent = AlgebraicCurve.genusFF K F
+SupersingularCurves.Geometry.Jacobian.cotangentDeformationEquiv.{u, v} {K : Type u} [Field K] {F : Type v} [Field F]
+  [Algebra K F] {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) {V : Type u} [AddCommGroup V] [Module K V] [Module Kᵐᵒᵖ V]
+  [IsCentralScalar K V] :
+  (J.Cotangent →ₗ[K] V) ≃ SupersingularCurves.Geometry.InfinitesimalPicard.DeformationClasses M.toBase s V
+SupersingularCurves.Geometry.Jacobian.pullbackCotangent.{u, v, w} {K : Type u} [Field K] {F : Type v} [Field F]
+  [Algebra K F] {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) {F' : Type w} [Field F'] [Algebra K F']
+  {M' : AlgebraicCurve.CurveModel K F'}
+  {s' :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M'.toBase}
+  (J' : SupersingularCurves.Geometry.Jacobian M' s') (f : M'.C ⟶ M.C)
+  (hf : CategoryTheory.CategoryStruct.comp f M.toBase = M'.toBase)
+  (hs : CategoryTheory.CategoryStruct.comp (↑s') f = ↑s) : J'.Cotangent →ₗ[K] J.Cotangent
+SupersingularCurves.Geometry.Jacobian.cotangentDeformationEquiv_pullback.{u, v, w} {K : Type u} [Field K] {F : Type v}
+  [Field F] [Algebra K F] {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) {V : Type u} [AddCommGroup V] [Module K V] [Module Kᵐᵒᵖ V]
+  [IsCentralScalar K V] {F' : Type w} [Field F'] [Algebra K F'] {M' : AlgebraicCurve.CurveModel K F'}
+  {s' :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M'.toBase}
+  (J' : SupersingularCurves.Geometry.Jacobian M' s') (f : M'.C ⟶ M.C)
+  (hf : CategoryTheory.CategoryStruct.comp f M.toBase = M'.toBase)
+  (hs : CategoryTheory.CategoryStruct.comp (↑s') f = ↑s) (l : J.Cotangent →ₗ[K] V) :
+  J'.cotangentDeformationEquiv (l ∘ₗ J.pullbackCotangent J' f hf hs) =
+    SupersingularCurves.Geometry.InfinitesimalPicard.pullbackClasses f hf hs (J.cotangentDeformationEquiv l)
+SupersingularCurves.Geometry.Jacobian.pullbackCotangent_unique.{u, v, w} {K : Type u} [Field K] {F : Type v} [Field F]
+  [Algebra K F] {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) {F' : Type w} [Field F'] [Algebra K F']
+  {M' : AlgebraicCurve.CurveModel K F'}
+  {s' :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M'.toBase}
+  (J' : SupersingularCurves.Geometry.Jacobian M' s') (f : M'.C ⟶ M.C)
+  (hf : CategoryTheory.CategoryStruct.comp f M.toBase = M'.toBase)
+  (hs : CategoryTheory.CategoryStruct.comp (↑s') f = ↑s) (d : J'.Cotangent →ₗ[K] J.Cotangent)
+  (hd :
+    (J'.cotangentPointsEquiv J.Cotangent) d =
+      J.pullbackInfinitesimalPoint J' f hf hs ((J.cotangentPointsEquiv J.Cotangent) LinearMap.id)) :
+  d = J.pullbackCotangent J' f hf hs
+'SupersingularCurves.Geometry.Jacobian.cotangentDeformationEquiv_pullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.Jacobian.pullbackCotangent_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.Geometry.SchemeFrobenius.finite_flat_surjective.{u} (p : ℕ) [Fact (Nat.Prime p)] {K : Type u}
+  [Field K] [CharP K p] {X : AlgebraicGeometry.Scheme} (c : X ⟶ AlgebraicGeometry.Spec (CommRingCat.of K))
+  [PerfectField K] [AlgebraicGeometry.Smooth c] :
+  AlgebraicGeometry.IsFinite (SupersingularCurves.Geometry.SchemeFrobenius.relative p c) ∧
+    AlgebraicGeometry.Flat (SupersingularCurves.Geometry.SchemeFrobenius.relative p c) ∧
+      AlgebraicGeometry.LocallyOfFinitePresentation (SupersingularCurves.Geometry.SchemeFrobenius.relative p c) ∧
+        AlgebraicGeometry.Surjective (SupersingularCurves.Geometry.SchemeFrobenius.relative p c)
+SupersingularCurves.Geometry.SchemeFrobenius.picardPullback_classify.{u} (p : ℕ) [Fact (Nat.Prime p)] {K : Type u}
+  [Field K] [CharP K p] {X : AlgebraicGeometry.Scheme} {c : X ⟶ AlgebraicGeometry.Spec (CommRingCat.of K)}
+  {s : NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K))) c}
+  {D : GoodReductionJacobian.RelativePic0Designation K c}
+  {D' : GoodReductionJacobian.RelativePic0Designation K (SupersingularCurves.Geometry.SchemeFrobenius.toBase p c)}
+  (h : AlgebraicGeometry.RelPicard.RepresentsRelSubPic c s (AlgebraicGeometry.RelPicard.algEquivZeroCut c s) D)
+  (h' :
+    AlgebraicGeometry.RelPicard.RepresentsRelSubPic (SupersingularCurves.Geometry.SchemeFrobenius.toBase p c)
+      (SupersingularCurves.Geometry.SchemeFrobenius.twistedSection p c s)
+      (AlgebraicGeometry.RelPicard.algEquivZeroCut (SupersingularCurves.Geometry.SchemeFrobenius.toBase p c)
+        (SupersingularCurves.Geometry.SchemeFrobenius.twistedSection p c s))
+      D')
+  {T : AlgebraicGeometry.Scheme} (t : T ⟶ AlgebraicGeometry.Spec (CommRingCat.of K))
+  (L :
+    AlgebraicGeometry.RelPicard.RigidifiedLineBundle (SupersingularCurves.Geometry.SchemeFrobenius.toBase p c)
+      (SupersingularCurves.Geometry.SchemeFrobenius.twistedSection p c s) t)
+  (hL :
+    (AlgebraicGeometry.RelPicard.algEquivZeroCut (SupersingularCurves.Geometry.SchemeFrobenius.toBase p c)
+          (SupersingularCurves.Geometry.SchemeFrobenius.twistedSection p c s)).P
+      t L) :
+  AlgebraicGeometry.RelPicard.postComp (SupersingularCurves.Geometry.SchemeFrobenius.picardPullback p h h')
+      (h'.classify t L hL) =
+    h.classify t
+      (AlgebraicGeometry.RelPicard.RigidifiedLineBundle.pullbackCurve
+        (SupersingularCurves.Geometry.SchemeFrobenius.relative p c) ⋯ ⋯ L)
+      ⋯
+SupersingularCurves.Geometry.PrimeFieldVerschiebung.existsUnique_verschiebung (p : ℕ) [Fact (Nat.Prime p)]
+  {X : AlgebraicGeometry.Scheme} (c : X ⟶ AlgebraicGeometry.Spec (CommRingCat.of (ZMod p)))
+  (L : GoodReductionJacobian.RelativeGroupLaw (ZMod p) c) (hc : L.IsCommutative) [AlgebraicGeometry.Smooth c] :
+  ∃! v,
+    CategoryTheory.CategoryStruct.comp (SupersingularCurves.Geometry.SchemeFrobenius.absolute p c) v = L.schemeNsmul p
+SupersingularCurves.Geometry.PrimeFieldVerschiebung.frobenius_verschiebung (p : ℕ) [Fact (Nat.Prime p)]
+  {X : AlgebraicGeometry.Scheme} (c : X ⟶ AlgebraicGeometry.Spec (CommRingCat.of (ZMod p)))
+  (L : GoodReductionJacobian.RelativeGroupLaw (ZMod p) c) (hc : L.IsCommutative) [AlgebraicGeometry.Smooth c] :
+  CategoryTheory.CategoryStruct.comp (SupersingularCurves.Geometry.SchemeFrobenius.absolute p c)
+      (SupersingularCurves.Geometry.PrimeFieldVerschiebung.verschiebung p c L ⋯) =
+    L.schemeNsmul p
+SupersingularCurves.Geometry.PrimeFieldVerschiebung.verschiebung_frobenius (p : ℕ) [Fact (Nat.Prime p)]
+  {X : AlgebraicGeometry.Scheme} (c : X ⟶ AlgebraicGeometry.Spec (CommRingCat.of (ZMod p)))
+  (L : GoodReductionJacobian.RelativeGroupLaw (ZMod p) c) (hc : L.IsCommutative) [AlgebraicGeometry.Smooth c] :
+  CategoryTheory.CategoryStruct.comp (SupersingularCurves.Geometry.PrimeFieldVerschiebung.verschiebung p c L ⋯)
+      (SupersingularCurves.Geometry.SchemeFrobenius.absolute p c) =
+    L.schemeNsmul p
+SupersingularCurves.Geometry.PrimeFieldVerschiebung.verschiebung_mul (p : ℕ) [Fact (Nat.Prime p)]
+  {X : AlgebraicGeometry.Scheme} (c : X ⟶ AlgebraicGeometry.Spec (CommRingCat.of (ZMod p)))
+  (L : GoodReductionJacobian.RelativeGroupLaw (ZMod p) c) (hc : L.IsCommutative) [AlgebraicGeometry.Smooth c]
+  {T : AlgebraicGeometry.Scheme} (t : T ⟶ AlgebraicGeometry.Spec (CommRingCat.of (ZMod p)))
+  (x y : NeronModelInfra.SchemeHomOver t c) :
+  SupersingularCurves.Geometry.PrimeFieldVerschiebung.mapPoint p c
+      (SupersingularCurves.Geometry.PrimeFieldVerschiebung.verschiebung p c L ⋯) ⋯ (L.mul t x y) =
+    L.mul t
+      (SupersingularCurves.Geometry.PrimeFieldVerschiebung.mapPoint p c
+        (SupersingularCurves.Geometry.PrimeFieldVerschiebung.verschiebung p c L ⋯) ⋯ x)
+      (SupersingularCurves.Geometry.PrimeFieldVerschiebung.mapPoint p c
+        (SupersingularCurves.Geometry.PrimeFieldVerschiebung.verschiebung p c L ⋯) ⋯ y)
+SupersingularCurves.Geometry.Jacobian.primeVerschiebungCotangent_action.{v} (p : ℕ) [Fact (Nat.Prime p)] {F : Type v}
+  [Field F] [Algebra (ZMod p) F] {M : AlgebraicCurve.CurveModel (ZMod p) F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of (ZMod p))))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) {V : Type} [AddCommGroup V] [Module (ZMod p) V] [Module (ZMod p)ᵐᵒᵖ V]
+  [IsCentralScalar (ZMod p) V] (l : J.Cotangent →ₗ[ZMod p] V) :
+  (J.cotangentPointsEquiv V) (l ∘ₗ SupersingularCurves.Geometry.Jacobian.primeVerschiebungCotangent p J) =
+    SupersingularCurves.Geometry.Jacobian.primeVerschiebungPoint p J ((J.cotangentPointsEquiv V) l)
+'SupersingularCurves.Geometry.PrimeFieldVerschiebung.verschiebung_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.Jacobian.primeVerschiebungCotangent_action' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.Geometry.SchemeFrobenius.twistPointsEquiv.{u} (p : ℕ) [Fact (Nat.Prime p)] {K : Type u} [Field K]
+  [CharP K p] {X : AlgebraicGeometry.Scheme} (c : X ⟶ AlgebraicGeometry.Spec (CommRingCat.of K))
+  {T : AlgebraicGeometry.Scheme} (t : T ⟶ AlgebraicGeometry.Spec (CommRingCat.of K)) :
+  NeronModelInfra.SchemeHomOver t (SupersingularCurves.Geometry.SchemeFrobenius.toBase p c) ≃
+    NeronModelInfra.SchemeHomOver
+      (CategoryTheory.CategoryStruct.comp t (SupersingularCurves.Geometry.SchemeFrobenius.baseMap p K)) c
+SupersingularCurves.Geometry.SchemeFrobenius.relative_mul.{u} (p : ℕ) [Fact (Nat.Prime p)] {K : Type u} [Field K]
+  [CharP K p] {X : AlgebraicGeometry.Scheme} (c : X ⟶ AlgebraicGeometry.Spec (CommRingCat.of K))
+  (L : GoodReductionJacobian.RelativeGroupLaw K c) {T : AlgebraicGeometry.Scheme}
+  (t : T ⟶ AlgebraicGeometry.Spec (CommRingCat.of K)) (x y : NeronModelInfra.SchemeHomOver t c) :
+  SupersingularCurves.Geometry.SchemeFrobenius.relativePoint p c (L.mul t x y) =
+    (SupersingularCurves.Geometry.SchemeFrobenius.twistLaw p c L).mul t
+      (SupersingularCurves.Geometry.SchemeFrobenius.relativePoint p c x)
+      (SupersingularCurves.Geometry.SchemeFrobenius.relativePoint p c y)
+SupersingularCurves.Geometry.PerfectFieldVerschiebung.existsUnique_verschiebung.{u} (p : ℕ) [Fact (Nat.Prime p)]
+  {K : Type u} [Field K] [CharP K p] {X : AlgebraicGeometry.Scheme} (c : X ⟶ AlgebraicGeometry.Spec (CommRingCat.of K))
+  (L : GoodReductionJacobian.RelativeGroupLaw K c) (hc : L.IsCommutative) [PerfectField K]
+  [AlgebraicGeometry.Smooth c] :
+  ∃! v,
+    CategoryTheory.CategoryStruct.comp (SupersingularCurves.Geometry.SchemeFrobenius.relative p c) v = L.schemeNsmul p
+'SupersingularCurves.Geometry.PerfectFieldVerschiebung.multiplication_coequalizes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PerfectFieldVerschiebung.verschiebung_frobenius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PerfectFieldVerschiebung.verschiebung_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.differential_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.Geometry.Jacobian.verschiebungCotangent.{u, v} (p : ℕ) [Fact (Nat.Prime p)] {K : Type u} [Field K]
+  [CharP K p] [PerfectField K] {F : Type v} [Field F] [Algebra K F] {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) :
+  J.Cotangent →ₗ[K] SupersingularCurves.Geometry.Jacobian.TwistedCotangent p J
+'SupersingularCurves.Geometry.Jacobian.verschiebungCotangent_action' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.twistRepresents' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.twistRepresents_groupLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.Geometry.Jacobian.frobeniusPicardPullback.{u, v} (p : ℕ) [Fact (Nat.Prime p)] {K : Type u} [Field K]
+  [CharP K p] {F : Type v} [Field F] [Algebra K F] {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) :
+  SupersingularCurves.Geometry.Jacobian.FrobeniusTwist p J ⟶ J.designation.P
+SupersingularCurves.Geometry.Jacobian.frobeniusPicardPullbackCotangent.{u, v} (p : ℕ) [Fact (Nat.Prime p)] {K : Type u}
+  [Field K] [CharP K p] [PerfectField K] {F : Type v} [Field F] [Algebra K F] {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) :
+  J.Cotangent →ₗ[K] SupersingularCurves.Geometry.Jacobian.TwistedCotangent p J
+SupersingularCurves.Geometry.FrobeniusLineBundle.sectionPower.{u} {X : AlgebraicGeometry.Scheme} (p : ℕ)
+  (hp : Nat.Prime p) (hX : ↑p = 0) {L : X.Modules} (hL : L.IsInvertible) (U : X.Opens) :
+  ↑(L.presheaf.obj (Opposite.op U)) →ₛₗ[AlgebraicGeometry.powCharRingHom (↑(X.presheaf.obj (Opposite.op U))) p 1 hp ⋯]
+    ↑((L.tensorPow p).presheaf.obj (Opposite.op U))
+'SupersingularCurves.Geometry.FrobeniusLineBundle.tensorPowSection_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusLineBundle.pullbackIsoTensorPower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusLineBundle.pullbackIsoTensorPower_section' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.productRelative_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.poincareFrobeniusCompositeIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.frobenius_picardPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.Geometry.Jacobian.frobeniusPicardPullback_eq_verschiebung.{u, v} (p : ℕ) [Fact (Nat.Prime p)]
+  {K : Type u} [Field K] [CharP K p] [PerfectField K] {F : Type v} [Field F] [Algebra K F]
+  {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) :
+  SupersingularCurves.Geometry.Jacobian.frobeniusPicardPullback p J =
+    SupersingularCurves.Geometry.Jacobian.verschiebung p J
+'SupersingularCurves.Geometry.Jacobian.frobeniusPicardPullback_eq_verschiebung' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.Jacobian.frobeniusPicardPullbackCotangent_eq_verschiebungCotangent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Origin-based axiom audit passed: 1569 project declarations; 26817 imported FLT declarations.
+def SupersingularCurves.Elliptic.IsSupersingular.{u_1} : {K : Type u_1} →
+  [inst : Field K] → (p : ℕ) → [Fact (Nat.Prime p)] → [CharP K p] → WeierstrassCurve K → Prop :=
+fun {K} [Field K] p [Fact (Nat.Prime p)] [CharP K p] E =>
+  E.IsElliptic ∧ ∀ (P : (E.baseChange (AlgebraicClosure K)).toAffine.Point), p • P = 0 → P = 0
+SupersingularCurves.Elliptic.isSupersingular_iff_hasseInvariant_eq_zero.{u_1} {K : Type u_1} [Field K] (p : ℕ)
+  [Fact (Nat.Prime p)] [CharP K p] (hp2 : p ≠ 2) (E : WeierstrassCurve K) [E.IsElliptic] :
+  SupersingularCurves.Elliptic.IsSupersingular p E ↔ WeierstrassCurve.hasseInvariant p E = 0
+SupersingularCurves.Elliptic.isSupersingular_baseChange_iff.{u_1, u_2} {K : Type u_1} [Field K] (p : ℕ)
+  [Fact (Nat.Prime p)] [CharP K p] (hp2 : p ≠ 2) (E : WeierstrassCurve K) [E.IsElliptic] (L : Type u_2) [Field L]
+  [Algebra K L] [CharP L p] :
+  SupersingularCurves.Elliptic.IsSupersingular p (E.baseChange L) ↔ SupersingularCurves.Elliptic.IsSupersingular p E
+SupersingularCurves.Elliptic.legendre_isSupersingular_iff.{u_1} {K : Type u_1} [Field K] (p : ℕ) [Fact (Nat.Prime p)]
+  [CharP K p] (hp2 : p ≠ 2) (t : K) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  SupersingularCurves.Elliptic.IsSupersingular p (WeierstrassCurve.legendreCurve t) ↔
+    Polynomial.eval t (SupersingularCurves.Elliptic.hassePolynomial p) = 0
+'SupersingularCurves.Elliptic.legendre_isSupersingular_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Elliptic.hassePolynomial_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+SupersingularCurves.IKO.familyA_separable.{u_1} {K : Type u_1} [Field K] (t : K) (h3 : 3 ≠ 0) (ht0 : t ≠ 0)
+  (ht1 : t ≠ 1) : (SupersingularCurves.IKO.familyA t).Separable
+SupersingularCurves.IKO.coefficientMatrix_familyA_mod_six_one.{u_1} {K : Type u_1} [Field K] (p : ℕ) (hp : 3 ≤ p)
+  (hp6 : p % 6 = 1) (t : K) :
+  SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyA t) =
+    !![(SupersingularCurves.IKO.quadratic t ^ ((p - 1) / 2)).coeff ((p - 1) / 3), 0;
+      0, (SupersingularCurves.IKO.quadratic t ^ ((p - 1) / 2)).coeff ((2 * p - 2) / 3)]
+SupersingularCurves.IKO.coefficientMatrix_familyA_mod_six_five.{u_1} {K : Type u_1} [Field K] (p : ℕ) (hp6 : p % 6 = 5)
+  (t : K) :
+  SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyA t) =
+    !![0, (SupersingularCurves.IKO.quadratic t ^ ((p - 1) / 2)).coeff ((p - 2) / 3);
+      (SupersingularCurves.IKO.quadratic t ^ ((p - 1) / 2)).coeff ((2 * p - 1) / 3), 0]
+SupersingularCurves.IKO.semilinearAction_square_zero_iff.{u_1} {K : Type u_1} [Field K] (σ : K ≃+* K)
+  (M : Matrix (Fin 2) (Fin 2) K) :
+  (∀ (v : Fin 2 → K),
+      SupersingularCurves.IKO.semilinearAction σ M (SupersingularCurves.IKO.semilinearAction σ M v) = 0) ↔
+    SupersingularCurves.IKO.twistMatrix σ M * M = 0
+'SupersingularCurves.IKO.coefficientMatrix_familyB_five_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.IKO.x_fifth_sub_one_three_matrix_distinction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.IKO.coeff_quadratic_power_high.{u_1} {K : Type u_1} [Field K] (t : K) (n d : ℕ) (hd : d ≤ n) :
+  (SupersingularCurves.IKO.quadratic t ^ n).coeff (n + d) =
+    (-1) ^ (n - d) * Polynomial.eval t (SupersingularCurves.IKO.coefficientPolynomial n d)
+SupersingularCurves.IKO.coeff_quadratic_power_low.{u_1} {K : Type u_1} [Field K] (t : K) (n d : ℕ) (hd : d ≤ n) :
+  (SupersingularCurves.IKO.quadratic t ^ n).coeff (n - d) =
+    t ^ d * ((-1) ^ (n - d) * Polynomial.eval t (SupersingularCurves.IKO.coefficientPolynomial n d))
+SupersingularCurves.IKO.coefficientMatrix_familyA_formula_one.{u_1} {K : Type u_1} [Field K] (p : ℕ) (hp : 3 ≤ p)
+  (hp6 : p % 6 = 1) (t : K) :
+  SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyA t) =
+    !![t ^ ((p - 1) / 6) * Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p), 0;
+      0, Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p)]
+SupersingularCurves.IKO.coefficientMatrix_familyA_formula_five.{u_1} {K : Type u_1} [Field K] (p : ℕ) (hp6 : p % 6 = 5)
+  (t : K) :
+  SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyA t) =
+    !![0, -(t ^ ((p + 1) / 6) * Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p));
+      -Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p), 0]
+SupersingularCurves.IKO.coefficientMatrix_familyB_formula_one.{u_1} {K : Type u_1} [Field K] (p : ℕ) (hp : 3 ≤ p)
+  (hp4 : p % 4 = 1) (t : K) :
+  SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyB t) =
+    !![t ^ ((p + 1) / 4) * ((-1) ^ (p / 4) * Polynomial.eval t (SupersingularCurves.IKO.hPolynomial p)), 0;
+      0, (-1) ^ (p / 4) * Polynomial.eval t (SupersingularCurves.IKO.hPolynomial p)]
+SupersingularCurves.IKO.coefficientMatrix_familyB_formula_three.{u_1} {K : Type u_1} [Field K] (p : ℕ) (hp4 : p % 4 = 3)
+  (t : K) :
+  SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyB t) =
+    !![0, t ^ ((p + 1) / 4) * ((-1) ^ (p / 4) * Polynomial.eval t (SupersingularCurves.IKO.hPolynomial p));
+      (-1) ^ (p / 4) * Polynomial.eval t (SupersingularCurves.IKO.hPolynomial p), 0]
+SupersingularCurves.IKO.coefficientMatrix_familyA_zero_iff.{u_1} {K : Type u_1} [Field K] (p : ℕ) (hp : Nat.Prime p)
+  (hp5 : 5 ≤ p) (t : K) :
+  SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyA t) = 0 ↔
+    Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p) = 0
+SupersingularCurves.IKO.coefficientMatrix_familyB_zero_iff.{u_1} {K : Type u_1} [Field K] (p : ℕ) (hp : Nat.Prime p)
+  (hp3 : 3 ≤ p) (t : K) :
+  SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyB t) = 0 ↔
+    Polynomial.eval t (SupersingularCurves.IKO.hPolynomial p) = 0
+SupersingularCurves.IKO.coefficientMatrix_familyA_det_ne_zero_iff.{u_1} {K : Type u_1} [Field K] (p : ℕ)
+  (hp : Nat.Prime p) (hp5 : 5 ≤ p) (t : K) (ht : t ≠ 0) :
+  (SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyA t)).det ≠ 0 ↔
+    Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p) ≠ 0
+SupersingularCurves.IKO.coefficientMatrix_familyB_det_ne_zero_iff.{u_1} {K : Type u_1} [Field K] (p : ℕ)
+  (hp : Nat.Prime p) (hp3 : 3 ≤ p) (t : K) (ht : t ≠ 0) :
+  (SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyB t)).det ≠ 0 ↔
+    Polynomial.eval t (SupersingularCurves.IKO.hPolynomial p) ≠ 0
+SupersingularCurves.IKO.coefficientMatrix_familyA_frobenius_square_zero_iff.{u_1} {K : Type u_1} [Field K] (p : ℕ)
+  [Fact (Nat.Prime p)] [CharP K p] [PerfectField K] (hp5 : 5 ≤ p) (t : K) (ht : t ≠ 0) :
+  ((SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyA t)).map fun a => a ^ p) *
+        SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyA t) =
+      0 ↔
+    Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p) = 0
+SupersingularCurves.IKO.coefficientMatrix_familyB_frobenius_square_zero_iff.{u_1} {K : Type u_1} [Field K] (p : ℕ)
+  [Fact (Nat.Prime p)] [CharP K p] [PerfectField K] (hp3 : 3 ≤ p) (t : K) (ht : t ≠ 0) :
+  ((SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyB t)).map fun a => a ^ p) *
+        SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyB t) =
+      0 ↔
+    Polynomial.eval t (SupersingularCurves.IKO.hPolynomial p) = 0
+'SupersingularCurves.IKO.coefficientMatrix_familyA_frobenius_square_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.IKO.coefficientMatrix_familyB_frobenius_square_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.Differentials.existsUnique_cartier.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K] [Field F]
+  [Algebra K F] [AlgebraicCurve.IsCurveOver K F] [PerfectField K] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (x : F)
+  [FiniteDimensional (↥K⟮x⟯) F] : ∃! C, SupersingularCurves.Differentials.CartierLaws p C
+SupersingularCurves.Differentials.cartier_mem_regularDifferentials.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K]
+  [Field F] [Algebra K F] [AlgebraicCurve.IsCurveOver K F] [PerfectField K] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p]
+  (x : F) [FiniteDimensional (↥K⟮x⟯) F] {ω : Ω[F⁄K]} (hω : ω ∈ AlgebraicCurve.regularDifferentials K F) :
+  (SupersingularCurves.Differentials.cartier p x) ω ∈ AlgebraicCurve.regularDifferentials K F
+SupersingularCurves.Differentials.cartier_dx_div_y_two_coefficients.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K]
+  [Field F] [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p]
+  (x : F) [FiniteDimensional (↥K⟮x⟯) F] (hpodd : p % 2 = 1) (f : Polynomial K) (hf : f.natDegree ≤ 6) (y : F)
+  (hy : y ^ 2 = (Polynomial.aeval x) f) (hy0 : y ≠ 0) :
+  (SupersingularCurves.Differentials.cartier p x) (y⁻¹ • (KaehlerDifferential.D K F) x) =
+    (frobeniusEquiv K p).symm ((f ^ ((p - 1) / 2)).coeff (p - 1)) • y⁻¹ • (KaehlerDifferential.D K F) x +
+      (frobeniusEquiv K p).symm ((f ^ ((p - 1) / 2)).coeff (2 * p - 1)) • x • y⁻¹ • (KaehlerDifferential.D K F) x
+SupersingularCurves.Differentials.cartier_x_dx_div_y_two_coefficients.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K]
+  [Field F] [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p]
+  (x : F) [FiniteDimensional (↥K⟮x⟯) F] (hpodd : p % 2 = 1) (f : Polynomial K) (hf : f.natDegree ≤ 6) (y : F)
+  (hy : y ^ 2 = (Polynomial.aeval x) f) (hy0 : y ≠ 0) :
+  (SupersingularCurves.Differentials.cartier p x) (x • y⁻¹ • (KaehlerDifferential.D K F) x) =
+    (frobeniusEquiv K p).symm ((f ^ ((p - 1) / 2)).coeff (p - 2)) • y⁻¹ • (KaehlerDifferential.D K F) x +
+      (frobeniusEquiv K p).symm ((f ^ ((p - 1) / 2)).coeff (2 * p - 2)) • x • y⁻¹ • (KaehlerDifferential.D K F) x
+SupersingularCurves.IKO.differentialCombination_injective.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K] [Field F]
+  [Algebra K F] (x y : F) (htr : Transcendental K x) (hdx : (KaehlerDifferential.D K F) x ≠ 0) (hy0 : y ≠ 0) :
+  Function.Injective ⇑(SupersingularCurves.IKO.differentialCombination x y)
+SupersingularCurves.IKO.cartier_differentialCombination.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K] [Field F]
+  [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (x : F)
+  [FiniteDimensional (↥K⟮x⟯) F] (hpodd : p % 2 = 1) (f : Polynomial K) (hf : f.natDegree ≤ 6) (y : F)
+  (hy : y ^ 2 = (Polynomial.aeval x) f) (hy0 : y ≠ 0) (v : Fin 2 → K) :
+  (SupersingularCurves.Differentials.cartier p x) ((SupersingularCurves.IKO.differentialCombination x y) v) =
+    (SupersingularCurves.IKO.differentialCombination x y)
+      (SupersingularCurves.IKO.semilinearAction (frobeniusEquiv K p) (SupersingularCurves.IKO.coefficientMatrix p f) v)
+SupersingularCurves.IKO.cartier_differentialSpan_square_zero_iff.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K]
+  [Field F] [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p]
+  (x : F) [FiniteDimensional (↥K⟮x⟯) F] (hpodd : p % 2 = 1) (f : Polynomial K) (hf : f.natDegree ≤ 6) (y : F)
+  (hy : y ^ 2 = (Polynomial.aeval x) f) (hy0 : y ≠ 0) (htr : Transcendental K x)
+  (hdx : (KaehlerDifferential.D K F) x ≠ 0) :
+  (∀ (v : Fin 2 → K),
+      (SupersingularCurves.Differentials.cartier p x)
+          ((SupersingularCurves.Differentials.cartier p x) ((SupersingularCurves.IKO.differentialCombination x y) v)) =
+        0) ↔
+    ((SupersingularCurves.IKO.coefficientMatrix p f).map fun a => a ^ p) *
+        SupersingularCurves.IKO.coefficientMatrix p f =
+      0
+SupersingularCurves.IKO.familyA_cartier_zero_iff.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K] [Field F]
+  [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (x : F)
+  [FiniteDimensional (↥K⟮x⟯) F] (hp5 : 5 ≤ p) (t : K) (y : F)
+  (hy : y ^ 2 = (Polynomial.aeval x) (SupersingularCurves.IKO.familyA t)) (hy0 : y ≠ 0) (htr : Transcendental K x)
+  (hdx : (KaehlerDifferential.D K F) x ≠ 0) :
+  (∀ (v : Fin 2 → K),
+      (SupersingularCurves.Differentials.cartier p x) ((SupersingularCurves.IKO.differentialCombination x y) v) = 0) ↔
+    Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p) = 0
+SupersingularCurves.IKO.familyB_cartier_zero_iff.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K] [Field F]
+  [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (x : F)
+  [FiniteDimensional (↥K⟮x⟯) F] (hp3 : 3 ≤ p) (t : K) (y : F)
+  (hy : y ^ 2 = (Polynomial.aeval x) (SupersingularCurves.IKO.familyB t)) (hy0 : y ≠ 0) (htr : Transcendental K x)
+  (hdx : (KaehlerDifferential.D K F) x ≠ 0) :
+  (∀ (v : Fin 2 → K),
+      (SupersingularCurves.Differentials.cartier p x) ((SupersingularCurves.IKO.differentialCombination x y) v) = 0) ↔
+    Polynomial.eval t (SupersingularCurves.IKO.hPolynomial p) = 0
+SupersingularCurves.IKO.familyA_cartier_square_zero_iff.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K] [Field F]
+  [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (x : F)
+  [FiniteDimensional (↥K⟮x⟯) F] (hp5 : 5 ≤ p) (t : K) (ht : t ≠ 0) (y : F)
+  (hy : y ^ 2 = (Polynomial.aeval x) (SupersingularCurves.IKO.familyA t)) (hy0 : y ≠ 0) (htr : Transcendental K x)
+  (hdx : (KaehlerDifferential.D K F) x ≠ 0) :
+  (∀ (v : Fin 2 → K),
+      (SupersingularCurves.Differentials.cartier p x)
+          ((SupersingularCurves.Differentials.cartier p x) ((SupersingularCurves.IKO.differentialCombination x y) v)) =
+        0) ↔
+    Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p) = 0
+SupersingularCurves.IKO.familyB_cartier_square_zero_iff.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K] [Field F]
+  [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (x : F)
+  [FiniteDimensional (↥K⟮x⟯) F] (hp3 : 3 ≤ p) (t : K) (ht : t ≠ 0) (y : F)
+  (hy : y ^ 2 = (Polynomial.aeval x) (SupersingularCurves.IKO.familyB t)) (hy0 : y ≠ 0) (htr : Transcendental K x)
+  (hdx : (KaehlerDifferential.D K F) x ≠ 0) :
+  (∀ (v : Fin 2 → K),
+      (SupersingularCurves.Differentials.cartier p x)
+          ((SupersingularCurves.Differentials.cartier p x) ((SupersingularCurves.IKO.differentialCombination x y) v)) =
+        0) ↔
+    Polynomial.eval t (SupersingularCurves.IKO.hPolynomial p) = 0
+SupersingularCurves.IKO.x_fifth_sub_one_three_cartier_distinction.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K]
+  [Field F] [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] (x : F) [FiniteDimensional (↥K⟮x⟯) F]
+  [CharP K 3] (y : F) (hy : y ^ 2 = (Polynomial.aeval x) (Polynomial.X ^ 5 - 1)) (hy0 : y ≠ 0)
+  (htr : Transcendental K x) (hdx : (KaehlerDifferential.D K F) x ≠ 0) :
+  (¬∀ (v : Fin 2 → K),
+        (SupersingularCurves.Differentials.cartier 3 x) ((SupersingularCurves.IKO.differentialCombination x y) v) = 0) ∧
+    ∀ (v : Fin 2 → K),
+      (SupersingularCurves.Differentials.cartier 3 x)
+          ((SupersingularCurves.Differentials.cartier 3 x) ((SupersingularCurves.IKO.differentialCombination x y) v)) =
+        0
+'SupersingularCurves.Differentials.cartier_dx_div_y_two_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Differentials.cartier_x_dx_div_y_two_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.IKO.cartier_differentialCombination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyA_cartier_square_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyB_cartier_square_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.x_fifth_sub_one_three_cartier_distinction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.Hyperelliptic.SimpleRootModel.irreducible_equation.{u_1} {K : Type u_1} [Field K]
+  (a : SupersingularCurves.Hyperelliptic.SimpleRootModel K) : Irreducible a.equation
+SupersingularCurves.Hyperelliptic.SimpleRootModel.equation_in_functionField.{u_1} {K : Type u_1} [Field K]
+  (a : SupersingularCurves.Hyperelliptic.SimpleRootModel K) : a.y ^ 2 = (Polynomial.aeval a.x) a.f
+SupersingularCurves.Hyperelliptic.SimpleRootModel.finrank_functionField.{u_1} {K : Type u_1} [Field K]
+  (a : SupersingularCurves.Hyperelliptic.SimpleRootModel K) : Module.finrank (RatFunc K) a.FunctionField = 2
+SupersingularCurves.Hyperelliptic.SimpleRootModel.dx_ne_zero.{u_1} {K : Type u_1} [Field K]
+  (a : SupersingularCurves.Hyperelliptic.SimpleRootModel K) [NeZero 2] :
+  (KaehlerDifferential.D K a.FunctionField) a.x ≠ 0
+SupersingularCurves.Differentials.regularAt_dx_div_y_of_integral.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K]
+  [Field F] [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] (s : F) [FiniteDimensional (↥K⟮s⟯) F]
+  (v : AlgebraicCurve.Place K F) (x y : F) (f : Polynomial K) (hf : f.Separable) (hy : y ^ 2 = (Polynomial.aeval x) f)
+  (hy0 : y ≠ 0) (hx : x ∈ v.toValuationSubring) : v.IsRegularAt (y⁻¹ • (KaehlerDifferential.D K F) x)
+SupersingularCurves.Differentials.hyperelliptic_pair_mem_regularDifferentials.{u_1, u_2} {K : Type u_1} {F : Type u_2}
+  [Field K] [Field F] [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] (s : F)
+  [FiniteDimensional (↥K⟮s⟯) F] (x y : F) (f g : Polynomial K) (hf : f.Separable) (hg : g.Separable)
+  (hy : y ^ 2 = (Polynomial.aeval x) f) (hrecip : (y * x⁻¹ ^ 3) ^ 2 = (Polynomial.aeval x⁻¹) g) (hx0 : x ≠ 0)
+  (hy0 : y ≠ 0) :
+  y⁻¹ • (KaehlerDifferential.D K F) x ∈ AlgebraicCurve.regularDifferentials K F ∧
+    x • y⁻¹ • (KaehlerDifferential.D K F) x ∈ AlgebraicCurve.regularDifferentials K F
+SupersingularCurves.IKO.familyAModel_pair_regular.{u_1} {K : Type u_1} [Field K] [PerfectField K] (t : K) (h3 : 3 ≠ 0)
+  (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  have a := SupersingularCurves.IKO.familyAModel t h3 ht1;
+  a.y⁻¹ • (KaehlerDifferential.D K a.FunctionField) a.x ∈ AlgebraicCurve.regularDifferentials K a.FunctionField ∧
+    a.x • a.y⁻¹ • (KaehlerDifferential.D K a.FunctionField) a.x ∈ AlgebraicCurve.regularDifferentials K a.FunctionField
+SupersingularCurves.IKO.familyBModel_pair_regular.{u_1} {K : Type u_1} [Field K] [PerfectField K] (t : K) (h2 : 2 ≠ 0)
+  (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  have a := SupersingularCurves.IKO.familyBModel t ht0;
+  a.y⁻¹ • (KaehlerDifferential.D K a.FunctionField) a.x ∈ AlgebraicCurve.regularDifferentials K a.FunctionField ∧
+    a.x • a.y⁻¹ • (KaehlerDifferential.D K a.FunctionField) a.x ∈ AlgebraicCurve.regularDifferentials K a.FunctionField
+SupersingularCurves.IKO.familyARegularCoordinates_finrank_range.{u_1} {K : Type u_1} [Field K] [PerfectField K]
+  [NeZero 2] (t : K) (h3 : 3 ≠ 0) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  Module.finrank K ↥(SupersingularCurves.IKO.familyARegularCoordinates t h3 ht0 ht1).range = 2
+SupersingularCurves.IKO.familyBRegularCoordinates_finrank_range.{u_1} {K : Type u_1} [Field K] [PerfectField K]
+  [NeZero 2] (t : K) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  Module.finrank K ↥(SupersingularCurves.IKO.familyBRegularCoordinates t ⋯ ht0 ht1).range = 2
+SupersingularCurves.IKO.familyA_regularCartier_action.{u_1} {K : Type u_1} [Field K] [PerfectField K] (p : ℕ)
+  [Fact (Nat.Prime p)] [CharP K p] (hp5 : 5 ≤ p) (t : K) (h3 : 3 ≠ 0) (ht0 : t ≠ 0) (ht1 : t ≠ 1) (v : Fin 2 → K) :
+  (SupersingularCurves.Differentials.regularCartier p (SupersingularCurves.IKO.familyAModel t h3 ht1).x)
+      ((SupersingularCurves.IKO.familyARegularCoordinates t h3 ht0 ht1) v) =
+    (SupersingularCurves.IKO.familyARegularCoordinates t h3 ht0 ht1)
+      (SupersingularCurves.IKO.semilinearAction (frobeniusEquiv K p)
+        (SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyA t)) v)
+SupersingularCurves.IKO.familyB_regularCartier_action.{u_1} {K : Type u_1} [Field K] [PerfectField K] (p : ℕ)
+  [Fact (Nat.Prime p)] [CharP K p] (hp3 : 3 ≤ p) (t : K) (h2 : 2 ≠ 0) (ht0 : t ≠ 0) (ht1 : t ≠ 1) (v : Fin 2 → K) :
+  (SupersingularCurves.Differentials.regularCartier p (SupersingularCurves.IKO.familyBModel t ht0).x)
+      ((SupersingularCurves.IKO.familyBRegularCoordinates t h2 ht0 ht1) v) =
+    (SupersingularCurves.IKO.familyBRegularCoordinates t h2 ht0 ht1)
+      (SupersingularCurves.IKO.semilinearAction (frobeniusEquiv K p)
+        (SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyB t)) v)
+SupersingularCurves.IKO.familyA_regularCartier_zero_iff.{u_1} {K : Type u_1} [Field K] [PerfectField K] [NeZero 2]
+  (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (hp5 : 5 ≤ p) (t : K) (h3 : 3 ≠ 0) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  (∀ (v : Fin 2 → K),
+      (SupersingularCurves.Differentials.regularCartier p (SupersingularCurves.IKO.familyAModel t h3 ht1).x)
+          ((SupersingularCurves.IKO.familyARegularCoordinates t h3 ht0 ht1) v) =
+        0) ↔
+    Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p) = 0
+SupersingularCurves.IKO.familyB_regularCartier_square_zero_iff.{u_1} {K : Type u_1} [Field K] [PerfectField K]
+  [NeZero 2] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (hp3 : 3 ≤ p) (t : K) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  (∀ (v : Fin 2 → K),
+      (SupersingularCurves.Differentials.regularCartier p (SupersingularCurves.IKO.familyBModel t ht0).x)
+          ((SupersingularCurves.Differentials.regularCartier p (SupersingularCurves.IKO.familyBModel t ht0).x)
+            ((SupersingularCurves.IKO.familyBRegularCoordinates t ⋯ ht0 ht1) v)) =
+        0) ↔
+    Polynomial.eval t (SupersingularCurves.IKO.hPolynomial p) = 0
+'SupersingularCurves.IKO.familyAModel_pair_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyBModel_pair_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyARegularCoordinates_finrank_range' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.IKO.familyA_regularCartier_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyB_regularCartier_square_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.Hyperelliptic.SimpleRootModel.total_ramification.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K]
+  [NeZero 2] (a : SupersingularCurves.Hyperelliptic.SimpleRootModel K) (hf : a.f.Separable)
+  (hd : a.f.natDegree = 5 ∨ a.f.natDegree = 6) :
+  ∑ᶠ (w : AlgebraicCurve.Place K a.FunctionField), (↑(w.ramificationIndex (RatFunc K)) - 1) = 6
+SupersingularCurves.Hyperelliptic.SimpleRootModel.genus_eq_two.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] [NeZero 2]
+  (a : SupersingularCurves.Hyperelliptic.SimpleRootModel K) (hf : a.f.Separable)
+  (hd : a.f.natDegree = 5 ∨ a.f.natDegree = 6) : AlgebraicCurve.genusFF K a.FunctionField = 2
+SupersingularCurves.Hyperelliptic.SimpleRootModel.finite_and_finrank_regularDifferentials.{u_1} {K : Type u_1} [Field K]
+  [IsAlgClosed K] [NeZero 2] (a : SupersingularCurves.Hyperelliptic.SimpleRootModel K) (hf : a.f.Separable)
+  (hd : a.f.natDegree = 5 ∨ a.f.natDegree = 6) :
+  Module.Finite K ↥(AlgebraicCurve.regularDifferentials K a.FunctionField) ∧
+    Module.finrank K ↥(AlgebraicCurve.regularDifferentials K a.FunctionField) = 2
+SupersingularCurves.IKO.familyARegularCoordinates_bijective.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] [NeZero 2]
+  (t : K) (h3 : 3 ≠ 0) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  Function.Bijective ⇑(SupersingularCurves.IKO.familyARegularCoordinates t h3 ht0 ht1)
+SupersingularCurves.IKO.familyBRegularCoordinates_bijective.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] [NeZero 2]
+  (t : K) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  Function.Bijective ⇑(SupersingularCurves.IKO.familyBRegularCoordinates t ⋯ ht0 ht1)
+SupersingularCurves.IKO.familyARegularBasis.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] [NeZero 2] (t : K)
+  (h3 : 3 ≠ 0) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  Module.Basis (Fin 2) K
+    ↥(AlgebraicCurve.regularDifferentials K (SupersingularCurves.IKO.familyAModel t h3 ht1).FunctionField)
+SupersingularCurves.IKO.familyBRegularBasis.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] [NeZero 2] (t : K)
+  (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  Module.Basis (Fin 2) K
+    ↥(AlgebraicCurve.regularDifferentials K (SupersingularCurves.IKO.familyBModel t ht0).FunctionField)
+SupersingularCurves.IKO.familyA_regularCartier_coordinates.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] [NeZero 2]
+  (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (hp5 : 5 ≤ p) (t : K) (h3 : 3 ≠ 0) (ht0 : t ≠ 0) (ht1 : t ≠ 1)
+  (ω : ↥(AlgebraicCurve.regularDifferentials K (SupersingularCurves.IKO.familyAModel t h3 ht1).FunctionField)) :
+  (SupersingularCurves.IKO.familyARegularEquiv t h3 ht0 ht1).symm
+      ((SupersingularCurves.Differentials.regularCartier p (SupersingularCurves.IKO.familyAModel t h3 ht1).x) ω) =
+    SupersingularCurves.IKO.semilinearAction (frobeniusEquiv K p)
+      (SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyA t))
+      ((SupersingularCurves.IKO.familyARegularEquiv t h3 ht0 ht1).symm ω)
+SupersingularCurves.IKO.familyB_regularCartier_coordinates.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] [NeZero 2]
+  (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (hp3 : 3 ≤ p) (t : K) (ht0 : t ≠ 0) (ht1 : t ≠ 1)
+  (ω : ↥(AlgebraicCurve.regularDifferentials K (SupersingularCurves.IKO.familyBModel t ht0).FunctionField)) :
+  (SupersingularCurves.IKO.familyBRegularEquiv t ht0 ht1).symm
+      ((SupersingularCurves.Differentials.regularCartier p (SupersingularCurves.IKO.familyBModel t ht0).x) ω) =
+    SupersingularCurves.IKO.semilinearAction (frobeniusEquiv K p)
+      (SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyB t))
+      ((SupersingularCurves.IKO.familyBRegularEquiv t ht0 ht1).symm ω)
+SupersingularCurves.IKO.familyA_all_regularCartier_zero_iff.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] [NeZero 2]
+  (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (hp5 : 5 ≤ p) (t : K) (h3 : 3 ≠ 0) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  (∀ (ω : ↥(AlgebraicCurve.regularDifferentials K (SupersingularCurves.IKO.familyAModel t h3 ht1).FunctionField)),
+      (SupersingularCurves.Differentials.regularCartier p (SupersingularCurves.IKO.familyAModel t h3 ht1).x) ω = 0) ↔
+    Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p) = 0
+SupersingularCurves.IKO.familyB_all_regularCartier_square_zero_iff.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K]
+  [NeZero 2] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (hp3 : 3 ≤ p) (t : K) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  (∀ (ω : ↥(AlgebraicCurve.regularDifferentials K (SupersingularCurves.IKO.familyBModel t ht0).FunctionField)),
+      (SupersingularCurves.Differentials.regularCartier p (SupersingularCurves.IKO.familyBModel t ht0).x)
+          ((SupersingularCurves.Differentials.regularCartier p (SupersingularCurves.IKO.familyBModel t ht0).x) ω) =
+        0) ↔
+    Polynomial.eval t (SupersingularCurves.IKO.hPolynomial p) = 0
+'SupersingularCurves.Hyperelliptic.SimpleRootModel.total_ramification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Hyperelliptic.SimpleRootModel.genus_eq_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Hyperelliptic.SimpleRootModel.finite_and_finrank_regularDifferentials' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.IKO.familyARegularCoordinates_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyBRegularCoordinates_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyA_all_regularCartier_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyB_all_regularCartier_square_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.PicardTorsion.toRegularFixed_surjective.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K] [Field F]
+  [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] [Algebra.EssFiniteType K F] (p : ℕ)
+  [Fact (Nat.Prime p)] [CharP K p] (x : F) [FiniteDimensional (↥K⟮x⟯) F] (hC : AlgebraicCurve.ConstantsAreBase K F) :
+  Function.Surjective ⇑(SupersingularCurves.PicardTorsion.toRegularFixed p x hC)
+SupersingularCurves.PicardTorsion.logarithmEquiv.{u_1, u_2} {K : Type u_1} {F : Type u_2} [Field K] [Field F]
+  [Algebra K F] [PerfectField K] [AlgebraicCurve.IsCurveOver K F] [Algebra.EssFiniteType K F] (p : ℕ)
+  [Fact (Nat.Prime p)] [CharP K p] (x : F) [FiniteDimensional (↥K⟮x⟯) F] (hC : AlgebraicCurve.ConstantsAreBase K F) :
+  ↥(AlgebraicCurve.Pic0.torsion K F p) ≃+ ↥(SupersingularCurves.PicardTorsion.regularFixed p x)
+SupersingularCurves.IKO.card_scalarRoots.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] (q : ℕ) (hq : 1 < q)
+  (hqK : ↑q = 0) (a : K) (ha : a ≠ 0) : Nat.card (SupersingularCurves.IKO.scalarRoots q a) = q
+SupersingularCurves.IKO.card_fixedVectors_antidiagonal.{u_1} {K : Type u_1} [Field K] (p : ℕ) [Fact (Nat.Prime p)]
+  [CharP K p] [PerfectField K] [IsAlgClosed K] (a b : K) (ha : a ≠ 0) (hb : b ≠ 0) :
+  Nat.card ↥(SupersingularCurves.IKO.fixedVectors p !![0, a; b, 0]) = p ^ 2
+SupersingularCurves.IKO.familyATorsionEquiv.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] (p : ℕ) [Fact (Nat.Prime p)]
+  [CharP K p] [NeZero 2] (hp5 : 5 ≤ p) (t : K) (h3 : 3 ≠ 0) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  ↥(AlgebraicCurve.Pic0.torsion K (SupersingularCurves.IKO.familyAModel t h3 ht1).FunctionField p) ≃+
+    ↥(SupersingularCurves.IKO.fixedVectors p
+        (SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyA t)))
+SupersingularCurves.IKO.familyBTorsionEquiv.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] (p : ℕ) [Fact (Nat.Prime p)]
+  [CharP K p] [NeZero 2] (hp3 : 3 ≤ p) (t : K) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  ↥(AlgebraicCurve.Pic0.torsion K (SupersingularCurves.IKO.familyBModel t ht0).FunctionField p) ≃+
+    ↥(SupersingularCurves.IKO.fixedVectors p
+        (SupersingularCurves.IKO.coefficientMatrix p (SupersingularCurves.IKO.familyB t)))
+SupersingularCurves.IKO.card_familyA_torsion.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] (p : ℕ) [Fact (Nat.Prime p)]
+  [CharP K p] [NeZero 2] (hp5 : 5 ≤ p) (t : K) (h3 : 3 ≠ 0) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  Nat.card ↥(AlgebraicCurve.Pic0.torsion K (SupersingularCurves.IKO.familyAModel t h3 ht1).FunctionField p) =
+    if Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p) = 0 then 1 else p ^ 2
+SupersingularCurves.IKO.card_familyB_torsion.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] (p : ℕ) [Fact (Nat.Prime p)]
+  [CharP K p] [NeZero 2] (hp3 : 3 ≤ p) (t : K) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  Nat.card ↥(AlgebraicCurve.Pic0.torsion K (SupersingularCurves.IKO.familyBModel t ht0).FunctionField p) =
+    if Polynomial.eval t (SupersingularCurves.IKO.hPolynomial p) = 0 then 1 else p ^ 2
+SupersingularCurves.IKO.familyA_torsion_finite.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] (p : ℕ)
+  [Fact (Nat.Prime p)] [CharP K p] [NeZero 2] (hp5 : 5 ≤ p) (t : K) (h3 : 3 ≠ 0) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  Finite ↥(AlgebraicCurve.Pic0.torsion K (SupersingularCurves.IKO.familyAModel t h3 ht1).FunctionField p)
+SupersingularCurves.IKO.familyB_torsion_finite.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] (p : ℕ)
+  [Fact (Nat.Prime p)] [CharP K p] [NeZero 2] (hp3 : 3 ≤ p) (t : K) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  Finite ↥(AlgebraicCurve.Pic0.torsion K (SupersingularCurves.IKO.familyBModel t ht0).FunctionField p)
+SupersingularCurves.IKO.familyA_torsion_eq_zero_iff.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K] (p : ℕ)
+  [Fact (Nat.Prime p)] [CharP K p] [NeZero 2] (hp5 : 5 ≤ p) (t : K) (h3 : 3 ≠ 0) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  (∀ (q : ↥(AlgebraicCurve.Pic0.torsion K (SupersingularCurves.IKO.familyAModel t h3 ht1).FunctionField p)), q = 0) ↔
+    Polynomial.eval t (SupersingularCurves.IKO.gPolynomial p) = 0
+SupersingularCurves.IKO.familyB_torsion_eq_zero_iff_regularCartier_zero.{u_1} {K : Type u_1} [Field K] [IsAlgClosed K]
+  (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] [NeZero 2] (hp3 : 3 ≤ p) (t : K) (ht0 : t ≠ 0) (ht1 : t ≠ 1) :
+  (∀ (q : ↥(AlgebraicCurve.Pic0.torsion K (SupersingularCurves.IKO.familyBModel t ht0).FunctionField p)), q = 0) ↔
+    ∀ (ω : ↥(AlgebraicCurve.regularDifferentials K (SupersingularCurves.IKO.familyBModel t ht0).FunctionField)),
+      (SupersingularCurves.Differentials.regularCartier p (SupersingularCurves.IKO.familyBModel t ht0).x) ω = 0
+'SupersingularCurves.PicardTorsion.logarithmEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.card_familyA_torsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.card_familyB_torsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyA_torsion_eq_zero_iff_regularCartier_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.IKO.familyB_torsion_eq_zero_iff_regularCartier_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+def SupersingularCurves.Geometry.IsIsogeny.{u} : {K : Type u} →
+  [inst : Field K] → {G H : SupersingularCurves.Geometry.GroupScheme K} → (G ⟶ H) → Prop :=
+fun {K} [Field K] {G H} f =>
+  AlgebraicGeometry.IsFinite (SupersingularCurves.Geometry.underlyingScheme.map f) ∧
+    AlgebraicGeometry.Surjective (SupersingularCurves.Geometry.underlyingScheme.map f)
+def SupersingularCurves.Geometry.AbelianVariety.IsSuperspecialOver.{u} : {K : Type u} →
+  [inst : Field K] →
+    (p : ℕ) →
+      [Fact (Nat.Prime p)] →
+        [CharP K p] → [IsAlgClosed K] → {g : ℕ} → SupersingularCurves.Geometry.AbelianVariety K g → Prop :=
+fun {K} [Field K] p [Fact (Nat.Prime p)] [CharP K p] [IsAlgClosed K] {g} A =>
+  ∃ E,
+    (∀ (i : Fin g), SupersingularCurves.Geometry.AbelianVariety.IsSupersingularElliptic p (E i)) ∧
+      Nonempty (A.group ≅ SupersingularCurves.Geometry.ellipticProduct E)
+def SupersingularCurves.Geometry.AbelianVariety.IsSupersingularOver.{u} : {K : Type u} →
+  [inst : Field K] →
+    (p : ℕ) →
+      [Fact (Nat.Prime p)] →
+        [CharP K p] → [IsAlgClosed K] → {g : ℕ} → SupersingularCurves.Geometry.AbelianVariety K g → Prop :=
+fun {K} [Field K] p [Fact (Nat.Prime p)] [CharP K p] [IsAlgClosed K] {g} A =>
+  ∃ E,
+    (∀ (i : Fin g), SupersingularCurves.Geometry.AbelianVariety.IsSupersingularElliptic p (E i)) ∧
+      ∃ f, SupersingularCurves.Geometry.IsIsogeny f
+def SupersingularCurves.Geometry.AbelianVariety.IsSuperspecial.{u} : {K : Type u} →
+  [inst : Field K] →
+    (p : ℕ) → [Fact (Nat.Prime p)] → [CharP K p] → {g : ℕ} → SupersingularCurves.Geometry.AbelianVariety K g → Prop :=
+fun {K} [Field K] p [Fact (Nat.Prime p)] [CharP K p] {g} A =>
+  SupersingularCurves.Geometry.AbelianVariety.IsSuperspecialOver p (A.baseChange (AlgebraicClosure K))
+SupersingularCurves.Geometry.AbelianVariety.baseChange.{u} {K : Type u} [Field K] {g : ℕ}
+  (A : SupersingularCurves.Geometry.AbelianVariety K g) (L : Type u) [Field L] [Algebra K L] :
+  SupersingularCurves.Geometry.AbelianVariety L g
+SupersingularCurves.Geometry.Jacobian.{u, v} {K : Type u} [Field K] {F : Type v} [Field F] [Algebra K F]
+  (M : AlgebraicCurve.CurveModel K F)
+  (s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase) :
+  Type (u + 1)
+SupersingularCurves.Geometry.Jacobian.abelianVariety.{u, v} {K : Type u} [Field K] {F : Type v} [Field F] [Algebra K F]
+  {M : AlgebraicCurve.CurveModel K F}
+  {s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase}
+  (J : SupersingularCurves.Geometry.Jacobian M s) :
+  SupersingularCurves.Geometry.AbelianVariety K (AlgebraicCurve.genusFF K F)
+SupersingularCurves.Geometry.CurveModel.IsSuperspecial.{u, v} {K : Type u} [Field K] {F : Type v} [Field F]
+  [Algebra K F] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] [IsAlgClosed K] (M : AlgebraicCurve.CurveModel K F) : Prop
+SupersingularCurves.Geometry.CurveModel.IsSupersingular.{u, v} {K : Type u} [Field K] {F : Type v} [Field F]
+  [Algebra K F] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] [IsAlgClosed K] (M : AlgebraicCurve.CurveModel K F) : Prop
+'SupersingularCurves.Geometry.AbelianVariety.IsSuperspecial.isSupersingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.isSuperspecial_iff_of_iso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.isSupersingular_iff_of_iso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.isSuperspecialOver_iff_isSupersingularElliptic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.Jacobian.abelianVariety' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.CurveModel.IsSuperspecial.isSupersingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+def SupersingularCurves.NewtonPolygon.ofPolynomial.{u_1} : {R : Type u_1} →
+  [inst : Semiring R] → (R → ℚ) → Polynomial R → Set (ℚ × ℚ) :=
+fun {R} [Semiring R] v f =>
+  SupersingularCurves.NewtonPolygon.lowerBoundary
+    ((convexHull ℚ) (SupersingularCurves.NewtonPolygon.coefficientPoints v f))
+def SupersingularCurves.NewtonPolygon.padic : (p : ℕ) →
+  [Fact (Nat.Prime p)] → (r : ℕ) → [NeZero r] → Polynomial ℚ → Set (ℚ × ℚ) :=
+fun p [Fact (Nat.Prime p)] r [NeZero r] f =>
+  SupersingularCurves.NewtonPolygon.ofPolynomial (SupersingularCurves.NewtonPolygon.normalizedValuation p r) f
+SupersingularCurves.NewtonPolygon.ofEndomorphism.{u_1} (p : ℕ) [Fact (Nat.Prime p)] (r : ℕ) [NeZero r] {V : Type u_1}
+  [AddCommGroup V] [Module ℚ V] [FiniteDimensional ℚ V] (F : Module.End ℚ V) : Set (ℚ × ℚ)
+'SupersingularCurves.NewtonPolygon.lowerBoundary_vertical_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.NewtonPolygon.padic_binomial_supersingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.NewtonPolygon.supersingular_half_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.NewtonPolygon.ofEndomorphism_conj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.NewtonPolygon.halfSlopeEndomorphism_newton' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.NewtonPolygon.genus_five_polynomial_newton' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.NewtonPolygon.ordinary_three_not_supersingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.Hyperelliptic.SimpleRootModel.curveModel.{u_1} {K : Type u_1} [Field K]
+  (a : SupersingularCurves.Hyperelliptic.SimpleRootModel K) [PerfectField K] [Infinite K] :
+  AlgebraicCurve.CurveModel K a.FunctionField
+SupersingularCurves.Hyperelliptic.SimpleRootModel.curveModelBasepoint.{u_1} {K : Type u_1} [Field K]
+  (a : SupersingularCurves.Hyperelliptic.SimpleRootModel K) [IsAlgClosed K] [NeZero 2] :
+  NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+    a.curveModel.toBase
+'SupersingularCurves.Hyperelliptic.SimpleRootModel.curveModel_equation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.IKO.familyA_pointed_curve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyB_pointed_curve' depends on axioms: [propext, Classical.choice, Quot.sound]
+def SupersingularCurves.NewtonPolygon.ofIsocrystal.{u_1, u_3} : (p : ℕ) →
+  [inst : Fact (Nat.Prime p)] →
+    (k : Type u_1) →
+      [inst_1 : Field k] →
+        [inst_2 : CharP k p] →
+          [inst_3 : PerfectRing k p] →
+            [inst_4 : Fintype k] →
+              (r : ℕ) →
+                [NeZero r] →
+                  Fintype.card k = p ^ r →
+                    (V : Type u_3) →
+                      [inst_6 : AddCommGroup V] →
+                        [inst_7 : WittVector.Isocrystal p k V] →
+                          [FiniteDimensional (FractionRing (WittVector p k)) V] → Set (ℚ × ℚ) :=
+fun p [Fact (Nat.Prime p)] k [Field k] [CharP k p] [PerfectRing k p] [Fintype k] r [NeZero r] hcard V [AddCommGroup V]
+    [WittVector.Isocrystal p k V] [FiniteDimensional (FractionRing (WittVector p k)) V] =>
+  SupersingularCurves.NewtonPolygon.witt p k r
+    (↑(SupersingularCurves.NewtonPolygon.frobeniusPower p k r hcard)).charpoly.reverse
+SupersingularCurves.NewtonPolygon.frobeniusPower.{u_1, u_2} (p : ℕ) [Fact (Nat.Prime p)] (k : Type u_1) [Field k]
+  [CharP k p] [PerfectRing k p] {V : Type u_2} [AddCommGroup V] [WittVector.Isocrystal p k V] [Fintype k] (r : ℕ)
+  (hcard : Fintype.card k = p ^ r) : V ≃ₗ[FractionRing (WittVector p k)] V
+'SupersingularCurves.NewtonPolygon.wittValuation_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.NewtonPolygon.fractionFrobenius_pow_eq_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.NewtonPolygon.ofIsocrystal_eq_of_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.NewtonPolygon.halfSlopeIsocrystal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.NewtonPolygon.halfSlope_frobeniusPower_charpoly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.NewtonPolygon.halfSlope_newton' depends on axioms: [propext, Classical.choice, Quot.sound]
+SupersingularCurves.Geometry.JacobianRealization.{u, v} {K : Type u} [Field K] {F : Type v} [Field F] [Algebra K F]
+  (M : AlgebraicCurve.CurveModel K F)
+  (s :
+    NeronModelInfra.SchemeHomOver (CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of K)))
+      M.toBase) :
+  Type (max (u + 1) v)
+'SupersingularCurves.Geometry.jacobianRealization_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.Jacobian.picardPointsAddEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.picardTorsionPointsEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyAJacobian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyBJacobian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.card_familyAJacobian_torsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyBJacobian_ordinary_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.DifferentialChart.regularEquiv_generic_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.IKO.familyAGlobalBasis_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyB_globalCartier_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyA_all_globalCartier_square_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.IKO.not_isRoot_derivative_of_hypergeometric.{u_1} {K : Type u_1} [Field K] (p : ℕ)
+  [Fact (Nat.Prime p)] [CharP K p] (a b c : K) (f : Polynomial K) (hf : f ≠ 0) (hdeg : f.natDegree < p)
+  (heq : SupersingularCurves.IKO.hypergeometricOp a b c 0 f = 0) {t : K} (ht0 : t ≠ 0) (ht1 : t ≠ 1) (ht : f.IsRoot t) :
+  ¬(Polynomial.derivative f).IsRoot t
+'SupersingularCurves.IKO.separable_of_hypergeometric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.binomialPolynomial_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.gPolynomial_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.hPolynomial_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.gPolynomial_root_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.hPolynomial_root_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.card_roots_gPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.card_roots_hPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.gPolynomial_equation_mod_six_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.gPolynomial_equation_mod_six_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.hPolynomial_equation_mod_four_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.hPolynomial_equation_mod_four_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.pointsBaseChange_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.IsSuperspecial.torsion_trivial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.IsSuperspecial.hasPRankOver_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.Jacobian.picardPoints_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.Jacobian.hasPRankOver_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.CurveModel.IsSuperspecial.hasPRankOver_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.IKO.familyA_isSuperspecial_imp_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.IKO.familyB_isSuperspecial_imp_globalCartier_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.IKO.familyB_not_isSuperspecial_char_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.IKO.ncard_familyASuperspecialParameters_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.IKO.ncard_familyBSuperspecialParameters_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Hyperelliptic.reflect_six_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Hyperelliptic.quintic_sextic_pair_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Hyperelliptic.modelOfSeparable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Hyperelliptic.SimpleRootModel.regularCoordinates_bijective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Hyperelliptic.SimpleRootModel.regularBasis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Hyperelliptic.SimpleRootModel.all_regularCartier_square_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Hyperelliptic.SimpleRootModel.globalCartier_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Hyperelliptic.SimpleRootModel.all_globalCartier_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Hyperelliptic.SimpleRootModel.jacobian_hasPRankOver_zero_of_matrix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Hyperelliptic.CharacteristicThree.genus_eq_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Hyperelliptic.CharacteristicThree.global_cartier_distinction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Hyperelliptic.CharacteristicThree.jacobian_hasPRankOver_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

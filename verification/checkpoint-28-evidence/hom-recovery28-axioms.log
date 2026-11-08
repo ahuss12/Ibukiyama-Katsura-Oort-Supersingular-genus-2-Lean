@@ -1,0 +1,12 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldHomDescent.exists_descended_groupHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldHomDescent.descended_groupHom_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldHomDescent.unbaseGroupHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldHomDescent.projection_respectsMul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

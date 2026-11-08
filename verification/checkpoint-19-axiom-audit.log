@@ -1,0 +1,23 @@
+Audited 3 declarations from SupersingularCurves.Geometry.ResidueFoundation.
+Audited 16 declarations from SupersingularCurves.Geometry.ResiduePairing.
+Audited 14 declarations from SupersingularCurves.Geometry.SchemeResidueDuality.
+Audited 17 declarations from SupersingularCurves.Geometry.JacobianResidue.
+Audited 45 declarations from Definitions.Def_AlgebraicCurve_SerrePairing.
+Audited 1 declarations from P2M.Sol.S_AlgebraicCurve_exists_linearEquiv_adeleSpaceQuot_H1.
+Audited 36 declarations from P2M.Sol.S_AlgebraicCurve_exists_linearEquiv_regularDifferentials_omegaSpace_zero.
+Audited 2 declarations from P2M.Sol.S_AlgebraicCurve_finite_H1_and_exists_linearEquiv_dual_H1_omegaSpace.
+Audited 5 declarations from P2M.Sol.S_AlgebraicCurve_mem_principalRepartitions_iff_coe_mem_globalSub.
+Audited 3 declarations from P2M.Sol.S_AlgebraicCurve_weilDifferentialRankOne_of_isCurveOver.
+Audited 194 declarations from P2M.Sol.S_AlgebraicCurve_weilDifferentialRankOne_of_stichtenothGenusExists.
+Audited 1 declarations from P2M.Sol.S_AlgebraicCurve_weilOfKaehler_mem_omegaSpace_of_residueTheorem.
+Audited 14 declarations from P2M.Sol.S_AlgebraicCurve_weilOfKaehler_ne_zero_and_maximal.
+Audited 1 declarations from Theorems.Thm_AlgebraicCurve_exists_linearEquiv_adeleSpaceQuot_H1.
+Audited 1 declarations from Theorems.Thm_AlgebraicCurve_exists_linearEquiv_regularDifferentials_omegaSpace_zero.
+Audited 1 declarations from Theorems.Thm_AlgebraicCurve_finite_H1_and_exists_linearEquiv_dual_H1_omegaSpace.
+Audited 1 declarations from Theorems.Thm_AlgebraicCurve_mem_principalRepartitions_iff_coe_mem_globalSub.
+Audited 1 declarations from Theorems.Thm_AlgebraicCurve_weilDifferentialRankOne_of_isCurveOver.
+Audited 1 declarations from Theorems.Thm_AlgebraicCurve_weilDifferentialRankOne_of_stichtenothGenusExists.
+Audited 1 declarations from Theorems.Thm_AlgebraicCurve_weilOfKaehler_mem_omegaSpace_of_residueTheorem.
+Audited 1 declarations from Theorems.Thm_AlgebraicCurve_weilOfKaehler_ne_zero_and_maximal.
+Inspected 1 shared generated entries by stored type/body as well as resolved declaration.
+Checkpoint 19 transitive axiom audit passed: 359 new project/vendor declaration entries.

@@ -1,0 +1,2 @@
+import SupersingularCurves.Geometry.FrobeniusFiniteFieldPolarizedModel
+#print axioms SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.exists_fixedField_polarized_model

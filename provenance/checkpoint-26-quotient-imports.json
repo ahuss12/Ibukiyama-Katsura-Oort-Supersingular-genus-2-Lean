@@ -1,0 +1,484 @@
+{
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "roots": [
+    "Theorems.Thm_AlgebraicGeometry_topologicalKrullDim_preimage_eq_of_isFinite_of_surjective",
+    "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_existsUnique_quotient_desc_hom_of_isColimit",
+    "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_exists_quotient_abelianSchemePropertyBundle_of_finiteFlat_subgroup",
+    "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_exists_smoothOfRelativeDimension_of_smooth",
+    "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_forall_finset_exists_isAffineOpen_of_isAlgClosed"
+  ],
+  "files": [
+    {
+      "module": "Definitions.Def_GoodReductionJacobian_RelativeGroupLawAction",
+      "path": "Definitions/Def_GoodReductionJacobian_RelativeGroupLawAction.lean",
+      "upstream_git_blob": "9ae71227fcb3db0e839b3b658c6cd7c87ec415cd",
+      "upstream_sha256": "cd431bc11c824f4ee70f81c456ecb5871a3c6ca868d6f71091cdcfb622777a11",
+      "current_sha256": "cd431bc11c824f4ee70f81c456ecb5871a3c6ca868d6f71091cdcfb622777a11",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Scheme_exists_invariant_isAffineOpen_of_finiteLocallyFree_equivalenceRelation",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_exists_invariant_isAffineOpen_of_finiteLocallyFree_equivalenceRelation.lean",
+      "upstream_git_blob": "24caf24da665e7295d7a047b25b4a742e6343eba",
+      "upstream_sha256": "922e39897eb96914a87347cdf42d578677e83d825f69ca9ed33539185c036d77",
+      "current_sha256": "922e39897eb96914a87347cdf42d578677e83d825f69ca9ed33539185c036d77",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Scheme_exists_quotient_of_finiteLocallyFree_equivalenceRelation",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_exists_quotient_of_finiteLocallyFree_equivalenceRelation.lean",
+      "upstream_git_blob": "46dfb2057f6e8f6482f854d392889f2705a3c482",
+      "upstream_sha256": "a4c6aa3040e1baa2711d768197a89ff2c14866f6343d9a82f9bf25ca5a84cde8",
+      "current_sha256": "a4c6aa3040e1baa2711d768197a89ff2c14866f6343d9a82f9bf25ca5a84cde8",
+      "imports": [
+        "Mathlib",
+        "Theorems.Thm_AlgebraicGeometry_Scheme_exists_affine_quotient_of_finiteLocallyFree_equivalenceRelation",
+        "Theorems.Thm_AlgebraicGeometry_Scheme_exists_invariant_isAffineOpen_of_finiteLocallyFree_equivalenceRelation",
+        "Theorems.Thm_AlgebraicGeometry_Scheme_exists_quotient_of_forall_exists_quotient_restrict",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Scheme_exists_quotient_of_forall_exists_quotient_restrict",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_exists_quotient_of_forall_exists_quotient_restrict.lean",
+      "upstream_git_blob": "6a0be68747c689c7e36496a74db4696cdb4797fb",
+      "upstream_sha256": "ed8eabef91f11b0b5aeceedfa01b9389f1117d1f93ed5c416e88240042262ebe",
+      "current_sha256": "ed8eabef91f11b0b5aeceedfa01b9389f1117d1f93ed5c416e88240042262ebe",
+      "imports": [
+        "Mathlib",
+        "Theorems.Thm_AlgebraicGeometry_Scheme_quotient_baseChange_of_finiteLocallyFree_of_isPullback",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Scheme_quotient_baseChange_of_finiteLocallyFree_of_isPullback",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_quotient_baseChange_of_finiteLocallyFree_of_isPullback.lean",
+      "upstream_git_blob": "724470aeaf3ed99fd7f1492cc22be2849b363b21",
+      "upstream_sha256": "ab4522b04488e28eef4c60c03de3631046bece499faa5436cbd2c9878446c80c",
+      "current_sha256": "ab4522b04488e28eef4c60c03de3631046bece499faa5436cbd2c9878446c80c",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective",
+      "path": "P2M/Sol/S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean",
+      "upstream_git_blob": "52748bc31d187edd6a081f0daaf11006a6f2d444",
+      "upstream_sha256": "6c527c207e4281a80a0dc0c656dbff40574632240beec409b51d5a5edf9c946b",
+      "current_sha256": "6c527c207e4281a80a0dc0c656dbff40574632240beec409b51d5a5edf9c946b",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Smooth_exists_mem_and_smoothOfRelativeDimension_opensInclusion_comp",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Smooth_exists_mem_and_smoothOfRelativeDimension_opensInclusion_comp.lean",
+      "upstream_git_blob": "044ae131f139f590d02f95027fb0f9b54d1f552d",
+      "upstream_sha256": "c443c365bd2cfdea282b53d0616d905019f704e8a9c86fbeb356e3a512f0648e",
+      "current_sha256": "c443c365bd2cfdea282b53d0616d905019f704e8a9c86fbeb356e3a512f0648e",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_isIntegral_of_smooth_of_preconnectedSpace",
+      "path": "P2M/Sol/S_AlgebraicGeometry_isIntegral_of_smooth_of_preconnectedSpace.lean",
+      "upstream_git_blob": "804732b04f17d841f93c973fbddfd74b023dc802",
+      "upstream_sha256": "7b6d025ce6eccfcf6057e9ca32b9e470e3cf1e23eb4e87c66e9592fefec5ca7a",
+      "current_sha256": "7b6d025ce6eccfcf6057e9ca32b9e470e3cf1e23eb4e87c66e9592fefec5ca7a",
+      "imports": [
+        "Mathlib",
+        "Theorems.Thm_AlgebraicGeometry_Smooth_isRegularLocalRing_stalk",
+        "Theorems.Thm_AlgebraicGeometry_isIntegral_of_isLocallyNoetherian_of_connectedSpace_of_forall_isDomain_stalk",
+        "Theorems.Thm_IsRegularLocalRing_isDomain",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_isReduced_of_smooth_of_field",
+      "path": "P2M/Sol/S_AlgebraicGeometry_isReduced_of_smooth_of_field.lean",
+      "upstream_git_blob": "6e8ef8e45ba2cd7cdd615926193a14c8da7c8b52",
+      "upstream_sha256": "f8237fd5fccb5f98c00315626f86ca05b04acaa93b65371235375726ba04ca01",
+      "current_sha256": "f8237fd5fccb5f98c00315626f86ca05b04acaa93b65371235375726ba04ca01",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_topologicalKrullDim_preimage_eq_of_isFinite_of_surjective",
+      "path": "P2M/Sol/S_AlgebraicGeometry_topologicalKrullDim_preimage_eq_of_isFinite_of_surjective.lean",
+      "upstream_git_blob": "8a86f4bd9fa17763a7eed05dab7d3ee36a8ad712",
+      "upstream_sha256": "0b129d26e2f7667cf4f75b79babc2246b9b1d6a29f917cec4b9a1c5336bafb3f",
+      "current_sha256": "0b129d26e2f7667cf4f75b79babc2246b9b1d6a29f917cec4b9a1c5336bafb3f",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_abelianSchemePropertyBundle_quotient",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_abelianSchemePropertyBundle_quotient.lean",
+      "upstream_git_blob": "402ae1dfceac04f7a1e3736d1ba06f13b153a94b",
+      "upstream_sha256": "577ba8f757f63868c14cb35847636b7c40d267a3123d07587894b317318a0cab",
+      "current_sha256": "577ba8f757f63868c14cb35847636b7c40d267a3123d07587894b317318a0cab",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawAction",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawFibre",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_smooth_of_geometricallyReduced_of_locallyOfFiniteType",
+        "Theorems.Thm_AlgebraicGeometry_isReduced_of_smooth_of_field",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_existsUnique_quotient_desc_hom_of_isColimit",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_existsUnique_quotient_desc_hom_of_isColimit.lean",
+      "upstream_git_blob": "ca096e4f67ff61fb42988e17873a0bedf7849fad",
+      "upstream_sha256": "01f29dba2700b6142a409813b89a1edd908dae8f6ac5d11d1600323c52b49276",
+      "current_sha256": "01f29dba2700b6142a409813b89a1edd908dae8f6ac5d11d1600323c52b49276",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawAction",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_exists_iso_hom_comp_eq_one_comp_eq",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_exists_iso_hom_comp_eq_one_comp_eq.lean",
+      "upstream_git_blob": "09cb2f5e892720a289f71eb836b7d438330373f9",
+      "upstream_sha256": "05eda712d8d8b898aa884f4684ed2499b85eb6433924c32f8c1726e7970b0967",
+      "current_sha256": "05eda712d8d8b898aa884f4684ed2499b85eb6433924c32f8c1726e7970b0967",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_exists_quotient_abelianSchemePropertyBundle_of_finiteFlat_subgroup",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_exists_quotient_abelianSchemePropertyBundle_of_finiteFlat_subgroup.lean",
+      "upstream_git_blob": "a77edc25338b3c451fbf0a60461caf0d904e2878",
+      "upstream_sha256": "926079009478867d570c296f13b04aa1577db2b9228d8f63a0040c0f64179ad1",
+      "current_sha256": "926079009478867d570c296f13b04aa1577db2b9228d8f63a0040c0f64179ad1",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawAction",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_finiteLocallyFree_equivalenceRelation_action",
+        "Theorems.Thm_AlgebraicGeometry_Scheme_exists_quotient_of_finiteLocallyFree_equivalenceRelation",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_exists_relativeGroupLaw_quotient_of_isColimit",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_abelianSchemePropertyBundle_quotient",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_exists_relativeGroupLaw_quotient_of_isColimit",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_exists_relativeGroupLaw_quotient_of_isColimit.lean",
+      "upstream_git_blob": "7d5a4176f33de59d2b5387a3afddcc5461146d56",
+      "upstream_sha256": "720fd28cdc49bd3893b45f759b212db0e6fa528f2145696ef2811b0dd571ccf7",
+      "current_sha256": "720fd28cdc49bd3893b45f759b212db0e6fa528f2145696ef2811b0dd571ccf7",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawAction",
+        "Theorems.Thm_AlgebraicGeometry_Scheme_quotient_baseChange_of_finiteLocallyFree_of_isPullback",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_exists_smoothOfRelativeDimension_of_smooth",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_exists_smoothOfRelativeDimension_of_smooth.lean",
+      "upstream_git_blob": "6e070edf0f4914b5be72115b6e30917abb169bf3",
+      "upstream_sha256": "9e19d438fac182fdd4ffe12b42ed58eb090486d5184685b3a285f38564e16a61",
+      "current_sha256": "9e19d438fac182fdd4ffe12b42ed58eb090486d5184685b3a285f38564e16a61",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawBaseChange",
+        "Theorems.Thm_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_exists_iso_hom_comp_eq_one_comp_eq",
+        "Theorems.Thm_AlgebraicGeometry_Smooth_exists_mem_and_smoothOfRelativeDimension_opensInclusion_comp",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_finiteLocallyFree_equivalenceRelation_action",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_finiteLocallyFree_equivalenceRelation_action.lean",
+      "upstream_git_blob": "eff37f07a9b21d0c7f3acba646261a45237f720a",
+      "upstream_sha256": "60c0bca0599a17a3c9feacca28881942e2152414428156c5f4b0ca2eff41c48c",
+      "current_sha256": "60c0bca0599a17a3c9feacca28881942e2152414428156c5f4b0ca2eff41c48c",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawAction",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_forall_finset_exists_isAffineOpen_of_isAlgClosed",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_forall_finset_exists_isAffineOpen_of_isAlgClosed.lean",
+      "upstream_git_blob": "5c44a2db02ebdaa4a712038653dd87e4924e5d21",
+      "upstream_sha256": "a2c286b5a0efcf21e06a91b97ba00e8a47817840c92180b7734409e04ea61766",
+      "current_sha256": "a2c286b5a0efcf21e06a91b97ba00e8a47817840c92180b7734409e04ea61766",
+      "imports": [
+        "Definitions.Def_JacJ1Iface",
+        "Theorems.Thm_AlgebraicGeometry_isIntegral_of_smooth_of_preconnectedSpace",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_smooth_of_geometricallyReduced_of_locallyOfFiniteType",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_smooth_of_geometricallyReduced_of_locallyOfFiniteType.lean",
+      "upstream_git_blob": "fb7511f904ad1005637c5eba6e17f9070e489758",
+      "upstream_sha256": "1fa0770601a5e4ab64b53d483602d4bde3ae2cf3b804e01b85cac6e852ddbdbf",
+      "current_sha256": "1fa0770601a5e4ab64b53d483602d4bde3ae2cf3b804e01b85cac6e852ddbdbf",
+      "imports": [
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLawGrpObj",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Scheme_exists_invariant_isAffineOpen_of_finiteLocallyFree_equivalenceRelation",
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_exists_invariant_isAffineOpen_of_finiteLocallyFree_equivalenceRelation.lean",
+      "upstream_git_blob": "456505ee482e3336bd11d63c91ddc63ccb681861",
+      "upstream_sha256": "213c3f44fb7a6983548cee6a530c29361a44866ef7683a7f09a2e1f5cb4f134f",
+      "current_sha256": "213c3f44fb7a6983548cee6a530c29361a44866ef7683a7f09a2e1f5cb4f134f",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Scheme_exists_invariant_isAffineOpen_of_finiteLocallyFree_equivalenceRelation"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Scheme_exists_quotient_of_finiteLocallyFree_equivalenceRelation",
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_exists_quotient_of_finiteLocallyFree_equivalenceRelation.lean",
+      "upstream_git_blob": "efc92375d645d76e3402c0bc13a31da1e6637354",
+      "upstream_sha256": "0a8ac7573d0061ca65583e59379c03e51fd821c2f98f2dc41ed0313eaeadddf6",
+      "current_sha256": "0a8ac7573d0061ca65583e59379c03e51fd821c2f98f2dc41ed0313eaeadddf6",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Scheme_exists_quotient_of_finiteLocallyFree_equivalenceRelation"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Scheme_exists_quotient_of_forall_exists_quotient_restrict",
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_exists_quotient_of_forall_exists_quotient_restrict.lean",
+      "upstream_git_blob": "c4f1d218cf149741dcf45360b6601c7b97fe9c60",
+      "upstream_sha256": "e6e8efc87fc366f1d87d4f4e48032ee39ca415cde406b48778cbaa68c286c536",
+      "current_sha256": "e6e8efc87fc366f1d87d4f4e48032ee39ca415cde406b48778cbaa68c286c536",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Scheme_exists_quotient_of_forall_exists_quotient_restrict"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Scheme_quotient_baseChange_of_finiteLocallyFree_of_isPullback",
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_quotient_baseChange_of_finiteLocallyFree_of_isPullback.lean",
+      "upstream_git_blob": "cab08ebb6d81baff79b5bc67907f95d8edf5bc58",
+      "upstream_sha256": "ac98b5943a9b03a02d2c81776def1f9a2a3646e701ad5515ef52566403da6330",
+      "current_sha256": "ac98b5943a9b03a02d2c81776def1f9a2a3646e701ad5515ef52566403da6330",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Scheme_quotient_baseChange_of_finiteLocallyFree_of_isPullback"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective",
+      "path": "Theorems/Thm_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective.lean",
+      "upstream_git_blob": "222cd58911bbd4daa48d2e28ee5ad90f8c333962",
+      "upstream_sha256": "d39516cebc65cd79c05f059927d31bc3aa98a4a79d6b7fd0b5dbb26fea7113a4",
+      "current_sha256": "d39516cebc65cd79c05f059927d31bc3aa98a4a79d6b7fd0b5dbb26fea7113a4",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_SmoothOfRelativeDimension_of_isPullback_of_flat_of_surjective"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Smooth_exists_mem_and_smoothOfRelativeDimension_opensInclusion_comp",
+      "path": "Theorems/Thm_AlgebraicGeometry_Smooth_exists_mem_and_smoothOfRelativeDimension_opensInclusion_comp.lean",
+      "upstream_git_blob": "e0c7743a453881d760f9e6689bf3daafce5cb077",
+      "upstream_sha256": "93493f4e6bcd59887b76fc92bc9905f7b31754a42c4367fbddc0bd27eb1dd89d",
+      "current_sha256": "93493f4e6bcd59887b76fc92bc9905f7b31754a42c4367fbddc0bd27eb1dd89d",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Smooth_exists_mem_and_smoothOfRelativeDimension_opensInclusion_comp"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_isIntegral_of_smooth_of_preconnectedSpace",
+      "path": "Theorems/Thm_AlgebraicGeometry_isIntegral_of_smooth_of_preconnectedSpace.lean",
+      "upstream_git_blob": "794dec1bf8e471a613d6fb7be850a98aefb987a8",
+      "upstream_sha256": "bffa40f2895801085c29898dec2e54ddaf635e9b7ad10846bde936715f4dfcd7",
+      "current_sha256": "bffa40f2895801085c29898dec2e54ddaf635e9b7ad10846bde936715f4dfcd7",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_isIntegral_of_smooth_of_preconnectedSpace"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_isReduced_of_smooth_of_field",
+      "path": "Theorems/Thm_AlgebraicGeometry_isReduced_of_smooth_of_field.lean",
+      "upstream_git_blob": "2b9bf76251b82383958cd70f00891b3ee8007015",
+      "upstream_sha256": "5e399363b0b9f8a352693f3acbb8f2b33e4b8b09a74df844c098aff1553d1bea",
+      "current_sha256": "5e399363b0b9f8a352693f3acbb8f2b33e4b8b09a74df844c098aff1553d1bea",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_isReduced_of_smooth_of_field"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_topologicalKrullDim_preimage_eq_of_isFinite_of_surjective",
+      "path": "Theorems/Thm_AlgebraicGeometry_topologicalKrullDim_preimage_eq_of_isFinite_of_surjective.lean",
+      "upstream_git_blob": "69110c6e29ce962e284a2919c8206a2ef5d7509c",
+      "upstream_sha256": "c389c26efa06a13c0aedcd09d71bdc1795cd39faa4e8c67edeee05bbbebb7968",
+      "current_sha256": "c389c26efa06a13c0aedcd09d71bdc1795cd39faa4e8c67edeee05bbbebb7968",
+      "imports": [
+        "Mathlib.AlgebraicGeometry.Morphisms.Finite",
+        "Mathlib.Topology.KrullDimension",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_topologicalKrullDim_preimage_eq_of_isFinite_of_surjective"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_abelianSchemePropertyBundle_quotient",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_abelianSchemePropertyBundle_quotient.lean",
+      "upstream_git_blob": "50f8f564f381ec198b0d7092f1f73807362a46e0",
+      "upstream_sha256": "788720d15f22b69f36fd8a401a7b846ab140b99d64cb9b47513f3ac0ef918018",
+      "current_sha256": "788720d15f22b69f36fd8a401a7b846ab140b99d64cb9b47513f3ac0ef918018",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawAction",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_abelianSchemePropertyBundle_quotient"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_existsUnique_quotient_desc_hom_of_isColimit",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_existsUnique_quotient_desc_hom_of_isColimit.lean",
+      "upstream_git_blob": "071a0a67d635934a79b9d0091222a0ae738bed30",
+      "upstream_sha256": "faee214c2978afa69b3f0f5ed7b802a82e444e933c219a46b5bd838e827101c2",
+      "current_sha256": "faee214c2978afa69b3f0f5ed7b802a82e444e933c219a46b5bd838e827101c2",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawAction",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_existsUnique_quotient_desc_hom_of_isColimit"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_exists_iso_hom_comp_eq_one_comp_eq",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_iso_hom_comp_eq_one_comp_eq.lean",
+      "upstream_git_blob": "3152f4a512c25a048b7ebbf0fcaa869f9d656c34",
+      "upstream_sha256": "de28d441a48d8d6efcccb315071575dc325c92a27a9307f20eb711bb95302d5b",
+      "current_sha256": "de28d441a48d8d6efcccb315071575dc325c92a27a9307f20eb711bb95302d5b",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_exists_iso_hom_comp_eq_one_comp_eq"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_exists_quotient_abelianSchemePropertyBundle_of_finiteFlat_subgroup",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_quotient_abelianSchemePropertyBundle_of_finiteFlat_subgroup.lean",
+      "upstream_git_blob": "754909f58d8053bd2de0289beb761d630675e14b",
+      "upstream_sha256": "7e49790e25f95664d5b6f52ed9f441474a9f1cbeeecf28d8e7aad97ff1ce043d",
+      "current_sha256": "7e49790e25f95664d5b6f52ed9f441474a9f1cbeeecf28d8e7aad97ff1ce043d",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawAction",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_exists_quotient_abelianSchemePropertyBundle_of_finiteFlat_subgroup"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_exists_relativeGroupLaw_quotient_of_isColimit",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_relativeGroupLaw_quotient_of_isColimit.lean",
+      "upstream_git_blob": "0e083b0a0b889b0463a5b5ada228f87c491e4fe2",
+      "upstream_sha256": "33af3da323acec9fb91bff78a9af3bae7576faee4ba88affc82654650a52c8a8",
+      "current_sha256": "33af3da323acec9fb91bff78a9af3bae7576faee4ba88affc82654650a52c8a8",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawAction",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_exists_relativeGroupLaw_quotient_of_isColimit"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_exists_smoothOfRelativeDimension_of_smooth",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_smoothOfRelativeDimension_of_smooth.lean",
+      "upstream_git_blob": "4b4d84adee255776441bafb68508181d141d75dc",
+      "upstream_sha256": "fe65b1858813a70c78d8584cfe3d088a53992cb8e4a687930722360e0f3c4cc7",
+      "current_sha256": "fe65b1858813a70c78d8584cfe3d088a53992cb8e4a687930722360e0f3c4cc7",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_exists_smoothOfRelativeDimension_of_smooth"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_finiteLocallyFree_equivalenceRelation_action",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_finiteLocallyFree_equivalenceRelation_action.lean",
+      "upstream_git_blob": "0be63284e37dae81153c9f28ac64015960229294",
+      "upstream_sha256": "4c3caf6de074ae8f0a1da2606d17cbb173516f7c320c102fefd306a3260aa9ad",
+      "current_sha256": "4c3caf6de074ae8f0a1da2606d17cbb173516f7c320c102fefd306a3260aa9ad",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawAction",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_finiteLocallyFree_equivalenceRelation_action"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_forall_finset_exists_isAffineOpen_of_isAlgClosed",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_forall_finset_exists_isAffineOpen_of_isAlgClosed.lean",
+      "upstream_git_blob": "34ea075a775edd6a2ce855bff273da3bd01a47b1",
+      "upstream_sha256": "3cb66d3e4e796c5d2c30010dcd21a301b52ee0c8605c32840ad027ed9422334d",
+      "current_sha256": "3cb66d3e4e796c5d2c30010dcd21a301b52ee0c8605c32840ad027ed9422334d",
+      "imports": [
+        "Definitions.Def_JacJ1Iface",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_forall_finset_exists_isAffineOpen_of_isAlgClosed"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_smooth_of_geometricallyReduced_of_locallyOfFiniteType",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_smooth_of_geometricallyReduced_of_locallyOfFiniteType.lean",
+      "upstream_git_blob": "18ac8f40dcb080a09914b8f0926596a25462178e",
+      "upstream_sha256": "f451d00c3d9fa5f3ea3ddbfee1b50a35cf780a2129bfb181ac93bb4e4eab04f2",
+      "current_sha256": "f451d00c3d9fa5f3ea3ddbfee1b50a35cf780a2129bfb181ac93bb4e4eab04f2",
+      "imports": [
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_smooth_of_geometricallyReduced_of_locallyOfFiniteType"
+      ]
+    }
+  ]
+}

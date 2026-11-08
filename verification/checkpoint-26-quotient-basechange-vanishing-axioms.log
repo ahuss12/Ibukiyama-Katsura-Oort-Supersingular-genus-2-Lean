@@ -1,0 +1,11 @@
+'SupersingularCurves.Geometry.SchemeFrobenius.map_isPullback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.map_isFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.map_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.map_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.map_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.map_finrank_eq_const' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.verschiebungCotangent_eq_zero_of_factor_ranks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

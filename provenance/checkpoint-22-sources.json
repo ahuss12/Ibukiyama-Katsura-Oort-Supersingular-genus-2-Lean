@@ -1,0 +1,32 @@
+{
+  "checkpoint": 22,
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/JacobianIsogenyTorsion.lean",
+      "sha256": "bc23c0d757a5f95a837544e383fc6fcfc842a5c27fd9d02505b66badd057c500"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/SupersingularGeometryTorsion.lean",
+      "sha256": "c544252f8ac4de587bef0de6420a66fcdfb1d3c78bd76bd43d68fb0cd6367e21"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/SupersingularJacobian.lean",
+      "sha256": "695c0f2a2b93446a548c5bdbf8313353716174fed6c22f9206cecb3812286c40"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/GenusTwoSupersingular.lean",
+      "sha256": "5e638b8bde7cac6336b25efcc3ac3f828a02a60137f4d6bc61e7580300e1f949"
+    },
+    {
+      "path": "SupersingularCurves/IKO/SupersingularObstructions.lean",
+      "sha256": "f95c8ab8b1a956179fcc112aba65e0be3694f26da75d00101d50bcf5a4adea0d"
+    }
+  ],
+  "source_attribution": "New group/scheme kernel argument and actual-Jacobian integration; Pic0 divisibility uses the pinned upstream theorem recorded in geometric-isogeny-vendor-additions.json.",
+  "classification_scope": "Geometric supersingularity implies p-rank zero and Cartier-square-zero for the presented genus-two models. Full supersingular/superspecial classification remains unproved.",
+  "unchanged_definitions": [
+    "SupersingularCurves/Geometry/AbelianVariety.lean",
+    "SupersingularCurves/Geometry/Superspecial.lean",
+    "SupersingularCurves/Geometry/Jacobian.lean"
+  ]
+}

@@ -1,0 +1,6 @@
+'SupersingularCurves.Geometry.Jacobian.quotient_verschiebungCotangent_eq_zero_of_globalCartier_square_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.Jacobian.exists_isogeny_to_zero_verschiebungCotangent_of_globalCartier_square_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

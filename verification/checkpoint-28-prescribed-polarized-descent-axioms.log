@@ -1,0 +1,6 @@
+'SupersingularCurves.Geometry.closedImmersionBySections_tensorPow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.exists_finiteField_polarized_abelian_model' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

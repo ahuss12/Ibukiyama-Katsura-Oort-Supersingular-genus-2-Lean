@@ -1,0 +1,38 @@
+{
+  "source_archive": "supersingular-mini-checkpoint-2-uniform-iko-matrices-2026-09-16.zip",
+  "source_archive_sha256": "7041ab30d148fc11dbde230f4863f35060e8fd850ef9e07a703366ad62f77db9",
+  "unchanged_proof_modules": [
+    {
+      "path": "SupersingularCurves/Elliptic/Legendre.lean",
+      "sha256": "2b1db323a5fd886a1f6af3a8d63690949f57e9f8e97b2e392a1505e6b6a28385"
+    },
+    {
+      "path": "SupersingularCurves/Elliptic/Supersingular.lean",
+      "sha256": "50bcc136fa032db5e3d05bc2a5f4c38f022800f1b000e6bdc4ebe2de1fead4aa"
+    },
+    {
+      "path": "SupersingularCurves/IKO/CoefficientMatrix.lean",
+      "sha256": "713a7ed2770318a23f337c443919e76ba50fee7a65f3d662b1f126e0f38fe023"
+    },
+    {
+      "path": "SupersingularCurves/IKO/MatrixCriteria.lean",
+      "sha256": "e24fd2c81530c11577c531c380be611b6e4dafb3841e930028894bcb7740487b"
+    },
+    {
+      "path": "SupersingularCurves/IKO/Polynomials.lean",
+      "sha256": "b9aa07beee00f7abda895193242a177e1a112e17f905a7936f374726832b77c1"
+    },
+    {
+      "path": "SupersingularCurves/IKO/QuadraticCoefficients.lean",
+      "sha256": "cd493240e4087718eb37457cf4dfc3ac1c7529db3d0e3cc5c625765a7c54574b"
+    },
+    {
+      "path": "SupersingularCurves/IKO/Semilinear.lean",
+      "sha256": "690d96258fe354dfa21f83b3462bd6e56c8d1b7b1685355df0c01e8620357da7"
+    },
+    {
+      "path": "SupersingularCurves/IKO/UniformMatrices.lean",
+      "sha256": "d1b94a62aa6322cf2622badb8733d1a9026ac5f552788e14ceda15b6bd0638ee"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.coefficientMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.coefficientFrobeniusSquare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.toProj_equivariant_of_fixed_sections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.toProj_frobeniusSquare_equivariant_of_fixed_sections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

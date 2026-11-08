@@ -1,0 +1,12 @@
+{
+  "checkpoint": 28,
+  "in_progress": true,
+  "preserved_project_proofs": 223,
+  "preserved_vendor_lean_files": 3583,
+  "new_pinned_vendor_modules": 1078,
+  "lean_sources_scanned": 4975,
+  "forbidden_markers": [],
+  "provenance_and_preservation_passed": true,
+  "full_aggregate_build_claimed": false,
+  "full_new_declaration_audit_claimed": false
+}

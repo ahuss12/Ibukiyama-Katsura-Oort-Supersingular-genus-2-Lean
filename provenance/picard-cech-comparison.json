@@ -1,0 +1,39 @@
+{
+  "checkpoint": 17,
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/PicardCech.lean",
+      "sha256": "fdb7114348f3ca1bcd9475879324a3cc22faefd1d95fde0cee05d5df17d4e9a9"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/PicardCotangentCech.lean",
+      "sha256": "8192a8df88d8ebbaf970bb10b2067955db7b502eda6085edbf58f830a180bb06"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusPicardCohomology.lean",
+      "sha256": "96899cca2887f55d841fd72b4fcf6bbbf2f9f09cfff0c46965f8fc423d493126"
+    }
+  ],
+  "vendor_additions": [],
+  "new_vendor_modules": 0,
+  "new_compatibility_ports": [],
+  "prior_proof_modules_modified": 0,
+  "prior_vendor_modules_modified": 0,
+  "main_reused_sources": [
+    {
+      "path": "P2M/Sol/S_AlgebraicGeometry_RelPicard_exists_trivialModDeformations_map_H1_tensor_natural.lean",
+      "scope": "Reuse the particular normalized transition-cocycle map P2mTJ2.\u03b2fun, its representative formula, classification, surjectivity, and coefficient-module naturality. Already vendored and checked."
+    },
+    {
+      "path": "P2M/Sol/S_AlgebraicCurve_CurveModel_finrank_cotangentSpace_zeroSection_eq_genusFF_of_representsRelSubPic.lean",
+      "scope": "Reuse actual Poincare-deformation helpers and the rational-point residue-field comparison. Generalize the proof pattern of P2mTJ.nonempty_dual_linearEquiv from scalar-valued functionals to arbitrary coefficient modules, retaining an explicit map rather than only a Nonempty statement."
+    },
+    {
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_exists_tangentPoints_equiv_linearMap_cotangentSpace.lean",
+      "scope": "Already used through PointedCotangent: actual local-ring cotangent/square-zero-point equivalence."
+    }
+  ],
+  "project_proof_route": "Descend the specific normalized-cocycle map to actual deformation classes. Compose it with the local-ring square-zero-point construction and Poincare pullback; prove linearity via coefficient naturality. Prove finite dimensionality of the actual cotangent at a rational point of a locally finite-type scheme and dualize by evaluation. Prove normalization, uniqueness, and compatibility with actual curve pullback at the line-bundle deformation level. Instantiate on the Jacobian and its actual Frobenius twist, and use checkpoint 16 to identify independent V with the cocycle of the Frobenius-pulled-back deformation.",
+  "scope": "Canonical for the specified two-affine cover, with an explicit Poincare/normalized-cocycle formula. This is not yet the regular-differential comparison, a separate Frobenius cochain formula, the Cartier identity, or a genus-two geometric classification."
+}

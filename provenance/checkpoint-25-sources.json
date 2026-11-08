@@ -1,0 +1,85 @@
+{
+  "checkpoint": 25,
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/CotangentDifferentialKernel.lean",
+      "sha256": "07c71404607d7f07d0fb3cac6c7b29c508ccffa2efe77396ab36f6baac96f6fc"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusCotangentVanishing.lean",
+      "sha256": "7be88e4dad7e1871b73490071603202a608c03edc8d2f9a3f2978e2e9a12eaa6"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusFactorGroup.lean",
+      "sha256": "2e682a560acef0b629500aefc30f308991be6acf2788b43a4bd09fea0fcfa3f2"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusFactorIsomorphism.lean",
+      "sha256": "a6ec9e9e02357f47b7f256d4c731b1056a470fddf57406cc8600df4591cad462"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroup.lean",
+      "sha256": "01d110d07a12ce8d7fcd1f7a07954fbc1a3e49d024e268afc4ccd2ae1ea4ab51"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroupDimension.lean",
+      "sha256": "b24946417432cf00204e7dd0b8be2d8ce0040eef500ea6ecec16abb5cfdd9dbf"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/LocalizedDifferentialDetection.lean",
+      "sha256": "fe50d9a19e8cb3312afe719c208c6a7fae8cc7e49bfaae354dc5846af7df2f93"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/PRankZeroFiniteSubgroup.lean",
+      "sha256": "0056dc092e5d0ce1f17536a731ce4091d08d2729816bc5a5bb479754023cd151"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/PRankZeroVerschiebungKernel.lean",
+      "sha256": "ca84f192ac57c2d40191784351fc99fea880f6b806d98c0c259e0ef4aebecdeb"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/PointedCotangentFibre.lean",
+      "sha256": "dbc1e1a95de97328dd3669986e842b7cf915a2f7ea75b08e8b79479b4fd5ad1c"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/PointedCotangentFibreExact.lean",
+      "sha256": "102bb861ca9f68b05209d79f404fcce4880f87cc875165783d65b7a85cb7ec04"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/RationalCotangentFrobenius.lean",
+      "sha256": "ab70768096e3dc69ffed6b3c2fe403ab4880cea149e1349e73ed19e03c08552e"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/ReducedModuleDetection.lean",
+      "sha256": "bf60f2e08bea1ea313cf238c75cb582a16f6a8675e8004a1e0ae022100fecd45"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/SmoothDifferentialDetection.lean",
+      "sha256": "2f5a0f54d6e5672630222cbe34372a1aeee0c08f45976558b597cb36fe21ad72"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/VerschiebungFrobeniusCriterion.lean",
+      "sha256": "3a6bcb478e813dc5c2d6cfab17de9da975f403dbe07561ab228c680f8f733199"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/CharacteristicThreeObstruction.lean",
+      "sha256": "048c626e9029894f519049e26c2e8e0ffbb4043b2fbe2464b9794e946a440dc7"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/GenusTwoFiniteSubgroup.lean",
+      "sha256": "c974375dabaa2d54ec33011bb51b1f37c7bccb4da44c15220c611aaebf712b7e"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/GenusTwoFrobeniusIsomorphism.lean",
+      "sha256": "a47e643b0ba5f270e054c1d2b27defd41145a90ba3f04ae58d5b87af7fd38061"
+    }
+  ],
+  "vendor_additions": [],
+  "new_compatibility_ports": [],
+  "source_attribution": "New actual local cotangent/universal differential bridge, closed-fibre detection, Frobenius factor and residual-isomorphism arguments; actual kernel and characteristic-three consequences. Existing pinned foundations reused without source changes.",
+  "unchanged_definitions": [
+    "SupersingularCurves/Geometry/AbelianVariety.lean",
+    "SupersingularCurves/Geometry/Superspecial.lean",
+    "SupersingularCurves/Geometry/Jacobian.lean"
+  ]
+}

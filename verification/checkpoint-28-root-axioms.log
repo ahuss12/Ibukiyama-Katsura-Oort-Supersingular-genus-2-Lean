@@ -1,0 +1,32 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldHomDescent.exists_descended_groupHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldHomDescent.descended_groupHom_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.prodPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.pointsProdEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.integralProdEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.rationalProdEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.rationalProdEquiv_inl' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianTate.rationalProdEquiv_inr' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.cotangentMap_surjective_of_multiplication_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.verschiebungCotangent_zero_of_multiplication_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.ScalarFrobeniusTate.Quotient.verschiebungCotangent_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianIsogenyEuler.cross_eulerChar_tensorPow_eq_degree_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianIsogenyEuler.cross_eulerChar_pullback_eq_degree_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

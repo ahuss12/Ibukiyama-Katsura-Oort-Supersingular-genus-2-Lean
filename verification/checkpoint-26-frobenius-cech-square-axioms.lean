@@ -1,0 +1,6 @@
+import SupersingularCurves.Geometry.FrobeniusCechSquare
+
+#print axioms SupersingularCurves.Geometry.SchemeFrobenius.absoluteCech_projectionCech
+#print axioms SupersingularCurves.Geometry.SchemeFrobenius.absoluteCech_projectionCechEquiv
+#print axioms SupersingularCurves.Geometry.SchemeFrobenius.cechPullback_twice_projectionCechEquiv
+#print axioms SupersingularCurves.Geometry.SchemeFrobenius.cechPullback_twice_eq_zero_of_absoluteCech_square_zero

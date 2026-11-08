@@ -1,0 +1,6 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.exists_fixedField_scheme_model' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.exists_finiteField_scheme_model_of_verschiebungCotangent_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

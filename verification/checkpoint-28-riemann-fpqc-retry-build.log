@@ -1,0 +1,245 @@
+⚠ [8765/8767] Replayed P2M.Sol.S_Module_Invertible_of_invertible_tensorProduct_of_faithfullyFlat
+warning: P2M/Sol/S_Module_Invertible_of_invertible_tensorProduct_of_faithfullyFlat.lean:97:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_Invertible_of_invertible_tensorProduct_of_faithfullyFlat.lean:98:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_Invertible_of_invertible_tensorProduct_of_faithfullyFlat.lean:104:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_Invertible_of_invertible_tensorProduct_of_faithfullyFlat.lean:118:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_Invertible_of_invertible_tensorProduct_of_faithfullyFlat.lean:119:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_Invertible_of_invertible_tensorProduct_of_faithfullyFlat.lean:121:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_Invertible_of_invertible_tensorProduct_of_faithfullyFlat.lean:127:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_Invertible_of_invertible_tensorProduct_of_faithfullyFlat.lean:129:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_Invertible_of_invertible_tensorProduct_of_faithfullyFlat.lean:130:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_Invertible_of_invertible_tensorProduct_of_faithfullyFlat.lean:135:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_Invertible_of_invertible_tensorProduct_of_faithfullyFlat.lean:136:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8767/8767] Built P2M.Sol.S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle (377s)
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:27:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:27:23: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:27:44: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:62:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:62:23: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:62:44: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:216:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:327:0: automatically included section variable(s) unused in theorem `P2MW.S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.S17C1.push_tmul`:
+  [Module A N]
+  [IsScalarTower A B N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module A N] [IsScalarTower A B N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:337:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:349:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:366:0: automatically included section variable(s) unused in theorem `P2MW.S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.S17C1.σ_tmul`:
+  [Module B N]
+  [IsScalarTower A B N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module B N] [IsScalarTower A B N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:496:0: automatically included section variable(s) unused in theorem `P2MW.S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.S17C1.δ_add`:
+  [Module A N]
+  [IsScalarTower A B N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module A N] [IsScalarTower A B N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:516:0: automatically included section variable(s) unused in theorem `P2MW.S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.S17C1.δ_smul`:
+  [Module A N]
+  [IsScalarTower A B N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module A N] [IsScalarTower A B N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:554:0: automatically included section variable(s) unused in theorem `P2MW.S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.S17C1.lTensor_mulLeft_algebraMap`:
+  [Module B N]
+  [IsScalarTower A B N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module B N] [IsScalarTower A B N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:572:0: automatically included section variable(s) unused in theorem `P2MW.S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.S17C1.ι₂_apply`:
+  [Module B N]
+  [IsScalarTower A B N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module B N] [IsScalarTower A B N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:690:0: automatically included section variable(s) unused in theorem `P2MW.S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.S17C1.lTensor_comm_comp`:
+  [Module B N]
+  [IsScalarTower A B N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module B N] [IsScalarTower A B N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:702:0: automatically included section variable(s) unused in theorem `P2MW.S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.S17C1.ιt_apply`:
+  [Module B N]
+  [IsScalarTower A B N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module B N] [IsScalarTower A B N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:813:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:813:4: Unused tactic linter: `(
+  erw [ModuleCat.ExtendRestrictScalarsAdj.HomEquiv.fromExtendScalars_hom_apply]
+  letI : Module A N := Module.compHom N (algebraMap A B)
+  erw [TensorProduct.lift.tmul]
+  rfl)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:925:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_Module_FaithfullyFlat_exists_submodule_isBaseChange_of_cocycle.lean:929:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (8767 jobs).

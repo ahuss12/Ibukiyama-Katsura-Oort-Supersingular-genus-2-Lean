@@ -1,0 +1,20 @@
+{
+  "source_archive": "supersingular-genus-5-checkpoint-12-legendre-cartier-verified-2026-09-14(1).zip",
+  "source_archive_sha256": "c47db3db8867a6f70314f1755e9e3f5bab457b77a0c0cc3b653b36a6af9cf91a",
+  "reused_modules": [
+    {
+      "source_path": "SupersingularGenus5/Direct/PicardTorsionLogarithm.lean",
+      "source_sha256": "22d3b244544d3a3777749242e09c47fba060bfdd9ea5a5babdd84914cfff6c76",
+      "new_path": "SupersingularCurves/PicardTorsion/Logarithm.lean",
+      "adapted_sha256": "56bfb264d4266fdff8d79cd98de02c710c094ae7ceef72c03cb92794ea6cb000",
+      "changes": "Import paths, namespace, and open of the existing Cartier namespace only; theorem statements and proofs preserved."
+    },
+    {
+      "source_path": "SupersingularGenus5/Direct/PicardTorsionCartier.lean",
+      "source_sha256": "ad9cc17f1a5d7ab7aafb458ce21a5fe9fae597e31b2c726900848b62449800f9",
+      "new_path": "SupersingularCurves/PicardTorsion/Cartier.lean",
+      "adapted_sha256": "de067a7c16ba0351b6d5cd86cc67da5bdde435af655ec4eb3df7fc5476ef6026",
+      "changes": "Import paths, namespace, and open of the existing Cartier namespace only; theorem statements and proofs preserved."
+    }
+  ]
+}

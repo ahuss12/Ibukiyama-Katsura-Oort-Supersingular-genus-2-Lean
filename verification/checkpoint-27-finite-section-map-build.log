@@ -1,0 +1,408 @@
+⚠ [8764/8801] Replayed Definitions.Def_AlgebraicGeometry_ProjSpace
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:38:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:69:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:70:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:72:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:213:19: `Away.val_mk._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+warning: Definitions/Def_AlgebraicGeometry_ProjSpace.lean:251:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8767/8801] Replayed Definitions.Def_PresheafOfModules_PullbackMonoidal
+warning: Definitions/Def_PresheafOfModules_PullbackMonoidal.lean:315:0: automatically included section variable(s) unused in theorem `PresheafOfModules.PullbackMonoidal.unit_comp_map_e_hom`:
+  [HasFiniteProducts C]
+  [HasFiniteProducts D]
+  [PreservesFiniteProducts F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasFiniteProducts C] [HasFiniteProducts D] [PreservesFiniteProducts F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Definitions/Def_PresheafOfModules_PullbackMonoidal.lean:379:0: automatically included section variable(s) unused in theorem `PresheafOfModules.PullbackMonoidal.keyL`:
+  [HasFiniteProducts D]
+  [PreservesFiniteProducts F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasFiniteProducts D] [PreservesFiniteProducts F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Definitions/Def_PresheafOfModules_PullbackMonoidal.lean:417:62: This simp argument is unused:
+  Category.assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [CategoryTheory.Functor.map_id, Category.id_comp, PreservesLimitPair.iso_hom, prodComparison_fst,
+    prodComparison_snd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8769/8801] Replayed Definitions.Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:66:8: Overlapping instance parameters in `NeronModelPropertyBundle.smooth_mathlibSpelling`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:70:8: Overlapping instance parameters in `NeronModelPropertyBundle.isSeparated_mathlibSpelling`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:74:8: Overlapping instance parameters in `NeronModelPropertyBundle.locallyOfFiniteType_mathlibSpelling`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:78:8: Overlapping instance parameters in `NeronModelPropertyBundle.quasiCompact_mathlibSpelling`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:82:8: Overlapping instance parameters in `NeronModelPropertyBundle.neronMapping_bijective`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:88:8: Overlapping instance parameters in `neronModelPropertyBundle_iff_propertyList`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:95:8: Overlapping instance parameters in `NeronModelPropertyBundle.existsUnique_extension`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Definitions/Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier.lean:174:8: Overlapping instance parameters in `neronModelPropertyBundle_id`:
+
+⚠️ `[IsDomain
+   R]` and `[IsDedekindDomain
+   R]` each imply `[Nontrivial R]`, `[IsLeftCancelMulZero R]`, and `[IsRightCancelMulZero R]`.
+💡️ Of these, `[IsDomain R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+⚠ [8770/8801] Built P2M.Sol.S_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen (6.8s)
+warning: P2M/Sol/S_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen.lean:32:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: P2M/Sol/S_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen.lean:12:37: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: P2M/Sol/S_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen.lean:12:50: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8773/8801] Built P2M.Sol.S_AlgebraicGeometry_Proj_fromOfGlobalSections_appLE_awayToSection_mk_mul_pow (9.0s)
+⚠ [8775/8801] Replayed P2M.Sol.S_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf
+warning: P2M/Sol/S_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf.lean:91:5: Ambiguous namespace `PresheafOfModules.IsMonoidalW`: it is interpreted as `_root_.P2MW.S_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf.PresheafOfModules.IsMonoidalW` because this `open` occurs inside `namespace P2MW.S_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf`, while `_root_.PresheafOfModules.IsMonoidalW` is silently not opened. Specify the namespace unambiguously, e.g. `_root_.P2MW.S_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf.PresheafOfModules.IsMonoidalW`. The warning can sometimes also be addressed by moving the `open` outside of the surrounding `namespace`.
+
+Note: This linter can be disabled with `set_option linter.ambiguousOpen false`
+⚠ [8777/8801] Replayed Definitions.Def_SheafOfModules_Monoidal
+warning: Definitions/Def_SheafOfModules_Monoidal.lean:76:8: automatically included section variable(s) unused in theorem `SheafOfModules.tensorUnit_eq`:
+  [J.HasSheafCompose (forget₂ RingCat AddCommGrpCat)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [J.HasSheafCompose (forget₂ RingCat AddCommGrpCat)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8781/8801] Replayed Definitions.Def_AlgebraicGeometry_ModulesSectionsTensor
+warning: Definitions/Def_AlgebraicGeometry_ModulesSectionsTensor.lean:59:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Definitions/Def_AlgebraicGeometry_ModulesSectionsTensor.lean:66:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8786/8801] Built Theorems.Thm_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen (6.6s)
+warning: Theorems/Thm_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen.lean:12:37: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_AlgebraicGeometry_Proj_hom_ext_of_forall_exists_basicOpen.lean:12:50: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8787/8801] Built Theorems.Thm_AlgebraicGeometry_Proj_fromOfGlobalSections_appLE_awayToSection_mk_mul_pow (6.2s)
+✔ [8788/8801] Built Definitions.Def_AlgebraicGeometry_GradedOAlgebraSectionRing (6.5s)
+✔ [8790/8801] Built P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_of_iSup_monoidalV2 (7.9s)
+✔ [8791/8801] Built Definitions.Def_AlgebraicGeometry_GradedOAlgebraToProj (6.6s)
+✔ [8792/8801] Built Theorems.Thm_AlgebraicGeometry_Scheme_Modules_IsFrameOn_of_iSup_monoidalV2 (5.8s)
+✔ [8793/8801] Built P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_isUnit_of_isFrameOn_smul (6.8s)
+✔ [8794/8801] Built P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_ClosedImmersionBySections_exists_iSup_eq_top_isFrameOn_of_isSectionRing (6.8s)
+✔ [8795/8801] Built Theorems.Thm_AlgebraicGeometry_Scheme_Modules_IsFrameOn_isUnit_of_isFrameOn_smul (6.2s)
+✔ [8796/8801] Built P2M.Sol.S_AlgebraicGeometry_GradedOAlgebra_IsSectionRing_exists_ringHom_smul_map_pow_eq (18s)
+✔ [8797/8801] Built Theorems.Thm_AlgebraicGeometry_Scheme_Modules_ClosedImmersionBySections_exists_iSup_eq_top_isFrameOn_of_isSectionRing (8.5s)
+✔ [8798/8801] Built Theorems.Thm_AlgebraicGeometry_GradedOAlgebra_IsSectionRing_exists_ringHom_smul_map_pow_eq (7.8s)
+⚠ [8799/8801] Built P2M.Sol.S_AlgebraicGeometry_GradedOAlgebra_IsSectionRing_exists_isCanonicalToProj (18s)
+warning: P2M/Sol/S_AlgebraicGeometry_GradedOAlgebra_IsSectionRing_exists_isCanonicalToProj.lean:204:5: Variable name `hL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8800/8801] Built Theorems.Thm_AlgebraicGeometry_GradedOAlgebra_IsSectionRing_exists_isCanonicalToProj (6.3s)
+✖ [8801/8801] Building SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionMap (11s)
+trace: .> LEAN_PATH=/workspace/scratch/8cf314e8ad34/environment-restoration/packages/Cli/.lake/build/lib/lean:/workspace/scratch/8cf314e8ad34/environment-restoration/packages/batteries/.lake/build/lib/lean:/workspace/scratch/8cf314e8ad34/environment-restoration/packages/Qq/.lake/build/lib/lean:/workspace/scratch/8cf314e8ad34/environment-restoration/packages/aesop/.lake/build/lib/lean:/workspace/scratch/8cf314e8ad34/environment-restoration/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/8cf314e8ad34/environment-restoration/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/8cf314e8ad34/environment-restoration/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/8cf314e8ad34/environment-restoration/packages/plausible/.lake/build/lib/lean:/workspace/scratch/8cf314e8ad34/environment-restoration/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/8cf314e8ad34/project/supersingular-curves-mini/vendor/flt/.lake/build/lib/lean:/workspace/scratch/8cf314e8ad34/project/supersingular-curves-mini/.lake/build/lib/lean /workspace/scratch/8cf314e8ad34/environment-restoration/lean-4.34.0-rc2-linux/bin/lean /workspace/scratch/8cf314e8ad34/project/supersingular-curves-mini/SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionMap.lean -o /workspace/scratch/8cf314e8ad34/project/supersingular-curves-mini/.lake/build/lib/lean/SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionMap.olean -i /workspace/scratch/8cf314e8ad34/project/supersingular-curves-mini/.lake/build/lib/lean/SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionMap.ilean -c /workspace/scratch/8cf314e8ad34/project/supersingular-curves-mini/.lake/build/ir/SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionMap.c --setup /workspace/scratch/8cf314e8ad34/project/supersingular-curves-mini/.lake/build/ir/SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionMap.setup.json --json
+error: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionMap.lean:162:62: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  Scheme.Hom.appLE (Scheme.homOfLE ?m.2218 ?e) ?W ?W' ?e'
+in the target expression
+  (ConcreteCategory.hom
+        (Scheme.Hom.appLE (X.homOfLE ⋯) (θV i ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i))
+          ((X.homOfLE ⋯ ≫ θV i) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i)) ⋯))
+      ((ConcreteCategory.hom (Scheme.Hom.appLE (θV i) (Proj.basicOpen 𝓡 ↑(τ i)) (θV i ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i)) ⋯))
+        ((ConcreteCategory.hom (Proj.awayToSection 𝓡 ↑(τ i))) (Away.mk 𝓡 ⋯ k s hs))) =
+    (ConcreteCategory.hom
+        (Scheme.Hom.appLE (X.homOfLE ⋯) (θV j ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i))
+          ((X.homOfLE ⋯ ≫ θV i) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i)) ⋯))
+      ((ConcreteCategory.hom (Scheme.Hom.appLE (θV j) (Proj.basicOpen 𝓡 ↑(τ i)) (θV j ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i)) ⋯))
+        ((ConcreteCategory.hom (Proj.awayToSection 𝓡 ↑(τ i))) (Away.mk 𝓡 ⋯ k s hs)))
+
+S : Type u
+inst✝³ : CommRing S
+X : Scheme
+f : X ⟶ Spec (CommRingCat.of S)
+L : X.Modules
+R : Type u
+inst✝² : CommRing R
+inst✝¹ : Algebra S R
+𝓡 : ℕ → Submodule S R
+inst✝ : GradedAlgebra 𝓡
+ι : (n : ℕ) → ↥(𝓡 n) → ↑Γ(L.tensorPow n, ⊤)
+hR : GradedOAlgebra.IsSectionRing f L R 𝓡 ι
+hL : L.IsInvertible
+hfinite : L.FiniteBySections f
+N : ℕ
+τ : Fin (N + 1) → ↥(𝓡 1)
+V : Fin (N + 1) → X.Opens
+hV : ⨆ i, V i = ⊤
+hτV : ∀ (i : Fin (N + 1)), IsFrameOn (ι 1 (τ i)) (V i)
+φ : (i : Fin (N + 1)) → R →+* ↑Γ(X, V i)
+hφa :
+  ∀ (i : Fin (N + 1)) (a : S),
+    (φ i) ((algebraMap S R) a) = (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op)) (GradedOAlgebra.baseScalar f a)
+hφb : ∀ (i : Fin (N + 1)) (m : ℕ), IsFrameOn (ι (m • 1) ⟨↑(τ i) ^ m, ⋯⟩) (V i)
+hφc :
+  ∀ (i : Fin (N + 1)) (m : ℕ) (s : ↥(𝓡 (m • 1))),
+    (φ i) ↑s • (ConcreteCategory.hom ((L.tensorPow (m • 1)).presheaf.map (homOfLE ⋯).op)) (ι (m • 1) ⟨↑(τ i) ^ m, ⋯⟩) =
+      (ConcreteCategory.hom ((L.tensorPow (m • 1)).presheaf.map (homOfLE ⋯).op)) (ι (m • 1) s)
+hφτ : ∀ (i : Fin (N + 1)), (φ i) ↑(τ i) = 1
+hunit : ∀ (i j : Fin (N + 1)), IsUnit ((ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op)) ((φ j) ↑(τ i)))
+hkey :
+  ∀ (i j : Fin (N + 1)) (k : ℕ),
+    ∀ s ∈ 𝓡 (k • 1),
+      (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op)) ((φ i) s) *
+          (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op)) ((φ j) ↑(τ i)) ^ k =
+        (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op)) ((φ j) s)
+θV : (i : Fin (N + 1)) → ↑(V i) ⟶ Proj 𝓡 := fun i => θOf R 𝓡 (V i) (φ i) (τ i) ⋯
+i j : Fin (N + 1)
+w : ↥↑(V i ⊓ V j)
+hpa : (X.homOfLE ⋯ ≫ θV i) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i) = ⊤
+hpb : (X.homOfLE ⋯ ≫ θV j) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i) = ⊤
+k : ℕ
+s : R
+hs : s ∈ 𝓡 (k • 1)
+⊢ (ConcreteCategory.hom
+        (Scheme.Hom.appLE (X.homOfLE ⋯) (θV i ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i))
+          ((X.homOfLE ⋯ ≫ θV i) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i)) ⋯))
+      ((ConcreteCategory.hom (Scheme.Hom.appLE (θV i) (Proj.basicOpen 𝓡 ↑(τ i)) (θV i ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i)) ⋯))
+        ((ConcreteCategory.hom (Proj.awayToSection 𝓡 ↑(τ i))) (Away.mk 𝓡 ⋯ k s hs))) =
+    (ConcreteCategory.hom
+        (Scheme.Hom.appLE (X.homOfLE ⋯) (θV j ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i))
+          ((X.homOfLE ⋯ ≫ θV i) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i)) ⋯))
+      ((ConcreteCategory.hom (Scheme.Hom.appLE (θV j) (Proj.basicOpen 𝓡 ↑(τ i)) (θV j ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i)) ⋯))
+        ((ConcreteCategory.hom (Proj.awayToSection 𝓡 ↑(τ i))) (Away.mk 𝓡 ⋯ k s hs)))
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  Application type mismatch: The argument
+    le_rfl
+  has type
+    @LE.le (↑(V i ⊓ V j)).Opens TopologicalSpace.Opens.instPartialOrder.toLE
+      ((X.homOfLE ⋯ ≫ θV i) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i)) ((X.homOfLE ⋯ ≫ θV i) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i))
+  but is expected to have type
+    @LE.le (↑(V i ⊓ V j)).Opens TopologicalSpace.Opens.instPartialOrder.toLE
+      ((X.homOfLE ⋯ ≫ θV i) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i)) (X.homOfLE ⋯ ⁻¹ᵁ θV i ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i))
+  in the application
+    Scheme.Hom.appLE (X.homOfLE ⋯) (θV i ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i)) ((X.homOfLE ⋯ ≫ θV i) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑(τ i))
+      ⋯
+error: SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionMap.lean:279:95: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  Scheme.Hom.appLE (Scheme.Opens.ι ?U) ?V ?W ?e
+in the target expression
+  (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op))
+      ((ConcreteCategory.hom (Scheme.Hom.appLE θ (Proj.basicOpen 𝓡 ↑σ) (θ ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ) ⋯))
+        ((ConcreteCategory.hom (Proj.awayToSection 𝓡 ↑σ)) (Away.mk 𝓡 ⋯ k ↑s ⋯))) =
+    (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op))
+      ((ConcreteCategory.hom
+          (Scheme.Hom.appLE (V i).ι (θ ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ) (((V i).ι ≫ θ) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ) ⋯))
+        ((ConcreteCategory.hom (Scheme.Hom.appLE θ (Proj.basicOpen 𝓡 ↑σ) (θ ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ) ⋯))
+          ((ConcreteCategory.hom (Proj.awayToSection 𝓡 ↑σ)) (Away.mk 𝓡 ⋯ k ↑s ⋯))))
+
+case refine_3.e_a.e_a
+S : Type u
+inst✝³ : CommRing S
+X : Scheme
+f : X ⟶ Spec (CommRingCat.of S)
+L : X.Modules
+R : Type u
+inst✝² : CommRing R
+inst✝¹ : Algebra S R
+𝓡 : ℕ → Submodule S R
+inst✝ : GradedAlgebra 𝓡
+ι : (n : ℕ) → ↥(𝓡 n) → ↑Γ(L.tensorPow n, ⊤)
+hR : GradedOAlgebra.IsSectionRing f L R 𝓡 ι
+hL : L.IsInvertible
+hfinite : L.FiniteBySections f
+N : ℕ
+τ : Fin (N + 1) → ↥(𝓡 1)
+V : Fin (N + 1) → X.Opens
+hV : ⨆ i, V i = ⊤
+hτV : ∀ (i : Fin (N + 1)), IsFrameOn (ι 1 (τ i)) (V i)
+φ : (i : Fin (N + 1)) → R →+* ↑Γ(X, V i)
+hφa :
+  ∀ (i : Fin (N + 1)) (a : S),
+    (φ i) ((algebraMap S R) a) = (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op)) (GradedOAlgebra.baseScalar f a)
+hφb : ∀ (i : Fin (N + 1)) (m : ℕ), IsFrameOn (ι (m • 1) ⟨↑(τ i) ^ m, ⋯⟩) (V i)
+hφc :
+  ∀ (i : Fin (N + 1)) (m : ℕ) (s : ↥(𝓡 (m • 1))),
+    (φ i) ↑s • (ConcreteCategory.hom ((L.tensorPow (m • 1)).presheaf.map (homOfLE ⋯).op)) (ι (m • 1) ⟨↑(τ i) ^ m, ⋯⟩) =
+      (ConcreteCategory.hom ((L.tensorPow (m • 1)).presheaf.map (homOfLE ⋯).op)) (ι (m • 1) s)
+hφτ : ∀ (i : Fin (N + 1)), (φ i) ↑(τ i) = 1
+hunit : ∀ (i j : Fin (N + 1)), IsUnit ((ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op)) ((φ j) ↑(τ i)))
+hkey :
+  ∀ (i j : Fin (N + 1)) (k : ℕ),
+    ∀ s ∈ 𝓡 (k • 1),
+      (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op)) ((φ i) s) *
+          (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op)) ((φ j) ↑(τ i)) ^ k =
+        (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op)) ((φ j) s)
+θV : (i : Fin (N + 1)) → ↑(V i) ⟶ Proj 𝓡 := fun i => θOf R 𝓡 (V i) (φ i) (τ i) ⋯
+hcompat : ∀ (i j : Fin (N + 1)), X.homOfLE ⋯ ≫ θV i = X.homOfLE ⋯ ≫ θV j
+𝒰 : X.OpenCover := X.openCoverOfIsOpenCover V hV
+hglue : ∀ (i j : 𝒰.I₀), pullback.fst (𝒰.f i) (𝒰.f j) ≫ θV i = pullback.snd (𝒰.f i) (𝒰.f j) ≫ θV j
+θ : X ⟶ Proj 𝓡 := Scheme.Cover.glueMorphisms 𝒰 θV hglue
+hθV : ∀ (i : Fin (N + 1)), (V i).ι ≫ θ = θV i
+hVW : ∀ {n : ℕ}, 0 < n → ∀ (σ : ↥(𝓡 n)) (i : Fin (N + 1)), V i ⊓ θ ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ = X.basicOpen ((φ i) ↑σ)
+hcovσ : ∀ {n : ℕ}, 0 < n → ∀ (σ : ↥(𝓡 n)), θ ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ = ⨆ i, X.basicOpen ((φ i) ↑σ)
+n : ℕ
+hn : 0 < n
+σ : ↥(𝓡 n)
+k : ℕ
+s : ↥(𝓡 (k • n))
+hkn : k • n = (k • n) • 1
+i : Fin (N + 1)
+hWle : V i ⊓ θ ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ ≤ V i
+cσ :
+  (φ i) ↑⟨↑⟨↑σ ^ k, ⋯⟩, ⋯⟩ •
+      (ConcreteCategory.hom ((L.tensorPow ((k • n) • 1)).presheaf.map (homOfLE ⋯).op))
+        (ι ((k • n) • 1) ⟨↑(τ i) ^ (k • n), ⋯⟩) =
+    (ConcreteCategory.hom ((L.tensorPow ((k • n) • 1)).presheaf.map (homOfLE ⋯).op)) (ι ((k • n) • 1) ⟨↑⟨↑σ ^ k, ⋯⟩, ⋯⟩)
+cs :
+  (φ i) ↑⟨↑s, ⋯⟩ •
+      (ConcreteCategory.hom ((L.tensorPow ((k • n) • 1)).presheaf.map (homOfLE ⋯).op))
+        (ι ((k • n) • 1) ⟨↑(τ i) ^ (k • n), ⋯⟩) =
+    (ConcreteCategory.hom ((L.tensorPow ((k • n) • 1)).presheaf.map (homOfLE ⋯).op)) (ι ((k • n) • 1) ⟨↑s, ⋯⟩)
+cσ' :
+  (ConcreteCategory.hom (X.presheaf.map (homOfLE hWle).op)) ((φ i) (↑σ ^ k)) •
+      (ConcreteCategory.hom ((L.tensorPow ((k • n) • 1)).presheaf.map (homOfLE ⋯).op))
+        (ι ((k • n) • 1) ⟨↑(τ i) ^ (k • n), ⋯⟩) =
+    (ConcreteCategory.hom ((L.tensorPow ((k • n) • 1)).presheaf.map (homOfLE ⋯).op)) (ι ((k • n) • 1) ⟨↑σ ^ k, ⋯⟩)
+cs' :
+  (ConcreteCategory.hom (X.presheaf.map (homOfLE hWle).op)) ((φ i) ↑s) •
+      (ConcreteCategory.hom ((L.tensorPow ((k • n) • 1)).presheaf.map (homOfLE ⋯).op))
+        (ι ((k • n) • 1) ⟨↑(τ i) ^ (k • n), ⋯⟩) =
+    (ConcreteCategory.hom ((L.tensorPow ((k • n) • 1)).presheaf.map (homOfLE ⋯).op)) (ι ((k • n) • 1) ⟨↑s, ⋯⟩)
+v :
+  (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op))
+        ((ConcreteCategory.hom
+            (Scheme.Hom.appLE ((V i).ι ≫ θ) (Proj.basicOpen 𝓡 ↑σ) (((V i).ι ≫ θ) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ) ⋯))
+          ((ConcreteCategory.hom (Proj.awayToSection 𝓡 ↑σ)) (Away.mk 𝓡 ⋯ k ↑s ⋯))) *
+      (ConcreteCategory.hom (X.presheaf.map (homOfLE hWle).op)) ((φ i) ↑σ) ^ k =
+    (ConcreteCategory.hom (X.presheaf.map (homOfLE hWle).op)) ((φ i) ↑s)
+⊢ (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op))
+      ((ConcreteCategory.hom (Scheme.Hom.appLE θ (Proj.basicOpen 𝓡 ↑σ) (θ ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ) ⋯))
+        ((ConcreteCategory.hom (Proj.awayToSection 𝓡 ↑σ)) (Away.mk 𝓡 ⋯ k ↑s ⋯))) =
+    (ConcreteCategory.hom (X.presheaf.map (homOfLE ⋯).op))
+      ((ConcreteCategory.hom
+          (Scheme.Hom.appLE (V i).ι (θ ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ) (((V i).ι ≫ θ) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ) ⋯))
+        ((ConcreteCategory.hom (Scheme.Hom.appLE θ (Proj.basicOpen 𝓡 ↑σ) (θ ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ) ⋯))
+          ((ConcreteCategory.hom (Proj.awayToSection 𝓡 ↑σ)) (Away.mk 𝓡 ⋯ k ↑s ⋯))))
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  Application type mismatch: The argument
+    le_rfl
+  has type
+    @LE.le (↑(V i)).Opens TopologicalSpace.Opens.instPartialOrder.toLE (((V i).ι ≫ θ) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ)
+      (((V i).ι ≫ θ) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ)
+  but is expected to have type
+    @LE.le (↑(V i)).Opens TopologicalSpace.Opens.instPartialOrder.toLE (((V i).ι ≫ θ) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ)
+      ((V i).ι ⁻¹ᵁ θ ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ)
+  in the application
+    Scheme.Hom.appLE (V i).ι (θ ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ) (((V i).ι ≫ θ) ⁻¹ᵁ Proj.basicOpen 𝓡 ↑σ) ⋯
+Some required targets logged failures:
+- SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionMap
+error: build failed

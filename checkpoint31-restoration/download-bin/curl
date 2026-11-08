@@ -1,0 +1,3 @@
+#!/bin/sh
+# Use independent connections for the official cache downloader.
+exec /usr/bin/curl --parallel-immediate --parallel-max 128 "$@"

@@ -1,0 +1,3 @@
+import SupersingularCurves.Geometry.ScalarFrobeniusTatePolarizedDescent
+#print axioms SupersingularCurves.Geometry.closedImmersionBySections_tensorPow
+#print axioms SupersingularCurves.Geometry.AbelianVariety.exists_finiteField_polarized_abelian_model

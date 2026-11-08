@@ -1,0 +1,465 @@
+{
+  "checkpoint": 14,
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/Frobenius.lean",
+      "sha256": "2836ed73859720065746a64044b02fce01535c84d90c2c0b4aec9dcc0bc792ac"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/VerschiebungPrimeField.lean",
+      "sha256": "882f45005542413ba0b404adb264610266c7163cfcb81a8c9a66f4bb73908305"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/JacobianVerschiebungPrimeField.lean",
+      "sha256": "8e38b5b154db78259c5229ce57b397815c67d40a310cf3041df06c55ef2bf009"
+    }
+  ],
+  "new_vendor_modules": 35,
+  "vendor_additions": [
+    {
+      "module": "Definitions.Def_AlgebraicGeometry_RegularLocalRingQuotientNonZeroDivisorAscent",
+      "path": "Definitions/Def_AlgebraicGeometry_RegularLocalRingQuotientNonZeroDivisorAscent.lean",
+      "upstream_git_blob": "15786e4f2c3463aeffebe8421df2e794bef5f9f8",
+      "upstream_sha256": "55b5aa91210ab6960faa45cb9bb9f2dc16d56819277c06aeb17be68113750917",
+      "current_sha256": "55b5aa91210ab6960faa45cb9bb9f2dc16d56819277c06aeb17be68113750917",
+      "imports": [
+        "Mathlib"
+      ]
+    },
+    {
+      "module": "Definitions.Def_AlgebraicGeometry_RegularLocalRingRegularSequenceAscent",
+      "path": "Definitions/Def_AlgebraicGeometry_RegularLocalRingRegularSequenceAscent.lean",
+      "upstream_git_blob": "616c4a4c67af6fb48f18c0c18355f4699d74693a",
+      "upstream_sha256": "08c9b2005ea8c53f155420f6667cd8e914f28eaa0de9eb72a90b7991485fe65c",
+      "current_sha256": "08c9b2005ea8c53f155420f6667cd8e914f28eaa0de9eb72a90b7991485fe65c",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RegularLocalRingQuotientNonZeroDivisorAscent"
+      ]
+    },
+    {
+      "module": "Definitions.Def_AlgebraicGeometry_SchemeFrobenius",
+      "path": "Definitions/Def_AlgebraicGeometry_SchemeFrobenius.lean",
+      "upstream_git_blob": "5a6acf6e717cfce6109e86cf7f1263eaa6a3f674",
+      "upstream_sha256": "1affbd4061af0f12e1c3e3a5967434d92049bbcb210661163162a38046cd6687",
+      "current_sha256": "1affbd4061af0f12e1c3e3a5967434d92049bbcb210661163162a38046cd6687",
+      "imports": [
+        "Mathlib"
+      ]
+    },
+    {
+      "module": "Definitions.Def_Mathlib_RingTheory_KmfloorsFiberPolynomialRegularAscent",
+      "path": "Definitions/Def_Mathlib_RingTheory_KmfloorsFiberPolynomialRegularAscent.lean",
+      "upstream_git_blob": "35f61b668bd6f230cf6699c61e9274ae4bca51d0",
+      "upstream_sha256": "4b680ef49e875852fc81931cafef8d2cad4a57ecaee0c9f62e4441103517f188",
+      "current_sha256": "4b680ef49e875852fc81931cafef8d2cad4a57ecaee0c9f62e4441103517f188",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Mathlib_RingTheory_RegularLocalRingFlatLocalAscent",
+        "Definitions.Def_Mathlib_RingTheory_SmoothFieldFiberRegularStalksStandardSmoothReduction"
+      ]
+    },
+    {
+      "module": "Definitions.Def_Mathlib_RingTheory_RegularLocalRingFlatLocalAscent",
+      "path": "Definitions/Def_Mathlib_RingTheory_RegularLocalRingFlatLocalAscent.lean",
+      "upstream_git_blob": "4da8d296eebb7932df4a08ce5744541cb38912ca",
+      "upstream_sha256": "95cd7847f29dafb78269c8771439635777989d05c90f0744d72580e069847c59",
+      "current_sha256": "95cd7847f29dafb78269c8771439635777989d05c90f0744d72580e069847c59",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Mathlib_RingTheory_RegularLocalRingQuotientRegular",
+        "Theorems.Thm_IsRegularLocalRing_isDomain",
+        "Definitions.Def_AlgebraicGeometry_RegularLocalRingRegularSequenceAscent"
+      ]
+    },
+    {
+      "module": "Definitions.Def_Mathlib_RingTheory_RegularLocalRingQuotientRegular",
+      "path": "Definitions/Def_Mathlib_RingTheory_RegularLocalRingQuotientRegular.lean",
+      "upstream_git_blob": "f0767a31dc0f9d096943f8b8237bfed69088a75a",
+      "upstream_sha256": "747eec0e81b8a6ac7bef7ce6fefc26b2e4850d733f246a806350cb4411dda297",
+      "current_sha256": "747eec0e81b8a6ac7bef7ce6fefc26b2e4850d733f246a806350cb4411dda297",
+      "imports": [
+        "Mathlib"
+      ]
+    },
+    {
+      "module": "Definitions.Def_Mathlib_RingTheory_SmoothAlgebraOverFieldRegularStalks",
+      "path": "Definitions/Def_Mathlib_RingTheory_SmoothAlgebraOverFieldRegularStalks.lean",
+      "upstream_git_blob": "8079c3e37d022b1ee41bbf1ee21e3a8651ae29d7",
+      "upstream_sha256": "3dcd0cd660ebb4406c47614080e55a1bd8f9dddcbf97adcba51d26d8f497e089",
+      "current_sha256": "3dcd0cd660ebb4406c47614080e55a1bd8f9dddcbf97adcba51d26d8f497e089",
+      "imports": [
+        "Mathlib"
+      ]
+    },
+    {
+      "module": "Definitions.Def_Mathlib_RingTheory_SmoothFieldFiberRegularStalksStandardSmoothReduction",
+      "path": "Definitions/Def_Mathlib_RingTheory_SmoothFieldFiberRegularStalksStandardSmoothReduction.lean",
+      "upstream_git_blob": "61c31a698b00f78cc6e0bb142e9e297c1d77a6bf",
+      "upstream_sha256": "96effd184455295655c1a0b95b81306ebe64916bddd0c88cd292109fc6eb9306",
+      "current_sha256": "96effd184455295655c1a0b95b81306ebe64916bddd0c88cd292109fc6eb9306",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Mathlib_RingTheory_SmoothAlgebraOverFieldRegularStalks"
+      ]
+    },
+    {
+      "module": "Definitions.Def_Patching_SystemTypes",
+      "path": "Definitions/Def_Patching_SystemTypes.lean",
+      "upstream_git_blob": "013e3b7dfa5db55021deb21f3ea7108f0c0ed9aa",
+      "upstream_sha256": "7514bef1c36481c331a7c3a17cdcbfc000a9418cbad8afedcf2c19b8d870495c",
+      "current_sha256": "7514bef1c36481c331a7c3a17cdcbfc000a9418cbad8afedcf2c19b8d870495c",
+      "imports": [
+        "Mathlib.Topology.Algebra.Nonarchimedean.AdicTopology",
+        "Mathlib.RingTheory.LocalRing.MaximalIdeal.Basic",
+        "Mathlib.RingTheory.FiniteType",
+        "Mathlib.Topology.Algebra.Ring.Basic",
+        "Mathlib.RingTheory.Regular.RegularSequence",
+        "Mathlib.Algebra.Module.Torsion.Basic",
+        "Mathlib.LinearAlgebra.Dimension.Finrank",
+        "Mathlib.Order.Filter.Ultrafilter.Defs",
+        "Mathlib.Data.ENat.Lattice"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_Algebra_IsStandardSmooth_exists_isStandardSmoothOfRelativeDimension_of_field",
+      "path": "P2M/Sol/S_Algebra_IsStandardSmooth_exists_isStandardSmoothOfRelativeDimension_of_field.lean",
+      "upstream_git_blob": "2045fc8905f132aba5f57ba5bc6a646c5c0e8fc4",
+      "upstream_sha256": "ee12a5da93286f7bb8eea83c8c12f1f1a7f51da3db8d41de6245a40faa897dd7",
+      "current_sha256": "ee12a5da93286f7bb8eea83c8c12f1f1a7f51da3db8d41de6245a40faa897dd7",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Smooth_isFinite_and_flat_and_surjective_of_isPullback_frobenius",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Smooth_isFinite_and_flat_and_surjective_of_isPullback_frobenius.lean",
+      "upstream_git_blob": "2eb205b3b2168db22e890c3b491226fd9126d3f5",
+      "upstream_sha256": "8637fcd35137e3c4c67af89a9f68b1ad9498a2727e3ade3521239b2b8efb14fb",
+      "current_sha256": "8637fcd35137e3c4c67af89a9f68b1ad9498a2727e3ade3521239b2b8efb14fb",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_SchemeFrobenius",
+        "Theorems.Thm_AlgebraicGeometry_Smooth_isRegularLocalRing_stalk",
+        "Theorems.Thm_Module_Flat_of_isLocalHom_of_isRegularLocalRing_of_ringKrullDim_quotient_eq_zero",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Smooth_isRegularLocalRing_stalk",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Smooth_isRegularLocalRing_stalk.lean",
+      "upstream_git_blob": "820a0c420f991585a4073784dfbcbf44bbca4533",
+      "upstream_sha256": "e16116a158956ca4e9eeb3abe7263c9de869e533d1d1dd5aaa9ada9e60734a3f",
+      "current_sha256": "e16116a158956ca4e9eeb3abe7263c9de869e533d1d1dd5aaa9ada9e60734a3f",
+      "imports": [
+        "Mathlib",
+        "Theorems.Thm_isRegularLocalRing_localization_atPrime_of_isStandardSmooth",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_comp_schemeNsmul_eq_of_comp_frobenius_eq_of_isCommutative",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_comp_schemeNsmul_eq_of_comp_frobenius_eq_of_isCommutative.lean",
+      "upstream_git_blob": "cd0418053f50771eb29475dacde2f6d5357c9410",
+      "upstream_sha256": "ae6c993e1ea336df778ece6962b5926d527b397a89e81140a188279fb76450af",
+      "current_sha256": "ae6c993e1ea336df778ece6962b5926d527b397a89e81140a188279fb76450af",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "Definitions.Def_AlgebraicGeometry_NeronModelEndomorphismExtension",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_IsLocalRing_isRegular_of_systemOfParameters",
+      "path": "P2M/Sol/S_IsLocalRing_isRegular_of_systemOfParameters.lean",
+      "upstream_git_blob": "bfe8fa3c06aea15de9c4ba9388d3c787eafc55dd",
+      "upstream_sha256": "b9e7ffbd4275503265a701ddcc697ade49d10e2d3114626d9f4ecccad07a4889",
+      "current_sha256": "c7b7e58b8da74601908a57bd44f867167a1f03e19e50df0cf4dfaa97b2a6e792",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Patching_SystemTypes",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_IsRegularLocalRing_depth_self_eq_ringKrullDim",
+      "path": "P2M/Sol/S_IsRegularLocalRing_depth_self_eq_ringKrullDim.lean",
+      "upstream_git_blob": "9bb9d960927ec74e2926bec3f8d4b8aa4de454cb",
+      "upstream_sha256": "360aa724b4d2f349dac83c301c8f9bec958ec93450398deef46e17e4812a89a4",
+      "current_sha256": "360aa724b4d2f349dac83c301c8f9bec958ec93450398deef46e17e4812a89a4",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Patching_SystemTypes",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_IsRegularLocalRing_isDomain",
+      "path": "P2M/Sol/S_IsRegularLocalRing_isDomain.lean",
+      "upstream_git_blob": "5060784191b53dd6e21234e748958f2342024be8",
+      "upstream_sha256": "f7e2708b0d73ee2413dad0817792d9ea1ed5f48626979b212fe48ea6dc267e29",
+      "current_sha256": "f7e2708b0d73ee2413dad0817792d9ea1ed5f48626979b212fe48ea6dc267e29",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_Module_Flat_of_isLocalHom_of_isRegularLocalRing_of_ringKrullDim_quotient_eq_zero",
+      "path": "P2M/Sol/S_Module_Flat_of_isLocalHom_of_isRegularLocalRing_of_ringKrullDim_quotient_eq_zero.lean",
+      "upstream_git_blob": "53202e1dbc39169c52821d9f67bfd930010a2a77",
+      "upstream_sha256": "d1c3b385d9ca17862413767c6d021785e5f651cc51f5a6165cdf874a479d7f66",
+      "current_sha256": "d1c3b385d9ca17862413767c6d021785e5f651cc51f5a6165cdf874a479d7f66",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Patching_SystemTypes",
+        "Definitions.Def_Mathlib_RingTheory_RegularLocalRingFlatLocalAscent",
+        "Theorems.Thm_IsRegularLocalRing_depth_self_eq_ringKrullDim",
+        "Theorems.Thm_IsLocalRing_isRegular_of_systemOfParameters",
+        "Theorems.Thm_Module_flat_of_isLocalHom_of_finite_of_isZero_tor_one_residueField",
+        "Theorems.Thm_RingTheory_Sequence_IsWeaklyRegular_isZero_tor_one_quotient_ofList",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_Module_flat_of_isLocalHom_of_finite_of_isZero_tor_one_residueField",
+      "path": "P2M/Sol/S_Module_flat_of_isLocalHom_of_finite_of_isZero_tor_one_residueField.lean",
+      "upstream_git_blob": "2cb8e3a12d555910d329093048624e256608ed74",
+      "upstream_sha256": "ea83777decc65f9c72f1b7b85dec6e65446c6231534897ac7c5c24a57ddde1b0",
+      "current_sha256": "ea83777decc65f9c72f1b7b85dec6e65446c6231534897ac7c5c24a57ddde1b0",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_RingTheory_Sequence_IsWeaklyRegular_isZero_tor_one_quotient_ofList",
+      "path": "P2M/Sol/S_RingTheory_Sequence_IsWeaklyRegular_isZero_tor_one_quotient_ofList.lean",
+      "upstream_git_blob": "c72a5159efa8e756b16763c55d216693e7590f51",
+      "upstream_sha256": "12d5daa2f322a01b0eb104a96c34da3399c48997b1e960f988d299b6af4e5bde",
+      "current_sha256": "12d5daa2f322a01b0eb104a96c34da3399c48997b1e960f988d299b6af4e5bde",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_isRegularLocalRing_localization_atPrime_mvPolynomial",
+      "path": "P2M/Sol/S_isRegularLocalRing_localization_atPrime_mvPolynomial.lean",
+      "upstream_git_blob": "174dc2c70baecfafa5cbad7b4986457ebbf870aa",
+      "upstream_sha256": "2977928774eaccced929eac4dde39ceb669fa3f47eb43f88b23551ba5d448e55",
+      "current_sha256": "2977928774eaccced929eac4dde39ceb669fa3f47eb43f88b23551ba5d448e55",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Mathlib_RingTheory_KmfloorsFiberPolynomialRegularAscent",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_isRegularLocalRing_localization_atPrime_of_etale_of_comap",
+      "path": "P2M/Sol/S_isRegularLocalRing_localization_atPrime_of_etale_of_comap.lean",
+      "upstream_git_blob": "cbd33883a775af95415fb49832932c475c873cbc",
+      "upstream_sha256": "227a58b056f258c2d2808f4653da725a0088c1a6fbadad364d2edbb58bf0f60d",
+      "current_sha256": "227a58b056f258c2d2808f4653da725a0088c1a6fbadad364d2edbb58bf0f60d",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_isRegularLocalRing_localization_atPrime_of_isStandardSmooth",
+      "path": "P2M/Sol/S_isRegularLocalRing_localization_atPrime_of_isStandardSmooth.lean",
+      "upstream_git_blob": "cf606248a8a0b6fbf3102209d44ab5bd18a01659",
+      "upstream_sha256": "dc822402f092b942281b112aa07dace236171cbcc5cf1df56dbc805b29ca6398",
+      "current_sha256": "dc822402f092b942281b112aa07dace236171cbcc5cf1df56dbc805b29ca6398",
+      "imports": [
+        "Mathlib",
+        "Theorems.Thm_Algebra_IsStandardSmooth_exists_isStandardSmoothOfRelativeDimension_of_field",
+        "Theorems.Thm_isRegularLocalRing_localization_atPrime_mvPolynomial",
+        "Theorems.Thm_isRegularLocalRing_localization_atPrime_of_etale_of_comap",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Algebra_IsStandardSmooth_exists_isStandardSmoothOfRelativeDimension_of_field",
+      "path": "Theorems/Thm_Algebra_IsStandardSmooth_exists_isStandardSmoothOfRelativeDimension_of_field.lean",
+      "upstream_git_blob": "852f84e64b128734937464d5d1459420339831c3",
+      "upstream_sha256": "57013d7dcf590b03bd9197b7a2004d4374af36d0b70bfac105dc452d6a46f277",
+      "current_sha256": "57013d7dcf590b03bd9197b7a2004d4374af36d0b70bfac105dc452d6a46f277",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_Algebra_IsStandardSmooth_exists_isStandardSmoothOfRelativeDimension_of_field"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Smooth_isFinite_and_flat_and_surjective_of_isPullback_frobenius",
+      "path": "Theorems/Thm_AlgebraicGeometry_Smooth_isFinite_and_flat_and_surjective_of_isPullback_frobenius.lean",
+      "upstream_git_blob": "e62a636529a4ce229eaec897b09a0ee98c02d3b8",
+      "upstream_sha256": "435b65c14545fee6ffbde67571d6a826866cf572e6fafbd7628ed70ac73057a3",
+      "current_sha256": "435b65c14545fee6ffbde67571d6a826866cf572e6fafbd7628ed70ac73057a3",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Smooth_isFinite_and_flat_and_surjective_of_isPullback_frobenius"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Smooth_isRegularLocalRing_stalk",
+      "path": "Theorems/Thm_AlgebraicGeometry_Smooth_isRegularLocalRing_stalk.lean",
+      "upstream_git_blob": "a97bb224b105f37c049bbdda9dd4a8dee58fd708",
+      "upstream_sha256": "ecd890fc117422a69ad92679206847521a79535c7295bc3911811ada0f392176",
+      "current_sha256": "ecd890fc117422a69ad92679206847521a79535c7295bc3911811ada0f392176",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Smooth_isRegularLocalRing_stalk"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_comp_schemeNsmul_eq_of_comp_frobenius_eq_of_isCommutative",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_comp_schemeNsmul_eq_of_comp_frobenius_eq_of_isCommutative.lean",
+      "upstream_git_blob": "e68a0b16335316e863d46c4da1b0c34b2a3674ab",
+      "upstream_sha256": "ac714edbeb08641fd79d49114d1ddacfba3a6347a9b20b1956a2c86aeff06375",
+      "current_sha256": "ac714edbeb08641fd79d49114d1ddacfba3a6347a9b20b1956a2c86aeff06375",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "Definitions.Def_AlgebraicGeometry_NeronModelEndomorphismExtension",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_comp_schemeNsmul_eq_of_comp_frobenius_eq_of_isCommutative"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_IsLocalRing_isRegular_of_systemOfParameters",
+      "path": "Theorems/Thm_IsLocalRing_isRegular_of_systemOfParameters.lean",
+      "upstream_git_blob": "156b86e8484a7fc53225a3e87a5b14f4a7f4eb0a",
+      "upstream_sha256": "9a61d1e1bb131e62eb0a688374097781f5d480caa93beb1ff00cef63eb637a22",
+      "current_sha256": "9a61d1e1bb131e62eb0a688374097781f5d480caa93beb1ff00cef63eb637a22",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Patching_SystemTypes",
+        "P2M.Util",
+        "P2M.Sol.S_IsLocalRing_isRegular_of_systemOfParameters"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_IsRegularLocalRing_depth_self_eq_ringKrullDim",
+      "path": "Theorems/Thm_IsRegularLocalRing_depth_self_eq_ringKrullDim.lean",
+      "upstream_git_blob": "e1bd1983e86e7acbbe8695ea1f4f15231a7cec6a",
+      "upstream_sha256": "b1aae38d6203ecd240937108c26e167f2e601ab761c387c7cb32e9be614a640f",
+      "current_sha256": "b1aae38d6203ecd240937108c26e167f2e601ab761c387c7cb32e9be614a640f",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Patching_SystemTypes",
+        "P2M.Util",
+        "P2M.Sol.S_IsRegularLocalRing_depth_self_eq_ringKrullDim"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_IsRegularLocalRing_isDomain",
+      "path": "Theorems/Thm_IsRegularLocalRing_isDomain.lean",
+      "upstream_git_blob": "bbecd9ef87461700ade82d4bda16003f21bf4be6",
+      "upstream_sha256": "b97a3dbfa51dd0d6d444483d77d94db46d8c12fd3aab4791c0f79852fdf3aafd",
+      "current_sha256": "b97a3dbfa51dd0d6d444483d77d94db46d8c12fd3aab4791c0f79852fdf3aafd",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_IsRegularLocalRing_isDomain"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Module_Flat_of_isLocalHom_of_isRegularLocalRing_of_ringKrullDim_quotient_eq_zero",
+      "path": "Theorems/Thm_Module_Flat_of_isLocalHom_of_isRegularLocalRing_of_ringKrullDim_quotient_eq_zero.lean",
+      "upstream_git_blob": "ebe997305b886e1ec24fb93a12d648aa079b8187",
+      "upstream_sha256": "4b761915de9f7ca721b234f167a3a6d2b4514962251cfd7f57afc248b08eb00a",
+      "current_sha256": "4b761915de9f7ca721b234f167a3a6d2b4514962251cfd7f57afc248b08eb00a",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Patching_SystemTypes",
+        "P2M.Util",
+        "P2M.Sol.S_Module_Flat_of_isLocalHom_of_isRegularLocalRing_of_ringKrullDim_quotient_eq_zero"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Module_flat_of_isLocalHom_of_finite_of_isZero_tor_one_residueField",
+      "path": "Theorems/Thm_Module_flat_of_isLocalHom_of_finite_of_isZero_tor_one_residueField.lean",
+      "upstream_git_blob": "0d51cd8d7f09a33f5b767ffbc0f20317c23d2201",
+      "upstream_sha256": "f159833960fe0a2a372c544895d5a64f01493ecdf95facb356a2e607823e303d",
+      "current_sha256": "f159833960fe0a2a372c544895d5a64f01493ecdf95facb356a2e607823e303d",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_Module_flat_of_isLocalHom_of_finite_of_isZero_tor_one_residueField"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_RingTheory_Sequence_IsWeaklyRegular_isZero_tor_one_quotient_ofList",
+      "path": "Theorems/Thm_RingTheory_Sequence_IsWeaklyRegular_isZero_tor_one_quotient_ofList.lean",
+      "upstream_git_blob": "78adf62e71a36763afd67c4acb944180ef509b29",
+      "upstream_sha256": "60cb2335cacb1962ef7402e5961b86c4937e8376206a94aabce7ea7d46f4d90b",
+      "current_sha256": "60cb2335cacb1962ef7402e5961b86c4937e8376206a94aabce7ea7d46f4d90b",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_RingTheory_Sequence_IsWeaklyRegular_isZero_tor_one_quotient_ofList"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_isRegularLocalRing_localization_atPrime_mvPolynomial",
+      "path": "Theorems/Thm_isRegularLocalRing_localization_atPrime_mvPolynomial.lean",
+      "upstream_git_blob": "191c2ccd5220179c38a11705a7d906d38ce9aac5",
+      "upstream_sha256": "c1557c78af2091e5cbf0570d0bd48ece17bc26ba6eac0d3cccdb2d197e2c13b6",
+      "current_sha256": "c1557c78af2091e5cbf0570d0bd48ece17bc26ba6eac0d3cccdb2d197e2c13b6",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_isRegularLocalRing_localization_atPrime_mvPolynomial"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_isRegularLocalRing_localization_atPrime_of_etale_of_comap",
+      "path": "Theorems/Thm_isRegularLocalRing_localization_atPrime_of_etale_of_comap.lean",
+      "upstream_git_blob": "4c64e9e6af1f2943ab6acd25d806523401276d45",
+      "upstream_sha256": "a520941935094076a9ad99b5abf85122937e33fa230b13ffe98a060e9d63dcc9",
+      "current_sha256": "a520941935094076a9ad99b5abf85122937e33fa230b13ffe98a060e9d63dcc9",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_isRegularLocalRing_localization_atPrime_of_etale_of_comap"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_isRegularLocalRing_localization_atPrime_of_isStandardSmooth",
+      "path": "Theorems/Thm_isRegularLocalRing_localization_atPrime_of_isStandardSmooth.lean",
+      "upstream_git_blob": "4cccc07d54a625da158fd60af6fa13f7469f1cd1",
+      "upstream_sha256": "718ffc6f99e31a6e021b5a8258843e5ef04752cb8c6344649273e40cd1194067",
+      "current_sha256": "718ffc6f99e31a6e021b5a8258843e5ef04752cb8c6344649273e40cd1194067",
+      "imports": [
+        "Definitions.Def_Mathlib_RingTheory_SmoothAlgebraOverFieldRegularStalks",
+        "Definitions.Def_Mathlib_RingTheory_SmoothFieldFiberRegularStalksStandardSmoothReduction",
+        "P2M.Util",
+        "P2M.Sol.S_isRegularLocalRing_localization_atPrime_of_isStandardSmooth"
+      ]
+    }
+  ],
+  "prior_proof_modules_modified": 0,
+  "prior_vendor_modules_modified": 0,
+  "new_compatibility_ports": [
+    "P2M/Sol/S_IsLocalRing_isRegular_of_systemOfParameters.lean"
+  ],
+  "main_reused_sources": [
+    "Definitions/Def_AlgebraicGeometry_SchemeFrobenius.lean",
+    "P2M/Sol/S_AlgebraicGeometry_Smooth_isFinite_and_flat_and_surjective_of_isPullback_frobenius.lean",
+    "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_comp_schemeNsmul_eq_of_comp_frobenius_eq_of_isCommutative.lean",
+    "Definitions/Def_AlgebraicGeometry_RelPicardPullback.lean"
+  ],
+  "proof_route_reference": {
+    "path": "P2M/Sol/S_CerednikDrinfeld_QM_FakeEllipticCurve_hasFrobeniusVerschiebung_of_relFrobenius_of_flat.lean",
+    "description": "The effective-epimorphism descent and product-cover group-law argument were inspected as a proof route. The project proof uses the general prime-field commutative-group theorem, without quaternionic or level hypotheses."
+  },
+  "scope": "Actual relative Frobenius over characteristic-p fields, finite flat surjectivity over perfect fields for smooth schemes, and actual Picard pullback. Independent Verschiebung, both multiplication-by-p factorizations, uniqueness, identity preservation and group compatibility over ZMod p. Cotangent realization for any given independently representing Jacobian over ZMod p. No Cartier identity or geometric genus-two classification."
+}

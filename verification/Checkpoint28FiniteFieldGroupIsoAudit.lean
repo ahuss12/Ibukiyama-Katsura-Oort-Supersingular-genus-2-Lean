@@ -1,0 +1,6 @@
+import SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentGroupIso
+#print axioms SupersingularCurves.Geometry.GroupScheme.zero_coe_eq_unit
+#print axioms SupersingularCurves.Geometry.AbelianVariety.baseChange_zero_fst
+#print axioms SupersingularCurves.Geometry.AbelianVariety.groupIsoOfPullbackOfOne
+#print axioms SupersingularCurves.Geometry.AbelianVariety.groupIsoOfPullbackOfOne_hom_fst
+#print axioms SupersingularCurves.Geometry.AbelianVariety.exists_finiteField_abelian_iso_model_of_verschiebungCotangent_eq_zero

@@ -1,0 +1,36 @@
+{
+  "checkpoint": 13,
+  "started_at_utc": "2026-09-19T18:46:27.514486+00:00",
+  "verification_command": "bash verification/verify.sh",
+  "fresh_project_compile_units_expected": 59,
+  "retained_checkpoint_12_proof_modules": 56,
+  "new_proof_modules": 2,
+  "toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "environment_note": "Restored exact-version Lean and external Mathlib caches; retained hash-verified checkpoint-12 selected FLT build artifacts; project artifacts cleared for fresh compilation. Existing executable-path compatibility shim; no change to Lean proof checking.",
+  "two_requested_geometric_tasks_completed": false,
+  "completed_at_utc": "2026-09-19T19:13:41.472518+00:00",
+  "verification_script_exit_code": 0,
+  "all_verification_checks_passed": true,
+  "fresh_project_compile_units_observed": 59,
+  "current_checked_source_hashes": 102,
+  "proof_sources_unchanged_after_gate": true,
+  "audited_project_declarations": 1317,
+  "audited_flt_declarations": 24884,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "log_sha256": {
+    "checkpoint-13-verification.log": "740491c82e0205644c86c9a13e27c446568ed610518796f2789438eacdd17b46",
+    "project-build.log": "b0522254fa214849f19367d66ef8e05b7398cdde01e42de8710b0d7024ffee02",
+    "source-audit.log": "bdf30e76b2af45d0021ed3d1a82ca25b3b43dfafcc927d1b59c1c7cf58ced851",
+    "basis-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "torsion-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "geometric-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simple-root-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "superspecial-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "general-genus-two-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "axiom-audit.log": "300336b6d87c6aabf3be8e39346d0ec8a1e33f259436320fd74b2eea7c7ffee8"
+  }
+}

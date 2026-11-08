@@ -1,0 +1,31 @@
+import took 14.1s
+Audited 8 declarations from SupersingularCurves.Geometry.PolarisationRootNumerics.
+Audited 6 declarations from SupersingularCurves.Geometry.AbelianIsogenyRootNumerics.
+Audited 4 declarations from SupersingularCurves.Geometry.AbelianTateProductPolarization.
+Inspected 0 shared generated entries by stored type/body as well as resolved declaration.
+Checkpoint 33 transitive axiom audit passed: 18 new project declaration entries.
+compilation (LCNF base) took 152ms
+interpretation of _private.verification.Checkpoint33NumericsAudit.0._eval._boxed took 131ms
+cumulative profiling times:
+	attribute application 0.0128ms
+	compilation (IR) 2.61ms
+	compilation (LCNF base) 152ms
+	compilation (LCNF impure) 11.7ms
+	compilation (LCNF mono) 28.9ms
+	do element elaborator 44.5ms
+	elaboration 8.2ms
+	fix level params 0.0514ms
+	import 14.1s
+	initialization 39.2ms
+	instantiate metavars 0.00361ms
+	interpretation 508ms
+	let-to-have transformation 0.0191ms
+	linting 2.97ms
+	module linting 0.0013ms
+	overlappingInstancesLinter 0.905ms
+	parsing 2.82ms
+	process pre-definitions 57.8ms
+	share common exprs 0.611ms
+	tacticAnalysis 6.27ms
+	type checking 2.13ms
+	typeclass inference 29.6ms

@@ -1,0 +1,45 @@
+'SupersingularCurves.Geometry.PointedCotangent.finite_of_locallyOfFiniteType' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.Fibre.tangentPoint_lift_of_comp_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.Fibre.exists_factor_of_comp_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.Fibre.cotangentMap_comp_differential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.Fibre.range_differential_eq_ker_cotangentMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.Fibre.finrank_add_rank_differential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.Fibre.finrank_eq_sub_rank_differential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.vKernel_cotangent_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.cotangent_finrank_eq_vKernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.cotangent_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.cotangent_finrank_eq_one_of_surface_rank_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.cotangent_finrank_of_verschiebung_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.verschiebung_rank_eq_one_of_surface_pRank_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.cotangent_finrank_eq_one_of_surface_pRank_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.cotangent_finrank_eq_one_of_dimension_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

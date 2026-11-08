@@ -1,0 +1,59 @@
+{
+  "checkpoint": 30,
+  "completed_at_utc": "2026-09-23T19:34:47.635841+00:00",
+  "all_current_checks_passed": true,
+  "build_exit_code": 0,
+  "source_checks_exit_code": 0,
+  "source_scan_exit_code": 0,
+  "new_module_axiom_audit_exit_code": 0,
+  "build_target": "SupersingularCurves.Geometry.ScalarFrobeniusTateFiniteModels",
+  "build_jobs": 11133,
+  "new_project_modules": 4,
+  "project_proof_modules": 332,
+  "new_public_theorems": 15,
+  "new_private_supporting_lemmas": 0,
+  "project_public_theorems": 1840,
+  "project_private_supporting_lemmas": 82,
+  "new_vendor_modules": 0,
+  "vendor_modules": 4666,
+  "new_compatibility_ports": 0,
+  "prior_proof_modules_unchanged": 328,
+  "prior_vendor_lean_files_unchanged_including_lakefile": 4667,
+  "new_module_declaration_entries_audited": 46,
+  "new_project_declaration_entries_audited": 46,
+  "source_files_scanned": 4999,
+  "checked_source_hashes": 490,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "clean_rebuild_of_all_dependencies": false,
+  "full_aggregate_build_rerun": false,
+  "historical_integration_examples_rerun": false,
+  "full_previous_audit_rerun": false,
+  "verification_mode": "Targeted final module and full import closure built; 15 new theorem names and 46 stored declarations audited by types, bodies, generated entries, and transitive axioms. Pinned provenance, all selected source hashes, previous source preservation, and admission/native markers checked. Retained dependency caches reused.",
+  "proved": [
+    "Integral compactness constructs a nonzero limiting operator in a prescribed actual rational endomorphism span.",
+    "Finite actual quotient models give the recurrence, actual operators, integral preimages, and prescribed limiting range.",
+    "Finite actual graph-quotient models yield actual nonzero elliptic maps and supersingular elliptic-product isogenies in both directions at p-rank zero."
+  ],
+  "still_open": [
+    "Finite-model boundedness for an appropriate graph-quotient family from zero dV.",
+    "Uniform projective closed-immersion bounds for actual nonprincipal quotient-root polarizations and the numerical/descent/moduli assembly.",
+    "The unconditional zero-dV elliptic-map and product-isogeny classification.",
+    "Oort integral splitting for superspecial product isomorphisms, both positive geometric Cartier converses, and the wider IKO/Newton scope."
+  ],
+  "geometric_classification_block_complete": false,
+  "full_iko_section_1_complete": false,
+  "global_zero_dV_product_isogeny_proved": false,
+  "global_zero_dV_elliptic_map_proved": false,
+  "finite_graph_quotient_models_to_product_isogenies_proved": true,
+  "duplicate_zero_dV_transport_removed": true,
+  "log_sha256": {
+    "checkpoint-30-project-build.log": "16b13ee9d041a12160ead7f1327afc753a200a258498087f51eb84a50f3e9bc7",
+    "checkpoint-30-source-audit.log": "d98e2486f67aaf3eeaa905dc3f7d12d9f1b30ee769862f0a2abe372a50b3ed52",
+    "checkpoint-30-axiom-audit.log": "5336b8dbed288f0058e1fd41a6dd00d9b8370eb32655e880c20821830ab4009f",
+    "checkpoint-30-toolchain.log": "544b4920040fb4a18fbbf04c48a65f06739ab3268fc7d3c756bc1b64e823a094"
+  }
+}

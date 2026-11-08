@@ -1,0 +1,19 @@
+'SupersingularCurves.Elliptic.exists_supersingular_legendre' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Elliptic.charTwoCurve_isElliptic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Elliptic.charTwoCurve_torsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.WeierstrassGroupModel.nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.WeierstrassGroupModel.abelianVariety' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.WeierstrassGroupModel.pointsMulEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.WeierstrassGroupModel.isSupersingularElliptic_of_points' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.WeierstrassGroupModel.isSupersingularElliptic_of_hasseInvariant_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.exists_isSupersingularElliptic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,112 @@
+[
+  {
+    "name": "SupersingularCurves.Geometry.AbelianIsogenyRootNumerics.finiteBySections_pullback",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/AbelianIsogenyRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.AbelianIsogenyRootNumerics.geomH0_pullback_eq_degree_mul",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/AbelianIsogenyRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.AbelianIsogenyRootNumerics.geomH0_root_eq_of_degree_pow",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/AbelianIsogenyRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.AbelianIsogenyRootNumerics.root_uniform_numerics",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/AbelianIsogenyRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.AbelianIsogenyRootNumerics.exists_symmetric_bundle_with_uniform_rank",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/AbelianIsogenyRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.kernelPts_eq_of_iso",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.kernelPts_subset_tensorPow",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.finite_kernelPts_of_root",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.geomH0_eq_of_iso",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.root_finiteKernel_positive_of_finiteBySections",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.higherCohomology_zero",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.geomH0_eq_eulerChar",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.geomH0_tensorPow",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.cube_finiteBySections",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.geomH0_root_scaling",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarisationRootNumerics.exists_symmetric_finite_cube",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarisationRootNumerics.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarizedFiniteModels.exists_finite_variety_representatives",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarizedFiniteModels.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.PolarizedFiniteModels.exists_finite_geometric_models_of_bounded_models",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarizedFiniteModels.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.ScalarFrobeniusTate.exists_finite_models_of_symmetric_veryAmple_fixed_rank",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/PolarizedFiniteModels.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.AbelianVariety.exists_finiteField_polarized_model_with_rank",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/ScalarFrobeniusPolarizedDescentRank.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.ScalarFrobeniusTate.exists_root_of_isotropic_tate_image",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/ScalarFrobeniusTateQuotientRoots.lean",
+    "status": "unchecked-draft"
+  },
+  {
+    "name": "SupersingularCurves.Geometry.ScalarFrobeniusTate.exists_quotient_root_with_uniform_numerics",
+    "source": "drafts/checkpoint31/SupersingularCurves/Geometry/ScalarFrobeniusTateQuotientRoots.lean",
+    "status": "unchecked-draft"
+  }
+]

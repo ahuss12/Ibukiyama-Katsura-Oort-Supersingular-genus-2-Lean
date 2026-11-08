@@ -1,0 +1,2074 @@
+[
+  {
+    "path": "Audit.lean",
+    "sha256": "aa3f2c9698f59fdf7620465c00fb48cd88656872b6aeeaddb48d92dbf90f5e62"
+  },
+  {
+    "path": "CONTINUATION_STATUS.md",
+    "sha256": "614fe1979cf86264f74e7678a5ee50ba87354828644208794dbace1c4432ebf1"
+  },
+  {
+    "path": "README.md",
+    "sha256": "9dbb7643c4bdcd451a494eb15c8ba18568e5f5f4c227fbd4a44a9c902848f92c"
+  },
+  {
+    "path": "SECTION1_COVERAGE.md",
+    "sha256": "23f4ffbae6b100415da3c52157ca3c469f3c8a05b6fc2119dde6161494ecf051"
+  },
+  {
+    "path": "SupersingularCurves.lean",
+    "sha256": "f60fa233ddcb0253b784a182c9bf6e435bea579678ab144a9fed5a86007ba222"
+  },
+  {
+    "path": "SupersingularCurves/Differentials/Cartier.lean",
+    "sha256": "7dc9251228d1aa21e253ce327981215bfcf81f53f22275d3028f2b1a2569d0bd"
+  },
+  {
+    "path": "SupersingularCurves/Differentials/Hyperelliptic.lean",
+    "sha256": "a3c3526496f3b62660fd1b6fe366a7abd06e3ebc11270ef97c27eb0b4c0c1048"
+  },
+  {
+    "path": "SupersingularCurves/Differentials/Monomials.lean",
+    "sha256": "5b8e32bb14e0e2d2ba2fc5d99ace0a721cf8b00a2d8b2aea09fb665dc12181e1"
+  },
+  {
+    "path": "SupersingularCurves/Differentials/Polynomial.lean",
+    "sha256": "a6db82ed0855e87ef8e72c3d54dfa524b13a617424319e19f7182abdf1567cfa"
+  },
+  {
+    "path": "SupersingularCurves/Differentials/Regularity.lean",
+    "sha256": "c05ce65e50d61f3706a75ecca12e06a6402995e19447928fe7a45ab62a4b7096"
+  },
+  {
+    "path": "SupersingularCurves/Elliptic/Legendre.lean",
+    "sha256": "2b1db323a5fd886a1f6af3a8d63690949f57e9f8e97b2e392a1505e6b6a28385"
+  },
+  {
+    "path": "SupersingularCurves/Elliptic/Supersingular.lean",
+    "sha256": "50bcc136fa032db5e3d05bc2a5f4c38f022800f1b000e6bdc4ebe2de1fead4aa"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianClosedSubgroup.lean",
+    "sha256": "21083d25752519acbf7a9e4978520ff55c432cdab827eab0e50eb1855193f158"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianHomImage.lean",
+    "sha256": "fdb621b1978d12992eddc8648cd112550f98490755705a74e05d13698349c55f"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianIsogenyEuler.lean",
+    "sha256": "7006c888f83593187035363c83846f144e1d84046a8d9c1d79b7c028b7fa4b23"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianIsogenyKilledKernel.lean",
+    "sha256": "b7c80c601f727d63d36a41c9365d203d6089e41b92f044db9ba4818483c0da40"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianIsogenyQuasiInverse.lean",
+    "sha256": "bacaef97bd7a310a567784126d926fdd4fad868a00011824841dd1a3f7d36bc5"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianMultiplicationDegree.lean",
+    "sha256": "4c0801d6b91ca56f7c9198c2928846b1a7d7876a3ab020fd9eef8d1b838770d9"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianProductIsogeny.lean",
+    "sha256": "396086a8d2c3dc172362dbe1e7c03aa9c72e328b7d7af71814de545c83b75f5a"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianProductLineBundle.lean",
+    "sha256": "cd56b5067dcfc536e378a569b82c21323977628ac48ac9292c0514b162b8dd9c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianSurfaceEllipticKernel.lean",
+    "sha256": "0afad6de9e201a1ae6eaf066bbc9f6a98e1fb248256134227889f62e63d3031a"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianTateFunctor.lean",
+    "sha256": "f2cd26037419b73bb0f817d54c1aca10a7df53f341c22665b616e3c73a52c43c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianTateGalois.lean",
+    "sha256": "cd4fac7e4cb6e7ac5d797db8513bf0cea87fd79bc267f09a39b89b18484cf08e"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianTateGaloisFunctor.lean",
+    "sha256": "e62ccacb401347be61f612d2605af5b1512cc489c4fdd1e293d70b7e15535c25"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianTateModule.lean",
+    "sha256": "f70c15ce89e3d5e37d80df5c7a174a1250c8c375bcd60d8cd268436906e09525"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianTateProduct.lean",
+    "sha256": "41483240f7c28e5f3d57f24d30f192eb8aa4c4117b2ba4b3916a06b4324b4ff1"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianTateProductMaps.lean",
+    "sha256": "392105ca06bd02c40360b5af3da8835531b446040ef7a498dca3fb344deb6e10"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianTateRiemannFiniteKernel.lean",
+    "sha256": "d0853093c811408c5a5edcaf1b8029450f123262439407460a0a328d055c0cf2"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianTateRiemannForm.lean",
+    "sha256": "35aeb296e79afc936623e47f012dac16670c4066464a118803d2baab2f18e78f"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianTateRiemannPoints.lean",
+    "sha256": "f5ced91e47e89dda67709d2abdaa26b44b6f9f47ba3d8dac40ac4614a1acd868"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianTateRiemannPullback.lean",
+    "sha256": "47965fbecd925ae57e6779d3ff3f09b03e82acee0d3e0e1f3e9375f49ce2283c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianTateRiemannRational.lean",
+    "sha256": "80b9d606e01eee7c4d673b0481ec92a811bd01075790df13f6077988ed159a23"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianTateScalarFrobenius.lean",
+    "sha256": "60f0fada1ab96ed10748264ba3f8f123d048c92575433a4b6cbe820601d46179"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianVariety.lean",
+    "sha256": "54a2f3ad927c3d75dac0dd946f9aad00590247cb9f405b00196f57038d473dcb"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianVarietyProduct.lean",
+    "sha256": "7fe7ac222846015498dc8629d1f7b91a2f60eb0bcb3b288962d69628ee732f4b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianVarietyProductAddition.lean",
+    "sha256": "dbbc5fd2806ab3da10ae95bf05bbb5f55bb399049301fd69b4da7d19d45e6cae"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianVarietyProductCategorical.lean",
+    "sha256": "36cc616cfc71ee42eb6fdfaaa53c5442879ebe19a31daa5c2751783faa4baee8"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianVarietyProductMaps.lean",
+    "sha256": "1a299465d158752dacec60a1695dc71ec95c6fefa2817d8dedc336d7b0adf166"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianVerschiebungBinaryProducts.lean",
+    "sha256": "45b8e57d258e797f5b127c9f19e07aa9dd40813c563dcdf4c0aea9e0fbb81abe"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AbelianVerschiebungProducts.lean",
+    "sha256": "5a448e16f5997bfeffbd7a50f5b05fc4523d40012463221cd4cdbc9f5f8b78a9"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AffineFrobeniusFactorization.lean",
+    "sha256": "9082590ebd35ea899c5697b2b7e64f50a1af51322d0afd4bb810dae8d662463f"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AffineInvariantDerivation.lean",
+    "sha256": "1cbfc3b72a376e8348f1120081b1d5029ed6be7f90dfd617e77df698582482a5"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/AlgebraicallyClosedBaseChange.lean",
+    "sha256": "0882c537a2fabeccadc9ad305eedbb56c7355d0d5c4201ab7740bfc0b9d8deae"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CartierCechSquare.lean",
+    "sha256": "7f2ba20a0d560de865781edd5b23e73f83a139a16aedb51cab850debc2ab693b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CartierResidueAdjoint.lean",
+    "sha256": "0836e59c48d91f02f25710ceddce164a8f5ad11c0d980b1db5950230e23e1e58"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CartierResidueLocal.lean",
+    "sha256": "2681918c0829db8d66cc686224f17dcd2f99b4a91adbc1bc06ed98e2ab44fdd7"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CartierTransport.lean",
+    "sha256": "717fa440fd6fedcd7d1cf86004f52f6c0c1f4e2bdc69560d4b62a096248f161f"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CartierVerschiebung.lean",
+    "sha256": "05c7779a746fb321879b9ec6063e95052b853fb70dac4210093e4361f831cc4b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CartierVerschiebungRank.lean",
+    "sha256": "05f6a31f1f52f61d87ae28b64100cd715f0bbc5224e3b35b087f5e43583f5263"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CechCocycleNaturality.lean",
+    "sha256": "81f0107c2c19c2f1b4efeab7a58a4e5d9f1b997e8a3b7279d7f15abdaf7f4e7f"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CechCurveBaseChange.lean",
+    "sha256": "3e2941077ec83b0b5e8a6394eefcfc103219d1cc8d231f12d9af757f48888a48"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CechCurvePullback.lean",
+    "sha256": "0beacbd5cb9d70f7b19d179b10de78f90312ab96944b19899de9de06aaad04ce"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CechDeformationNaturality.lean",
+    "sha256": "266a0ea84e1129b00d339af73e7e6ea1de5bf72db0c58d748bb860795c918538"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CechGluingPullback.lean",
+    "sha256": "f90d62d48bd8f784b97683ab88e69562762411f5dda9ca6a278fcd8d89c6fc44"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CechRepartition.lean",
+    "sha256": "2a70a11a6d49aff0f76a151bee6db90cecbc0cd454aa1fea92bec5ae0d0cfffb"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ClassificationSurfaceEllipticExistence.lean",
+    "sha256": "03ca6ad084e402b92d8ed8a11e9d4074b63e61da7cec7cc42abc1534be5d9c99"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CotangentDifferentialKernel.lean",
+    "sha256": "07c71404607d7f07d0fb3cac6c7b29c508ccffa2efe77396ab36f6baac96f6fc"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/CurveModels.lean",
+    "sha256": "23c31f3ceb307e1f77c9cabccc1956dc3fd850e6597a7506a91fc501305d15b3"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/DifferentialTransport.lean",
+    "sha256": "bd7017e3914af52fe3811659df1e1f530553a7c82932b4918b0dfc5dfed127ef"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticFrobeniusKernelHopf.lean",
+    "sha256": "4a35a6d96dd60a90e5192bb006a816407b10ece39f262e8dd199f3d50fbecebf"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticSubgroupFromMap.lean",
+    "sha256": "dcbc038aea958d30d051631496a6c1ba76bd874186a7fa7a7438d7c8910b9c49"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingAmbient.lean",
+    "sha256": "0b3acf8bdb5ae9b88dc69b3dcb679012fa7e24fccefdfd1ae5f9222f4785369a"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingAmbientComparison.lean",
+    "sha256": "ae57003284d70879c28d9d61840589df9b27b9be8fa65de17314745203d993b4"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingCanonical.lean",
+    "sha256": "ac2af479fab5e2f0a0528d34f8fce440af48d0574014056d8956fe692f56ffe5"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingComparison.lean",
+    "sha256": "ce2790ef84ad043ef442af941261535da6621d5d513011a805a4b9a2f63aa3b6"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingCotangent.lean",
+    "sha256": "bb9acc6398be32c7bf93ca54b64b82740be71c034dcbc93590b9d528118cee97"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingEndBaseChange.lean",
+    "sha256": "9415ed88b2471a908bc0117ac18adb324cb397e2d4d429c427cf44b94cb6848d"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingEndBaseChangeAction.lean",
+    "sha256": "eb43cbccab93195fe5a13b126a2bf0396ff78ad1641557d82b9e3ab8a858061c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingEndCotangentImage.lean",
+    "sha256": "2b0fb9c767748238838b0f38b9fc04c10cd9ef2f81604bc663959f8e8b31df86"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingEndGroup.lean",
+    "sha256": "eeb03dc7f96445fb5c0d1f757ae127b1d45d633fd37e09d5f3e5ca02e3fbd082"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingEndLocalLifting.lean",
+    "sha256": "26380d77d60b341ba0e4bf77ce55970bb1b24f73d501b0ecd4cc73566a8099a4"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingEndRealization.lean",
+    "sha256": "28eb97e678da5cff5be5a5864d99b2a51ea97db0b7ef62f52264dcc15b6c0415"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingEndResidue.lean",
+    "sha256": "7b5b1b787f42f16a27c6c29e2328642d624d9b66af2bfb5616f1c5adc344bb94"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingEndRestriction.lean",
+    "sha256": "74f590f4ab17705a5e7cfbdde6c9db7f853e04d59c6637035dba38ae0f8cc05e"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingEndScalarImage.lean",
+    "sha256": "374852ae02aa9f4b5a24e58c20936574a931c8fa12bfcac277210e177eb1c519"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingFaithfulness.lean",
+    "sha256": "9934c2dfb2a251970d1ae7cf7b5c36cf7a147e13d03a64b61a0c5bf2e5926e97"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingFrobeniusProjection.lean",
+    "sha256": "238c15ccda790a5081ffb1ab1470b0fee716130cf6a38d32228c0dd11af58cc1"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingHeightOne.lean",
+    "sha256": "da24daf32b14ae3e7002efe8bb85e33a39b9de858df6bb53c19f6a9d854b2fa8"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingImage.lean",
+    "sha256": "2520b783233d7ad8710d18dc68e6c188fa5acf5ff0e37e81a6067d2a7fdaf534"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingLevels.lean",
+    "sha256": "3af608c5147bebf3dd7c42104269a4d76d74bd1915c47618519a85e78abe1ca3"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingNaturality.lean",
+    "sha256": "9406f045f277b190ca5421590255f461f40d7a63bd64d8ab703e37af092f4d21"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingPresentation.lean",
+    "sha256": "cd54600244a9c91b505cac127cbf68564e5fb52273289167bf509f47bb75f7af"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingProjection.lean",
+    "sha256": "32a01b81bc8f966b62be383197adb8f1d062bf23166771915dd5b95b02315c67"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingResidual.lean",
+    "sha256": "c01b133575f0f9632e24c742542108578e7c19b14c7b31dc7101321c7dfb6e35"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingResidualCoordinates.lean",
+    "sha256": "e607a79f6eeac16dbf20176c8f27197310e22e3480e257557f629f4bc3ef5efe"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingResidualKernel.lean",
+    "sha256": "af11f4215fa95dcc319a4a9a764123caf07c222bcf6c30ea48d232820da12619"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingRestrictionBound.lean",
+    "sha256": "6c9a9a5ef40ad2635d0b1f8ddf54956e683709e111a2da755695b18750413c83"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingScalarBound.lean",
+    "sha256": "d9fc63f3ab10004a2f0c94e1f8115a67c3b4d6ca583ce85c20aa738e0b279608"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingSchemeComparison.lean",
+    "sha256": "dff1b137a2345b4a3158caa7ccf5ff3b08e9db178f699742ed59eea02e3f25c0"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionLiftingVerschiebung.lean",
+    "sha256": "18114bf854e5af20448d693ba7cdf88a6135471e20137ae4f405dec6d623b13b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionRealization.lean",
+    "sha256": "b0869e09f29a120ed270f82f07e20573a08a3b25178497e26b6abe117a058b29"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionRealizationDieudonne.lean",
+    "sha256": "5036a78a9b1e237243bdd59607858edc93f5c4e0ec9c08b499eb7209cb5cbaad"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticTorsionRealizationDivisibility.lean",
+    "sha256": "678b99c75477657bba5a3592a5bf186b07c3973e82c2fae7b253ed69d39e80b7"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticVerschiebungFibre.lean",
+    "sha256": "a7ab9fbc1d54d18512a9ec0769e4efb7d034b6caeec86f6ab999672a7c1cd5ae"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticVerschiebungKernel.lean",
+    "sha256": "7f5dae7a775976ba4c91c754424b7428b7f8d648a12d8df22b6cec42ca591027"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/EllipticVerschiebungVanishing.lean",
+    "sha256": "478cd6fa0f684a26513b66add4ab9392d26d5192aa7889f5f2454403c4e16849"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FiniteBySectionsExternalProduct.lean",
+    "sha256": "0d3ccd6257ad8c5be2e7c6b92e059efc6be29bd2a104b7faace640def24b53c4"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FiniteCotangentPoint.lean",
+    "sha256": "726d4175826a47d99aef5b62dd7e1f0d79d78b9507ddee008b7d8e17c8a4c83d"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FiniteGeometricPoints.lean",
+    "sha256": "87440f29e02a1243ef805be2745479ebad59d1e6bcd7da4712cdf4269f2c6a37"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FiniteIsogenyCotangentRank.lean",
+    "sha256": "5d00f52ba2e5de661eebd46c41c4ca2f9d2d906f5a4021fd9022a85096e73bfa"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FiniteLocalGroupPrimeCotangent.lean",
+    "sha256": "43605925571044d10a1ab4bae68d3378156cafc09eb795aefebde1e0637480ed"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FiniteLocalGroupScheme.lean",
+    "sha256": "b575cd2af3fa04b587315cfe79bafb7961ace887fa9272ca86c7fc05f1ae8538"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FiniteQuotientGeometry.lean",
+    "sha256": "db99f4d4320a0325d351e3c60d1b1bb7bf1a0ca0159b382c3c80cee0e7f66d0e"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FiniteSurjectivePoints.lean",
+    "sha256": "f24ddea59bbbfd6a3b3f1523ca1c6691202bec907514f19ee9bd37ee85fc5991"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/Frobenius.lean",
+    "sha256": "2836ed73859720065746a64044b02fce01535c84d90c2c0b4aec9dcc0bc792ac"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusBaseChangeDegree.lean",
+    "sha256": "93ff5354ed294bcd7db2860e861bb4f0ed14f5ff27c139468913540cd041c269"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusCechComparison.lean",
+    "sha256": "fa6ba822d3b99a052cbb62128fc3b83bc4038550f56328bf7553f1fc64fd840a"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusCechPullback.lean",
+    "sha256": "562d4b023c782279aca9276d02a1b8fa6c803bbba45deb2bf1691570e0bfda26"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusCechSemilinear.lean",
+    "sha256": "67284c0d70bebacee0857b75eef318015cd3b6b17cbd2d4210f3f8ea381320ff"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusCechSquare.lean",
+    "sha256": "7774ca019369f637e75a939c862642d872e784db23621e99197ca45f44c2e81b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusCotangentVanishing.lean",
+    "sha256": "7be88e4dad7e1871b73490071603202a608c03edc8d2f9a3f2978e2e9a12eaa6"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusDegree.lean",
+    "sha256": "16f8a008bdca9aaae96b70489474a7bfe9fef9c16b0a849abc869faf6fbf9a5b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusDifferentialTwist.lean",
+    "sha256": "46ce337b0d38ae4776ea4dbef8e6fdb04f00f0e973eae12d885daba299b11e47"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFactorGroup.lean",
+    "sha256": "2e682a560acef0b629500aefc30f308991be6acf2788b43a4bd09fea0fcfa3f2"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFactorIsomorphism.lean",
+    "sha256": "a6ec9e9e02357f47b7f256d4c731b1056a470fddf57406cc8600df4591cad462"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFactorSymmetricBundle.lean",
+    "sha256": "91fafada077fb5dadb080e71650b2978fa28b8ee68f54060c51698829bbf1988"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescent.lean",
+    "sha256": "93dc9f95aa9486f172a3244ba5007cbb9258cd9460f36069ed8cc9e030a3e5f6"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentBasis.lean",
+    "sha256": "5cacd63e4c14ac464743d21cad1d9f74793140f9aabe7be9d5a94f663b09aea9"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentEquivariance.lean",
+    "sha256": "4c45de9dd3700387e3d0697419488f14eb613e7ddc86af7c791a5fef5db54f0d"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentEquivariantModel.lean",
+    "sha256": "1db8dddb72241ee32243e71e3e849dd515f46cfb58acda09c53a8645782e8166"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentFiniteSections.lean",
+    "sha256": "b52ce3a0c594af53c35aec6dd343479465b058493044e2fcd231e477fdaf6a4f"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentFixedComponents.lean",
+    "sha256": "c6c8c9b6b548461fe7c6657a4ed0ce43408512bac7f3247b194fd66c87637077"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentFixedGrading.lean",
+    "sha256": "a1a7cb4b73d3370946a6385c13b76d48f10012762cee9fcae9b7f669a3b161c3"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentGroupIso.lean",
+    "sha256": "18347f76e53bb014bc22b92558e749b52b74f1026ec1b5109a40de0e195e2db2"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentLinear.lean",
+    "sha256": "0d497e758a666594b1efaeb5226ce61a47b348dd9dc36e27669dcfed59a7ff70"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentPresentation.lean",
+    "sha256": "8c5b955d0ab2417cfa8f3f2cd6a76044b437fbaa520309aee2487bbbc835cbb8"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentProjBaseChange.lean",
+    "sha256": "bfd628032dd45e6947a6e30a2b03412bc75c1d29a93e7c5ea3646288d073c73e"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentProjective.lean",
+    "sha256": "0489e55473e84d5c915ca87e854ef17d8355cba4dcb6970adea12695a326aec4"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentScheme.lean",
+    "sha256": "90c737af7238aeaf74fe9d968fb34f94aa173e1d1a970a96f380e8b439de7ecf"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionAction.lean",
+    "sha256": "0ab28f7c3d389b43a0a5316d44cfc3180246f99edb4b9e0574d868cb09b84e7e"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionFractions.lean",
+    "sha256": "4e5e7b83cde2f7bf21d5bef076287485738d1ac5bcffa5d02e4aca2bcdd17b87"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionIso.lean",
+    "sha256": "bfcc697c40d8a60c8137248a80370b7b3d98305ff0a6471ff161aeaa07007e94"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionMap.lean",
+    "sha256": "ac9cf57642d13a80e5ad7343380b50d85226e72179a584cfc5aa09680bb9537b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSectionModel.lean",
+    "sha256": "fc58ee4fdde9c4b9fe7f9c3723aee301fa9da32e8b72696602cbf969eb87385c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentSections.lean",
+    "sha256": "99c70783852b4cdb9c9733f14bc50265592e7a016a78dab2b334f3ecdaff2b57"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldDescentTensor.lean",
+    "sha256": "0a043421a5fab3f02f5fb60afa13ebaae9cf8201057fb091ee753be0a2e7a9f1"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldGroupDescent.lean",
+    "sha256": "820fda777d7abf75d5ed45975c123dddde1c292b3793d4b35d5694d188815ae4"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldGroupDescentLaw.lean",
+    "sha256": "cdf78895eabba5589284d3cfc095203d135b52789ecd128d0b17f1b6d8fa8264"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldGroupDescentPoint.lean",
+    "sha256": "4c00ae478256b29ad1c4f2d55c0b35652ab0ba4503e4f0822b7190e52592d1d4"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldHomDescent.lean",
+    "sha256": "4ea1030f3fe50a083d2634fa895b26d5621a0e6474faec117fe61334607d0a54"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldHomGroup.lean",
+    "sha256": "35073c54a08e6868498e54a8ee01e1d4598ffd237f128c6979d2cd71d99e183d"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldHomRecovery.lean",
+    "sha256": "f4edf04c860122bd99c3c373c2e75a79ed43d4572f7966e9a2ab58edbb558ae8"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldMorphismEquivariance.lean",
+    "sha256": "dec7bc66b813dd37fa47304c3c464182e45dc1112a73d622354c4b54c95d144b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldPolarizedModel.lean",
+    "sha256": "873c45025202118c6f40b4bdd15c329aa7cd6a66c81bc18f50214f2a61af92b6"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldProjectiveImage.lean",
+    "sha256": "5ed1de370bc76cd43b0c1b3c4e35bd737b836192e45515464304c93daa9eab7d"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldScalarHom.lean",
+    "sha256": "06d324c7e0cd671c7723bb52809b5e7550d59af69d07b21781ae4f03d1b590ed"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFiniteFieldScalarHomDescent.lean",
+    "sha256": "1871498d20bbe8e952fdee80c01bd7b494d7529401c687f606a832767887b818"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFixedScalarExtension.lean",
+    "sha256": "9163b2d02577697292fbbe7ccc7e83217e80fd0656fce8c3a4f3d620d9af1e80"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusFixedSectionCoordinateIdeal.lean",
+    "sha256": "fd97bf8b5b2863a53fd2aa539eed3f5aaf2751e73bb6d6010678661c96c4b35f"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusInvariantIdeal.lean",
+    "sha256": "68bdf5ac5d6ef83ef103dc25fe88edeba8b3495379f363dfef01572a7547b616"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusLineBundle.lean",
+    "sha256": "f2bc2a1cd33d5c40cef111406e749b0370febee5fff7ef715b067418196374cb"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusPicardCohomology.lean",
+    "sha256": "96899cca2887f55d841fd72b4fcf6bbbf2f9f09cfff0c46965f8fc423d493126"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusPicardComparison.lean",
+    "sha256": "9ea567df65f4ea7024fa9675a8f18d7d425f042da780fc466f9cab2e7360f74d"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusSectionDescent.lean",
+    "sha256": "fd0825d9590d7a4ed9325064ddaabd472846eb7b5dfab00612e1f754f0e5d09c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusSquareLineBundle.lean",
+    "sha256": "a17d557489d5ec1d10af500dcf81563c5e4b967eb38e382605b6b01f462e939e"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusTwistGroup.lean",
+    "sha256": "3ec85abf6f22d62f9c790343f2527614018b21435599b6fc65c86717d7a5d060"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotient.lean",
+    "sha256": "0d23bc38a3936d38b9768cbbd53e02a63d7127d8653d7bf5eb847473d3c178d1"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientDegree.lean",
+    "sha256": "44e43f290e859f224948e07aff99b9ce40a0301d2e8ecc1b82bae870e2dd23ca"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientDescent.lean",
+    "sha256": "75171a2fcc5943bf3a6e0a9316b6b54d7a4d654cff29863c257f01363322c484"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientFactorCotangent.lean",
+    "sha256": "dbc8916152a4cb0f6433e7c84b9ef77c21350dc5446d6c8b3e98e823f85d2fe4"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientFactorCotangentRank.lean",
+    "sha256": "61e81c18c1bf55fd0cbd1a027b26aafa561b78e936a288030b04917dbb2b103c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientFactorHom.lean",
+    "sha256": "f7d57814808c1f5f3e4efbce3b64331b18019f935e039a80733fe102f712a528"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientFactorPoints.lean",
+    "sha256": "844fe1091b72dc2f3343a222eea0be036abb8d42f393516d83ded24cecfa7a21"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientFactorization.lean",
+    "sha256": "829dd6191e1021a965fec4b82bfa2dda27a7c84ceb0c44a4e7fe00eb2df95b2c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientFactorsDegree.lean",
+    "sha256": "0c5e1d86fcb6201369b6101b723a7e5c69f1f88c08b9251da9a9793a37642f3b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientPoints.lean",
+    "sha256": "deba7378865920776cc79c10e77d04e4801959cd95774167af522f99f58b558c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungQuotientVanishing.lean",
+    "sha256": "7784e403090b9de536cf79dab3647854a22471e45ee75a8f30854a29f001d192"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroup.lean",
+    "sha256": "01d110d07a12ce8d7fcd1f7a07954fbc1a3e49d024e268afc4ccd2ae1ea4ab51"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroupDimension.lean",
+    "sha256": "b24946417432cf00204e7dd0b8be2d8ce0040eef500ea6ecec16abb5cfdd9dbf"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroupGroup.lean",
+    "sha256": "808d2f431fbe0935ff19212c6aa6b6143813c97fb19084c16118081b9d60826f"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroupHeightOne.lean",
+    "sha256": "a1ca3ab7e7ffe3b27c0a5be59928eccd04497e00dd8beb189280266fc98e8886"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroupIdentity.lean",
+    "sha256": "1156e7da5af99c07747975926447cab20da252be3e414181a79b79abbee3ae8c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/FrobeniusVerschiebungSubgroupOrder.lean",
+    "sha256": "76fec06ab8c49ff5516929b56cd4aa8cd15da74696fcc175ac87198d68eb3d74"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/GlobalCartier.lean",
+    "sha256": "f35799da8e55155d22781d4fbd81b1b7db9ec0352a18820a126ed9a0f7ba3c82"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/GlobalCartierModels.lean",
+    "sha256": "58f957844e041f2e57008292e620606a8321b5283f0b240cc1fc468f82dd00e0"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/GlobalDifferentials.lean",
+    "sha256": "b0087a3ad3d302758c1a09ee78203519c388f44c2183434daf6a418d7507cc11"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/GradedFixedSubalgebra.lean",
+    "sha256": "0399e1548567078dfbd813f91a7aa0bbb8939dd3ccc0e2540d5502406fbf003d"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/GroupHomFibre.lean",
+    "sha256": "5e236d7e55ce88ea3296a3a2f6590f5c59eb7f064bf797fa6d7437e5fa4ea33d"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/GroupTranslationCotangent.lean",
+    "sha256": "9a16dd223429bc0c230d528d3529867331015194a2258c03b3cc71a43425e163"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/IsogenyBaseChangeIsomorphism.lean",
+    "sha256": "55c301560d0d2f89ab8f9f18b4b58a948b0fe7021066051e1f63e67ce81cdc5d"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/Jacobian.lean",
+    "sha256": "996f4c6a5095d77178dcfefd13e860ea95bb76e009da1d4ae012b4b086fd83e5"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianConstruction.lean",
+    "sha256": "d8eda9b863b6a23bed94bca9c170855ca77a43edf8adffdb2bcc328e0f788ab3"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianCotangent.lean",
+    "sha256": "2810919689d4593e5a0057f36d309eee7fd7790678b76edf557ad2ca94b59c16"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianFrobeniusUntwist.lean",
+    "sha256": "0e94ac3bbe6993c86599a0ef2c27c088ba13c8a192c15eec5cba4f23082f85a4"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianIndependence.lean",
+    "sha256": "6cdc96ae534280e825acb5f6e797423540fca27557bcc24c59602cf6f237d1f2"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianInfinitesimal.lean",
+    "sha256": "9d0207ac82a35d03f68edada626bac5aedf9bdb8feb24e91ab063bb2210fb6dd"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianIsogenyTorsion.lean",
+    "sha256": "bc23c0d757a5f95a837544e383fc6fcfc842a5c27fd9d02505b66badd057c500"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianPoints.lean",
+    "sha256": "f60c2ae14e39f73db7d1a28ca09f6c7f06c19d0ab14e22c27db377fb89c658b1"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianQuotientCotangent.lean",
+    "sha256": "2023baa1cd5f0baa6ab01ead5f59e1574efc148ff4f0739eacf103f2e56dc955"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianQuotientVerschiebung.lean",
+    "sha256": "bab6a6c3b963a7aaec5e945db3715ef7a5e33c11b5385daead789ea613f58354"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianRepartition.lean",
+    "sha256": "5088d67f0802ab574d345f7538769830b4c57e1dd3ba90a10a5e564bbbe5c67c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianResidue.lean",
+    "sha256": "8e454955e21dd620a76bf9009ec71d7b4780ee721a22809453e05f817c4ec68f"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianVerschiebung.lean",
+    "sha256": "f38975a6770b8809c44323c68f0c0ecf0d299b9bd7554862b1e3045a68c0c00e"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianVerschiebungPrimeField.lean",
+    "sha256": "8e38b5b154db78259c5229ce57b397815c67d40a310cf3041df06c55ef2bf009"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianVerschiebungSquare.lean",
+    "sha256": "f93271d1bfaa296fe84a2547e9ca5a8f4d984c6c6ce744963005ac7ae6e6b42d"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/JacobianVerschiebungTwistVanishing.lean",
+    "sha256": "83152881d93bb74ec74717d95c7edb44c0d86c161e8e3d69af0d56180ded87f2"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/LocalAlgebraFrobeniusOrder.lean",
+    "sha256": "4f246e873919c6838d05266f5321b7b44b03a6461173919e622d87f85270a5ed"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/LocalAlgebraPrimeLength.lean",
+    "sha256": "d65c104ee91368b7756728dbe2795170401a8a8ce251e8383f080967fe7ac6cc"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/LocalGroupInvariantDerivation.lean",
+    "sha256": "475368251661452f82496d8ce597f83eab2accf66c592b98d8ac6c7d9b1cf050"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/LocalizedDifferentialDetection.lean",
+    "sha256": "fe50d9a19e8cb3312afe719c208c6a7fae8cc7e49bfaae354dc5846af7df2f93"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/NormalDifferentialKernel.lean",
+    "sha256": "15f1dd195f9addff93e6680182c76e572160d400b0e9e9497f654fc944296cec"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/NormalFrobeniusFactorization.lean",
+    "sha256": "ac5d1171ff60e0ad6bde0434755eb2e6f8e058558bb2312be11aa4535de34cb9"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PRankZeroFiniteSubgroup.lean",
+    "sha256": "0056dc092e5d0ce1f17536a731ce4091d08d2729816bc5a5bb479754023cd151"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PRankZeroVerschiebungKernel.lean",
+    "sha256": "ca84f192ac57c2d40191784351fc99fea880f6b806d98c0c259e0ef4aebecdeb"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PadicLatticeCompactness.lean",
+    "sha256": "2a40244090d9136cb0b18efc596593675e24991c3b42ab1a840da7ead6d7618a"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PadicLatticeOperators.lean",
+    "sha256": "0448c74a4ca1a2bd708ab9219c7996b99da831c5533b21b9ed5faa67a93b3a93"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PerfectFieldDifferentialKernel.lean",
+    "sha256": "006470a38e5ae0b02e9b5ec61d993005888f1c68d55eea8eb881211d34e578fc"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PicardCech.lean",
+    "sha256": "fdb7114348f3ca1bcd9475879324a3cc22faefd1d95fde0cee05d5df17d4e9a9"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PicardCotangentCech.lean",
+    "sha256": "8192a8df88d8ebbaf970bb10b2067955db7b502eda6085edbf58f830a180bb06"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PicardFrobeniusCotangent.lean",
+    "sha256": "86640be248bb86b5d430af28919ee0eca6e2a991729106c8d6883e2982b0e9f6"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PicardFrobeniusTwist.lean",
+    "sha256": "c9b6979fe47b468745f77011d441234a01315567484d9b84a208d6be5486c846"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointBaseChange.lean",
+    "sha256": "7894c1259165edd69104d459bb78271986a6490775c66345ab7ff18d38cd606f"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointBaseChangeIsomorphism.lean",
+    "sha256": "b2e52eef4a8b8808a4e44e42269726efb6c29fb72241b8504b3572d68fd775d7"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointedCotangent.lean",
+    "sha256": "f05355b646ec83abc515a9daa56b822144f1d09a0e07e648ad7350c580269e07"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointedCotangentDimension.lean",
+    "sha256": "b9677cfdcb4422b347904142b561000ee492ce5eb7c17ef7c404436245faa467"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointedCotangentFibre.lean",
+    "sha256": "dbc1e1a95de97328dd3669986e842b7cf915a2f7ea75b08e8b79479b4fd5ad1c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointedCotangentFibreExact.lean",
+    "sha256": "102bb861ca9f68b05209d79f404fcce4880f87cc875165783d65b7a85cb7ec04"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointedCotangentGroupAdd.lean",
+    "sha256": "0585e576c7920a19825d78bb8de74941a36733aebea9e3e1bc00f7eb32449f32"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointedCotangentGroupAddElliptic.lean",
+    "sha256": "8e5ccf0a4c15b67359e98144d8beceb6550061a09f5b7227690691daf445123b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointedCotangentGroupAddNsmul.lean",
+    "sha256": "640aa314197c9587c2c9f5c3b8a089eb1f180f568f1d459e3a2e063b70e6dbc7"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointedCotangentGroupAddRing.lean",
+    "sha256": "b36ee6f609955984780c794f9f1d2721f6f633386afe561473e816b81e3193f7"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointedCotangentHopfAffine.lean",
+    "sha256": "96946181f6d9c37200f5b5351234777997a0ab135a14d92436b29ad6a06a1b41"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointedCotangentHopfRestriction.lean",
+    "sha256": "96aaa76fddc9943b4cc39fe9199ad8a31185c8bc91e19e20c984f8a5a262a14b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointedCotangentHopfScalar.lean",
+    "sha256": "3932aaee1bb3267c4b2b97dd9cb2338b20f935659c1069eb9e098e74fc44aad9"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PointedCotangentKernel.lean",
+    "sha256": "090b0ff69ba32aef25817bf7422566d057c7aa12c7f1f2c3393e9aa9103ba9c4"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/PolarisationRootKernel.lean",
+    "sha256": "ba27efb05ff285c2a5dff96f6e4fa2eb2af650fa225e7d240f6cb4127b545cf6"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ProperCurveFiniteMap.lean",
+    "sha256": "bc656b9fb7d388d6fd9d40b9adfa333152d91e681c4524ab231e3644172e26c3"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/RankOneFactorCancellation.lean",
+    "sha256": "9706679049649f096c855270d0f3d71cc52648f7880f054b1af2d91c494686a8"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/RationalCotangentFrobenius.lean",
+    "sha256": "ab70768096e3dc69ffed6b3c2fe403ab4880cea149e1349e73ed19e03c08552e"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ReducedModuleDetection.lean",
+    "sha256": "bf60f2e08bea1ea313cf238c75cb582a16f6a8675e8004a1e0ae022100fecd45"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ResidueFoundation.lean",
+    "sha256": "f3bdc903375726bf384c2088dc6aff5e2a2176961e2fb82e80515b12243a342b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ResiduePairing.lean",
+    "sha256": "c9b77c69376a6e6925988e6567bf9f7f1211f22456d4aacfbd0f5d773ad8147f"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusIsogenyFiniteness.lean",
+    "sha256": "868b364ccc6192283fe4f9aa3add9d51b61af65b11b12523e9cf458c00283f31"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusIsogenyModuli.lean",
+    "sha256": "e0f51b7690fb460e222ca868aeef46e36915a3cb7a1f974e9b527879dea5a790"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusIsogenySubgroup.lean",
+    "sha256": "99bbe6d6de2deb45f7113cf8eae6345bb8f3751e8e179118a59cf07722e24875"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusProductComplement.lean",
+    "sha256": "96d08f34154c2d356fa56a15f5b9bd64e1492de89a382242d7ebb9c5386b41aa"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusProductComplementKernel.lean",
+    "sha256": "0efcbfcee2eeda27b02288d1f37b57fd92656c3b9209af8e8c3e77bff85c8da3"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusProductIsogeny.lean",
+    "sha256": "191515081712b13fece0883b8daeab2fe072480114e9aa88658493b4ceaa0472"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusSurfaceProductIsogeny.lean",
+    "sha256": "0affedfd57208d59a2ef6221a6ead663872875f47365388a30b7a5094b2ddb28"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateActualGraph.lean",
+    "sha256": "934289c7a81f99b11128bd59a699d64b07a49cba01ea2f9faf2e08858fae8d10"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateCompactness.lean",
+    "sha256": "1b0b670cff4141d6a336f6d4c7b5aa01a74a01cf17f2139c9bf55cce99a44334"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateEllipticSubgroup.lean",
+    "sha256": "ac4ce62ab853a22e7c0c40a7edefee1ec323980176410a34053c235f64db5c44"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateEndSpan.lean",
+    "sha256": "e43853a54a3a91477507129ad49ec1e8b919ce198ea5d63195dad497f8147566"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateFiniteModels.lean",
+    "sha256": "46e09cf6e7dfef57fdae442e56c36bf898ea36245700eeae65397a5481f8e23c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateGraph.lean",
+    "sha256": "d10322bf962c2ed8e3ead2554f36bf8350f6b3d3e380846cd839cdad1e4f337d"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateGraphQuotients.lean",
+    "sha256": "250853a852981b9f750728ef728e1d361e2115a4eeb84320bc17d34b2591a638"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateHopfPoints.lean",
+    "sha256": "59c5501b3bd120eb81ec24cf4cff5968b844c1e3e908712482a68d32728b6eb8"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateHopfSubgroup.lean",
+    "sha256": "8b2209ee4f2ceb44843c7af505b427736929adb448d760ae8d9551477433df76"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateKernel.lean",
+    "sha256": "5113d97079e99cf05527f63497a80c6bed50847b8d6ee9540b9355158e5bd6c0"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateKernelPoints.lean",
+    "sha256": "91efe2ae7e98fa9c1bf2684df8b308ff2fb83923c9d390a09da60f0e6a9d5e4d"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateLatticeImage.lean",
+    "sha256": "4975a98f1f2234794ccaed126916c1052d3f1139da82bd5014a090011c8b74aa"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateLatticeReduction.lean",
+    "sha256": "4a172f7613c19237d0460244ebc1c56dcc957306be274bac389ab32d8887286b"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTatePointSubgroup.lean",
+    "sha256": "e06409d58ea4265d9f8b2e9b85e8e3e96427ff29ffbbee62432ec22ccaad55bf"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTatePolarizationModel.lean",
+    "sha256": "ae889afb4a443cc6a81de33aed85fef1e5b7920d8d09b9ccb1e8dd52edb3dc0a"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTatePolarizedDescent.lean",
+    "sha256": "1832a3516252d20df79f69050aa719f23d073a90dd73745b3c1ce6c4c9857882"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTatePolarizedGraph.lean",
+    "sha256": "2d09ff0c5336e618a84d5f0c536ddf9ce5556098f9b2396ba95a74ea29d920e3"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTatePrescribedLattice.lean",
+    "sha256": "91c6e84160e9ca067827936ed988f8239e7bce847a458acb742bfc4aeeb17873"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTatePrescribedQuotient.lean",
+    "sha256": "7a08d79348d665fdec9e5ebb43fbae98de53cd078f936072bdd42ea3bee5b2f6"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateQuotient.lean",
+    "sha256": "64e4fd2c0051a817e54426efd06e57ddb33fc809d852ba93bf05b84713214bb5"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateQuotientDegree.lean",
+    "sha256": "93e643998b0b75898208a5614830b573b13a1ec1d70c44b6549f8a195a2ea6f6"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateQuotientDescent.lean",
+    "sha256": "0751f7b88a527a48edc15b3cbe4cf181eaf9406de0b74cc1302e566a7ecd5833"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateQuotientImage.lean",
+    "sha256": "fb47fc455137774ca971bfe983aabd0bb9af97f1067b13c720b4d005332248f7"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateQuotientPairing.lean",
+    "sha256": "fc0b1383b54f0f1db6d225789ce9a52e0c816a6e5023bc7e4e6403c4d6715963"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateRecurrence.lean",
+    "sha256": "88ee9e51e4eb2bb29a49b73c9c24e224cca4779b390bb0cecb9f601fd7a00240"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateReductionCard.lean",
+    "sha256": "e8c2b5956c2c592db6fd2c1505e6e1d324331d91b89ce7bbe04b54c71883a02c"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateRiemannRoot.lean",
+    "sha256": "0dee4a79fe1012aa3fe3a9c6befd9a4ee7a73103d99205f52a7463317845fdbe"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateSymplectic.lean",
+    "sha256": "126c312a3f38f1181aa5d468d6925ad8e6331924e7aad161baeb8d1c5e93f0be"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateSymplecticGraph.lean",
+    "sha256": "5b7ccdea9a38a7c4cb3b256e5d011f5978d5d72530f8a369a93c16c0b9ad2022"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/ScalarFrobeniusTateSymplecticLattice.lean",
+    "sha256": "f6d079613f2d5ff076b43b7c7d2ce2ac15047dd4441393426fc6b82671a0bd31"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/SchemeCechCohomology.lean",
+    "sha256": "e7a183cbf3e746e07c2441bff812b2a4736d48fbf862c94c1e56a5d355fb115e"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/SchemeResidueDuality.lean",
+    "sha256": "ee2c54654e80ec97832040dff170d89b55e429b25c03e34057bc5af7bf5f23d4"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/SectionPowerRoots.lean",
+    "sha256": "cf2fe9c10c3783bc6856b07b6b4f8b82797010c6389cf99f3062bd2f530ba08e"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/SmoothDifferentialDetection.lean",
+    "sha256": "2f5a0f54d6e5672630222cbe34372a1aeee0c08f45976558b597cb36fe21ad72"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/SmoothDifferentialRoots.lean",
+    "sha256": "48766f5680c4335dda6d671aca5229a5fe02436e9acae275b0c6e8d09d72a845"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/SmoothFiniteQuotientDimension.lean",
+    "sha256": "dcaf6c889f515cf14725a0119141da5a30278f9039b85236a0aaf0233ef0f3bb"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/SupersingularGeometryTorsion.lean",
+    "sha256": "c544252f8ac4de587bef0de6420a66fcdfb1d3c78bd76bd43d68fb0cd6367e21"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/SupersingularJacobian.lean",
+    "sha256": "695c0f2a2b93446a548c5bdbf8313353716174fed6c22f9206cecb3812286c40"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/Superspecial.lean",
+    "sha256": "8764cb616552228025014a6f1942c32d7e05677532884b5677157ac4588607ca"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/SuperspecialTorsion.lean",
+    "sha256": "4358ebe4b9ecd5402cb6d76b553aae1945f5cddd434532d5b6b317951f824ac9"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/SuperspecialVerschiebung.lean",
+    "sha256": "32fc1b444aebf7fc4c73f6e8d1a26a48e6f939692ea9a5ead701cd2420145614"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/SymmetricProjectiveBundle.lean",
+    "sha256": "64ecaf509b1d79ac8f7e4222a7451a52d30a79d91ee023e1942de9fde4f75e15"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/Verschiebung.lean",
+    "sha256": "4518fb06d83bfc8d7aad365ff24b73de7d8e88b9dfbac38d6940f746f3e77f96"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/VerschiebungFrobeniusCriterion.lean",
+    "sha256": "3a6bcb478e813dc5c2d6cfab17de9da975f403dbe07561ab228c680f8f733199"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/VerschiebungNaturality.lean",
+    "sha256": "bab859b7f71516739d256b2a977f994bc21832014981384cdb4019b2569085d3"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/VerschiebungPrimeField.lean",
+    "sha256": "882f45005542413ba0b404adb264610266c7163cfcb81a8c9a66f4bb73908305"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/VerschiebungPrimeToCharacteristicIsogeny.lean",
+    "sha256": "0224099761ffd8d2b75f9d996c1ec19a5a0129440de4653c8633d30bfb7caca3"
+  },
+  {
+    "path": "SupersingularCurves/Geometry/VerschiebungZeroKernel.lean",
+    "sha256": "68df4eced234d5271e91856db1508864f1acc429e7ca93ea51b2f75be0c4aad7"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/CharacteristicThree.lean",
+    "sha256": "e25ee2d8cef46602241dd163a80baa2aeb24708c5f5889505c6bf84d95617705"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/CharacteristicThreeObstruction.lean",
+    "sha256": "048c626e9029894f519049e26c2e8e0ffbb4043b2fbe2464b9794e946a440dc7"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/FifthPowerClassification.lean",
+    "sha256": "3069c1f715db6700eaff2b8e0500e4ce12ce5683c1230634a02be97aad62529a"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/FifthPowerGeometricObstructions.lean",
+    "sha256": "366cc8b5977a80998d354651398a5321330d02e55a1789980b8600245b43bffe"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/FunctionField.lean",
+    "sha256": "13fc5f3cb26123a6b71c171e4afc94c5f4bb50e116a20c85dff12cc777d05d14"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/Genus.lean",
+    "sha256": "1b2ddf4b32fac316b019d502c66b35ab0b0e4acf139f128e50c6ee7abb96e559"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoBasis.lean",
+    "sha256": "1b0b20630ac9c007a5d94ecb1d2cf3c048987dabf7e642e936e81667fe1cb8ec"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoCartier.lean",
+    "sha256": "b1d658f2e596de88c1d4302d835ea6707d43f23216435322a74d03b9fa997e2c"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoFiniteSubgroup.lean",
+    "sha256": "c974375dabaa2d54ec33011bb51b1f37c7bccb4da44c15220c611aaebf712b7e"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoFrobeniusIsomorphism.lean",
+    "sha256": "a47e643b0ba5f270e054c1d2b27defd41145a90ba3f04ae58d5b87af7fd38061"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoGlobalForms.lean",
+    "sha256": "ba9e6932086cab8d36dc2d9b8505224787b20bb8588bb6c5c7dad01ee0e1f677"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoJacobian.lean",
+    "sha256": "511d1594b710579378731d2f1a0cab404e77315e4a4665bae17ec3b47a8bf47e"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoOrdinary.lean",
+    "sha256": "2b09c70c8399ad9ed2463ed1692fd5d6ffb89c2d9f6c563e04eb1e9abc8cefee"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoOrdinaryVerschiebung.lean",
+    "sha256": "1fb3e7d970a05af241b3d2ef48a4c10a612ffb4997b76bbc560a82dc35c8cbf2"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoPRank.lean",
+    "sha256": "df3fce3c595e33aa7b7b9191ce1e818b895254fc1a4a27180cc8afac3c122aae"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoQuotient.lean",
+    "sha256": "2d68ec55aeccb2f4610fe6b32c138d5bba210d17ef072f4b7d8e9c1b706654c6"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoQuotientVanishing.lean",
+    "sha256": "9708e20b867114e6bbba791f6d2172bad6a4ef23fc292794d898297f4ff01cb0"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoSubgroupOrder.lean",
+    "sha256": "4770b450579a2e94f6629bb969c2cf6d2e1c14b0045e26719e1e94c1a08e143f"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoSupersingular.lean",
+    "sha256": "5e638b8bde7cac6336b25efcc3ac3f828a02a60137f4d6bc61e7580300e1f949"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoSuperspecial.lean",
+    "sha256": "f1569506d289d7a0a554c89a0b0ddd1e872a5ddfe77e14b1a6da2980cc372389"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/GenusTwoVerschiebungSquare.lean",
+    "sha256": "ca480b57f4423f13ff3fa1430d52c547a4665538c814237ad1e01d681f175e12"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/Ramification.lean",
+    "sha256": "3b060dbea1e070d95d12b02b393214251706b488b7c1f0c738742bd6b0a7064b"
+  },
+  {
+    "path": "SupersingularCurves/Hyperelliptic/Reciprocal.lean",
+    "sha256": "9423b2337a604d541e69525afa1ddd50f8e8a6a4dcc03c7a86c1bd0be2af88df"
+  },
+  {
+    "path": "SupersingularCurves/IKO/BinomialPolynomial.lean",
+    "sha256": "49ff3311db75bcbe139d6eab8ccc699f29a9a601bad77385fb6b19fbd6776c08"
+  },
+  {
+    "path": "SupersingularCurves/IKO/CartierCompatibility.lean",
+    "sha256": "7aa81f25c8c0770b0bcb651f9339a877c91d01aa6ff383320493f245da987bff"
+  },
+  {
+    "path": "SupersingularCurves/IKO/CartierFamilies.lean",
+    "sha256": "601ebffb5725d6adf0bf127505885189575420ee229fc3714a8b18c63ad3b4d2"
+  },
+  {
+    "path": "SupersingularCurves/IKO/CoefficientMatrix.lean",
+    "sha256": "713a7ed2770318a23f337c443919e76ba50fee7a65f3d662b1f126e0f38fe023"
+  },
+  {
+    "path": "SupersingularCurves/IKO/FifthPowerCongruences.lean",
+    "sha256": "4a959ddbbef3bed9717aa079d2be54b821505a4e412541357ed60d16eed86819"
+  },
+  {
+    "path": "SupersingularCurves/IKO/FixedVectors.lean",
+    "sha256": "c46a6f72791856162bddf5cce8e52269a8977a259fe9b1646d5256c0183035ea"
+  },
+  {
+    "path": "SupersingularCurves/IKO/GenusTwoFixedVectors.lean",
+    "sha256": "629a0b540175eeacf4391e096b41fd1f095f5769ed41c62ce56182d0433bcc55"
+  },
+  {
+    "path": "SupersingularCurves/IKO/GenusTwoOrdinaryFixedVectors.lean",
+    "sha256": "779d8f4bb5487c14c442fbed384bbdbe0b9b6ae674a7ebc23aae5fb5a5add8ce"
+  },
+  {
+    "path": "SupersingularCurves/IKO/GeometricObstructions.lean",
+    "sha256": "0ff1be5e948935bc1b6d88092b79aafd08bcd4d571e301832fdc485ba157581b"
+  },
+  {
+    "path": "SupersingularCurves/IKO/GlobalForms.lean",
+    "sha256": "34cfd51f93446afcabfb1236e533ee9d12a0838d699ee7d02d4e4bb5b6af3f1c"
+  },
+  {
+    "path": "SupersingularCurves/IKO/Hypergeometric.lean",
+    "sha256": "0071329e5e29c409965e07063195593b794cb42d2faac25c122b6d300c87927c"
+  },
+  {
+    "path": "SupersingularCurves/IKO/HypergeometricEquations.lean",
+    "sha256": "359a937b1957c897d316f8eeac8919ccfc834383e38f1d27792d0e53d07b9055"
+  },
+  {
+    "path": "SupersingularCurves/IKO/Jacobians.lean",
+    "sha256": "16716ad591c0b154caab830ce011fef7370aff1e9c6909467c588193be30f4d8"
+  },
+  {
+    "path": "SupersingularCurves/IKO/MatrixCriteria.lean",
+    "sha256": "e24fd2c81530c11577c531c380be611b6e4dafb3841e930028894bcb7740487b"
+  },
+  {
+    "path": "SupersingularCurves/IKO/Polynomials.lean",
+    "sha256": "b9aa07beee00f7abda895193242a177e1a112e17f905a7936f374726832b77c1"
+  },
+  {
+    "path": "SupersingularCurves/IKO/QuadraticCoefficients.lean",
+    "sha256": "cd493240e4087718eb37457cf4dfc3ac1c7529db3d0e3cc5c625765a7c54574b"
+  },
+  {
+    "path": "SupersingularCurves/IKO/RegularBasis.lean",
+    "sha256": "439f74deddf9642ca082038552a807668cf8d3ccaa9ac5b1b33f275146a67758"
+  },
+  {
+    "path": "SupersingularCurves/IKO/RegularCoordinates.lean",
+    "sha256": "d27eb874b83564e8e8c271341f2904b08ea651760fb9ab25d730c64c152e8df7"
+  },
+  {
+    "path": "SupersingularCurves/IKO/RegularFamilies.lean",
+    "sha256": "fb6bb5045eb6cd8010e95a1fe0280aa3c88915124fbf8cae2b79fad803e70796"
+  },
+  {
+    "path": "SupersingularCurves/IKO/Semilinear.lean",
+    "sha256": "690d96258fe354dfa21f83b3462bd6e56c8d1b7b1685355df0c01e8620357da7"
+  },
+  {
+    "path": "SupersingularCurves/IKO/SemilinearInvertibility.lean",
+    "sha256": "f3b3d90eb88db888ea2dffd755cb1ca01e77a5d4de4aaab036ed2a1e8a10db35"
+  },
+  {
+    "path": "SupersingularCurves/IKO/SimpleRoots.lean",
+    "sha256": "2e9b158b3f719686d547e7fa38787e782c3a4ef9a987e11165fef9848fc12368"
+  },
+  {
+    "path": "SupersingularCurves/IKO/SupersingularObstructions.lean",
+    "sha256": "f95c8ab8b1a956179fcc112aba65e0be3694f26da75d00101d50bcf5a4adea0d"
+  },
+  {
+    "path": "SupersingularCurves/IKO/SuperspecialParameters.lean",
+    "sha256": "03846f521e12130ba774872160c4fbe81c5014c2d43a6d3bb87e069ae5b15dae"
+  },
+  {
+    "path": "SupersingularCurves/IKO/TorsionCriteria.lean",
+    "sha256": "34a46685d3502459a384c126f9d946619dcdb327ad416cfb123115bae9d12905"
+  },
+  {
+    "path": "SupersingularCurves/IKO/UniformMatrices.lean",
+    "sha256": "d1b94a62aa6322cf2622badb8733d1a9026ac5f552788e14ceda15b6bd0638ee"
+  },
+  {
+    "path": "SupersingularCurves/IKO/VerschiebungCriteria.lean",
+    "sha256": "a2d302b61a23a8bfada43444630e7b1ed61912b867a8cb52dd12985561b5ffc2"
+  },
+  {
+    "path": "SupersingularCurves/NewtonPolygon/Basic.lean",
+    "sha256": "66d9be604923b30d75c8a586e28d214654cd4866de66c26d9b4da6068972d791"
+  },
+  {
+    "path": "SupersingularCurves/NewtonPolygon/Examples.lean",
+    "sha256": "117af11f2921a5f92f13b3aa4352b630a0771b5763ea3e8d0e07bd9c393da770"
+  },
+  {
+    "path": "SupersingularCurves/NewtonPolygon/HalfSlope.lean",
+    "sha256": "c80c6cac5b940a47b738bc3540aea473d8b22ec03653a7737ba75f7b20669a0e"
+  },
+  {
+    "path": "SupersingularCurves/NewtonPolygon/Isocrystal.lean",
+    "sha256": "9801817d2821a3b4dae033a05d97c5f8e2ed61628f05179d1e36577b8963094e"
+  },
+  {
+    "path": "SupersingularCurves/NewtonPolygon/WittValuation.lean",
+    "sha256": "3eaaa4ec31982036a9635ab249f5fddbd2f01f1aba8d78757b212ab2aaca489f"
+  },
+  {
+    "path": "SupersingularCurves/PicardTorsion/Cartier.lean",
+    "sha256": "de067a7c16ba0351b6d5cd86cc67da5bdde435af655ec4eb3df7fc5476ef6026"
+  },
+  {
+    "path": "SupersingularCurves/PicardTorsion/Equivalence.lean",
+    "sha256": "4f5faf2401f8bd1422c1d8c6d0da00a810df5af50095b013d6ca2a6455d1e8ce"
+  },
+  {
+    "path": "SupersingularCurves/PicardTorsion/Logarithm.lean",
+    "sha256": "56bfb264d4266fdff8d79cd98de02c710c094ae7ceef72c03cb92794ea6cb000"
+  },
+  {
+    "path": "lake-manifest.json",
+    "sha256": "2ecaebde2faef4bc65ffe4d5a921cc4e1b1f75ea8de0351b744d05f9668880fc"
+  },
+  {
+    "path": "lakefile.toml",
+    "sha256": "70e63fa4ea2a0091e3e997a0dab42ac9b4fa833eb89002dfa76508ddcb87bb5d"
+  },
+  {
+    "path": "lean-toolchain",
+    "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+  },
+  {
+    "path": "provenance/basis-foundations.json",
+    "sha256": "57883787f8a59ff3f3af2da009b2aed3a6ca6e0a6a02bf34fca34bcff9a27c82"
+  },
+  {
+    "path": "provenance/cartier-reuse.json",
+    "sha256": "3ac28b0f2f9096d65462db320cce271dc179854e8eae23b9c9e016f600da99ed"
+  },
+  {
+    "path": "provenance/cech-curve-naturality.json",
+    "sha256": "21f7073121aa8b94bc64d685a8988faf97e65278a4ec8df8ba21034c27feecd6"
+  },
+  {
+    "path": "provenance/cech-pullback-vendor-additions.json",
+    "sha256": "7e3dea68fc7505d332b3bee9ad00c4836d84c2c1c20710edc16fe5454a9893b1"
+  },
+  {
+    "path": "provenance/cech-repartition-comparison.json",
+    "sha256": "e21fd8e1989ae6ad43d1241799ac33f4c30ed82741453c419b9247af9efb102a"
+  },
+  {
+    "path": "provenance/checkpoint-1.json",
+    "sha256": "8ad6667617e63e409ae432bef9c8e5604e22e3b3d3897af82545708efa25987c"
+  },
+  {
+    "path": "provenance/checkpoint-10.json",
+    "sha256": "d7df1af34ef7e105d982baec1dfb3b57171d625c28cfc8d00c3493c823ad8e96"
+  },
+  {
+    "path": "provenance/checkpoint-11.json",
+    "sha256": "9a0536e8910cc89c39c70ef82ff53246c5684eb5fa5317c623cfa3d47ba046e9"
+  },
+  {
+    "path": "provenance/checkpoint-12.json",
+    "sha256": "e4b0a7d36a4202dcd6744070b89d448d181404802ac02bdb3779a4b23c283db3"
+  },
+  {
+    "path": "provenance/checkpoint-2.json",
+    "sha256": "6daf9cacbcf641ece1a9841f5d5efbe859d1e65a19f2261ee82ccac723a4482c"
+  },
+  {
+    "path": "provenance/checkpoint-21-sources.json",
+    "sha256": "34dec69d1e1e0472e0837ad8dc693632b7a89a68311dec1e93df0ef986ecc474"
+  },
+  {
+    "path": "provenance/checkpoint-22-sources.json",
+    "sha256": "00a9f72576759a54d2a9b76d4eabd800486731b2ef09583e798bb4d97ac96d9f"
+  },
+  {
+    "path": "provenance/checkpoint-23-sources.json",
+    "sha256": "88352238c66c41019b74479514f208beafd75a1a1df86ca9f909f0d8ec6a0844"
+  },
+  {
+    "path": "provenance/checkpoint-24-classification-content-audit.json",
+    "sha256": "d67d085095fa73f6894309527c0a1a6bc1b4b37d1fe13e95d72456d768a32830"
+  },
+  {
+    "path": "provenance/checkpoint-24-classification-source-inspection.json",
+    "sha256": "b7d0d31feeb26a24c95a113b8ab503fbac2ebbdca647120743575075d8024248"
+  },
+  {
+    "path": "provenance/checkpoint-24-classification-source-inspection.md",
+    "sha256": "5ad39cdb5ba0c0ad8968e58fcfdc5683b3c9eb025b569d17657044ffcb4d63f7"
+  },
+  {
+    "path": "provenance/checkpoint-24-degree-imports.json",
+    "sha256": "1f0a4e39bf0930b4a2ce4dc16d3b46c8427ec9d816350dce115788e4a52126d3"
+  },
+  {
+    "path": "provenance/checkpoint-24-sources.json",
+    "sha256": "4ea64775f6abbe448823915e568a5fe309d187c0248ce21c0a137db3934574c2"
+  },
+  {
+    "path": "provenance/checkpoint-25-classification-route-review.md",
+    "sha256": "f26b14601c17a9e6867af9752d3c1e63c6dfb004d0552e3d6d3362d6e3024f5d"
+  },
+  {
+    "path": "provenance/checkpoint-25-sources.json",
+    "sha256": "35e076fa0041b87eb84f88158cb5fa6bd4fcc8afc3d0850d15e567b9d1198998"
+  },
+  {
+    "path": "provenance/checkpoint-26-quotient-imports.json",
+    "sha256": "3a468e03df9d411cbcd591d69661c5a6a308a5045d3839bee7109b30e991456d"
+  },
+  {
+    "path": "provenance/checkpoint-26-scope-review.md",
+    "sha256": "02f349ec47d6799c583807484959cc860005a78e0ec64afe10ea60549717de9e"
+  },
+  {
+    "path": "provenance/checkpoint-26-sources.json",
+    "sha256": "3fca0c562a376d9cb7e06f0d5c5fc14d7fe9d622d5315d7db644f88cd4a0e5b9"
+  },
+  {
+    "path": "provenance/checkpoint-27-compatibility-review.md",
+    "sha256": "4379a10eaeadef26719fd1f1825c2435c17956fcbc5fec4b136bc8af34559444"
+  },
+  {
+    "path": "provenance/checkpoint-27-finite-field-obligations.md",
+    "sha256": "b66de8359b7179701b2291d838feefe9578681757322735136048b6587d84f49"
+  },
+  {
+    "path": "provenance/checkpoint-27-foundation-imports.json",
+    "sha256": "e26d7a0620b4a6e7633049b95456ffc2581b477272f87bbe3999bf0e4b1510a8"
+  },
+  {
+    "path": "provenance/checkpoint-27-oort-obligations.md",
+    "sha256": "6770276d0fed1a39b851a0ffbb26eb10146ff3363e762459573d29d5c808475e"
+  },
+  {
+    "path": "provenance/checkpoint-27-scope-review.md",
+    "sha256": "b068b62be9fc9e4c0457c32f1fcadaf46b031f49acbee9ceb05de4b652b91975"
+  },
+  {
+    "path": "provenance/checkpoint-27-sources.json",
+    "sha256": "3d7f0e42bc7ecee07b4c6afa56ae60766c8d327d4df86aed4ec99cc8571a803b"
+  },
+  {
+    "path": "provenance/checkpoint-27-tate-obligations.md",
+    "sha256": "d22a341c1c325e54fcf0045d003f90b61dab0547f489c6f3b13e2c88c116e023"
+  },
+  {
+    "path": "provenance/checkpoint-28-elliptic-end-realization.md",
+    "sha256": "0551ff5cebf34f926c5ecbf19e27ec042bfa97b99d49fe2767dbbd694a79fd32"
+  },
+  {
+    "path": "provenance/checkpoint-28-foundation-imports.json",
+    "sha256": "3c54c1f91fadda86f73d244eb04654e3dfc06a48484626106f83dac9c9ec92bd"
+  },
+  {
+    "path": "provenance/checkpoint-28-group-tate-cotangent.md",
+    "sha256": "ace67e436afd894c406a7fe9ff49ff705bc791ff9408ddd8e9ec8f74af1b823e"
+  },
+  {
+    "path": "provenance/checkpoint-28-oort-lifting.md",
+    "sha256": "529081eac82229883a3c0c877d95572a5c290032db04903c3778b0dd24b0d605"
+  },
+  {
+    "path": "provenance/checkpoint-28-product-isogeny.md",
+    "sha256": "ce72a2ec9cab1c7520dd0442c0c8a22226b278ea4758ac591bd1b72dbd072061"
+  },
+  {
+    "path": "provenance/checkpoint-28-riemann-pairing.md",
+    "sha256": "cfca71a04b130fd5aacf43f59272974f808fb82fb3d264d794f43517c766bdca"
+  },
+  {
+    "path": "provenance/checkpoint-28-sources.json",
+    "sha256": "3a962087bef21511b2cbc6e5882309125a433837f3dbd9f54ecce404371439ed"
+  },
+  {
+    "path": "provenance/checkpoint-29-elliptic-subgroup.md",
+    "sha256": "22076345691895b665d8357ea7436b440df51014b12e0f61b3fff8dfff5e2912"
+  },
+  {
+    "path": "provenance/checkpoint-29-foundation-imports.json",
+    "sha256": "f0d600809c054a4f61a80dc10a78b8942ce3ccafc2cec58ae69b675835b240f5"
+  },
+  {
+    "path": "provenance/checkpoint-29-sources.json",
+    "sha256": "71fc32812c4ab3bee5fd0a69c2b3f261698b01495b6a214be7ff7a3c470e72c4"
+  },
+  {
+    "path": "provenance/checkpoint-3.json",
+    "sha256": "ecd5858b0d217dde48be989561d3470af64e2846e0f1441919aa3d2660fceae0"
+  },
+  {
+    "path": "provenance/checkpoint-30-recurrence.md",
+    "sha256": "c386e1159b861712143288553e490a282003c88921c1729f24dc91717c7bc51e"
+  },
+  {
+    "path": "provenance/checkpoint-30-sources.json",
+    "sha256": "e6a626a216e2373ca5c06c92f66803a0a06fe6921dcb34c09a45d3cd79227325"
+  },
+  {
+    "path": "provenance/checkpoint-31-quotient-graphs.md",
+    "sha256": "a03c18c641621ef527252da506c9a496bf0f90ebe48217940ba1b306f3960237"
+  },
+  {
+    "path": "provenance/checkpoint-31-sources.json",
+    "sha256": "90af9ceeb0436d002c2d1a0b5168fbcc44d55dcd4251f16cdfa3aea9c4e08584"
+  },
+  {
+    "path": "provenance/checkpoint-32-polarized-graphs.md",
+    "sha256": "614fe1979cf86264f74e7678a5ee50ba87354828644208794dbace1c4432ebf1"
+  },
+  {
+    "path": "provenance/checkpoint-32-sources.json",
+    "sha256": "78e8bce2440149ac10677c2f1c9de5a3a5cd56e932ba79129323ee7aba24e0d1"
+  },
+  {
+    "path": "provenance/checkpoint-4.json",
+    "sha256": "9c77b91a0867d019c7ed30b5df337a1a5c69abface0c4df03c8d492ff00492cb"
+  },
+  {
+    "path": "provenance/checkpoint-5.json",
+    "sha256": "cff0559359077a33c2cb93eb5bc5823dbee746ef140791b62c2a7bc03e54fdac"
+  },
+  {
+    "path": "provenance/checkpoint-6.json",
+    "sha256": "37e9ecd6a343321bdba3b64bffe15418a79f73c07b1d8373f574d762c1d23569"
+  },
+  {
+    "path": "provenance/checkpoint-7.json",
+    "sha256": "bfe12b0bd6d014d56366e835bd98b66fd92835d4ba71b91ba47acc136ffd63f0"
+  },
+  {
+    "path": "provenance/checkpoint-8-vendor-additions.json",
+    "sha256": "74d18c9a988991f1f39a939eff51c7296959d2f7aab733cce06f0fa8816a3c23"
+  },
+  {
+    "path": "provenance/checkpoint-8.json",
+    "sha256": "c859cc9383a492fafef8374b01a2ca971f74f5dc806728f6ffb4c1739bae6d5f"
+  },
+  {
+    "path": "provenance/checkpoint-9-differential-vendor-additions.json",
+    "sha256": "99e1a294a6b924dcfc4a58befe95beaa9d3ffe3290f9251d9b1a70f50a10e5c2"
+  },
+  {
+    "path": "provenance/checkpoint-9-vendor-additions.json",
+    "sha256": "dc7a2a56c1ecb55f0ca28d103e77fdd6340affbdc68a96b20aa1c49cf582d96e"
+  },
+  {
+    "path": "provenance/checkpoint-9.json",
+    "sha256": "c39b826777a43db2529bedc97f83fc9de2b41633612f3c32bff90dc676fd8233"
+  },
+  {
+    "path": "provenance/frobenius-picard-comparison.json",
+    "sha256": "d6f8970d5dea9ae7703dee36d473c8071a3df6d3489f56ef965e853004cb2896"
+  },
+  {
+    "path": "provenance/frobenius-verschiebung.json",
+    "sha256": "e0128fe52b7b96e853597aa58c7f25eecc7bcd9178c146464dabd8d8158ae5c5"
+  },
+  {
+    "path": "provenance/function-field-generalization.json",
+    "sha256": "5d8a7631e4ac332d48d3fed3a567a49eb33920479f6df9271cb226e9fc1d8274"
+  },
+  {
+    "path": "provenance/general-genus-two.json",
+    "sha256": "40f507797401db0d18ab98af79b636760492cfefac725a55bf4d666260a5cc7f"
+  },
+  {
+    "path": "provenance/geometric-classification-source-inspection.json",
+    "sha256": "665117e92c6c516f49952a2a7a30ccfa54d11040d98c15b5458a8238499ed43b"
+  },
+  {
+    "path": "provenance/geometric-isogeny-vendor-additions.json",
+    "sha256": "d54ef0cec509b29ec58d12334d2127d51ec582c5763a696dcd813f72c96e0bbe"
+  },
+  {
+    "path": "provenance/geometric-obstructions.json",
+    "sha256": "b3e378db540e09d4acb6878f0e0ffcb6217faa484b22338f8fcb0de0f7f1a3bf"
+  },
+  {
+    "path": "provenance/geometry-foundations.json",
+    "sha256": "e91c7abc9fa359441c7f20402b2d6f6bda4d7b152c9fe767eaeac27f002c30da"
+  },
+  {
+    "path": "provenance/hypergeometric-generalization.json",
+    "sha256": "5dfa678b30b886d853a6272a40952f8b3cf44ef594597c752b7dc9b55c920122"
+  },
+  {
+    "path": "provenance/infinitesimal-picard.json",
+    "sha256": "e8aaa7a697819980ace86dae4ab42547047cf3037404ef9023e7364289db76b9"
+  },
+  {
+    "path": "provenance/jacobian-next-import-plan.json",
+    "sha256": "406c28a64d0ae6425317c14ffc780fac870417b925e43987eee1300c6d015c6c"
+  },
+  {
+    "path": "provenance/mini-checkpoint-12.json",
+    "sha256": "0e9b28a1e23da5a706d1242343e7401c2bd5e1c9b94a1c25c62eb1c5244c5767"
+  },
+  {
+    "path": "provenance/mini-checkpoint-13.json",
+    "sha256": "f1764ccedfd2d773a8617b0134fad79f4fb4e3f84ef626a6317598dc11c2a865"
+  },
+  {
+    "path": "provenance/mini-checkpoint-14.json",
+    "sha256": "7adbb05f2eabe6af5522be830f230239a42aa49715fc89134fb5cbeb058244e3"
+  },
+  {
+    "path": "provenance/mini-checkpoint-15.json",
+    "sha256": "aeb2ae49a3822970a3633b46fded33fdd149d8b43dbb9e4ae3786bf4282149b5"
+  },
+  {
+    "path": "provenance/mini-checkpoint-16.json",
+    "sha256": "e511c777523cdd1c44a3870c4951f1bfac366651ed32eda2ba405f2b99d057b1"
+  },
+  {
+    "path": "provenance/mini-checkpoint-17.json",
+    "sha256": "be54a37a7fadf5c07429c4575680ca4bfdf56facf05f9adc30efd13a1e8afb9b"
+  },
+  {
+    "path": "provenance/mini-checkpoint-18.json",
+    "sha256": "b797c9d1ffbb1adbfa07302d3b25e893c8fa35a4ced84ffd5af7a5da64597552"
+  },
+  {
+    "path": "provenance/mini-checkpoint-19.json",
+    "sha256": "47d76ee095487e0343c8fe041bd79b33ca01305ba90276785f1debd3662baa81"
+  },
+  {
+    "path": "provenance/mini-checkpoint-20.json",
+    "sha256": "dd05e3270672a8e01d54ad7ee03231e01ef34128f8c7431a047df58bf3d5c616"
+  },
+  {
+    "path": "provenance/mini-checkpoint-21.json",
+    "sha256": "517c31b767f2bc5b0ea83deae7acd20ce4369ac9e514c981578a3030a0aaf31f"
+  },
+  {
+    "path": "provenance/mini-checkpoint-22.json",
+    "sha256": "6b45341ba6c208d29872de661cade6c34e90a6dfdf2114aaea3bafdca50f7ed8"
+  },
+  {
+    "path": "provenance/mini-checkpoint-23.json",
+    "sha256": "3bbde36fccbcade814c736030877b6b50246233a1f8e8e6f2ea2e2ce1cd8b2a9"
+  },
+  {
+    "path": "provenance/mini-checkpoint-24.json",
+    "sha256": "60251260a6792a2cd8c3e28dd0c2d75bc36e5c0d6439bff63df5b2b21a6f9bb7"
+  },
+  {
+    "path": "provenance/mini-checkpoint-25.json",
+    "sha256": "9fe7f6af4d2793cab78653a16677307a84999dca18c90a6ede53ad45e21b087e"
+  },
+  {
+    "path": "provenance/mini-checkpoint-26.json",
+    "sha256": "e389c4a6d4d99a03749aab358a4451b6964cad039b6c97daab909c175ac522ae"
+  },
+  {
+    "path": "provenance/mini-checkpoint-27.json",
+    "sha256": "329ec5183e3ad0a6c6b54344da8551301f3d59e01874d1cf376ff639fc5a0c93"
+  },
+  {
+    "path": "provenance/mini-checkpoint-28.json",
+    "sha256": "8b7fabb831fbf91ecfe834bc8444bd670d44c00ce7b62e320d9001e95a06f5c4"
+  },
+  {
+    "path": "provenance/mini-checkpoint-29.json",
+    "sha256": "cbe43af54320961ac79f083081da1b969b2ceace8becb60cafbdfc93e5776db3"
+  },
+  {
+    "path": "provenance/mini-checkpoint-30.json",
+    "sha256": "193b255b5cdfd4c32b23b2e3362feb05b0370ebd27b4d867ae72187220bff772"
+  },
+  {
+    "path": "provenance/mini-checkpoint-31.json",
+    "sha256": "bd9b2a87d7d4311b5e818337d1ddfc9e00fd0430ab8fe81b97235497bd4eced3"
+  },
+  {
+    "path": "provenance/perfect-field-verschiebung.json",
+    "sha256": "3177eb2c3404e96ed5e6f0c5f4e7974645a20324ce2298b76f2c04aa5408334e"
+  },
+  {
+    "path": "provenance/picard-cech-comparison.json",
+    "sha256": "9f4e6c92997e3893eb498d5b963a840646e2eb14b35e5867a55f8ba8b7b665f4"
+  },
+  {
+    "path": "provenance/picard-foundations.json",
+    "sha256": "3165439d99e7ff1cb5a892d6f82c2dfd4f83fa965516e39cea3e4eb6f268c473"
+  },
+  {
+    "path": "provenance/picard-reuse.json",
+    "sha256": "c60d094e1d3945069fe2125d75ab2ba8134772b12c9c3cf3aace6a6a107e4609"
+  },
+  {
+    "path": "provenance/ramification-generalization.json",
+    "sha256": "03072707de4b6de1c785c851462c04b6d391bf29fa1c4c1f415446a609b251d9"
+  },
+  {
+    "path": "provenance/recovered-continuation.json",
+    "sha256": "08ce4d9f383d44b65a8fdcdd2f2641b4ff0a2a8aa05452c648e75cf98da6d241"
+  },
+  {
+    "path": "provenance/residue-duality-comparison.json",
+    "sha256": "675a13da236416a9b8b64fc118e3fce293dfc5a81da82439d830e49a3739fb61"
+  },
+  {
+    "path": "provenance/scope-sources.json",
+    "sha256": "6b4acbe1dc25fd9db6bb8a9a25d6dea2f51cef061780b122354d37523ba5a236"
+  },
+  {
+    "path": "references/ProfessorSheet.jpeg",
+    "sha256": "3056207ad16e7aa9938ad3f39f2cc577c39e785d47e61fa05ffafe777f6ffcf1"
+  },
+  {
+    "path": "vendor/flt/port-manifest.json",
+    "sha256": "870d0b890e4f2430d6668e028226bdc65605f12c7cba94a308d6981335ff52ea"
+  },
+  {
+    "path": "vendor/flt/upstream-manifest.json",
+    "sha256": "ba990d2893f6487edf8c7aeb3bbd6596df4670d1f5e3c3a627fd220616656929"
+  },
+  {
+    "path": "verification/BUILD_CACHE.md",
+    "sha256": "587e6727ba2ecf3428015cba3522c3e9ca44a169dcac816a1b49899608c38e6f"
+  },
+  {
+    "path": "verification/BasisExamples.lean",
+    "sha256": "2b3e1b00fb427289b4f2c5d27ce30ed07b6e6c19e8eb0adef903ad3de8e47559"
+  },
+  {
+    "path": "verification/CHECKPOINT_29_REPORT.md",
+    "sha256": "53f798612a23ce64001b830b36ba71b109c2a730b206589505f8d77ed7409dc6"
+  },
+  {
+    "path": "verification/CHECKPOINT_30_REPORT.md",
+    "sha256": "3f2c36ba42f6a18830605a7507232e1d5bd2facd88267d3f7a5229fccafdebf7"
+  },
+  {
+    "path": "verification/CHECKPOINT_31_REPORT.md",
+    "sha256": "a03c18c641621ef527252da506c9a496bf0f90ebe48217940ba1b306f3960237"
+  },
+  {
+    "path": "verification/CHECKPOINT_32_REPORT.md",
+    "sha256": "614fe1979cf86264f74e7678a5ee50ba87354828644208794dbace1c4432ebf1"
+  },
+  {
+    "path": "verification/CartierVerschiebungExamples.lean",
+    "sha256": "28c3aee1156182148bab4606dd81133ea6e25eab1be959db6e202dd8e42c0781"
+  },
+  {
+    "path": "verification/Checkpoint18Audit.lean",
+    "sha256": "d028277b962591ae3de0f87ca12f80f3540e82ec1fa0f6a40de206a904e3851d"
+  },
+  {
+    "path": "verification/Checkpoint19Audit.lean",
+    "sha256": "884de9dcfd22ce6dc3f44c70a316f477f02b0eafd334a931134aa0aba0612a6f"
+  },
+  {
+    "path": "verification/Checkpoint20Audit.lean",
+    "sha256": "1a25ec33a6d80d7fffb45c139e69a168292607b62f07608429c58e335fd5e53f"
+  },
+  {
+    "path": "verification/Checkpoint21Audit.lean",
+    "sha256": "c12156aa84f3e4720ed5b4125dd77feed26419cb68f502af1885fe2b2c79c476"
+  },
+  {
+    "path": "verification/Checkpoint22Audit.lean",
+    "sha256": "22c572b4a3d30ba3927572bea7a2a330df8bff33ab8695bda1ce790018fcc77b"
+  },
+  {
+    "path": "verification/Checkpoint23Audit.lean",
+    "sha256": "b349b9fdb9830e52b368942fc2808dafdb12a1f27f2ab5dbc151504353e4fdb1"
+  },
+  {
+    "path": "verification/Checkpoint23Examples.lean",
+    "sha256": "9484f14eaf003e75ce212ec804870f45c23b4e79524aa5627a6e621237ef1bd1"
+  },
+  {
+    "path": "verification/Checkpoint24Audit.lean",
+    "sha256": "f60f0d6eb5388049ead828503eebb7e82308e3f6020a7994b0d0897b316bcde3"
+  },
+  {
+    "path": "verification/Checkpoint24Examples.lean",
+    "sha256": "85f85780c800f18264e79c68c1a0fe9dcc6a63e4e376a7f1f62c6a378575a637"
+  },
+  {
+    "path": "verification/Checkpoint25Audit.lean",
+    "sha256": "f40709956a5b3c8bf738c8fcc7bdd683d9ea68cb1517ef2584dffc2b88f964ff"
+  },
+  {
+    "path": "verification/Checkpoint25Examples.lean",
+    "sha256": "d6b6dbfca5d4c1f2e52bdd66e17e12972b46d924b8022cc68c138960fc4d47d7"
+  },
+  {
+    "path": "verification/Checkpoint26Audit.lean",
+    "sha256": "d7c7a2536ba5ec3cc603c040590b37e6a12c0ca915d1edeb62f8f9fd1d6e7134"
+  },
+  {
+    "path": "verification/Checkpoint26Examples.lean",
+    "sha256": "a2fd6c82081c8af905ffd8dea92b50d2761ca5549e19d7ba0240c2df8baf257e"
+  },
+  {
+    "path": "verification/Checkpoint27Audit.lean",
+    "sha256": "264c8181306d1abc51b1bc1e3c954affca10ca851aef781ef7dd18a1ae6c3521"
+  },
+  {
+    "path": "verification/Checkpoint27Examples.lean",
+    "sha256": "03d3b46302b8f77a58d5855c164db84170640bb8a1755df7a20c9a70f7f206fb"
+  },
+  {
+    "path": "verification/Checkpoint28Audit.lean",
+    "sha256": "0913db1846b82794ee81481e1a4165cfbf066f4e88fe5c4c59e03da84d440e0d"
+  },
+  {
+    "path": "verification/Checkpoint28Examples.lean",
+    "sha256": "9fd7f2c6c5d6e8b13416139abae97650bb526d1d2e244de64668a2bb6e769da7"
+  },
+  {
+    "path": "verification/Checkpoint29Audit.lean",
+    "sha256": "11e3f5cba2e306889e670b01343baf6061209249a2faa5fca83dd8dcb9be8d0b"
+  },
+  {
+    "path": "verification/Checkpoint30Audit.lean",
+    "sha256": "51f132337fb9982ee5a6cdd9814bdb77734ac17048d9f8488551720fd93c96d3"
+  },
+  {
+    "path": "verification/Checkpoint31Audit.lean",
+    "sha256": "d7d174ffa87dbea8cd369c8393487183c514a326f5d05b4a6373b30017712c34"
+  },
+  {
+    "path": "verification/Checkpoint32Audit.lean",
+    "sha256": "a1184296c8db838e69ffaafb3e82c0e214e40806c54e7dee55821b583249423a"
+  },
+  {
+    "path": "verification/CohomologyExamples.lean",
+    "sha256": "2afa185b09855a6642d41781191a92c3bdc3258cadcce2d105a43d9a7dabc1d0"
+  },
+  {
+    "path": "verification/FrobeniusCechExamples.lean",
+    "sha256": "8bd33b5add57fa8f6a51a3f56fdc1e98608943e2c5e685ada0a721ec3a8bff9b"
+  },
+  {
+    "path": "verification/GeneralGenusTwoExamples.lean",
+    "sha256": "b25da19bc0d84300ce7d4c3bdc9927b3d3ed4c556e9958042cce8cd5bff62a56"
+  },
+  {
+    "path": "verification/GenusTwoPRankExamples.lean",
+    "sha256": "71d6e58c18b4d211bc5a710a965da9ac252d6b2a3d54c9e8d30fda2757d4749a"
+  },
+  {
+    "path": "verification/GeometricExamples.lean",
+    "sha256": "a24630c11d57eeefb07051079db4c39d4e79dfcd8af78adfefebec620780f154"
+  },
+  {
+    "path": "verification/RepartitionExamples.lean",
+    "sha256": "41a8ff64da7b6f8b4122a7cff9748cfa0daf42704c31a8c47936d38ef09340ec"
+  },
+  {
+    "path": "verification/ResidueExamples.lean",
+    "sha256": "871a303c57f4fdef6cce5c82fb782ec7c55249d71864d6cce641dc4a168977df"
+  },
+  {
+    "path": "verification/SimpleRootExamples.lean",
+    "sha256": "b8a4170b3f463bd4b9e26769a52c8e96cd55971624ed943ae96eeabd627613e5"
+  },
+  {
+    "path": "verification/SupersingularGeometryExamples.lean",
+    "sha256": "f9ad0415a5f5731e2bad6b672016f7e63e02c2c465e830e31979773bceedbe91"
+  },
+  {
+    "path": "verification/SuperspecialExamples.lean",
+    "sha256": "17a2b85ec93ebf4496d50e5eb83c5031dcd7b55aa0655018e746e16d8995e08b"
+  },
+  {
+    "path": "verification/TorsionExamples.lean",
+    "sha256": "0b379e8979ada25f7bfe8a227fb14fbbfc1209908fbb942aac6a2740d8c270dd"
+  },
+  {
+    "path": "verification/check_sources.py",
+    "sha256": "9a64439fd1cf91f05045f80dc4e9c16fa4b67a82b151ec633b81f5689ca5f651"
+  },
+  {
+    "path": "verification/checkpoint-29-build-cache-manifest.json",
+    "sha256": "37267867dee199b38362798f805884a9ed1696b6f778430db45f1716edec55d5"
+  },
+  {
+    "path": "verification/checkpoint-29-build-cache-record.json",
+    "sha256": "a695145582692f7cf5effa40aea6d8916ab139aee3b1991c6c4347c328ad394d"
+  },
+  {
+    "path": "verification/checkpoint-30-build-cache-manifest.json",
+    "sha256": "3e675340116ef66810e955660f215dfae355ea163e137c7236320e1bcc38d456"
+  },
+  {
+    "path": "verification/checkpoint-30-build-cache-record.json",
+    "sha256": "cb83d4b75e26e0dfaeecd2a123c52565ecdc87054f96143551c70855b205d58a"
+  },
+  {
+    "path": "verification/environment/CHECKPOINT_31_ENVIRONMENT.md",
+    "sha256": "351cf50a977c9ffbe606f67e51b8e33081a7d69bf82d27c92681c6d3e2b730d5"
+  },
+  {
+    "path": "verification/environment/CHECKPOINT_32_ENVIRONMENT.md",
+    "sha256": "ea4bb434934651990637c67b7acd2e9ea6a7bdc6a20df2fff9c0fc68d664cad2"
+  },
+  {
+    "path": "verification/environment/checkpoint32-runtime-compat.c",
+    "sha256": "68a49c7798a7c25f03f56b23ad8824468d29b2646991360a157c40f4e3fe8b40"
+  },
+  {
+    "path": "verification/environment/checkpoint32-runtime-launcher.py",
+    "sha256": "ae3ec1a30b830a8cad9484934791b3e30364b9b9122dabdcb122b99d86addaa6"
+  },
+  {
+    "path": "verification/environment/self-exe-compat.c",
+    "sha256": "cef603306620bd8ccf37b3580ff9fed6558e60bd3ab6b0d50c2cb72621cfe401"
+  },
+  {
+    "path": "verification/finalize_checkpoint31.py",
+    "sha256": "faf2099f83b0c349987feba021a5b46a43f95602c88a86e095ed245a629b46a0"
+  },
+  {
+    "path": "verification/finalize_checkpoint32.py",
+    "sha256": "a7b68e4786955777acda18c28a1ddefdccb079ee7b4fe5e342fa11aa72a2f8fb"
+  },
+  {
+    "path": "verification/package_checkpoint32.py",
+    "sha256": "6914c5503a847bba69b452cdd86291bab53aa20766895e304f05437632f7eac2"
+  },
+  {
+    "path": "verification/prepare_checkpoint20_provenance.py",
+    "sha256": "faf18820bed5ef0b4949a121c87499a154bb64d564ab859628ba0129e46c462d"
+  },
+  {
+    "path": "verification/private-lemmas.json",
+    "sha256": "c7d2f2938c5bad58d8758756f2505c5ef2a769b4e90d9fa4e96d2d188cba7cb9"
+  },
+  {
+    "path": "verification/proved-theorems.json",
+    "sha256": "db72205e962a0013d84333a18f083f31527789ff88a8f86f80a7bcedc3d6a801"
+  },
+  {
+    "path": "verification/scan_sources.py",
+    "sha256": "fecb25c8ae322d5d88e935d8b87b430743e805228a983abae5560221345dbffe"
+  },
+  {
+    "path": "verification/verify.sh",
+    "sha256": "b3a847702c4b24c1a42cfec501215ad3c093176414292447357751288a7b46a7"
+  },
+  {
+    "path": "verification/verify_checkpoint18.sh",
+    "sha256": "029210c1a6dcd692c25ee489e1744a822fc0f4844d906e74f974a95f3d622df7"
+  },
+  {
+    "path": "verification/verify_checkpoint19.sh",
+    "sha256": "470a77389e6f7fdbf59f8f9a6a44bdc7b4cbc660962afed3c274aa877874602f"
+  },
+  {
+    "path": "verification/verify_checkpoint20.sh",
+    "sha256": "5c7d1d398c7d3f3da9a775498e813a3c84a9e55b24cdcf8dd84b1d888d4f31d2"
+  },
+  {
+    "path": "verification/verify_checkpoint21.sh",
+    "sha256": "0ebaf5ec54caa0d287b12415c0f6990a717b81c87d5ad0ff605c502f94d739bf"
+  },
+  {
+    "path": "verification/verify_checkpoint22.sh",
+    "sha256": "737c0659dbac620f97605f47d00bfd0ae6d80fbb8eaba645946670ae9841146f"
+  },
+  {
+    "path": "verification/verify_checkpoint23.sh",
+    "sha256": "cd5a10d904bf6d4c8bf27773db0405ecc626534a5c5208ce5645b96c7747c5d0"
+  },
+  {
+    "path": "verification/verify_checkpoint24.sh",
+    "sha256": "940b8b7fd5082f693e3560a76d89aa09640cc05f04326b77dd5bee1f301ab544"
+  },
+  {
+    "path": "verification/verify_checkpoint25.sh",
+    "sha256": "ec8daed48146dd514fa43bf9e587f79d86436fc63407411f8d84e7436b7af8d6"
+  },
+  {
+    "path": "verification/verify_checkpoint26.sh",
+    "sha256": "32e0ab662d3992bcd40966800b3a8bec72ce25c773846d5b7564d897dbd64b7a"
+  },
+  {
+    "path": "verification/verify_checkpoint27.sh",
+    "sha256": "80d7c59c9f0f38a7cca1a5ad28e58de133a1d4f7a8879946935ccbba6d846f6f"
+  },
+  {
+    "path": "verification/verify_checkpoint28.sh",
+    "sha256": "334dd436d17ceb317b899a250741bac0d46dbb2af0946422de4fbb3a7933afaa"
+  },
+  {
+    "path": "verification/verify_checkpoint29.sh",
+    "sha256": "82f0cebe2f82d492c47153f365602fec405d82e8abf7fab451ed83dba9ea6f3c"
+  },
+  {
+    "path": "verification/verify_checkpoint30.sh",
+    "sha256": "4e2a897bfe3d6e84afe341fd72f7a92e67d16ddb13b8ceb5c8349224007bc668"
+  },
+  {
+    "path": "verification/verify_checkpoint31.sh",
+    "sha256": "85c0bf08a365cd86758b7260f473b4d719ad9f55144d67c9327aeae11fadc256"
+  },
+  {
+    "path": "verification/verify_checkpoint32.sh",
+    "sha256": "38990536e4d25c3d4af2773317ab9a6c67dc0b0b7c5bb9ebe905953a67af1235"
+  }
+]

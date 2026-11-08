@@ -1,0 +1,7 @@
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedGrading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedGradedAlgebra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.exists_fixedField_proj_model' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

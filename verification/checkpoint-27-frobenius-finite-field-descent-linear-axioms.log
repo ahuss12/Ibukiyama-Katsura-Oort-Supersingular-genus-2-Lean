@@ -1,0 +1,21 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentLinear.repr_apply_eq_pow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentLinear.equivFun_apply_eq_pow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentLinear.fixed_iff_coordinates_fixed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentLinear.exists_fixedBasis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentLinear.fixedBasis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentLinear.fixedBasis_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentLinear.exists_equivFun_apply_eq_pow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+Audited 7 declarations from SupersingularCurves.Geometry.ScalarFrobeniusTatePolarizedGraph.
+Audited 5 declarations from SupersingularCurves.Geometry.AbelianVerschiebungBinaryProducts.
+Audited 1 declarations from SupersingularCurves.Geometry.FiniteBySectionsExternalProduct.
+Audited 3 declarations from SupersingularCurves.Geometry.PolarisationRootKernel.
+Audited 3 declarations from SupersingularCurves.Geometry.AbelianProductLineBundle.
+Inspected 0 shared generated entries by stored type/body as well as resolved declaration.
+Checkpoint 32 transitive axiom audit passed: 19 new project declaration entries.

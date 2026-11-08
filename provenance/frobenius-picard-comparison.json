@@ -1,0 +1,148 @@
+{
+  "checkpoint": 16,
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusLineBundle.lean",
+      "sha256": "f2bc2a1cd33d5c40cef111406e749b0370febee5fff7ef715b067418196374cb"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusPicardComparison.lean",
+      "sha256": "9ea567df65f4ea7024fa9675a8f18d7d425f042da780fc466f9cab2e7360f74d"
+    }
+  ],
+  "vendor_additions": [
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_RelPicard_RepresentsRelSubPic_nonempty_poincare_pullbackAlong_pow_iso_tensorPow",
+      "path": "P2M/Sol/S_AlgebraicGeometry_RelPicard_RepresentsRelSubPic_nonempty_poincare_pullbackAlong_pow_iso_tensorPow.lean",
+      "upstream_git_blob": "975e69bd8ed36ec43b944708901b235a0a4cbff8",
+      "upstream_sha256": "aae490bb144e2e5205631ce954479be3c3966234ca80e92832b337d76ebe0c1a",
+      "current_sha256": "aae490bb144e2e5205631ce954479be3c3966234ca80e92832b337d76ebe0c1a",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_RepresentsRelSubPic",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicPresheaf",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicGroup",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_ModulesTensorPow",
+        "Theorems.Thm_AlgebraicGeometry_RelPicard_RepresentsRelSubPic_nonempty_poincare_pullbackAlong_mul_iso",
+        "Theorems.Thm_AlgebraicGeometry_RelPicard_RepresentsRelSubPic_nonempty_poincare_pullbackAlong_one_iso",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_tensorPowSection",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_tensorPowSection.lean",
+      "upstream_git_blob": "394b872390ec3fffc37cbf56103684e77de6ff76",
+      "upstream_sha256": "30889593df9b08d4028e601c12291365102c021a612f6e5f296ec7a2565fc70f",
+      "current_sha256": "30889593df9b08d4028e601c12291365102c021a612f6e5f296ec7a2565fc70f",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_PresheafOfModules_InternalHom",
+        "Theorems.Thm_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf",
+        "Definitions.Def_SheafOfModules_Monoidal",
+        "Definitions.Def_AlgebraicGeometry_ModulesTensorPow",
+        "Definitions.Def_AlgebraicGeometry_ModulesSectionsTensor",
+        "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_IsFrameOn_tensorSections",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_tensorPowSection_smul",
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_Modules_tensorPowSection_smul.lean",
+      "upstream_git_blob": "7edc0e28221e0314f936953fc772c8487b3997d9",
+      "upstream_sha256": "f012ddc7b05546cd22ae1992b68617dc358397f49fba856d35df5f6ac56e89da",
+      "current_sha256": "f012ddc7b05546cd22ae1992b68617dc358397f49fba856d35df5f6ac56e89da",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_PresheafOfModules_InternalHom",
+        "Theorems.Thm_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf",
+        "Definitions.Def_SheafOfModules_Monoidal",
+        "Definitions.Def_AlgebraicGeometry_ModulesTensorPow",
+        "Definitions.Def_AlgebraicGeometry_ModulesSectionsTensor",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_RelPicard_RepresentsRelSubPic_nonempty_poincare_pullbackAlong_pow_iso_tensorPow",
+      "path": "Theorems/Thm_AlgebraicGeometry_RelPicard_RepresentsRelSubPic_nonempty_poincare_pullbackAlong_pow_iso_tensorPow.lean",
+      "upstream_git_blob": "f939642e7a28c815986a398ca5692753a2557a5f",
+      "upstream_sha256": "43fdb6df0d4050d69daf5d6286ad6bfb95d4f91fe730b3186608666000b44b93",
+      "current_sha256": "43fdb6df0d4050d69daf5d6286ad6bfb95d4f91fe730b3186608666000b44b93",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_RepresentsRelSubPic",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicPresheaf",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicGroup",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_ModulesTensorPow",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_RelPicard_RepresentsRelSubPic_nonempty_poincare_pullbackAlong_pow_iso_tensorPow"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_IsFrameOn_tensorPowSection",
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_Modules_IsFrameOn_tensorPowSection.lean",
+      "upstream_git_blob": "7c0405acfb84ca11d7de5b29d0f9ad60c8ce3da1",
+      "upstream_sha256": "1b3cf087cfdecd01960b66eac12252d04eb493daf5d99fcf5e66f653bf7812a2",
+      "current_sha256": "1b3cf087cfdecd01960b66eac12252d04eb493daf5d99fcf5e66f653bf7812a2",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_PresheafOfModules_InternalHom",
+        "Theorems.Thm_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf",
+        "Definitions.Def_SheafOfModules_Monoidal",
+        "Definitions.Def_AlgebraicGeometry_ModulesTensorPow",
+        "Definitions.Def_AlgebraicGeometry_ModulesSectionsTensor",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_tensorPowSection"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_Scheme_Modules_tensorPowSection_smul",
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_Modules_tensorPowSection_smul.lean",
+      "upstream_git_blob": "a8bde6d765aa6bd548c189d40ca91605d8ddbe37",
+      "upstream_sha256": "dbd1997a1c7998e0b3005ae4ebdd209c5050bd305d4e5f814f7669dce83d121f",
+      "current_sha256": "dbd1997a1c7998e0b3005ae4ebdd209c5050bd305d4e5f814f7669dce83d121f",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_PresheafOfModules_InternalHom",
+        "Theorems.Thm_PresheafOfModules_isMonoidal_inverseImage_W_toPresheaf",
+        "Definitions.Def_SheafOfModules_Monoidal",
+        "Definitions.Def_AlgebraicGeometry_ModulesTensorPow",
+        "Definitions.Def_AlgebraicGeometry_ModulesSectionsTensor",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_tensorPowSection_smul"
+      ]
+    }
+  ],
+  "new_vendor_modules": 6,
+  "new_compatibility_ports": [],
+  "prior_proof_modules_modified": 0,
+  "prior_vendor_modules_modified": 0,
+  "main_reused_sources": [
+    {
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_Modules_tensorPowSection_smul.lean",
+      "scope": "Scalar power formula for tensor powers of local sections."
+    },
+    {
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_Modules_IsFrameOn_tensorPowSection.lean",
+      "scope": "Tensor powers of local frames are frames."
+    },
+    {
+      "path": "Theorems/Thm_AlgebraicGeometry_RelPicard_RepresentsRelSubPic_nonempty_poincare_pullbackAlong_pow_iso_tensorPow.lean",
+      "scope": "Actual representing Picard group multiplication classifies tensor powers of actual line bundles."
+    },
+    {
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_isFrameOn.lean",
+      "scope": "Already vendored: local frames for invertible sheaves."
+    },
+    {
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_Modules_IsInvertible_isIso_of_locallySurjective.lean",
+      "scope": "Already vendored: a locally surjective map between invertible sheaves is an isomorphism."
+    }
+  ],
+  "project_proof_route": "Prove additivity of tensor-section p-th power locally in frames and by sheaf separation. Use the actual Frobenius semilinear scalar map and pullback-pushforward adjunction; prove local surjectivity using powers of frames. Identify the simultaneous relative-Frobenius/projection map on the curve-Jacobian product with absolute Frobenius. Compare actual universal Poincare bundles, deduce multiplication by p by representability, then apply uniqueness of independently descended Verschiebung. Compare the independently constructed cotangent differentials.",
+  "scope": "Actual line-bundle Frobenius isomorphism on any characteristic-p scheme, Picard factorization over any characteristic-p field with given representation, and equality with independently descended Jacobian V over perfect fields. Equality of actual cotangent differentials. No equality with curve Cartier and no general genus-two geometric classification."
+}

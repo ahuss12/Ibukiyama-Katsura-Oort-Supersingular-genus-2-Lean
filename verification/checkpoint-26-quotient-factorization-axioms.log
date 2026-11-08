@@ -1,0 +1,15 @@
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.quotientMap_nsmul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.quotientTwistMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.quotientTwistMap_over' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.frobenius_eq_factor_comp_quotientTwist' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.QuotientData.verschiebung_eq_factorTwist_comp_quotient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

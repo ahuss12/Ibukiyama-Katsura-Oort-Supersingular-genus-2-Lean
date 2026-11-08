@@ -1,0 +1,4 @@
+import SupersingularCurves.Geometry.CartierCechSquare
+
+#print axioms SupersingularCurves.Geometry.DifferentialChart.globalCartier_square_residue_adjoint
+#print axioms SupersingularCurves.Geometry.DifferentialChart.absoluteCech_square_zero_of_globalCartier_square_zero

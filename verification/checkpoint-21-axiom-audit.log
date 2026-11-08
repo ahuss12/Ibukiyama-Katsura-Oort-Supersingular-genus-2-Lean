@@ -1,0 +1,14 @@
+Audited 27 declarations from SupersingularCurves.Geometry.FrobeniusDifferentialTwist.
+Audited 4 declarations from SupersingularCurves.Geometry.CartierResidueAdjoint.
+Audited 31 declarations from SupersingularCurves.Geometry.CartierResidueLocal.
+Audited 7 declarations from SupersingularCurves.Geometry.CartierVerschiebung.
+Audited 27 declarations from SupersingularCurves.Geometry.FrobeniusCechSemilinear.
+Audited 9 declarations from SupersingularCurves.Geometry.CartierTransport.
+Audited 40 declarations from SupersingularCurves.Geometry.JacobianFrobeniusUntwist.
+Audited 3 declarations from SupersingularCurves.Geometry.GlobalCartierModels.
+Audited 18 declarations from SupersingularCurves.Geometry.GlobalCartier.
+Audited 11 declarations from SupersingularCurves.IKO.VerschiebungCriteria.
+Audited 14 declarations from SupersingularCurves.IKO.GenusTwoFixedVectors.
+Audited 5 declarations from SupersingularCurves.Hyperelliptic.GenusTwoPRank.
+Inspected 0 shared generated entries by stored type/body as well as resolved declaration.
+Checkpoint 21 transitive axiom audit passed: 196 recovered/new module declaration entries.

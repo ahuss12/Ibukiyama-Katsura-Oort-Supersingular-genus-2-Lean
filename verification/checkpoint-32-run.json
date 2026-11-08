@@ -1,0 +1,31 @@
+{
+  "checkpoint": 32,
+  "completed_at_utc": "2026-10-02T07:41:09.252741+00:00",
+  "build_targets": [
+    "SupersingularCurves.Geometry.ScalarFrobeniusTatePolarizedGraph",
+    "SupersingularCurves.Geometry.AbelianVerschiebungBinaryProducts",
+    "SupersingularCurves.Geometry.FiniteBySectionsExternalProduct",
+    "SupersingularCurves.Geometry.PolarisationRootKernel",
+    "SupersingularCurves.Geometry.AbelianProductLineBundle"
+  ],
+  "build_exit_code": 0,
+  "audit_exit_code": 0,
+  "source_audit_exit_code": 0,
+  "public_theorems_checked": 12,
+  "stored_declaration_entries_audited": 19,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "original_project_sources_unchanged": 335,
+  "original_vendor_lean_files_unchanged": 4667,
+  "full_aggregate_rerun": false,
+  "historical_examples_rerun": false,
+  "draft_modules_not_checked": 7,
+  "draft_public_theorems_not_checked": 26,
+  "draft_build_blocker": "Pinned upstream torsion-density dependency exceeded the 8 GiB workspace memory limit during import/initialization. Drafts were not reached.",
+  "diagnostics_certified": false,
+  "compiler_source_and_vendor_proof_sources_modified": false,
+  "source_scan_exit_code": 0
+}

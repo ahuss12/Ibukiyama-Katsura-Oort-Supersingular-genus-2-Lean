@@ -1,0 +1,38 @@
+[
+  {
+    "name": "mathlib",
+    "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+  },
+  {
+    "name": "plausible",
+    "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793"
+  },
+  {
+    "name": "LeanSearchClient",
+    "commit": "ba67e212be1197b84c1f1f6299488a10a3002713"
+  },
+  {
+    "name": "importGraph",
+    "commit": "d8823026ac7ef130c253089d95685f9877b95323"
+  },
+  {
+    "name": "proofwidgets",
+    "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f"
+  },
+  {
+    "name": "aesop",
+    "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3"
+  },
+  {
+    "name": "Qq",
+    "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3"
+  },
+  {
+    "name": "batteries",
+    "commit": "d54dddc581e08be364c278052863524bff7a99a9"
+  },
+  {
+    "name": "Cli",
+    "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af"
+  }
+]

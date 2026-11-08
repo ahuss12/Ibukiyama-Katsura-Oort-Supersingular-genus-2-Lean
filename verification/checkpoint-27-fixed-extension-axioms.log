@@ -1,0 +1,45 @@
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedSubmodule' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedScalarMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedScalarMap_tmul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.repr_apply_eq_pow_of_fixedBasis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixed_iff_coordinates_of_fixedBasis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedCoordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedVectorBasis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedVectorBasis_coe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedScalarExtension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedScalarExtension_one_tmul_basis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedScalarExtension_tmul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusDescent.exists_fixedScalarExtension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+SupersingularCurves.Geometry.FrobeniusDescent.fixedScalarExtension.{u, v, w} {K : Type u} [Field K] {V : Type v}
+  [AddCommGroup V] [Module K V] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (s : ℕ) (θ : V →+ V)
+  (hθ : ∀ (c : K) (v : V), θ (c • v) = c ^ p ^ s • θ v) {ι : Type w} (b : Module.Basis ι K V)
+  (hb : ∀ (i : ι), θ (b i) = b i) : TensorProduct (↥(fixedField K p s)) K ↥(fixedSubmodule p s θ hθ) ≃ₗ[K] V
+SupersingularCurves.Geometry.FrobeniusDescent.exists_fixedScalarExtension.{u, v} {K : Type u} [Field K] {V : Type v}
+  [AddCommGroup V] [Module K V] (p : ℕ) [Fact (Nat.Prime p)] [CharP K p] (s : ℕ) (θ : V →+ V)
+  (hθ : ∀ (c : K) (v : V), θ (c • v) = c ^ p ^ s • θ v) [IsAlgClosed K] [FiniteDimensional K V] (hs : s ≠ 0)
+  (hinj : Function.Injective ⇑θ) :
+  ∃ e, ∀ (c : K) (v : ↥(fixedSubmodule p s θ hθ)), e (c ⊗ₜ[↥(fixedField K p s)] v) = c • ↑v

@@ -1,0 +1,18 @@
+'SupersingularCurves.Geometry.FrobeniusDescent.fixedSectionRelationIdeal_descends' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.projectiveImageIdeal_homogeneous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.projectiveImageIdeal_map_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.projectiveImageIdeal_descends' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.exists_projectiveImage_idealSheaf' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.exists_fixedField_closed_projective_model' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,52 @@
+{
+  "checkpoint": 17,
+  "started_at_utc": "2026-09-19T22:44:12.732007+00:00",
+  "verification_command": "bash verification/verify.sh",
+  "build_mode": "Full project build using unchanged checked artifacts for retained modules; all three new modules compiled during this checkpoint. Not a clean rebuild of every retained dependency.",
+  "retained_checkpoint_16_proof_modules": 68,
+  "new_proof_modules": 3,
+  "toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "mathlib": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "two_requested_geometric_tasks_completed": false,
+  "targeted_comparison_build": {
+    "log": "verification/checkpoint-17-targeted-build.log",
+    "sha256": "b8997498ad4556b1b200d72e06259e381f9856e37b6f9b0151a1e518bf49c72c",
+    "exit_code": 0,
+    "contains_success_marker": true
+  },
+  "additional_targeted_builds": [
+    {
+      "log": "verification/checkpoint-17-picard-cech-build.log",
+      "sha256": "541ece2d86f2646abc0a6752193b320b763e28bb678a66abc2ffc106d15755c8",
+      "exit_code": 0,
+      "compiled_module": "SupersingularCurves.Geometry.PicardCech"
+    }
+  ],
+  "completed_at_utc": "2026-09-19T23:02:27.250324+00:00",
+  "verification_script_exit_code": 0,
+  "all_verification_checks_passed": true,
+  "proof_sources_unchanged_after_gate": true,
+  "compile_units_rebuilt_in_final_verification_run": 1,
+  "new_modules_compiled_this_checkpoint": 3,
+  "current_checked_source_hashes": 125,
+  "audited_project_declarations": 1631,
+  "audited_flt_declarations": 26817,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "log_sha256": {
+    "checkpoint-17-verification.log": "056d48c8098f7a1507faf8ddf28ede671765631dfe64eb8fbb0a9c6aea08ac8d",
+    "project-build.log": "4681f283277685e73c548c45231bec3ee401598abee095259f132db755ecc964",
+    "source-audit.log": "d635a42d1fe7f938177d0f8f7d2035870f6ee9423c21b0df65a755583c4acd8f",
+    "basis-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "torsion-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "geometric-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simple-root-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "superspecial-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "general-genus-two-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cohomology-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "axiom-audit.log": "450eeabf4832ba987578d4dcdfcc3184dade0f4913976f8c6b7c0519eee4eff5"
+  }
+}

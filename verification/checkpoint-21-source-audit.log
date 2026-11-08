@@ -1,0 +1,35 @@
+PASS: 1527 pinned upstream modules (1520 unchanged, 7 documented compatibility port), Git blob hashes, exact import closure, 3 notices, and pinned Lean/mathlib versions.
+PASS: 3 recorded Cartier adaptations and 8 unchanged checkpoint-2 proof modules.
+PASS: 14 unchanged checkpoint-3 proof modules and the recorded generalized quadratic-field construction.
+PASS: 18 unchanged checkpoint-4 proof modules.
+PASS: recorded quadratic ramification/genus generalizations.
+PASS: 21 unchanged checkpoint-5 proof modules and 2 recorded Picard adaptations.
+PASS: 26 unchanged checkpoint-6 proof modules.
+PASS: 31 unchanged checkpoint-7 proof modules.
+PASS: 35 unchanged checkpoint-8 proof modules.
+PASS: 41 unchanged checkpoint-9 proof modules.
+PASS: 4 recorded IKO simple-root modules and upstream proof attribution.
+PASS: 45 unchanged checkpoint-10 proof modules.
+PASS: 5 recorded geometric-obstruction modules and upstream attribution.
+PASS: 50 unchanged checkpoint-11 proof modules.
+PASS: 6 recorded general genus-two modules and proof attribution.
+PASS: 56 unchanged mini-checkpoint-12 proof modules.
+PASS: 2 recorded infinitesimal Picard/cotangent modules and proof attribution.
+PASS: 58 unchanged mini-checkpoint-13 proof modules.
+PASS: 3 Frobenius/Verschiebung modules and 35 pinned foundation additions.
+PASS: 61 unchanged mini-checkpoint-14 proof modules.
+PASS: 5 perfect-field V/Picard/cotangent modules and 28 pinned additions.
+PASS: 66 unchanged mini-checkpoint-15 proof modules.
+PASS: 2 line-bundle/Picard comparison modules and 6 pinned additions.
+PASS: 68 unchanged mini-checkpoint-16 proof modules.
+PASS: 3 Picard/Cech comparison modules, recorded proof attribution, and no new vendor additions or ports.
+PASS: 71 unchanged mini-checkpoint-17 proof modules.
+PASS: 3 Cech/repartition comparison modules, attributed proofs and unchanged vendor closure.
+PASS: 74 unchanged mini-checkpoint-18 proof modules.
+PASS: 4 residue-duality comparison modules and 17 exact pinned additions, with proof attribution.
+PASS: 78 unchanged mini-checkpoint-19 proof modules and 1519 unchanged vendor modules.
+PASS: 8 exact pinned local-frame pullback additions, with no new compatibility ports.
+PASS: 7 curve-pullback and Frobenius/Cech comparison modules with proof attribution.
+PASS: all 85 checkpoint-20 proof modules and 1528 vendor Lean files match the attachment; 12 continuation modules have recorded hashes.
+PASS: 177 current proof, example, build, audit, and provenance source hashes.
+PASS: 1625 project/vendor Lean sources contain no forbidden proof-admission or native-evaluation markers.

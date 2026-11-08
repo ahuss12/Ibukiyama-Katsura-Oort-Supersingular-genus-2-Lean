@@ -1,0 +1,2 @@
+import SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentBasis
+#print axioms SupersingularCurves.Geometry.AbelianVariety.exists_frobeniusSquare_invariant_section_basis

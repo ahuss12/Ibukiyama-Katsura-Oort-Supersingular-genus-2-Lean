@@ -1,0 +1,15 @@
+name = "supersingular-curves-mini"
+version = "0.1.0"
+defaultTargets = ["SupersingularCurves"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+
+[[require]]
+name = "flt_subset"
+path = "vendor/flt"
+
+[[lean_lib]]
+name = "SupersingularCurves"

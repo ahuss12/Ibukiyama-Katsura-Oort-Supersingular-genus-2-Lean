@@ -1,0 +1,56 @@
+{
+  "checkpoint": 22,
+  "completed_at_utc": "2026-09-20T02:56:38.509103+00:00",
+  "all_current_checks_passed": true,
+  "build_exit_code": 0,
+  "source_checks_exit_code": 0,
+  "supersingular_geometry_examples_exit_code": 0,
+  "new_module_axiom_audit_exit_code": 0,
+  "build_jobs": 10467,
+  "new_project_modules": 5,
+  "new_public_theorems": 18,
+  "project_proof_modules": 102,
+  "project_public_theorems": 726,
+  "project_private_supporting_lemmas": 13,
+  "new_vendor_modules": 73,
+  "new_compatibility_ports": 1,
+  "vendor_modules": 1600,
+  "prior_proof_modules_unchanged": 97,
+  "prior_vendor_lean_files_unchanged": 1528,
+  "audited_new_project_modules": 5,
+  "audited_new_vendor_modules": 73,
+  "new_module_declaration_entries_audited": 573,
+  "integration_examples": 1,
+  "source_files_scanned": 1703,
+  "checked_source_hashes": 190,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "full_previous_audit_rerun": false,
+  "clean_rebuild_of_all_dependencies": false,
+  "log_sha256": {
+    "checkpoint-22-project-build.log": "141f5ea4053dc80b89f4c067af1795376d3ee508189fdc5a3d4f559d9ed31721",
+    "checkpoint-22-source-audit.log": "5c42345fd7511e890405f0c926c1948c5bafec5ef69711225acbc283e9c981de",
+    "checkpoint-22-axiom-audit.log": "ba5b6d9395025b8aea477272daf8713f99564c303d15f02704e3b208aebffff0",
+    "supersingular-geometry-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checkpoint-22-toolchain.log": "544b4920040fb4a18fbbf04c48a65f06739ab3268fc7d3c756bc1b64e823a094",
+    "geometric-isogeny-picard-division-build-ported.log": "b98dfd7207907c5434ffd4b0f6307a1ffdb267193b18b0239176387aa59ceae7"
+  },
+  "proved": [
+    "Actual-Jacobian p-divisibility from genuine Pic0 divisibility, with the standard finite-over-K(x) witness",
+    "Actual finite geometric point kernels and finite kernels after injective point base change",
+    "Geometric supersingularity implies actual Jacobian p-rank zero under the stated function-field hypothesis",
+    "For every presented separable quintic/sextic in odd characteristic over an algebraically closed field: geometric supersingularity implies Cartier square zero and M^(p)M=0; all field-finiteness data supplied",
+    "Both IKO families: geometric supersingularity implies parameter-root and global Cartier-zero conditions",
+    "No admissible family-B curve is geometrically supersingular in characteristic three"
+  ],
+  "geometric_classification_block_complete": false,
+  "still_open": [
+    "Cartier-square-zero to actual product-isogeny supersingularity in genus two",
+    "General geometric superspeciality to Cartier-zero (known only for IKO families here)",
+    "Cartier-zero to actual product-isomorphism superspeciality",
+    "Abstract genus-two hyperelliptic presentation, scalar-untwist naturality, actual crystalline Newton attachment and remaining IKO Section1/sheet results"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "checkpoint": 10,
+  "mathematical_reference": {
+    "authors": "T. Ibukiyama, T. Katsura, F. Oort",
+    "title": "Supersingular curves of genus two and class numbers",
+    "year": 1986,
+    "url": "https://www.numdam.org/item/CM_1986__57_2_127_0.pdf",
+    "location": "Section 1.4, Proposition 1.14, equations (1.31) and (1.34), printed pages 138-139",
+    "route": "Main hypergeometric differential-equation proof; not the optional geometric alternative in Remark 1.15."
+  },
+  "upstream_repository": "https://github.com/anthropics/fermats-last-theorem",
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "upstream_source": "vendor/flt/P2M/Sol/S_Polynomial_separable_deuringPolynomial_map.lean",
+  "upstream_source_sha256": "d4337b3809f7fdb1c6e07f8fafbe406ce13f9040d821b5f6fd6580783e27cdde",
+  "upstream_license": "Apache-2.0; original NOTICE and ATTRIBUTION.md retained in vendor/flt",
+  "adaptation": "Generalizes the existing Deuring-polynomial differentiated-operator argument to arbitrary hypergeometric parameters and a polynomial of degree less than the characteristic; extends the highest-derivative argument to an arbitrary nonzero leading coefficient and applies algebraic-closure descent. Binomial recurrences and specializations establish the two IKO parameter-polynomial cases. The two cardinality corollaries reuse the standard nodup-roots/degree proof structure.",
+  "generalized_or_adapted_declarations": [
+    {
+      "new_name": "SupersingularCurves.IKO.derivative_hypergeometricOp",
+      "new_path": "SupersingularCurves/IKO/Hypergeometric.lean",
+      "upstream_local_name": "derivative_deuringOp"
+    },
+    {
+      "new_name": "SupersingularCurves.IKO.eval_hypergeometricOp",
+      "new_path": "SupersingularCurves/IKO/Hypergeometric.lean",
+      "upstream_local_name": "eval_deuringOp"
+    },
+    {
+      "new_name": "SupersingularCurves.IKO.hypergeometricOp_iterate_derivative",
+      "new_path": "SupersingularCurves/IKO/Hypergeometric.lean",
+      "upstream_local_name": "deuringOp_iterate_derivative"
+    },
+    {
+      "new_name": "SupersingularCurves.IKO.iterate_derivative_natDegree",
+      "new_path": "SupersingularCurves/IKO/Hypergeometric.lean",
+      "upstream_local_name": "iterate_derivative_deuringPolynomial_map"
+    },
+    {
+      "new_name": "SupersingularCurves.IKO.not_isRoot_derivative_of_hypergeometric",
+      "new_path": "SupersingularCurves/IKO/Hypergeometric.lean",
+      "upstream_local_name": "not_isRoot_derivative_deuringPolynomial_map"
+    },
+    {
+      "new_name": "SupersingularCurves.IKO.separable_of_hypergeometric",
+      "new_path": "SupersingularCurves/IKO/Hypergeometric.lean",
+      "upstream_local_name": "separable_deuringPolynomial_map_of_ne_two"
+    },
+    {
+      "new_name": "SupersingularCurves.IKO.card_roots_gPolynomial",
+      "new_path": "SupersingularCurves/IKO/SimpleRoots.lean",
+      "upstream_local_name": "card_roots_toFinset_deuringPolynomial_map_of_ne_two"
+    },
+    {
+      "new_name": "SupersingularCurves.IKO.card_roots_hPolynomial",
+      "new_path": "SupersingularCurves/IKO/SimpleRoots.lean",
+      "upstream_local_name": "card_roots_toFinset_deuringPolynomial_map_of_ne_two"
+    }
+  ],
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/IKO/Hypergeometric.lean",
+      "sha256": "0071329e5e29c409965e07063195593b794cb42d2faac25c122b6d300c87927c"
+    },
+    {
+      "path": "SupersingularCurves/IKO/BinomialPolynomial.lean",
+      "sha256": "49ff3311db75bcbe139d6eab8ccc699f29a9a601bad77385fb6b19fbd6776c08"
+    },
+    {
+      "path": "SupersingularCurves/IKO/SimpleRoots.lean",
+      "sha256": "2e9b158b3f719686d547e7fa38787e782c3a4ef9a987e11165fef9848fc12368"
+    },
+    {
+      "path": "SupersingularCurves/IKO/HypergeometricEquations.lean",
+      "sha256": "359a937b1957c897d316f8eeac8919ccfc834383e38f1d27792d0e53d07b9055"
+    }
+  ],
+  "new_public_declarations": 39,
+  "newly_written_public_declarations": 31,
+  "generalized_or_adapted_public_declarations": 8,
+  "scope_notes": [
+    "Polynomial separability is proved over every field of the specified characteristic; algebraic closedness is needed only for the distinct-root counts.",
+    "g requires prime p>=5; h requires odd prime p>=3.",
+    "Endpoints, degree bounds, and the differential equations are proved rather than assumed for the IKO polynomials.",
+    "The general ODE theorem requires degree<p; a compiled characteristic-five counterexample records why.",
+    "No analytic gamma function or infinite hypergeometric series is formalized. The algebraic coefficient recurrence replaces that presentation.",
+    "No new geometric superspecial/supersingular classification or isomorphism-class counting theorem is asserted."
+  ]
+}

@@ -1,0 +1,11 @@
+Audited 2 declarations from SupersingularCurves.Geometry.ProperCurveFiniteMap.
+Audited 3 declarations from SupersingularCurves.Geometry.AbelianHomImage.
+Audited 4 declarations from SupersingularCurves.Geometry.EllipticSubgroupFromMap.
+Audited 6 declarations from SupersingularCurves.Geometry.AbelianSurfaceEllipticKernel.
+Audited 5 declarations from SupersingularCurves.Geometry.ScalarFrobeniusTateEllipticSubgroup.
+Audited 1 declarations from P2M.Sol.S_AlgebraicGeometry_Scheme_finite_of_isClosed_of_ne_univ_of_forall_isClosed_singleton.
+Audited 5 declarations from P2M.Sol.S_AlgebraicGeometry_isClosed_singleton_or_isGenericPoint_and_exists_not_isGenericPoint_of_smoothOfRelativeDimension_one.
+Audited 1 declarations from Theorems.Thm_AlgebraicGeometry_Scheme_finite_of_isClosed_of_ne_univ_of_forall_isClosed_singleton.
+Audited 1 declarations from Theorems.Thm_AlgebraicGeometry_isClosed_singleton_or_isGenericPoint_and_exists_not_isGenericPoint_of_smoothOfRelativeDimension_one.
+Inspected 0 shared generated entries by stored type/body as well as resolved declaration.
+Checkpoint 29 transitive axiom audit passed: 28 new project/vendor declaration entries.

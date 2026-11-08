@@ -1,0 +1,11 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.gradedMap' depends on axioms: [propext, Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.pieceMap' depends on axioms: [propext, Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.irrelevant_le_map_of_piece_baseChange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.isPullback_projMap_of_piece_baseChange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentSectionProj.isPullback_sectionModel_of_piece_baseChange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

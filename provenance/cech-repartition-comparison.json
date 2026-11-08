@@ -1,0 +1,41 @@
+{
+  "checkpoint": 18,
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/SchemeCechCohomology.lean",
+      "sha256": "e7a183cbf3e746e07c2441bff812b2a4736d48fbf862c94c1e56a5d355fb115e"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CechRepartition.lean",
+      "sha256": "2a70a11a6d49aff0f76a151bee6db90cecbc0cd454aa1fea92bec5ae0d0cfffb"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/JacobianRepartition.lean",
+      "sha256": "5088d67f0802ab574d345f7538769830b4c57e1dd3ba90a10a5e564bbbe5c67c"
+    }
+  ],
+  "vendor_additions": [],
+  "new_compatibility_ports": [],
+  "prior_proof_modules_modified": 0,
+  "prior_vendor_modules_modified": 0,
+  "main_reused_sources": [
+    {
+      "path": "P2M/Sol/S_AlgebraicCurve_nonempty_linearEquiv_cechH0_and_cechH1.lean",
+      "scope": "Expose the specified generic-restriction cochain equivalence from the existing existence proof. Reuse germEquiv, its affine range theorem, placesOf_inf, germ restriction compatibility, and the cokernel bijectivity lemma. The cochain commutativity proof is adapted from this source."
+    },
+    {
+      "path": "Definitions/Def_AlgebraicCurve_CechSectionsOfDivisor.lean",
+      "scope": "Reuse actual off-chart extension, repartition quotient map and its representative formula."
+    },
+    {
+      "path": "Theorems/Thm_AlgebraicCurve_cechH1ToH1_bijective.lean",
+      "scope": "Reuse approximation/Riemann--Roch proof of bijectivity; discharge its geometric cover, constants and finite-dimensionality hypotheses."
+    },
+    {
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_Modules_IsInvertible_subsingleton_H1_sectionsOf_of_le_eulerChar_sub.lean",
+      "scope": "Adapt the existing proper-cover nonemptiness and constants/approximation setup to the named Cech-to-repartition map."
+    }
+  ],
+  "scope": "Actual generic-restriction Cech/repartition map and its dual Jacobian comparison, relative to a specified cover. Perfect-field bijectivity assumes ConstantsAreBase; the algebraically closed actual-curve application proves that hypothesis. No new regular-differential, Cartier, cover-refinement, or geometric classification result is claimed."
+}

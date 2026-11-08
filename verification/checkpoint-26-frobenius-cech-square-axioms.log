@@ -1,0 +1,12 @@
+'SupersingularCurves.Geometry.SchemeFrobenius.absoluteCech_projectionCech' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.absoluteCech_projectionCechEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.cechPullback_twice_projectionCechEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.SchemeFrobenius.cechPullback_twice_eq_zero_of_absoluteCech_square_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

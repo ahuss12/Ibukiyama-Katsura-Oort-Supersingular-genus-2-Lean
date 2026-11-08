@@ -1,0 +1,174 @@
+{
+  "scope": "Bounded filename search in retained pinned Git tree; not an exhaustive absence proof.",
+  "tree_truncated": true,
+  "queries": {
+    "serre_duality": {
+      "regex": "(SerreDual|serreDual|serre_dual)",
+      "count": 0,
+      "paths": []
+    },
+    "cohomology_differentials": {
+      "regex": "(H1.*(Diff|Cotangent|dual|Dual)|(?:Diff|Cotangent|dual|Dual).*H1)",
+      "count": 44,
+      "paths": [
+        "Definitions/Def_AlgebraicCurve_JacobianH1Autoduality.lean",
+        "P2M/Sol/S_Algebra_H1Cotangent_liftBaseChange_map_injective_of_etale.lean",
+        "P2M/Sol/S_Algebra_H1Cotangent_liftBaseChange_map_injective_of_smooth.lean",
+        "P2M/Sol/S_AlgebraicCurve_finite_H1_and_exists_linearEquiv_dual_H1_omegaSpace.lean",
+        "P2M/Sol/S_CohCarrier_exists_galoisAction_ordinaryFiltration_quotient_dual_mod_cornerSubmodule_H1_of_ordinary_of_level_trivial_at_p_of_mem_infSubgroup.lean",
+        "P2M/Sol/S_CohCarrier_exists_galoisAction_trace_ordinaryFiltration_quotient_dual_mod_cornerSubmodule_H1_of_ordinary_of_not_isEisenstein_of_mem_infSubgroup.lean",
+        "P2M/Sol/S_CohCarrier_exists_galoisModule_H1_to_dual_charInvolution_frobenius_of_isAbsolutelyIrreducible.lean",
+        "P2M/Sol/S_CohCarrier_exists_ideal_H1_top_to_dual_baseChange_heckeTorsion_jZero_of_isAbsolutelyIrreducible.lean",
+        "P2M/Sol/S_CohCarrier_exists_isCompl_linearEquiv_cornerRing_linearEquiv_dual_cornerSubmodule_H1_of_ordinary_of_level_trivial_at_p_of_mem_infSubgroup.lean",
+        "P2M/Sol/S_CuspForm_IsNewform_exists_H1_gammaH_dual_ne_zero_equivariant_heckeT_eq_qCoeff_smul_of_isCuspidalOfType.lean",
+        "P2M/Sol/S_HeckeEis_exists_coeffH1_dual_ne_zero_isCoeffHeckeOnH1_eq_qCoeff_smul_of_isCuspidalOfType.lean",
+        "P2M/Sol/S_HeckeEis_isEigensystemH1_of_H1_gammaH_dual_of_isCuspidalOfType_of_qCoeff_congr.lean",
+        "P2M/Sol/S_ModularCurve_FullLevel_Diamond_exists_algHom_dualNumber_fst_eq_snd_ne_zero_of_exists_pt_dualNumber_rigidDataH1Pow.lean",
+        "P2M/Sol/S_ModularCurve_FullLevel_Diamond_exists_algHom_dualNumber_fst_eq_snd_ne_zero_rigidDataH1Pow.lean",
+        "P2M/Sol/S_ModularCurve_FullLevel_Diamond_exists_forall_eq_map_dualNumber_smul_of_trivial_rigidDataH1Pow.lean",
+        "P2M/Sol/S_ModularCurve_FullLevel_Diamond_exists_pt_dualNumber_map_fstHom_eq_ne_map_inlAlgHom_rigidDataH1Pow.lean",
+        "P2M/Sol/S_ModularCurve_FullLevel_Diamond_snd_apply_eq_zero_of_apply_jOf_univ_eq_dualNumber_rigidDataH1Pow.lean",
+        "P2M/Sol/S_ModularCurve_LevelModuliPackageAbs_exists_algHom_dualNumber_of_represents_nsmul_eq_one_of_nthSeries_eq_mul_X_pow_rigidDataH1Pow.lean",
+        "P2M/Sol/S_ResidualGaloisRep_H1Pi_adZero_eq_iff_exists_dualNumber_conj.lean",
+        "P2M/Sol/S_ResidualGaloisRep_exists_taylorWilesPrime_map_H1_ne_zero_of_notMem_range.lean",
+        "P2M/Sol/S_ResidualGaloisRep_exists_taylorWilesPrime_map_ne_zero_of_mem_continuousH1S.lean",
+        "P2M/Sol/S_ResidualGaloisRep_exists_taylorWilesPrimes_card_eq_finrank_continuousH1S_dualTwist.lean",
+        "P2M/Sol/S_ResidualGaloisRep_injective_map_H1_of_adZero_le_adRep.lean",
+        "P2M/Sol/S_ResidualGaloisRep_trace_apply_eq_zero_of_mem_range_map_H1.lean",
+        "P2M/Sol/S_TWNum_subsingleton_H1_extArithLoc_inl_dualTwist.lean",
+        "P2M/Sol/S_groupCohomology_H1pi_dualTwist_adjointTraceZero_eq_zero_of_finite_range.lean",
+        "P2M/Sol/S_groupCohomology_finrank_continuousH1_eq_invariants_add_dualTwist_add_finrank_mul_of_tame_intermediateField.lean",
+        "P2M/Sol/S_groupCohomology_finrank_continuousH1_eq_invariants_add_dualTwist_add_index_mul_of_tame.lean",
+        "P2M/Sol/S_groupCohomology_finrank_finiteQuotientH1_eq_invariants_add_dualTwist_add_finrank_of_primeLocal.lean",
+        "P2M/Sol/S_groupCohomology_finrank_finiteQuotientH1_eq_invariants_add_dualTwist_of_primeLocal_ne.lean",
+        "P2M/Sol/S_groupCohomology_finrank_invariants_archimedean_add_dualTwist_add_H1_eq.lean",
+        "P2M/Sol/S_groupCohomology_subsingleton_H1_dual_traceZero_of_toMatrix_eq_conj_specialLinearGroup_map.lean",
+        "P2M/Sol/S_groupCohomology_subsingleton_H1_dual_traceZero_twist_of_injective_of_not_nine_dvd_card.lean",
+        "Theorems/Thm_Algebra_H1Cotangent_liftBaseChange_map_injective_of_etale.lean",
+        "Theorems/Thm_Algebra_H1Cotangent_liftBaseChange_map_injective_of_smooth.lean",
+        "Theorems/Thm_AlgebraicCurve_finite_H1_and_exists_linearEquiv_dual_H1_omegaSpace.lean",
+        "Theorems/Thm_CohCarrier_exists_galoisAction_ordinaryFiltration_quotient_dual_mod_cornerSubmodule_H1_of_ordinary_of_level_trivial_at_p_of_mem_infSubgroup.lean",
+        "Theorems/Thm_CohCarrier_exists_galoisAction_trace_ordinaryFiltration_quotient_dual_mod_cornerSubmodule_H1_of_ordinary_of_not_isEisenstein_of_mem_infSubgroup.lean",
+        "Theorems/Thm_CohCarrier_exists_galoisModule_H1_to_dual_charInvolution_frobenius_of_isAbsolutelyIrreducible.lean",
+        "Theorems/Thm_CohCarrier_exists_ideal_H1_top_to_dual_baseChange_heckeTorsion_jZero_of_isAbsolutelyIrreducible.lean",
+        "Theorems/Thm_CohCarrier_exists_isCompl_linearEquiv_cornerRing_linearEquiv_dual_cornerSubmodule_H1_of_ordinary_of_level_trivial_at_p_of_mem_infSubgroup.lean",
+        "Theorems/Thm_CuspForm_IsNewform_exists_H1_gammaH_dual_ne_zero_equivariant_heckeT_eq_qCoeff_smul_of_isCuspidalOfType.lean",
+        "Theorems/Thm_HeckeEis_exists_coeffH1_dual_ne_zero_isCoeffHeckeOnH1_eq_qCoeff_smul_of_isCuspidalOfType.lean",
+        "Theorems/Thm_HeckeEis_isEigensystemH1_of_H1_gammaH_dual_of_isCuspidalOfType_of_qCoeff_congr.lean"
+      ]
+    },
+    "residue_pairing": {
+      "regex": "(residuePairing|ResiduePairing)",
+      "count": 1,
+      "paths": [
+        "P2M/Sol/S_ModularCurve_ssResiduePairing_ssHeckeFun_eq_comp_traceAlong.lean"
+      ]
+    },
+    "cartier_cohomology": {
+      "regex": "(cartier.*(?:H1|frobenius|Frobenius|tangent|Tangent)|(?:H1|frobenius|Frobenius|tangent|Tangent).*cartier)",
+      "count": 25,
+      "paths": [
+        "P2M/Sol/S_Deformation_DieudonneModule_exists_addMonoidHom_cotangent_surjective_ker_eq_range_frobenius_of_isLocalRing_cartierDual.lean",
+        "P2M/Sol/S_Deformation_DieudonneModule_natCard_ker_frobenius_eq_natCard_quot_range_verschiebung_of_nonempty_bialgEquiv_cartierDual_zmodp.lean",
+        "P2M/Sol/S_HopfAlgebra_exists_cartierDualMap_id_eq_frobenius_conv_verschiebung_of_comp_eq_idempotent_of_cartierDualMap_pow_eq.lean",
+        "P2M/Sol/S_HopfAlgebra_exists_primitives_linearEquiv_dual_cotangent_cartierDual.lean",
+        "P2M/Sol/S_HopfAlgebra_exists_split_idempotent_bijective_tensorProduct_isReduced_cartierDual_of_cartierDualMap_eq_frobenius_conv_verschiebung.lean",
+        "P2M/Sol/S_HopfAlgebra_finrank_primitives_cartierDual_eq_finrank_cotangentSpace.lean",
+        "P2M/Sol/S_HopfAlgebra_finrank_primitives_quot_iSup_map_eq_finrank_iInf_ker_mapCotangent_cartierDual.lean",
+        "P2M/Sol/S_HopfAlgebra_isLocalRing_and_isLocalRing_cartierDual_of_pow_eq_counit_of_frobenius_congr.lean",
+        "P2M/Sol/S_HopfAlgebra_natCard_algHom_mul_natCard_algHom_cartierDual_eq_finrank_of_map_eq_conv_frobenius.lean",
+        "P2M/Sol/S_ModularCurve_JHNeronObjectAtP_LevelData_restrict_frobenius_eq_pow_and_cartierDual_map_restrict_verschiebung_eq_pow_of_abelianSchemePropertyBundle.lean",
+        "P2M/Sol/S_ModularCurve_JHNeronObjectAtP_exists_pow_cartierDual_reduction_U_eq_frobenius_conv_verschiebung_of_finPtsWitness_of_isDiscreteValuationRing_of_bridge.lean",
+        "P2M/Sol/S_ModularCurve_qExpansionDiffAlong_cartier_eq_coeffMap_frobeniusEquiv_symm_heckeU.lean",
+        "P2M/Sol/S_MvFormalGroup_exists_cartierModule_vBasis_of_frobenius_expansion.lean",
+        "P2M/Sol/S_PDivisibleGroup_cartierDualMap_pow_eq_frobenius_conv_verschiebung_of_multiplicative_sub_of_verschiebung_sub_frobenius_quotient.lean",
+        "P2M/Sol/S_PDivisibleGroup_exists_point_toAlgHom_eq_comp_of_etale_cartierDual_of_forall_comp_eq_of_reduction_pow_eq_frobenius_conv_verschiebung.lean",
+        "P2M/Sol/S_PDivisibleGroup_forall_exists_bijective_tensorProduct_isReduced_cartierDual_of_comp_eq_idempotent_of_reduction_pow_eq_frobenius_conv_verschiebung.lean",
+        "Theorems/Thm_Deformation_DieudonneModule_exists_addMonoidHom_cotangent_surjective_ker_eq_range_frobenius_of_isLocalRing_cartierDual.lean",
+        "Theorems/Thm_Deformation_DieudonneModule_natCard_ker_frobenius_eq_natCard_quot_range_verschiebung_of_nonempty_bialgEquiv_cartierDual_zmodp.lean",
+        "Theorems/Thm_HopfAlgebra_exists_cartierDualMap_id_eq_frobenius_conv_verschiebung_of_comp_eq_idempotent_of_cartierDualMap_pow_eq.lean",
+        "Theorems/Thm_HopfAlgebra_exists_primitives_linearEquiv_dual_cotangent_cartierDual.lean",
+        "Theorems/Thm_HopfAlgebra_exists_split_idempotent_bijective_tensorProduct_isReduced_cartierDual_of_cartierDualMap_eq_frobenius_conv_verschiebung.lean",
+        "Theorems/Thm_HopfAlgebra_finrank_primitives_cartierDual_eq_finrank_cotangentSpace.lean",
+        "Theorems/Thm_HopfAlgebra_finrank_primitives_quot_iSup_map_eq_finrank_iInf_ker_mapCotangent_cartierDual.lean",
+        "Theorems/Thm_HopfAlgebra_isLocalRing_and_isLocalRing_cartierDual_of_pow_eq_counit_of_frobenius_congr.lean",
+        "Theorems/Thm_HopfAlgebra_natCard_algHom_mul_natCard_algHom_cartierDual_eq_finrank_of_map_eq_conv_frobenius.lean"
+      ]
+    },
+    "followup_0": {
+      "regex": "(TwoAffine.*H1|H1.*TwoAffine)",
+      "count": 43,
+      "paths": [
+        "Definitions/Def_AlgebraicGeometry_TwoAffineOpenCoverH1BaseChange.lean",
+        "P2M/Sol/S_AlgebraicGeometry_RelPicard_exists_opens_range_subset_iff_forall_subsingleton_H1_fibre_of_twoAffineOpenCover.lean",
+        "P2M/Sol/S_AlgebraicGeometry_RelPicard_exists_twoAffineOpenCover_fibre_finrank_H0_eq_and_finrank_H1_eq.lean",
+        "P2M/Sol/S_AlgebraicGeometry_RelPicard_exists_twoAffineOpenCover_fibre_finrank_H0_eq_and_subsingleton_H1_iff.lean",
+        "P2M/Sol/S_AlgebraicGeometry_RelPicard_isClosed_setOf_forall_fibre_le_finrank_H1_of_twoAffineOpenCover.lean",
+        "P2M/Sol/S_AlgebraicGeometry_RelPicard_isOpen_setOf_forall_fibre_subsingleton_H1_of_twoAffineOpenCover.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_H1baseChangeMap_surjective_and_eq_iff_of_surjective.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_bijective_kerBaseChangeHom_and_surjective_unit_app_of_subsingleton_H1.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_exists_free_finrank_kaehlerH0_eq_finrank_structureSheafH1_and_baseChange_of_smoothOfRelativeDimension_one.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_exists_linearEquiv_H1StructureSheaf_symm_eq_H1baseChangeMap_self.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finite_H0_H1_kaehlerSections.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finite_H0_H1_structureSheaf.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finite_H0_and_subsingleton_H1_sectionsOf_pushforward_of_isFinite.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finrank_H0_sectionsOf_baseChange_eq_and_subsingleton_H1_iff.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finrank_H1_sectionsOf_unit_eq_and_finrank_H0_eq_one.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finrank_H1_sectionsOf_unit_eq_genusFF_of_curveModel.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finrank_kaehlerSections_H0_eq_finrank_structureSheafSections_H1_of_geometricallyIntegral.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_free_H1_structureSheaf_of_isReduced_of_finrank_coker_fibre_const.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_isOpen_setOf_subsingleton_H1_fibre.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_nonempty_linearEquiv_H1_sectionsOf_of_isSeparated.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_subsingleton_H1_sectionsOf_of_forall_field.lean",
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_subsingleton_H1_sectionsOf_of_subsingleton_H1.lean",
+        "Theorems/Thm_AlgebraicGeometry_RelPicard_exists_opens_range_subset_iff_forall_subsingleton_H1_fibre_of_twoAffineOpenCover.lean",
+        "Theorems/Thm_AlgebraicGeometry_RelPicard_exists_twoAffineOpenCover_fibre_finrank_H0_eq_and_finrank_H1_eq.lean",
+        "Theorems/Thm_AlgebraicGeometry_RelPicard_exists_twoAffineOpenCover_fibre_finrank_H0_eq_and_subsingleton_H1_iff.lean",
+        "Theorems/Thm_AlgebraicGeometry_RelPicard_isClosed_setOf_forall_fibre_le_finrank_H1_of_twoAffineOpenCover.lean",
+        "Theorems/Thm_AlgebraicGeometry_RelPicard_isOpen_setOf_forall_fibre_subsingleton_H1_of_twoAffineOpenCover.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_H1baseChangeMap_surjective_and_eq_iff_of_surjective.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_bijective_kerBaseChangeHom_and_surjective_unit_app_of_subsingleton_H1.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_exists_free_finrank_kaehlerH0_eq_finrank_structureSheafH1_and_baseChange_of_smoothOfRelativeDimension_one.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_exists_linearEquiv_H1StructureSheaf_symm_eq_H1baseChangeMap_self.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finite_H0_H1_kaehlerSections.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finite_H0_H1_structureSheaf.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finite_H0_and_subsingleton_H1_sectionsOf_pushforward_of_isFinite.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finrank_H0_sectionsOf_baseChange_eq_and_subsingleton_H1_iff.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finrank_H1_sectionsOf_unit_eq_and_finrank_H0_eq_one.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finrank_H1_sectionsOf_unit_eq_genusFF_of_curveModel.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finrank_kaehlerSections_H0_eq_finrank_structureSheafSections_H1_of_geometricallyIntegral.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_free_H1_structureSheaf_of_isReduced_of_finrank_coker_fibre_const.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_isOpen_setOf_subsingleton_H1_fibre.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_nonempty_linearEquiv_H1_sectionsOf_of_isSeparated.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_subsingleton_H1_sectionsOf_of_forall_field.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_subsingleton_H1_sectionsOf_of_subsingleton_H1.lean"
+      ]
+    },
+    "followup_1": {
+      "regex": "(H1.*repartition|repartition.*H1|structureSheafSections.*H1|H1.*structureSheafSections)",
+      "count": 2,
+      "paths": [
+        "P2M/Sol/S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finrank_kaehlerSections_H0_eq_finrank_structureSheafSections_H1_of_geometricallyIntegral.lean",
+        "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finrank_kaehlerSections_H0_eq_finrank_structureSheafSections_H1_of_geometricallyIntegral.lean"
+      ]
+    },
+    "followup_2": {
+      "regex": "(regularDiff.*omegaSpace|omegaSpace.*regularDiff|WeilOfKaehler.*(bijective|surjective)|weilOfKaehler.*(bijective|surjective))",
+      "count": 2,
+      "paths": [
+        "P2M/Sol/S_AlgebraicCurve_exists_linearEquiv_regularDifferentials_omegaSpace_zero.lean",
+        "Theorems/Thm_AlgebraicCurve_exists_linearEquiv_regularDifferentials_omegaSpace_zero.lean"
+      ]
+    },
+    "followup_3": {
+      "regex": "(residue.*cartier|cartier.*residue)",
+      "count": 4,
+      "paths": [
+        "P2M/Sol/S_AlgebraicCurve_Place_isRegularAt_and_hasSimplePoleAt_and_hasSimpleResidue_of_cartierLaws_of_finiteDimensional.lean",
+        "P2M/Sol/S_HopfAlgebra_exists_bijective_tensorProduct_isReduced_cartierDual_residueField_of_zmodp_valuationSubring_of_isCocomm.lean",
+        "Theorems/Thm_AlgebraicCurve_Place_isRegularAt_and_hasSimplePoleAt_and_hasSimpleResidue_of_cartierLaws_of_finiteDimensional.lean",
+        "Theorems/Thm_HopfAlgebra_exists_bijective_tensorProduct_isReduced_cartierDual_residueField_of_zmodp_valuationSubring_of_isCocomm.lean"
+      ]
+    }
+  }
+}

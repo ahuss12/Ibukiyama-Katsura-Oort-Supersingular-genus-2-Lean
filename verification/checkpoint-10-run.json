@@ -1,0 +1,34 @@
+{
+  "checkpoint": 10,
+  "started_at_utc": "2026-09-18T02:33:07.822704+00:00",
+  "toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "verification_command": "bash verification/verify.sh",
+  "baseline_rebuilt_from_restored_source": true,
+  "baseline_build_log": "verification/restored-baseline-build.log",
+  "retained_checkpoint_9_proof_modules": 41,
+  "new_proof_modules": 4,
+  "current_checked_source_hashes": 80,
+  "proof_sources_unchanged_after_gate": true,
+  "verification_script_exit_code": 0,
+  "environment_note": "Pinned Linux x86_64 Lean distribution; included executable-path shim; LEAN_NUM_THREADS=4 for final gate; external mathlib cache restored. No change to Lean proof checking.",
+  "completed_at_utc": "2026-09-18T02:51:30.759244+00:00",
+  "audited_project_declarations": 1130,
+  "audited_flt_declarations": 24884,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "all_verification_checks_passed": true,
+  "log_sha256": {
+    "restored-baseline-build.log": "5a67f6a7ae20a467e4e717b1994cfdde91cf418c375f9c162b6f64089790bf50",
+    "checkpoint-10-verification.log": "500b180d7f72d6cd94142d0e3f60973bebcc452f38b6f6dbca7a667d2acbffce",
+    "project-build.log": "77c2107c78fa358f4f3b57450317462a3cf09d9ccf73603e89d3319bef77178e",
+    "source-audit.log": "01498b1d3a0b45dabe89f5fd8e835ebff8a2332ddb4aa4887e2bf408e102f0b1",
+    "basis-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "torsion-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "geometric-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simple-root-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "axiom-audit.log": "5d2106018fdcec6305c0a5ec45c984436c115699602938499aca8acec2f96795"
+  }
+}

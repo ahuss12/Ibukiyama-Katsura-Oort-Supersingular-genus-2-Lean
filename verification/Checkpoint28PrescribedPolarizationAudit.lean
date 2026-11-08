@@ -1,0 +1,2 @@
+import SupersingularCurves.Geometry.ScalarFrobeniusTatePolarizationModel
+#print axioms SupersingularCurves.Geometry.AbelianVariety.exists_equivariant_model_of_symmetric_finite_bundle

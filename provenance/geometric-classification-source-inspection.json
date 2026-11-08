@@ -1,0 +1,1115 @@
+{
+  "upstream_repository": "https://github.com/anthropics/fermats-last-theorem",
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "scope": "Complete source-directory filename index; targeted source-content inspection. This is not a proof of absence across all source bodies.",
+  "prior_tree": {
+    "entries": 45950,
+    "truncated": true
+  },
+  "source_trees": [
+    {
+      "directory": "Definitions",
+      "tree_sha": "7d4bd8bd19b8822863fff54447f901c2cab16457",
+      "entries": 1450,
+      "truncated": false
+    },
+    {
+      "directory": "Theorems",
+      "tree_sha": "cfd423af9efdf8241b65e6ccf79fed213940664e",
+      "entries": 29511,
+      "truncated": false
+    },
+    {
+      "directory": "P2M",
+      "tree_sha": "33b47c70085a36c9438d4dce3767aab0df3e5634",
+      "entries": 29515,
+      "truncated": false
+    }
+  ],
+  "content_inspection": {
+    "definitions_count": 43,
+    "theorem_wrappers_count": 161,
+    "total_bytes": 1137737,
+    "files": [
+      {
+        "path": "Definitions/Def_AlgebraicGeometry_FramedPolarisedAbelianScheme.lean",
+        "git_blob": "3a396d5b6959cc4d3d67ffdb1dd67f6143108bde",
+        "size": 4342
+      },
+      {
+        "path": "Definitions/Def_AlgebraicGeometry_PolarisedAbelianScheme.lean",
+        "git_blob": "53376fc62a79ab1c3452f505b54f673292c5213c",
+        "size": 6255
+      },
+      {
+        "path": "Definitions/Def_AlgebraicGeometry_PolarisedAbelianSchemeOfType.lean",
+        "git_blob": "38ccde425712082b9e7301befd4510f8ef31f720",
+        "size": 6226
+      },
+      {
+        "path": "Definitions/Def_CerednikDrinfeld_CartierModuleModel.lean",
+        "git_blob": "24c760fd6753bbf7acc80126f9a7c5b4e70beddc",
+        "size": 12102
+      },
+      {
+        "path": "Definitions/Def_CerednikDrinfeld_GradedCartierModuleData.lean",
+        "git_blob": "d02c637566509f03bc0a30e4f7d0b0b3f82d936d",
+        "size": 5190
+      },
+      {
+        "path": "Definitions/Def_CerednikDrinfeld_QMModuli.lean",
+        "git_blob": "ceb479c5f5b68e2542e7ebd12e9dc893eb8e03cc",
+        "size": 12487
+      },
+      {
+        "path": "Definitions/Def_Dieudonne_DatumAndHonda.lean",
+        "git_blob": "7cbf9f9efe5e7f389875b61b305ca5fe6401bd27",
+        "size": 2143
+      },
+      {
+        "path": "Definitions/Def_Dieudonne_FontaineFunctor.lean",
+        "git_blob": "0b344e7d031efa48eddecacbe880b396b3bbd4ec",
+        "size": 32496
+      },
+      {
+        "path": "Definitions/Def_Dieudonne_FontaineHodge.lean",
+        "git_blob": "151bffe3cec7dd853a56c6955b2305b77d2df27f",
+        "size": 17397
+      },
+      {
+        "path": "Definitions/Def_Dieudonne_HondaSelfExt.lean",
+        "git_blob": "775e718286bde98d3238b9a10b8476665b28da18",
+        "size": 3373
+      },
+      {
+        "path": "Definitions/Def_Dieudonne_ModpRealization.lean",
+        "git_blob": "a105ad0ef7e68985246498ff9198c02e58970340",
+        "size": 1055
+      },
+      {
+        "path": "Definitions/Def_Dieudonne_UnipotentWittCovector.lean",
+        "git_blob": "e49cfe69ae09cce059af4e834685d0f758f42f01",
+        "size": 25487
+      },
+      {
+        "path": "Definitions/Def_Dieudonne_WittGroupHopf.lean",
+        "git_blob": "11d88addcc54d46e5a5dd31868e9a5211d6b3f50",
+        "size": 21065
+      },
+      {
+        "path": "Definitions/Def_Dieudonne_WittHomColimit.lean",
+        "git_blob": "53ba7913e94ddf4d4de877a6605e4986bda379ad",
+        "size": 20016
+      },
+      {
+        "path": "Definitions/Def_Dieudonne_WittKernelHopf.lean",
+        "git_blob": "563c1b8abc6b96edda8045344d78c74552f68b68",
+        "size": 18079
+      },
+      {
+        "path": "Definitions/Def_Dieudonne_WittVectorHom.lean",
+        "git_blob": "b37f2c3dfbaa1d55b69618c6077524991815e195",
+        "size": 24429
+      },
+      {
+        "path": "Definitions/Def_DualIsogenyAPI.lean",
+        "git_blob": "3fbc6a62a3baa8fa1c20e1b50bcce3712ecc4051",
+        "size": 12922
+      },
+      {
+        "path": "Definitions/Def_DualIsogenyExistence.lean",
+        "git_blob": "f93cb1590354d543ca7e4d2178ce4791a4f96327",
+        "size": 8130
+      },
+      {
+        "path": "Definitions/Def_GoodReductionJacobian_BareDeformation.lean",
+        "git_blob": "f17b141ccf06ba1868603b298a7471c3517cf37b",
+        "size": 1852
+      },
+      {
+        "path": "Definitions/Def_GoodReductionJacobian_IsRegluingBy.lean",
+        "git_blob": "3416fa3baf0861175fdec6b23f9a9644e1f17f10",
+        "size": 1410
+      },
+      {
+        "path": "Definitions/Def_GoodReductionJacobian_NsmulEigenSubdatum.lean",
+        "git_blob": "c0ef26212f5df78c7bedbf2da1e2cf9a325b4efd",
+        "size": 13415
+      },
+      {
+        "path": "Definitions/Def_GoodReductionJacobian_PartialAction.lean",
+        "git_blob": "9dc3c6f79414efa0412285e8cd65dec0a0c33449",
+        "size": 4741
+      },
+      {
+        "path": "Definitions/Def_GoodReductionJacobian_RelativeGroupLawAction.lean",
+        "git_blob": "9ae71227fcb3db0e839b3b658c6cd7c87ec415cd",
+        "size": 1848
+      },
+      {
+        "path": "Definitions/Def_GoodReductionJacobian_RelativeGroupLawAlgPointsV2.lean",
+        "git_blob": "d7ab08694191eca49c20b111b3f9e9f93d894996",
+        "size": 9987
+      },
+      {
+        "path": "Definitions/Def_GoodReductionJacobian_RelativeGroupLawBaseChange.lean",
+        "git_blob": "c60b5bab3df3faa1630f521490bd57230d9140e4",
+        "size": 8662
+      },
+      {
+        "path": "Definitions/Def_GoodReductionJacobian_RelativeGroupLawFibre.lean",
+        "git_blob": "d54ccf03ef76d53f580a52c58f30420a20d02285",
+        "size": 6017
+      },
+      {
+        "path": "Definitions/Def_GoodReductionJacobian_RelativeGroupLawKerPair.lean",
+        "git_blob": "1443f2c58ba6dc99e5b10cde90848bfe9fa379f7",
+        "size": 15824
+      },
+      {
+        "path": "Definitions/Def_GoodReductionJacobian_RelativeGroupLawKernel.lean",
+        "git_blob": "61940b362e2fcf63e8938e159ffdc90e614a43f6",
+        "size": 5116
+      },
+      {
+        "path": "Definitions/Def_GoodReductionJacobian_RelativeGroupLawProd.lean",
+        "git_blob": "573fecb58c5fb28d788c457247c7dbd35fc2e893",
+        "size": 17051
+      },
+      {
+        "path": "Definitions/Def_GoodReductionJacobian_RelativeGroupLawTranslate.lean",
+        "git_blob": "a43f1b88ef5d1ef763d1dc797bd81386e2f9c3c3",
+        "size": 5917
+      },
+      {
+        "path": "Definitions/Def_Isogeny_ConditionalCurrency.lean",
+        "git_blob": "34891e796f0e03a4cfb8fda52fc941c800de6fa1",
+        "size": 8721
+      },
+      {
+        "path": "Definitions/Def_ModularCurve_JZeroGoodReductionV2.lean",
+        "git_blob": "1e38caad7bad75b851724e5f6d8bf91688ed26fa",
+        "size": 3072
+      },
+      {
+        "path": "Definitions/Def_ModularCurve_JZeroGoodReductionV3.lean",
+        "git_blob": "d8bd5e129afb02a40261aefc7d35d74e92ea6286",
+        "size": 2939
+      },
+      {
+        "path": "Definitions/Def_MvFormalGroup_CartierModule.lean",
+        "git_blob": "8b85e4cc44e78bbe38af8e8322532e50a5a21d54",
+        "size": 56652
+      },
+      {
+        "path": "Definitions/Def_PDivisibleGroup_BaseChange.lean",
+        "git_blob": "3c02577c61552af3bb09c152e11a1252b92a545f",
+        "size": 8471
+      },
+      {
+        "path": "Definitions/Def_PDivisibleGroup_Basic.lean",
+        "git_blob": "0b7f317f122637f3cb9fa6fc095a2d456a561575",
+        "size": 13331
+      },
+      {
+        "path": "Definitions/Def_PDivisibleGroup_CartierDuality.lean",
+        "git_blob": "a7b02b1b06a702bcd628df8d392957182ecc72ed",
+        "size": 2553
+      },
+      {
+        "path": "Definitions/Def_PDivisibleGroup_CharacterDifferential.lean",
+        "git_blob": "5de2cd20b8dc8b8a17fa7d85cacc316163d77e27",
+        "size": 3511
+      },
+      {
+        "path": "Definitions/Def_PDivisibleGroup_CompletedPoints.lean",
+        "git_blob": "d05e01940c1ed06e24fc6a77cf5aeb6f54d46161",
+        "size": 8485
+      },
+      {
+        "path": "Definitions/Def_PDivisibleGroup_Dimension.lean",
+        "git_blob": "96af30c391e7936df09b7a9b6712eb877a8e8069",
+        "size": 3326
+      },
+      {
+        "path": "Definitions/Def_PDivisibleGroup_Points.lean",
+        "git_blob": "7ecc8ae63504490013700b300319575c6f570767",
+        "size": 20461
+      },
+      {
+        "path": "Definitions/Def_PDivisibleGroup_PrimaryTorsion.lean",
+        "git_blob": "2808182a1a3ad0c2573687854680923d7af0c39f",
+        "size": 8909
+      },
+      {
+        "path": "Definitions/Def_PDivisibleGroup_Tower.lean",
+        "git_blob": "4828271cd8bd79a83af261d996b84eeda5da5c24",
+        "size": 19408
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneDatum_exists_free_cover_of_isNilpotent.lean",
+        "git_blob": "310ae681591ceea779d98bbc48b9a48bab9eb363",
+        "size": 859
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneDatum_exists_free_cover_of_isNilpotent_V.lean",
+        "git_blob": "0d9f8e8242bce9ffa5370c5ea1e3b3c5345e91d0",
+        "size": 939
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneDatum_exists_hopfAlgebra_zmod_addEquiv_dieudonneModule_of_isNilpotent.lean",
+        "git_blob": "d5e06f561099a37c7818abb405ea482c1048ad14",
+        "size": 4072
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneDatum_exists_pDivisibleTower_zmod_dieudonneModule_of_range_pow_le.lean",
+        "git_blob": "2168154ba9fa4ff0be2a377c62ebaca7dd1a05e5",
+        "size": 5048
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_bijective_prod_map_of_bijective_tensorProduct_comul.lean",
+        "git_blob": "049a349084726fe65ed7dfa25d0a1786c7aa5b1f",
+        "size": 1199
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_eq_of_map_eq_of_isLocalRing_cartierDual.lean",
+        "git_blob": "9acc44e39608b170e8bd6b9d18bbc5b3aed2768c",
+        "size": 2576
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_eq_zero_of_mem_fontaineHodge_of_verschiebung_eq_zero.lean",
+        "git_blob": "639ab66a318233bb3eb6b7365b3836729da34eea",
+        "size": 961
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_eval_injective_and_exists_eval_eq_of_isLocalRing_cartierDual.lean",
+        "git_blob": "3ed2abe116080f014d566d8d6e896dc1abaa68d4",
+        "size": 4268
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exact_map_hopfKerVal_map.lean",
+        "git_blob": "b27466e9a175eea126ea5a992d9c50e306eb25ee",
+        "size": 847
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_addEquiv_prod_apply_eq_map_of_tensorProduct.lean",
+        "git_blob": "b8aec9a2add17cf9705b50f2ebdd05bebe6d6c88",
+        "size": 2259
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_addMonoidHom_cotangent_surjective_ker_eq_range_frobenius_of_isLocalRing_cartierDual.lean",
+        "git_blob": "52cbd868631ddce850e1bee43bcf5e7f456a04e9",
+        "size": 4886
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_bijective_map_eq_of_addEquiv_of_isLocalRing_cartierDual.lean",
+        "git_blob": "e79db773a010f9c748cc7868357cfaa22aebda6e",
+        "size": 3124
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_coe_eq_nsmulAlgHom_and_map_eq_nsmul.lean",
+        "git_blob": "84186a600c7b4648524d2c7c289c96dcef664408",
+        "size": 864
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_finrank_eq_pow_and_natCard_eq_pow_of_isLocalRing_cartierDual.lean",
+        "git_blob": "3909ba9ad69405f0de628edd08b02b915efb2d10",
+        "size": 2594
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_finrank_eq_pow_and_natCard_le_pow_of_isLocalRing_cartierDual.lean",
+        "git_blob": "c0181b1bff99bdb09633a128f504737997a50f1d",
+        "size": 1851
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_frobenius_iterate_eq_zero_of_isLocalRing.lean",
+        "git_blob": "61fb32124184a771551b129f6fb4680768e921ec",
+        "size": 757
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_hondaSystem_L_eq_fontaineHodge.lean",
+        "git_blob": "f4935ccc28c8f746c0e6fbe49323873f48ffb603",
+        "size": 1360
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_hondaSystem_addEquiv_smul_eq_map_of_isLocalRing_cartierDual.lean",
+        "git_blob": "f507949f48f082431730b483a8037ed90b5ab224",
+        "size": 4058
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_ker_verschiebung_addEquiv_primitives_apply_of_eq_and_apply_map.lean",
+        "git_blob": "e69339bca69ea68109877ae33baab012170e1673",
+        "size": 1388
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_map_eq_of_isLocalRing_cartierDual.lean",
+        "git_blob": "875ffc8143df371b05b6f8f1a8f6a1e58ae226b5",
+        "size": 2934
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_mem_fontaineHodge_add_eq_of_smul_eq_zero.lean",
+        "git_blob": "f093368db54df4fddd92f4b55dc12dd68a02ff74",
+        "size": 1307
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_mem_fontaineHodge_frobenius_eq_smul.lean",
+        "git_blob": "061955ade84882f45aa10a275200d6e28a87008c",
+        "size": 1419
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_mem_fontaineHodge_map_eq_of_isLocalRing_cartierDual.lean",
+        "git_blob": "0e6c87592497f09eb05eb979f6ca855899890c8c",
+        "size": 3604
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_mem_fontaineHodge_verschiebung_eq_of_frobenius_eq_zero.lean",
+        "git_blob": "90264225a650f34bb6fdf8ea3df1936eb7e63720",
+        "size": 1330
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_mvPowerSeries_coeff_eq_apply_of_forall_map_eq.lean",
+        "git_blob": "952a3d31d706ae83ed50c210e37959f518e26cf8",
+        "size": 2353
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_natCard_algHom_eq_pow_and_natCard_baseChange_eq_pow_of_isLocalRing_cartierDual.lean",
+        "git_blob": "a64488e7dd89708bad0f4e0dab3f310fccd04c18",
+        "size": 3497
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_ringHom_addMonoidEnd_apply_eq_map.lean",
+        "git_blob": "4f26c0bc18c4be3bd0689c144f2269cd1422a43f",
+        "size": 1205
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_surjective_ker_map_of_bottomLayer.lean",
+        "git_blob": "c2564234b086778161f1abb7541e5ed123a12400",
+        "size": 6996
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_exists_surjective_of.lean",
+        "git_blob": "b301df71a0b079649cc0f2be8450898575b1a2f0",
+        "size": 665
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_finrank_adjoin_coeff_le_natCard.lean",
+        "git_blob": "cb9f7ce0497d724e4a51eeab9eb501cf419cdd31",
+        "size": 1239
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_fontaineHodge_map_surjective_and_exists_of_mem_range_of_surjective.lean",
+        "git_blob": "1300a74c21ea49cd77ae7e5d29c176b7c66760c6",
+        "size": 3888
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_frobenius_bijective_of_isReduced.lean",
+        "git_blob": "1f8dbbad244733d1d2e43e065a4548362141c014",
+        "size": 650
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_map_apply_eq_add_of_toLinearMap_eq_mul_comp_map_comp_comul.lean",
+        "git_blob": "ce07c5d58f36db972f7f493746afdbf3f0b0d640",
+        "size": 1124
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_map_baseChange_injective_and_exists_map_baseChange_eq.lean",
+        "git_blob": "65bec98f1986f7e7119640d7dc2f6382a48e2da0",
+        "size": 9337
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_map_baseChange_surjective_injective_fontaineHodge_of_range_eq_hopfKer.lean",
+        "git_blob": "22e7a4dae3ba4133025a4fe27dc53c1b6c5a241a",
+        "size": 4938
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_map_injective_and_exists_map_eq_of_isLocalRing_cartierDual.lean",
+        "git_blob": "4f91b3eccc2b6786e7b84f75164768545eb2b2c0",
+        "size": 3255
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_map_surjective_and_exact_map_of_ker_eq_map_ker_counit.lean",
+        "git_blob": "053fa698407c0b1d04aa7c711811e30c794e8926",
+        "size": 3016
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_map_surjective_of_surjective.lean",
+        "git_blob": "fdb62713e062dd1130d3a08bdfbf3748c6b74d78",
+        "size": 3037
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_natCard_ker_frobenius_eq_natCard_quot_range_verschiebung_of_cyclotomicPairing.lean",
+        "git_blob": "5b4aa13b64e1246aeb1fc9e1ec543ae477103e6a",
+        "size": 5231
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_natCard_ker_frobenius_eq_natCard_quot_range_verschiebung_of_nonempty_bialgEquiv_cartierDual_zmodp.lean",
+        "git_blob": "de02214a0712068847dcb112208b4c21428dc821",
+        "size": 3261
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_natCard_quot_range_frobenius_eq_natCard_of_ker_eq_map_frobenius_ker_counit_zmodp.lean",
+        "git_blob": "b6170489d45ee4ac8b2c37f9270d4d3a194e45c5",
+        "size": 3040
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_natCard_quot_range_verschiebung_sup_iSup_range_map_eq_natCard_primitives_quot_of_pow_eq_one.lean",
+        "git_blob": "d0a631e38caa1f81e934382454d8311ada4b98a1",
+        "size": 1786
+      },
+      {
+        "path": "Theorems/Thm_Deformation_DieudonneModule_nonempty_ker_verschiebung_addEquiv_primitives.lean",
+        "git_blob": "e14ed703c157cceea3a85a83497fa80a36fdd883",
+        "size": 756
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_SplitCoordinates_map_eq_phi0_of_forall_exists_convMul_apply_kappa_X.lean",
+        "git_blob": "45b261268c6e9ece469a542f9d7722b459db284f",
+        "size": 2304
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_SplitCoordinates_map_mem_fontaineFunctor_and_described.lean",
+        "git_blob": "607a745048a242bd8427371bae80cb74f7babbeb",
+        "size": 4899
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_comap_L_eq_of_injective_of_map_L_le.lean",
+        "git_blob": "e2a8df2c07042260ac4b9f1cd32d1d3648cb9c19",
+        "size": 818
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_existsUnique_coords_of_mem_fontaineFunctor_of_splitCoordinates.lean",
+        "git_blob": "c4fe972bd4761bec0a0bff3ac809378d5b2a1d91",
+        "size": 6715
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_basis_isUnit_mulVec_eq_single_of_isNilpotent.lean",
+        "git_blob": "b1aa3e68e4c11cfc8dc99c6b178d2c8720b08d9a",
+        "size": 1344
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_bijective_tensorProduct_specialFibre_of_cocycle.lean",
+        "git_blob": "35ebebd3d6d1c2069bc9bab982d65a934e5ea9ce",
+        "size": 4146
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_free_resolution_of_isNilpotent.lean",
+        "git_blob": "dc8886f8d1a3bbc2afb972894115a30c87c314c9",
+        "size": 1245
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_hondaSystem_lifts_of_equivariant_surjective.lean",
+        "git_blob": "76f9a7df75eab60c118a3b5b0f3be35447b0769f",
+        "size": 1313
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_isCompl_pow_F_le_and_L_inf_eq_bot.lean",
+        "git_blob": "f42612887f6759b0aeb347355f258397329a1853",
+        "size": 1886
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_lift_linearPart_map_eq_one_of_coeff_eq.lean",
+        "git_blob": "4ed1b24c092ed22580a8b30f2189338d0b171817",
+        "size": 1412
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_linearMap_surjective_mulVec_isNilpotent_coeff_eq.lean",
+        "git_blob": "05173119ced8565e249c793acbafd5a6ff21693c",
+        "size": 7890
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_mem_fontaineFunctor_of_coords_of_splitCoordinates.lean",
+        "git_blob": "b933e823a17b8e793219da700b445aa7a0b812ae",
+        "size": 7536
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_mvFormalGroup_basis_coeff_eq_normalForm.lean",
+        "git_blob": "e0da4d97eee73dadac7387eb79bbc62815ae2b21",
+        "size": 8996
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_mvFormalGroup_cocycle_of_splitCoordinates.lean",
+        "git_blob": "a654fc8e54951a31d56719ccb6f443a29565903e",
+        "size": 12745
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_pDivisibleTower_bijective_map_mem_fontaineHodge_of_pDivisibleTower_zmod.lean",
+        "git_blob": "a3cad9f0529ad146381f484ac282a8d65c7bbc6c",
+        "size": 8655
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_pDivisibleTower_bijective_map_mem_fontaineHodge_of_splitCoordinates_of_cocycle.lean",
+        "git_blob": "b0dbda2a9b70eb795e41055772ee778c705888d0",
+        "size": 7187
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_pDivisibleTower_dieudonneModule_of_range_pow_le.lean",
+        "git_blob": "d2ff57ad8980f0a3c1eff5b0f809ebd4b38db57d",
+        "size": 8529
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_splitCoordinates_lawful_normalForm.lean",
+        "git_blob": "8fed665f70ac37281ba1e05241154bf6d65b0455",
+        "size": 5706
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_exists_towerHom_map_comp_eq_comp_of_map_L_le.lean",
+        "git_blob": "135f102a70fd4cacaddce94f595f6ed28af6a169",
+        "size": 7611
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_finrank_eq_of_isCompl_of_bijective_tensorProduct_comul.lean",
+        "git_blob": "1186d89eb989b7b13c1a5ae2d2d90a352897e22f",
+        "size": 5125
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_finrank_selfExt_eq_finrank_endHonda_of_L_eq_bot.lean",
+        "git_blob": "65fb7eeea7a169f95e78713ef8fe237c2d5bc6e3",
+        "size": 706
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_finrank_selfExt_eq_finrank_endHonda_of_L_eq_top.lean",
+        "git_blob": "77fc3844744f683321d64696b697c96ab991efd4",
+        "size": 706
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_finrank_selfExt_eq_one_add_finrank_endHonda.lean",
+        "git_blob": "2941d809937de63d17d2cdfef4ac8ea682c243e4",
+        "size": 712
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_finrank_selfExt_le_finrank_endHonda_add_one.lean",
+        "git_blob": "e71a010279a5822fce74b4fc82bba09837c4fa9c",
+        "size": 713
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_map_apply_basis_mem_fontaineHodge_of_cocycle.lean",
+        "git_blob": "d6bbc3c3decbb147afd44a9fdb3c0bfc895172b6",
+        "size": 5152
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_map_comp_surjective_and_ker_and_fontaineHodge_eq_of_ker_eq_map_ker_counit.lean",
+        "git_blob": "5285acc6bf05ff9dd4de9b55b3644f79a6d5fada",
+        "size": 5433
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_map_eq_zero_of_mem_of_isCompl_of_bijective_tensorProduct.lean",
+        "git_blob": "47736bf072054be9453a51dbad4284284fbb3782",
+        "size": 2466
+      },
+      {
+        "path": "Theorems/Thm_Deformation_HondaSystem_range_sup_eq_top_of_isArtinian_of_isNoetherian.lean",
+        "git_blob": "b92ba5b2dd52dfbbd99a8627885ed8d4c07c287c",
+        "size": 985
+      },
+      {
+        "path": "Theorems/Thm_GoodReductionJacobian_AbelianSchemePropertyBundle_prodStr_commRing.lean",
+        "git_blob": "588982532ee4d63708e0be8d7d39171a1de31a64",
+        "size": 2752
+      },
+      {
+        "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_existsUnique_eq_prod_zpow_of_forall_comm_of_forall_endDegree_ne_zero.lean",
+        "git_blob": "5ddbc1e62494758dca72b5e94cfd4d55b9e73e61",
+        "size": 38222
+      },
+      {
+        "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_pDivisibleGroup_closedImmersion_finitePart_of_henselianLocalRing.lean",
+        "git_blob": "d3a6d6ea4b1cc369ce893dd2486686c7f1a339f7",
+        "size": 4790
+      },
+      {
+        "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_pDivisibleGroup_closedImmersion_isIso_torsion_of_abelianSchemePropertyBundle.lean",
+        "git_blob": "6b4a89e7a5ffaaf9a3332f69ca82939dcad5b4d2",
+        "size": 40104
+      },
+      {
+        "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_pDivisibleGroup_closedImmersion_isIso_torsion_of_smoothOfRelativeDimension.lean",
+        "git_blob": "e0b4050a964ddd937fa1148cf4be58b902b1def4",
+        "size": 4688
+      },
+      {
+        "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_pDivisibleGroup_point_equiv_torsionSubset_of_isFinite_of_flat.lean",
+        "git_blob": "db801e7c09685b70e70047dd6b9b43815ebdec4c",
+        "size": 2725
+      },
+      {
+        "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_product_local_lifts_of_local_lifts.lean",
+        "git_blob": "2b0e15262aaa78591b7487fc7981b7cd0b5c3312",
+        "size": 4910
+      },
+      {
+        "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_zmod_prod_equiv_nsmulPt_eq_one_of_smoothOfRelativeDimension_one_of_isAlgClosed.lean",
+        "git_blob": "73a6d2bd1529211012bebdaff6e2f6a2bd8b5f0c",
+        "size": 35509
+      },
+      {
+        "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_exists_zmod_prod_equiv_of_natCard_nsmul_eq_one_eq_sq.lean",
+        "git_blob": "779ee5dc574e18dcff0011caa44f2be30a8581f3",
+        "size": 1308
+      },
+      {
+        "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_finrank_cotangent_ker_counit_eq_of_torsion_points_equiv_of_charP.lean",
+        "git_blob": "92174fba1e1d41ee69caee59f46d33796fcefc47",
+        "size": 2670
+      },
+      {
+        "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_prod_zpow_baseChange_and_isHomOnPoints.lean",
+        "git_blob": "e40796a77609afe64f75a1ed862f165220715ac3",
+        "size": 3189
+      },
+      {
+        "path": "Theorems/Thm_GoodReductionJacobian_abelianSchemePropertyBundle_prodStr.lean",
+        "git_blob": "2886b0acf11998193232cb59c5740a6e034457d6",
+        "size": 904
+      },
+      {
+        "path": "Theorems/Thm_MvPolynomial_finite_and_natCard_quotient_truncatedDieudonneRelations_le_pow.lean",
+        "git_blob": "55b6814c8b899018511ee10fd418eda96c387b3a",
+        "size": 934
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_eq_one_of_forall_pair_eq_one_and_exists_pair_eq_of_isAlgClosed.lean",
+        "git_blob": "37993c5bf9f7da4a5d34078d515e826c49d09939",
+        "size": 1057
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_addMonoidHom_tangentSpace_cpoints_pair_eq_sum_pow_of_ker_cotangentModuleProj_eq.lean",
+        "git_blob": "043dbb047aedc003e577d651121b26a0027ac9c9",
+        "size": 2062
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_addMonoidHom_tateModule_apply_eq_charDiff.lean",
+        "git_blob": "f00b644f197539eedf09d17327bc1bbf6971bd01",
+        "size": 1332
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_addMonoidHom_tateModule_padicComplex_smul_eq_and_norm_sub_le_of_ringOfIntegers.lean",
+        "git_blob": "2256c92b0c38b7f35bb7d5a0c2174bc399077958",
+        "size": 2732
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_linearIndependent_invariant_dual_padicComplex_tateModule_of_hasDimension_of_ringOfIntegers.lean",
+        "git_blob": "cdb078cbde49f6a140714e07aad260096b04d2a3",
+        "size": 2168
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_points_tateModule_pairing_eq_pair.lean",
+        "git_blob": "c0593a8202738d76b91558e735be97355dc8a3b1",
+        "size": 1412
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_submodule_annihilator_stable_saturated_and_forall_mem_iff.lean",
+        "git_blob": "d349574d6ed91feed2dcf1c563bc2c04e265ee19",
+        "size": 2239
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_exists_tateModule_pairing_eq_pair.lean",
+        "git_blob": "7067e1f2f60ec5da3977dc652527d5b45350e85d",
+        "size": 1377
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_linearIndependent_tateModule_padicComplex_of_norm_sub_le_of_ringOfIntegers.lean",
+        "git_blob": "7319ffedb273bab29498dd52cb7cb5c1203647e9",
+        "size": 2727
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_mem_of_forall_pair_eq_one_and_exists_tateModule_forall_pair_eq_one.lean",
+        "git_blob": "b3c04f94dd607fea85ecd324f367524940e01661",
+        "size": 1371
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_nsmul_mem_and_eq_zero_and_exists_nsmul_eq_of_forall_pair_eq_one_of_isIntegral_iff.lean",
+        "git_blob": "fb55accaf04bc0be5e79f47bfc590cb51a2381a3",
+        "size": 2814
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_CartierDuality_pair_eq_one_of_forall_valuation_sub_counit_lt_one_of_bijective_tensorProduct_isReduced.lean",
+        "git_blob": "adda34f8d5b9582a3dd1e9989f3a5edc11159e10",
+        "size": 5326
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_Hopf_exists_forall_comp_transition_surjective_ker_eq_torsionIdeal.lean",
+        "git_blob": "bd77dde94fad3ec3944b0e7e0e0c2c482265df0c",
+        "size": 1604
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_Hopf_exists_verschiebung_algHom_zmodp.lean",
+        "git_blob": "bed0f29eb522b1ca87c40fbf2487486c4a5e649d",
+        "size": 782
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_Tower_eq_of_frobenius_comp_eq_zmodp.lean",
+        "git_blob": "a235a954e2acdda0027f791b6f488a33691e37c8",
+        "size": 1911
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_Tower_exists_algEquiv_range_nsmulAlgHom_and_finite_projective_rankAtStalk.lean",
+        "git_blob": "10f426bb763160cd2c70b488fcbfe8f7bbfc9905",
+        "size": 2662
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_Tower_exists_tower_hopfKer_transitionLE_of_bijOn_hopfKer.lean",
+        "git_blob": "57b9ba91dbafea7f36c75bf93bf0e1ef9abc034e",
+        "size": 3569
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_Tower_forall_isReduced_cartierDual_of_isReduced_cartierDual_one_zmodp.lean",
+        "git_blob": "e6b36891b26378079331150a610a768be628714c",
+        "size": 4816
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_Tower_surjective_and_exists_finrank_eq_and_ker_eq_torsionIdeal_of_comp_eq_idempotent_zmodp.lean",
+        "git_blob": "e3bed7615621d81b0eb5cd0aeef1c9af6e71dc29",
+        "size": 3089
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_bijective_pointsMap_val_integralClosure_and_exists_tateModule_equiv.lean",
+        "git_blob": "aafe922f4459f2d16e81618cf38f14a95a0dfc3a",
+        "size": 1818
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_cartierDualMap_pow_eq_frobenius_conv_verschiebung_of_multiplicative_sub_of_verschiebung_sub_frobenius_quotient.lean",
+        "git_blob": "f927f31b24c85faf67bcb9759b7f60ac881650a3",
+        "size": 9935
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_existsUnique_bialgHom_family_of_addMonoidHom_points_levelPreserving_galois_of_field.lean",
+        "git_blob": "6a9b152cdfe8895040738f915a025723fa29d298",
+        "size": 1779
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_existsUnique_bialgHom_family_of_addMonoidHom_points_levelPreserving_galois_of_isDiscreteValuationRing_of_liesOverPrime.lean",
+        "git_blob": "0a85ed6ebaea1803f5051962e7159b7f79bbae23",
+        "size": 7198
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_existsUnique_bialgHom_family_of_addMonoidHom_points_levelPreserving_galois_of_ringOfIntegers.lean",
+        "git_blob": "c3913c5d31ae171a6cb7b5c37ef1fbed0d5651ab",
+        "size": 6685
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_existsUnique_cpointsMap_ofId_eq_of_forall_smul_eq_of_forall_mem_range_iff.lean",
+        "git_blob": "671a3fe5cb84862f9a10e2df776c0d5af7d4bd47",
+        "size": 1632
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_algEquiv_range_nsmulAlgHom_and_finite_projective_rankAtStalk.lean",
+        "git_blob": "63f3c0ca0abebbcbc9c6e02e1b4976ad02804599",
+        "size": 3893
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_algEquiv_range_nsmulAlgHom_and_finite_projective_rankAtStalk_of_ker_eq_torsionIdeal.lean",
+        "git_blob": "1a70aef3b5bc968a85e4a18e0dd9c8299954747f",
+        "size": 2021
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_baseChange_hopf_quotient_system_points_iff_mem_of_forall_smul_mem.lean",
+        "git_blob": "93ea4d36e6532bbff6351d397699dbd28c1c9630",
+        "size": 3783
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_basis_padicComplex_tateModule_eq_cyclotomicCharacter_pow_smul_of_hasDimension_of_ringOfIntegers.lean",
+        "git_blob": "9c923d6961c601449c91f929083018a77af5fe8a",
+        "size": 4175
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_bialgHom_comp_eq_nsmulBialgHom_and_bijOn_hopfKer_of_hopf_quotient_system_of_ringOfIntegers.lean",
+        "git_blob": "bfc2b9248b668a61f8f8692fd0268b08b1f56df9",
+        "size": 3626
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_bialgHom_comp_transition_eq_and_injective_of_hopf_quotient_system_of_tower_of_ringOfIntegers.lean",
+        "git_blob": "55264915f49181bd1f186e0b9cf3ba7791853310",
+        "size": 4640
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_bialgHom_comp_transition_eq_nsmulBialgHom_and_injective_and_map_ker_counit_eq_torsionIdeal_and_faithfullyFlat.lean",
+        "git_blob": "ef6008a3e1ed08fa0e014f2e77ed8bac7ead658a",
+        "size": 3801
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_compatible_lift_coeff_eq_of_surjective_tower_zmodp.lean",
+        "git_blob": "e3bcd4d12500f3f322b335c9bbc3a51bedaf78b1",
+        "size": 2160
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_compatible_specialFibre_coordinates_of_isLocalRing.lean",
+        "git_blob": "f7de91a36577f6c914c7c42a763f9fbd3a04c5d3",
+        "size": 3845
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_connectedComponent_mvFormalGroup_of_isLocalRing_cartierDual.lean",
+        "git_blob": "77409c32bba608948dc70f2a54e8dd60357359da",
+        "size": 4098
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_connectedComponent_tower_of_isLocalRing_cartierDual.lean",
+        "git_blob": "c96526a2be67aa9021f102a8f5fa73326fde29e0",
+        "size": 2484
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_formallyEtale_tower_bijective_baseChange_zmodp.lean",
+        "git_blob": "c5cd89687df86d5189395bf754d3bf54659f85e6",
+        "size": 2087
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_hasDimension.lean",
+        "git_blob": "276dcd07da7251483f3134b60e1930a2bc6f4bc8",
+        "size": 4472
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_hopf_quotient_system_points_iff_mem_of_forall_smul_mem_of_ringOfIntegers.lean",
+        "git_blob": "99eddc4943b7d4f59b7b52ddc6a60ac7496c2482",
+        "size": 4327
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_isCartierDual.lean",
+        "git_blob": "14e10ddd154d5f0bea3374a8a729639d9eb496be",
+        "size": 1161
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_linearEquiv_tateModule_baseChange_ringOfIntegers_of_ringHom_padicAlgCl.lean",
+        "git_blob": "d2b59bd6d52daff96c25b18b0a8d093f46113f22",
+        "size": 2922
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_linearEquiv_tateModule_prod_of_bialgHom_comp_transition_of_bijective_points.lean",
+        "git_blob": "e20fe531506768ccef8a94ee018749f54183f2bc",
+        "size": 3125
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_linearMap_tateModule_apply_eq_of_addMonoidHom_points.lean",
+        "git_blob": "9003da80f91363c090f5b801e8ca0b4817e6f48d",
+        "size": 1015
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_linearMap_tateModule_injective_of_surjective_comp_transition.lean",
+        "git_blob": "318d734d328cdd07a0da169edd93f205ba89c166",
+        "size": 3005
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_linearMap_tateModule_jOne_apply_injective_range_galois_of_injective_of_forall_iff.lean",
+        "git_blob": "c94b862482689b540dc325f434e41c851380a62c",
+        "size": 4188
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_linearMap_tateModule_of_comp_transition_eq.lean",
+        "git_blob": "cc518638da6512e3a50fad9f226d95b3c42f9d9e",
+        "size": 1318
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_moduleEnd_tateModule_apply_eq_pointsMkAdd_comp_of_comp_transition_eq.lean",
+        "git_blob": "eb3a9dda5100f20796295d5d06daeac80f93ff5b",
+        "size": 1187
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_mulEquiv_point_addEquiv_points_eq_pointMap_of_isAlgClosed.lean",
+        "git_blob": "851def48ec73b0c416228f339f92834ca47ea89f",
+        "size": 1163
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_mulEquiv_point_baseChange_and_addEquiv_points_baseChange.lean",
+        "git_blob": "7892002d9a7ddefe405e0ef8403cdb2af659d5e4",
+        "size": 1540
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_mvFormalGroup_comul_eq_adicEval_of_specialFibre_coordinates.lean",
+        "git_blob": "a7309c15f50416755475236a0bbdcac54ebf80a1",
+        "size": 2840
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_mvFormalGroup_connectedComponent_tower_of_isLocalRing_cartierDual.lean",
+        "git_blob": "60c2b911a92b42838bfde10293de2fd8ff01d9f6",
+        "size": 4728
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_mvFormalGroup_ker_eq_span_nthSeries_jointly_injective_surjective_of_isLocalRing_zmodp.lean",
+        "git_blob": "d7580b28db68cc520c5de6ae75ef06727fe362a4",
+        "size": 4489
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_mvPolynomial_specialFibre_coordinates_of_isLocalRing.lean",
+        "git_blob": "45870a350e476f698e94a6214eb62d98f0d9b456",
+        "size": 3699
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_nsmul_eq_of_forall_isNilpotent_cpointsProj_one_of_isIntegral_iff.lean",
+        "git_blob": "432a2b7d27710b80eeac316f3ad683ab7091c19a",
+        "size": 1593
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_pDivisibleGroup_bialgHom_injective_range_eq_hopfKer_of_surjective_of_comp_eq_of_isPrincipalIdealRing.lean",
+        "git_blob": "3cb88b43d313eeeb0e4b4369ef8ba85dd082f57f",
+        "size": 3533
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_pDivisibleGroup_bialgHom_linearMap_tateModule_injective_range_eq_of_hopf_quotient_system_of_ringOfIntegers.lean",
+        "git_blob": "7d98005f9f7762dca6a708025668a2e56a61fbdd",
+        "size": 4846
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_pDivisibleGroup_bialgHom_linearMap_tateModule_ker_eq_of_forall_smul_mem_of_ringOfIntegers.lean",
+        "git_blob": "7c4d6abf3308665c1f5db265f07d85f6866a32a2",
+        "size": 6005
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_pDivisibleGroup_surjective_bijective_tensorProduct_of_comp_eq_self.lean",
+        "git_blob": "4d4843be8fa8c3fa499be4f09b78bc667474c309",
+        "size": 3367
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_pDivisibleGroup_surjective_bijective_tensorProduct_of_comp_eq_self_of_field.lean",
+        "git_blob": "a115e69fe44d2e9c98044e2586822bba15feea50",
+        "size": 3595
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_point_toAlgHom_eq_comp_of_etale_cartierDual_of_forall_comp_eq_of_reduction_pow_eq_frobenius_conv_verschiebung.lean",
+        "git_blob": "4cc8ee16f02edb28fead2e9c804090d5660ed6ed",
+        "size": 7828
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_prod_bialgHom_bijective_points.lean",
+        "git_blob": "35453fd983c2b3fd7d7870cbb1aff3919543bb6d",
+        "size": 2079
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_rep_pow_sub_smul_eq_cyclotomicCharacter_smul_of_reduction_pow_eq_frobenius_conv_verschiebung.lean",
+        "git_blob": "f347ce157eb9a4bf359d4e37a36c2d462974ff5e",
+        "size": 9849
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_retraction_of_points_ker_iff_of_points_surjective_of_retraction_of_isDiscreteValuationRing_of_liesOverPrime.lean",
+        "git_blob": "19d93163f6192b5aa578f702c2c7763e6b28e7ef",
+        "size": 7357
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_square_presentation_level_of_ringOfIntegers.lean",
+        "git_blob": "c4b51d93692cf15514ad55dc6a8cf2f002548a0d",
+        "size": 2830
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_submodule_tateModule_reduction_and_rep_sub_mem_of_mem_inertiaSubgroupIn.lean",
+        "git_blob": "854739b574e8862b2d79a54ee48c0e33a31c26c7",
+        "size": 2158
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_surjective_injective_ker_eq_map_of_comp_eq_self_of_field.lean",
+        "git_blob": "30a30d1d1001399b540c2a250e70d70abaeec2d8",
+        "size": 3247
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_surjective_mvPowerSeries_comp_eq_of_isLocalRing_zmodp.lean",
+        "git_blob": "40aec47172f5c5e7898a49349c08baeaa6a4815e",
+        "size": 5051
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_tateModule_apply_eq_and_apply_eq_zero_iff_and_free_finrank_of_natCard_point_eq.lean",
+        "git_blob": "690a3b81486c7ac75d7941bb308f7db7d9841187",
+        "size": 1262
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_toCPoints_pointsMkAdd_eq_of_nsmul_eq_zero_of_isIntegral_iff.lean",
+        "git_blob": "64ff5a1168a0985e8ba94db402058aac47bd7e18",
+        "size": 917
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_exists_tower_isLocalRing_isReduced_bijective_tensorProduct_comul_zmodp.lean",
+        "git_blob": "96dee3edc75f4e51109915d75fe88c9019978ee3",
+        "size": 4223
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_forall_exists_bijective_tensorProduct_isReduced_cartierDual_of_comp_eq_idempotent_of_reduction_pow_eq_frobenius_conv_verschiebung.lean",
+        "git_blob": "505a6658c721b708901abbc862b992752309f91c",
+        "size": 9108
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_forall_exists_bijective_tensorProduct_isReduced_cartierDual_of_level_one_zmodp.lean",
+        "git_blob": "ca8ca1c36a46ffdf45d582d93c46bb3c9f23e2d3",
+        "size": 7249
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_forall_exists_norm_sub_counit_lt_one_map_of_forall_exists_norm_sub_counit_lt_one.lean",
+        "git_blob": "9798732f103970c27fc75da338bdcf1d8f3297b5",
+        "size": 2198
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_injective_and_range_eq_of_forall_injective_of_forall_iff_exists_mem.lean",
+        "git_blob": "001686c917302cc57595e91013f55400c780da52",
+        "size": 2010
+      },
+      {
+        "path": "Theorems/Thm_PDivisibleGroup_nsmul_eq_zero_iff_exists_pointsMkAdd_eq.lean",
+        "git_blob": "f2f26b71242d25b84f3a44d703e587cf25e619d1",
+        "size": 579
+      },
+      {
+        "path": "Theorems/Thm_ResidualGaloisRep_exists_hondaSystem_finrank_endHonda_le_injective_of_isLocalRing_cartierDual.lean",
+        "git_blob": "5abb6c787b5169dc34cc8e5dd9d6dfff32d83f02",
+        "size": 11680
+      },
+      {
+        "path": "Theorems/Thm_ResidualGaloisRep_finrank_endHonda_le_finrank_invariants_of_hondaSystem_model.lean",
+        "git_blob": "c6bcf72059800d3c5f0f204debeab8105c3e4fd2",
+        "size": 10993
+      }
+    ]
+  },
+  "nearby_but_inapplicable_or_insufficient": [
+    {
+      "declaration": "GoodReductionJacobian.RelativeGroupLaw.AlgPoints.exists_nsmul_eq_of_isAlgClosed",
+      "limitation": "Hypothesis (n : k) != 0 prevents using n=p in characteristic p."
+    },
+    {
+      "declaration": "Deformation.DieudonneDatum",
+      "limitation": "An algebraic F,V datum with FV=VF=p, not a theorem producing isomorphisms of abelian varieties or a rational slope classification."
+    },
+    {
+      "declaration": "ModpDieudonneRealization",
+      "limitation": "A structure requiring a datum and rank equalities; the structure declaration does not prove realization or abelian product classification."
+    },
+    {
+      "declaration": "Deformation.DieudonneDatum.exists_hopfAlgebra_zmod_addEquiv_dieudonneModule_of_isNilpotent",
+      "limitation": "Realizes finite Dieudonne data over ZMod p as finite Hopf algebras. Does not construct a product isomorphism or isogeny of the given Jacobian over arbitrary algebraically closed k."
+    },
+    {
+      "declaration": "GoodReductionJacobian.RelativeGroupLaw.exists_pDivisibleGroup_closedImmersion_isIso_torsion_of_abelianSchemePropertyBundle",
+      "limitation": "This theorem requires a characteristic-zero algebraically closed field Omega with Algebra R Omega; it cannot be applied with R a characteristic-p field. Even an applicable torsion tower construction would not itself prove the product classification."
+    }
+  ],
+  "classification_status": {
+    "superspecial_converse": "No inspected theorem supplies a geometric product isomorphism from vanishing Cartier/Verschiebung or maximal a-number.",
+    "supersingular_converse_dimension_two": "No inspected theorem supplies a product isogeny from p-rank zero, or a rational Dieudonne slope decomposition with a geometric isogeny realization for the actual abelian surface.",
+    "interpretation": "These remain unproved within the inspected dependencies; no axiom, hypothesis equating the desired predicates, or changed definition may be substituted for the missing theorems."
+  },
+  "complete_filename_search": {
+    "superspecial": 0,
+    "aNumber_or_a_number": 0,
+    "newton_or_isocrystal": 0,
+    "supersingular_wrappers": 171,
+    "supersingular_wrapper_domains": {
+      "ModularCurve": 167,
+      "WeierstrassCurve": 4
+    },
+    "qualification": "Counts supplement the source-body inspection; they are not by themselves an absence proof."
+  },
+  "selected_integration": {
+    "roots": [
+      "Theorems.Thm_AlgebraicCurve_Pic0_exists_nsmul_eq_of_charP"
+    ],
+    "added_modules": 73,
+    "general_abelian_route_modules": 333,
+    "overlap": 18,
+    "reason": "For the genus-two curve scope, use characteristic-p division in the actual curve Pic0. This avoids the general abelian-variety degree/Euler-characteristic dependency closure.",
+    "classification_limits": "Pic0 division supplies a genuine geometric implication through isogeny invariance; it does not prove either missing converse classification.",
+    "declaration": "AlgebraicCurve.Pic0.exists_nsmul_eq_of_charP",
+    "conditions": "K and F fields, K algebraically closed of prime characteristic p, Algebra K F, IsCurveOver K F, a transcendental element x with F finite-dimensional over K(x), and n != 0 as a natural number.",
+    "conclusion": "For every class x in the genuine Pic0 K F, there is y with n \u2022 y = x; in particular this applies with n=p."
+  },
+  "general_abelian_bridge_considered": {
+    "module": "Theorems.Thm_GoodReductionJacobian_AbelianSchemePropertyBundle_exists_nsmulPt_eq_of_isAlgClosed_of_isCommutative",
+    "declaration": "GoodReductionJacobian.AbelianSchemePropertyBundle.exists_nsmulPt_eq_of_isAlgClosed_of_isCommutative",
+    "conditions": "An algebraically closed field in Type 0, commutative relative group law, AbelianSchemePropertyBundle, and n != 0 as a natural number. No prime-to-characteristic condition.",
+    "conclusion": "Every rational point Q has a rational point P with nsmulPt L n P = Q.",
+    "proof_route": "Smooth dimension existence, scheme multiplication surjectivity, and closed-point lifting.",
+    "integration_status": "Deferred. Not imported by the selected project closure; no successful compilation of this root is claimed."
+  }
+}

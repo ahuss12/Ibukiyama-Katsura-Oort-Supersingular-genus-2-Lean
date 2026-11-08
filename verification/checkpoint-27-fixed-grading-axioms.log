@@ -1,0 +1,27 @@
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.fixed' depends on axioms: [propext, Quot.sound]
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.grade' depends on axioms: [propext, Quot.sound]
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.mem_grade' depends on axioms: [propext, Quot.sound]
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.grade_gradedMonoid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.gradedMap' depends on axioms: [propext, Quot.sound]
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.map_component' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.component_fixed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.component' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.inclusion' depends on axioms: [propext, Quot.sound]
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.inclusion_injective' depends on axioms: [propext, Quot.sound]
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.decomposeFixed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.gradedAlgebra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.GradedFixedSubalgebra.decompose_coe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

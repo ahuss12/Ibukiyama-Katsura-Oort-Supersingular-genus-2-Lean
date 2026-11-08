@@ -1,0 +1,10 @@
+Audited 3 declarations from SupersingularCurves.Geometry.CartierVerschiebungRank.
+Audited 56 declarations from SupersingularCurves.Geometry.VerschiebungNaturality.
+Audited 19 declarations from SupersingularCurves.Hyperelliptic.FifthPowerClassification.
+Audited 10 declarations from SupersingularCurves.Hyperelliptic.GenusTwoOrdinary.
+Audited 9 declarations from SupersingularCurves.Hyperelliptic.GenusTwoOrdinaryVerschiebung.
+Audited 44 declarations from SupersingularCurves.IKO.FifthPowerCongruences.
+Audited 28 declarations from SupersingularCurves.IKO.GenusTwoOrdinaryFixedVectors.
+Audited 3 declarations from SupersingularCurves.IKO.SemilinearInvertibility.
+Inspected 0 shared generated entries by stored type/body as well as resolved declaration.
+Checkpoint 23 transitive axiom audit passed: 172 new project/vendor declaration entries.

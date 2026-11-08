@@ -1,0 +1,65 @@
+{
+  "checkpoint": 23,
+  "completed_at_utc": "2026-09-23T01:20:56.379169+00:00",
+  "all_current_checks_passed": true,
+  "build_exit_code": 0,
+  "source_checks_exit_code": 0,
+  "integration_examples_exit_code": 0,
+  "new_module_axiom_audit_exit_code": 0,
+  "build_jobs": 10475,
+  "new_project_modules": 8,
+  "new_public_theorems": 71,
+  "new_private_supporting_lemmas": 6,
+  "project_proof_modules": 110,
+  "project_public_theorems": 797,
+  "project_private_supporting_lemmas": 19,
+  "new_vendor_modules": 0,
+  "new_compatibility_ports": 0,
+  "vendor_modules": 1600,
+  "prior_proof_modules_unchanged": 102,
+  "prior_vendor_lean_files_unchanged": 1601,
+  "audited_new_project_modules": 8,
+  "audited_new_vendor_modules": 0,
+  "new_module_declaration_entries_audited": 172,
+  "integration_examples": 7,
+  "source_files_scanned": 1711,
+  "checked_source_hashes": 203,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "full_previous_audit_rerun": false,
+  "clean_rebuild_of_all_dependencies": false,
+  "verification_mode": "Full aggregate build; all eight new proof modules compiled; seven new integration examples; all 172 new-module declaration entries audited transitively; source and provenance checks. Unchanged checked project/vendor artifacts and official pinned Mathlib cache reused. Historical suites and audits retained for byte-identical sources, not rerun.",
+  "runtime_restoration": {
+    "lean_version": "4.34.0-rc2",
+    "lean_commit": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+    "official_release_archive_sha256": "3d011041203acacf300d343a39673f7d233743397993797c941346ae9e5df1a8",
+    "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+    "all_nine_git_dependencies_restored_at_manifest_pins": true,
+    "official_mathlib_cache_files_restored": 8747,
+    "cache_utility_note": "System GCC compiled unchanged cache-utility C objects after bundled clang failed; proof sources, package pins, and Lean runtime were not changed."
+  },
+  "log_sha256": {
+    "checkpoint-23-project-build.log": "13f87cf430a7cb6afc3ed46fd31ac3eeb4efdbf6a7922c4ce540e207d6d15799",
+    "checkpoint-23-source-audit.log": "be45815bdd8effb9fe232ea140da5925ca2f269590514efc5f92e9014f60cc8a",
+    "checkpoint-23-axiom-audit.log": "720438a91122be7630a93e20d0a12fb3015348e7f05b8fa9a5afe50e987fcba5",
+    "checkpoint-23-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checkpoint-23-toolchain.log": "544b4920040fb4a18fbbf04c48a65f06739ab3268fc7d3c756bc1b64e823a094"
+  },
+  "proved": [
+    "Arbitrary two-by-two matrix: exactly p^2 inverse-Frobenius fixed vectors iff determinant is nonzero, over an algebraically closed characteristic-p field.",
+    "Every presented separable quintic/sextic over an algebraically closed field of odd characteristic: actual Jacobian p-rank two and ordinarity iff coefficient determinant is nonzero, for any representing Jacobian and base point.",
+    "For those presented models: ordinarity iff global Cartier is bijective iff the actual Jacobian Verschiebung cotangent map is bijective; corresponding injectivity criteria also proved.",
+    "Actual y^2=x^5-1 model for every odd prime p other than five: Cartier zero iff p mod 5 is four, Cartier square zero and actual Jacobian p-rank zero iff p mod 5 is not one, ordinarity iff p mod 5 is one.",
+    "Genuine Verschiebung and cotangent naturality, vanishing under fixed-base group-scheme isomorphism and actual products, and compatibility with the existing Jacobian cotangent differential."
+  ],
+  "geometric_classification_block_complete": false,
+  "still_open": [
+    "Cartier-square-zero to actual product-isogeny supersingularity in genus two.",
+    "General geometric superspeciality to Cartier-zero: supersingular elliptic factor cotangent vanishing and algebraic-closure base-change/descent remain; fixed-base product/isomorphism transport is now proved.",
+    "Cartier-zero to actual product-isomorphism superspeciality.",
+    "Abstract genus-two hyperelliptic presentation, scheme-projection interpretation of the cohomological scalar untwist, actual crystalline Newton attachment, remaining IKO Section 1 classifications, and sheet cyclic-cover identifications."
+  ]
+}

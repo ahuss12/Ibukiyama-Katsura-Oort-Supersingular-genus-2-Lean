@@ -1,0 +1,28 @@
+'SupersingularCurves.Geometry.PointedCotangent.tangentMul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.cotangentMul_eq_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.pointsEquiv_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.differential_law_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.differential_law_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.end_point_of_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.actionDifferential_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.cotangentScalarRingHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.PointedCotangent.cotangentScalarRingHom_action' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.WeierstrassGroupModel.exists_actual_cotangentScalarRingHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

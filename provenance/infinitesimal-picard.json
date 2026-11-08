@@ -1,0 +1,24 @@
+{
+  "checkpoint": 13,
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/JacobianInfinitesimal.lean",
+      "sha256": "9d0207ac82a35d03f68edada626bac5aedf9bdb8feb24e91ab063bb2210fb6dd"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/JacobianCotangent.lean",
+      "sha256": "2810919689d4593e5a0057f36d309eee7fd7790678b76edf557ad2ca94b59c16"
+    }
+  ],
+  "scope": "Actual Jacobian local cotangents, Poincare deformation classes, naturality in square-zero coefficients and pointed curve pullback, geometric cotangent differential and its uniqueness. No Cartier or Verschiebung identification and no superspecial/supersingular classification theorem.",
+  "main_reused_sources": [
+    "Definitions/Def_AlgebraicGeometry_SquareZeroDeformation.lean",
+    "Definitions/Def_AlgebraicGeometry_RelPicardPullback.lean",
+    "P2M/Sol/S_AlgebraicCurve_CurveModel_finrank_cotangentSpace_zeroSection_eq_genusFF_of_representsRelSubPic.lean",
+    "P2M/Sol/S_AlgebraicGeometry_Scheme_exists_tangentPoints_equiv_linearMap_cotangentSpace.lean"
+  ],
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "proof_adaptation": "Wraps and combines the pinned P2mTJ Poincare-deformation helpers and P2mTJ1 actual local-ring construction. New quotient functoriality and the cotangent differential use scheme composition and the universal cotangent-valued infinitesimal point.",
+  "new_vendor_modules": 0,
+  "prior_proof_modules_modified": 0
+}

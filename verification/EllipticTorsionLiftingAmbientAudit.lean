@@ -1,0 +1,14 @@
+import SupersingularCurves.Geometry.EllipticTorsionLiftingNaturality
+#print axioms SupersingularCurves.Geometry.TorsionLevels.ambientOnLevel
+#print axioms SupersingularCurves.Geometry.TorsionLevels.ambientOnLevel_smallerToLarger
+#print axioms SupersingularCurves.Geometry.TorsionLevels.absolute_ambientOnSquare
+#print axioms SupersingularCurves.Geometry.TorsionLevels.presentation
+#print axioms SupersingularCurves.Geometry.TorsionLevels.Presentation.canonical_absolute_inclusion
+#print axioms SupersingularCurves.Geometry.TorsionLevels.Presentation.multiplicationMap
+#print axioms SupersingularCurves.Geometry.TorsionLevels.Presentation.multiplicationMap_spec
+#print axioms SupersingularCurves.Geometry.TorsionLevels.Presentation.canonical_multiplication
+#print axioms SupersingularCurves.Geometry.TorsionLevels.Presentation.ambientOnLevel_eq_canonical
+#print axioms SupersingularCurves.Geometry.TorsionLevels.Presentation.ambientOnLevel_eq_constructed
+#print axioms SupersingularCurves.Geometry.TorsionLevels.Presentation.canonical_naturality
+#print axioms SupersingularCurves.Geometry.TorsionLevels.Presentation.ambient_naturality
+#print axioms SupersingularCurves.Geometry.TorsionLevels.Presentation.constructed_ambient_naturality

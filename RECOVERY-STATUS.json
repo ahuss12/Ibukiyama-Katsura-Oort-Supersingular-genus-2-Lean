@@ -1,0 +1,26 @@
+{
+  "checkpoint": 33,
+  "status": "in-progress recovery snapshot; not a completed checkpoint",
+  "new_public_theorems_compiled_and_axiom_audited": 16,
+  "new_modules_checked": [
+    "PolarisationRootNumerics",
+    "AbelianIsogenyRootNumerics",
+    "AbelianTateProductPolarization"
+  ],
+  "new_stored_declaration_entries_audited": 18,
+  "project_proof_repair": "AbelianTateRiemannPullback; statement unchanged; audited",
+  "vendor_proof_ports": [
+    "torsion density; 22 mathematical declarations audited",
+    "faithfully-flat effective descent; all 178 stored declarations audited; final solution statement and proof unchanged"
+  ],
+  "unchecked_project_module_copies": [
+    "ScalarFrobeniusTateQuotientRoots",
+    "ScalarFrobeniusTateUniformPolarization",
+    "ScalarFrobeniusPolarizedDescentRank",
+    "PolarizedFiniteModels"
+  ],
+  "active_target": "SupersingularCurves.Geometry.ScalarFrobeniusTateUniformPolarization",
+  "global_block_1_complete": false,
+  "historical_status_notice": "checkpoint-status.json, CONTINUATION_STATUS.md and proved-theorems.json still describe checkpoint 32; cp33 is being finalized after the current target passes",
+  "cache_notice": "The companion partial cache contains only completed source-backed modules with successful build traces. Match every source/artifact hash before reuse."
+}

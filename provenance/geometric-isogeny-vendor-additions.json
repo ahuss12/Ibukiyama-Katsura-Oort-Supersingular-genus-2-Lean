@@ -1,0 +1,1030 @@
+{
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "roots": [
+    "Theorems.Thm_AlgebraicCurve_Pic0_exists_nsmul_eq_of_charP"
+  ],
+  "files": [
+    {
+      "module": "Definitions.Def_AlgebraicCurve_Pic0Congr",
+      "path": "Definitions/Def_AlgebraicCurve_Pic0Congr.lean",
+      "upstream_git_blob": "57fc624454e9de2adaf6f18b6c2af7bd81011d23",
+      "upstream_sha256": "65350a2be6c1e31e877e965a9181ca32fc15c2a1eee44994fc8b2f6fa411e791",
+      "current_sha256": "65350a2be6c1e31e877e965a9181ca32fc15c2a1eee44994fc8b2f6fa411e791",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_RatFuncPlaces"
+      ]
+    },
+    {
+      "module": "Definitions.Def_AlgebraicGeometry_Kmf2FiberSpecTensorStalkLeg1AffineDatum",
+      "path": "Definitions/Def_AlgebraicGeometry_Kmf2FiberSpecTensorStalkLeg1AffineDatum.lean",
+      "upstream_git_blob": "b7a46bf691ace6b0a336b3260ac877bb06c3cc5e",
+      "upstream_sha256": "ed666f4b8b1c3ac4d5170e0397db697ffe9292bfd759c23440937cbd8ca1fba3",
+      "current_sha256": "ed666f4b8b1c3ac4d5170e0397db697ffe9292bfd759c23440937cbd8ca1fba3",
+      "imports": [
+        "Mathlib"
+      ]
+    },
+    {
+      "module": "Definitions.Def_AlgebraicGeometry_KwFrobSemilinearFixedPointFiniteEngine",
+      "path": "Definitions/Def_AlgebraicGeometry_KwFrobSemilinearFixedPointFiniteEngine.lean",
+      "upstream_git_blob": "ca66142513842419846021ee935e8b431c451444",
+      "upstream_sha256": "07a91decee50835c1aa9f97c034da8c4f56831254f56fb03a607d0c7f8977702",
+      "current_sha256": "07a91decee50835c1aa9f97c034da8c4f56831254f56fb03a607d0c7f8977702",
+      "imports": [
+        "Mathlib"
+      ]
+    },
+    {
+      "module": "Definitions.Def_AlgebraicGeometry_SchemeFibreEndo",
+      "path": "Definitions/Def_AlgebraicGeometry_SchemeFibreEndo.lean",
+      "upstream_git_blob": "ba85fe59047325d2d97e9a8327c87b19e6519610",
+      "upstream_sha256": "ae349f3ca39361f98af2d7e17a9935437daa4d56b4eecbf7c307ae95bf6985ab",
+      "current_sha256": "ae349f3ca39361f98af2d7e17a9935437daa4d56b4eecbf7c307ae95bf6985ab",
+      "imports": [
+        "Mathlib.AlgebraicGeometry.ResidueField"
+      ]
+    },
+    {
+      "module": "Definitions.Def_Mathlib_RingTheory_KmfloorsGlueFiberLocalizationQuotientEngine",
+      "path": "Definitions/Def_Mathlib_RingTheory_KmfloorsGlueFiberLocalizationQuotientEngine.lean",
+      "upstream_git_blob": "902a5631d65bd9440d562d473bc8e265034e3637",
+      "upstream_sha256": "33d9ee4cfde5c4de3fdab067b8e6267bb50856bac012c697712a67c080487187",
+      "current_sha256": "33d9ee4cfde5c4de3fdab067b8e6267bb50856bac012c697712a67c080487187",
+      "imports": [
+        "Mathlib"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgHom_injective_of_finite_of_isFractionRing",
+      "path": "P2M/Sol/S_AlgHom_injective_of_finite_of_isFractionRing.lean",
+      "upstream_git_blob": "4493a290a3b90269d288fca3939a5f54c9cbb5ea",
+      "upstream_sha256": "ea15307910abac276ec03a7afe25625701970ce2dd77b0e012b17670822b160e",
+      "current_sha256": "ea15307910abac276ec03a7afe25625701970ce2dd77b0e012b17670822b160e",
+      "imports": [
+        "Mathlib",
+        "Theorems.Thm_Algebra_trdeg_quotient_lt",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_Algebra_trdeg_quotient_lt",
+      "path": "P2M/Sol/S_Algebra_trdeg_quotient_lt.lean",
+      "upstream_git_blob": "2e114510f1f687251f195b22aea605d09204d554",
+      "upstream_sha256": "f683188408c8730ed6e9da6866acfc6155023c7f0c00cec59882d6e53dad05a5",
+      "current_sha256": "f683188408c8730ed6e9da6866acfc6155023c7f0c00cec59882d6e53dad05a5",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_KwPke_kw_pke_hsep_of_isSeparable_adjoin",
+      "path": "P2M/Sol/S_AlgebraicCurve_KwPke_kw_pke_hsep_of_isSeparable_adjoin.lean",
+      "upstream_git_blob": "412a3e5788ab6729fe93d0a310c917eb33321eb5",
+      "upstream_sha256": "94c0f2bc3ebed3a40ffdd3cb0ea4f9621ecf484784912009d91f18a140c020c2",
+      "current_sha256": "94c0f2bc3ebed3a40ffdd3cb0ea4f9621ecf484784912009d91f18a140c020c2",
+      "imports": [
+        "Definitions.Def_AlgebraicGeometry_KwPthPowerKerDExpansionEngine",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_Pic0_exists_injective_addMonoidHom_torsion_dlog",
+      "path": "P2M/Sol/S_AlgebraicCurve_Pic0_exists_injective_addMonoidHom_torsion_dlog.lean",
+      "upstream_git_blob": "0b7b5fd101464df60e1171aae4798429dd4dba5b",
+      "upstream_sha256": "664edbf3c518a3297ff8c84065f151fc2ee9ac8b95afe8f4e8580d10a9f7db74",
+      "current_sha256": "664edbf3c518a3297ff8c84065f151fc2ee9ac8b95afe8f4e8580d10a9f7db74",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicGeometry_KwPthPowerKerDExpansionEngine",
+        "Definitions.Def_ModularCurve_KwNo6HspecCartierDlogCampaignFrame",
+        "Theorems.Thm_AlgebraicCurve_Place_mem_range_algebraMap_of_forall_ord_eq_zero_of_isAlgClosed",
+        "Theorems.Thm_AlgebraicCurve_KwPke_kw_pke_hsep_of_isSeparable_adjoin",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_Pic0_exists_nsmul_eq_of_charP",
+      "path": "P2M/Sol/S_AlgebraicCurve_Pic0_exists_nsmul_eq_of_charP.lean",
+      "upstream_git_blob": "bc763916beb6a0991c500b414e96f37703a55880",
+      "upstream_sha256": "b51a56115a3028800c333c2edd721e7190128e2c059cf238f06270984cb9f8d7",
+      "current_sha256": "b51a56115a3028800c333c2edd721e7190128e2c059cf238f06270984cb9f8d7",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_AlgebraicCurve_Pic0Congr",
+        "Definitions.Def_AlgebraicCurve_CurveModel",
+        "Definitions.Def_AlgebraicCurve_CurveModelConstruction",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "Theorems.Thm_AlgebraicCurve_CurveModel_isProper_smooth_places_affineCover_glued",
+        "Theorems.Thm_AlgebraicCurve_Pic0_exists_relativeGroupLaw_equiv_of_curveModel",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_locallyQuasiFinite_schemeNsmul_of_finite_torsionSubset",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_isFinite_and_flat_schemeNsmul_of_isUnit",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_field",
+        "Theorems.Thm_AlgebraicCurve_Pic0_finite_torsion_pow_char",
+        "Theorems.Thm_AlgebraicCurve_hasCanonicalDivisor_of_isCurveOver",
+        "Theorems.Thm_AlgebraicCurve_essFiniteType_of_transcendental_of_finiteDimensional",
+        "Theorems.Thm_AlgebraicCurve_IsCurveOver_exists_separating_transcendental",
+        "Theorems.Thm_AlgebraicCurve_isCurveOver_iff_exists_transcendental_finiteDimensional",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_Pic0_exists_relativeGroupLaw_equiv_of_curveModel",
+      "path": "P2M/Sol/S_AlgebraicCurve_Pic0_exists_relativeGroupLaw_equiv_of_curveModel.lean",
+      "upstream_git_blob": "b60bda14f08df52dd77f13118d9d6c1ca2eb248f",
+      "upstream_sha256": "1c8fad921a2f73b7e773a44c70ec403cd9296b9138491bb47ecfad3a7f3bfe9f",
+      "current_sha256": "1c8fad921a2f73b7e773a44c70ec403cd9296b9138491bb47ecfad3a7f3bfe9f",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "Definitions.Def_AlgebraicCurve_CurveModel",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicGroup",
+        "Theorems.Thm_AlgebraicCurve_CurveModel_exists_representsRelSubPic_abelJacobi_of_isAlgClosed",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_Pic0_finite_torsion_char",
+      "path": "P2M/Sol/S_AlgebraicCurve_Pic0_finite_torsion_char.lean",
+      "upstream_git_blob": "904749adcb44f8bb33bf2d5ff924f5dcf74f0721",
+      "upstream_sha256": "0b0a62814df4a1d486b1cc6b8f9d348fdbdb8c91ab43a3f7b83675287c1eb00e",
+      "current_sha256": "0b0a62814df4a1d486b1cc6b8f9d348fdbdb8c91ab43a3f7b83675287c1eb00e",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_AlgebraicCurve_CanonicalDivisor",
+        "Definitions.Def_AlgebraicCurve_RegularDifferentials",
+        "Definitions.Def_AlgebraicGeometry_KwCartierDlogFixednessEngine",
+        "Definitions.Def_AlgebraicGeometry_KwFrobSemilinearFixedPointFiniteEngine",
+        "Theorems.Thm_AlgebraicCurve_finite_and_finrank_regularDifferentials_eq_genus",
+        "Theorems.Thm_AlgebraicCurve_KwPke_kw_pke_hsep_of_isSeparable_adjoin",
+        "Theorems.Thm_KaehlerDifferential_D_ne_zero_of_transcendental",
+        "Theorems.Thm_AlgebraicCurve_dCoordGenerates_of_isCurveOver",
+        "Theorems.Thm_AlgebraicCurve_dlog_mem_regularDifferentials_of_forall_dvd_ord",
+        "Theorems.Thm_AlgebraicCurve_Pic0_exists_injective_addMonoidHom_torsion_dlog",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_Pic0_finite_torsion_pow_char",
+      "path": "P2M/Sol/S_AlgebraicCurve_Pic0_finite_torsion_pow_char.lean",
+      "upstream_git_blob": "1b618dc2ff7ca76227867ff85560d9c910dd963d",
+      "upstream_sha256": "2d139d94d10aee68b5c64db1be709211a9e7642dfa08a9a994976f045abf3472",
+      "current_sha256": "2d139d94d10aee68b5c64db1be709211a9e7642dfa08a9a994976f045abf3472",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_AlgebraicCurve_CanonicalDivisor",
+        "Theorems.Thm_Submodule_finite_torsionBy_pow_of_finite_torsionBy",
+        "Theorems.Thm_AlgebraicCurve_Pic0_finite_torsion_char",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_Place_exists_comap_eq_toValuationSubring",
+      "path": "P2M/Sol/S_AlgebraicCurve_Place_exists_comap_eq_toValuationSubring.lean",
+      "upstream_git_blob": "42c56e545b0563a858264c3bd0bd214d92210608",
+      "upstream_sha256": "d9763b7de38a7309f52b18bc71c97c694f01583265b3789b6730fbbeba14bc50",
+      "current_sha256": "d9763b7de38a7309f52b18bc71c97c694f01583265b3789b6730fbbeba14bc50",
+      "imports": [
+        "Mathlib.RingTheory.DedekindDomain.IntegralClosure",
+        "Mathlib.RingTheory.Ideal.GoingUp",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_Place_exists_ord_algebraMap_eq_mul_ord",
+      "path": "P2M/Sol/S_AlgebraicCurve_Place_exists_ord_algebraMap_eq_mul_ord.lean",
+      "upstream_git_blob": "18f703362688b3105955e9ac27bbfad93aa9363d",
+      "upstream_sha256": "9dc590b2b66102acdc9cde6ba53d653d9882def7fde624a0f1160cefff3d7e09",
+      "current_sha256": "9dc590b2b66102acdc9cde6ba53d653d9882def7fde624a0f1160cefff3d7e09",
+      "imports": [
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_Place_mem_range_algebraMap_of_forall_ord_eq_zero_of_isAlgClosed",
+      "path": "P2M/Sol/S_AlgebraicCurve_Place_mem_range_algebraMap_of_forall_ord_eq_zero_of_isAlgClosed.lean",
+      "upstream_git_blob": "e4c25ad449b91caaddf1a0858f029b24cb113e7b",
+      "upstream_sha256": "73530c008892cc64c6d13100aba3d9bea721cc03814d3ade9bf929a459c2a040",
+      "current_sha256": "73530c008892cc64c6d13100aba3d9bea721cc03814d3ade9bf929a459c2a040",
+      "imports": [
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Mathlib.RingTheory.Unramified.Field",
+        "Mathlib.FieldTheory.Relrank",
+        "Mathlib.FieldTheory.RatFunc.IntermediateField",
+        "Mathlib.FieldTheory.IsAlgClosed.Basic",
+        "Mathlib.FieldTheory.IntermediateField.Adjoin.Basic",
+        "Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra",
+        "Mathlib.RingTheory.Algebraic.Basic",
+        "Mathlib.RingTheory.Adjoin.Polynomial.Basic",
+        "Mathlib.FieldTheory.RatFunc.Degree",
+        "Mathlib.FieldTheory.Separable",
+        "Theorems.Thm_AlgebraicCurve_RationalFunctionField_exists_forall_ne_ofHeightOneSpectrum",
+        "Theorems.Thm_AlgebraicCurve_RationalFunctionField_ord_eq_neg_intDegree_of_forall_ne_ofHeightOneSpectrum",
+        "Theorems.Thm_AlgebraicCurve_Place_exists_comap_eq_toValuationSubring",
+        "Theorems.Thm_AlgebraicCurve_Place_exists_ord_algebraMap_eq_mul_ord",
+        "Theorems.Thm_AlgebraicCurve_finiteDimensional_adjoin_of_transcendental",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_dlog_mem_regularDifferentials_of_forall_dvd_ord",
+      "path": "P2M/Sol/S_AlgebraicCurve_dlog_mem_regularDifferentials_of_forall_dvd_ord.lean",
+      "upstream_git_blob": "01b957e25bb82dc3fc4ac5f34afe9e3b34c79225",
+      "upstream_sha256": "4d2b01dc46448842361e62fc1849143a4dc5fba42419194a767d9f180d4ba466",
+      "current_sha256": "4d2b01dc46448842361e62fc1849143a4dc5fba42419194a767d9f180d4ba466",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_AlgebraicCurve_RegularDifferentials",
+        "Definitions.Def_ModularCurve_KwNo6HspecCartierDlogCampaignFrame",
+        "Theorems.Thm_AlgebraicCurve_localUnitDerivativeRegular_of_isCurveOver",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_isCurveOver_iff_exists_transcendental_finiteDimensional",
+      "path": "P2M/Sol/S_AlgebraicCurve_isCurveOver_iff_exists_transcendental_finiteDimensional.lean",
+      "upstream_git_blob": "f634998af6ab16060e3007a2b4d5aa9a6198d840",
+      "upstream_sha256": "949929e29e6b41d4dad5502094e3092b18db3bd98230d2f40a34fa8b50513741",
+      "current_sha256": "949929e29e6b41d4dad5502094e3092b18db3bd98230d2f40a34fa8b50513741",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_ModularCurve_CanonicalDivisor",
+        "Theorems.Thm_AlgebraicCurve_IsCurveOver_exists_separating_transcendental",
+        "Theorems.Thm_AlgebraicCurve_isCurveOver_of_transcendental",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_IsFinite_ringKrullDim_stalk_quotient_eq_zero",
+      "path": "P2M/Sol/S_AlgebraicGeometry_IsFinite_ringKrullDim_stalk_quotient_eq_zero.lean",
+      "upstream_git_blob": "9be87a39a4d2b8aa008ebe3dfa14c1f48b3a22c2",
+      "upstream_sha256": "ef9c73d4e2105fbdb7691e2f62252cea12d4fdbde6eb54afb063c6538b6fd6c1",
+      "current_sha256": "b61a056727ec2cbe17648d8a8e5fe3e5f445afbef14d891ee006b56d1a2cf177",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_LocallyQuasiFinite_of_formallyUnramified_of_locallyOfFiniteType",
+      "path": "P2M/Sol/S_AlgebraicGeometry_LocallyQuasiFinite_of_formallyUnramified_of_locallyOfFiniteType.lean",
+      "upstream_git_blob": "82fcb491b0c578cb5dd7841876166cdcc01b2d32",
+      "upstream_sha256": "c7940b058b0198280dde9beadd2e3b3cffd09c71ce7d27e56b73465b711f4130",
+      "current_sha256": "c7940b058b0198280dde9beadd2e3b3cffd09c71ce7d27e56b73465b711f4130",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_isIntegral_of_isLocallyNoetherian_of_connectedSpace_of_forall_isDomain_stalk",
+      "path": "P2M/Sol/S_AlgebraicGeometry_isIntegral_of_isLocallyNoetherian_of_connectedSpace_of_forall_isDomain_stalk.lean",
+      "upstream_git_blob": "314838c33a899c6eb93b1026307ae49ab70f1dff",
+      "upstream_sha256": "80fa409d52f17d462e015f0b420f5300025eb5c27376ff1547cce3629116ec5c",
+      "current_sha256": "80fa409d52f17d462e015f0b420f5300025eb5c27376ff1547cce3629116ec5c",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_locallyQuasiFinite_of_forall_locallyQuasiFinite_schemeFibreEndo",
+      "path": "P2M/Sol/S_AlgebraicGeometry_locallyQuasiFinite_of_forall_locallyQuasiFinite_schemeFibreEndo.lean",
+      "upstream_git_blob": "1bffed82866decd453027179cdf32517eca22598",
+      "upstream_sha256": "cf4247f0328dc3c54c66eadcf8155c0196c81d5a41dff4579968a2c8e4a5a988",
+      "current_sha256": "cf4247f0328dc3c54c66eadcf8155c0196c81d5a41dff4579968a2c8e4a5a988",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_SchemeFibreEndo",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_ringKrullDim_stalk_eq_of_isFinite_endomorphism",
+      "path": "P2M/Sol/S_AlgebraicGeometry_ringKrullDim_stalk_eq_of_isFinite_endomorphism.lean",
+      "upstream_git_blob": "b81dd0430708ab09be2d0402833fe4885496730a",
+      "upstream_sha256": "82a41522f5b6d39f57b61ca843757d1b9ba0c61f6f923c480c80aa12a145c5d0",
+      "current_sha256": "82a41522f5b6d39f57b61ca843757d1b9ba0c61f6f923c480c80aa12a145c5d0",
+      "imports": [
+        "Mathlib",
+        "Theorems.Thm_Ideal_height_eq_height_under_of_finiteType_of_isIntegral",
+        "Theorems.Thm_AlgHom_injective_of_finite_of_isFractionRing",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_AbelianSchemePropertyBundle_isIntegral_of_field",
+      "path": "P2M/Sol/S_GoodReductionJacobian_AbelianSchemePropertyBundle_isIntegral_of_field.lean",
+      "upstream_git_blob": "3c6668ad2862affa6b39b8a27a3389c449273f79",
+      "upstream_sha256": "9d0b4b8955bd1c006ec2b526d37ecc73a8f7db427ae0475c260bfc43673eba4b",
+      "current_sha256": "9d0b4b8955bd1c006ec2b526d37ecc73a8f7db427ae0475c260bfc43673eba4b",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Theorems.Thm_AlgebraicGeometry_Smooth_isRegularLocalRing_stalk",
+        "Theorems.Thm_AlgebraicGeometry_isIntegral_of_isLocallyNoetherian_of_connectedSpace_of_forall_isDomain_stalk",
+        "Theorems.Thm_IsRegularLocalRing_isDomain",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_eq_one_of_sqZero_of_nsmul_eq_one_of_isUnit",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_eq_one_of_sqZero_of_nsmul_eq_one_of_isUnit.lean",
+      "upstream_git_blob": "9185496cd95509623bca77ac55987740edbb66d5",
+      "upstream_sha256": "dc94ca7dd66e2c11c3d9cfc38aed99cde431651dbdedcd240121aa0c0357d7c9",
+      "current_sha256": "dc94ca7dd66e2c11c3d9cfc38aed99cde431651dbdedcd240121aa0c0357d7c9",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_fibre_mul_comm",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_fibre_mul_comm.lean",
+      "upstream_git_blob": "657f00c745af59c79de387ebaa3ec2093ad2b1bd",
+      "upstream_sha256": "2569e369e9ed1f1f4c1cc5934c6520cacfc7cd6f17eb4b859b7655820629de46",
+      "current_sha256": "2569e369e9ed1f1f4c1cc5934c6520cacfc7cd6f17eb4b859b7655820629de46",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawFibre",
+        "Definitions.Def_AlgebraicGeometry_SchemeFibreEndo",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_fibre_schemeNsmul_eq_schemeFibreEndo",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_fibre_schemeNsmul_eq_schemeFibreEndo.lean",
+      "upstream_git_blob": "42791ab341b5ee57e7b79c1312222e2d6ac5248a",
+      "upstream_sha256": "b9a344059531e307ab0bb5398a3c57a4e8e83c1fb862507f4febbb6c544624c1",
+      "current_sha256": "b9a344059531e307ab0bb5398a3c57a4e8e83c1fb862507f4febbb6c544624c1",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawFibre",
+        "Definitions.Def_AlgebraicGeometry_SchemeFibreEndo",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_abelianSchemePropertyBundle",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_abelianSchemePropertyBundle.lean",
+      "upstream_git_blob": "101100c94ce5431a7341d720d531c07f4fecaed1",
+      "upstream_sha256": "8f5231db10e3c7e50bf282b22986432678d0f3086967cfe6ec645aca028a20b4",
+      "current_sha256": "8f5231db10e3c7e50bf282b22986432678d0f3086967cfe6ec645aca028a20b4",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "Definitions.Def_AlgebraicGeometry_SchemeFibreEndo",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawFibre",
+        "Definitions.Def_Mathlib_RingTheory_KmfloorsGlueFiberLocalizationQuotientEngine",
+        "Definitions.Def_AlgebraicGeometry_Kmf2FiberSpecTensorStalkLeg1AffineDatum",
+        "Theorems.Thm_IsLocalRing_flat_of_isScalarTower_of_flat_of_flat_quotient_maximalIdeal_map_univ",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_fibre_schemeNsmul_eq_schemeFibreEndo",
+        "Theorems.Thm_GoodReductionJacobian_abelianSchemePropertyBundle_fibreStr",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_field",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_field",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_field.lean",
+      "upstream_git_blob": "f1c21e3bd28485e0779d8ceac293c16c829fea32",
+      "upstream_sha256": "001d1c992aa3d86d5b704c9fd985c02dad554ab9cfbbbdbd9ce666bbc4be4539",
+      "current_sha256": "001d1c992aa3d86d5b704c9fd985c02dad554ab9cfbbbdbd9ce666bbc4be4539",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "Theorems.Thm_Module_Flat_of_isLocalHom_of_isRegularLocalRing_of_ringKrullDim_quotient_eq_zero",
+        "Theorems.Thm_AlgebraicGeometry_Smooth_isRegularLocalRing_stalk",
+        "Theorems.Thm_AlgebraicGeometry_IsFinite_ringKrullDim_stalk_quotient_eq_zero",
+        "Theorems.Thm_AlgebraicGeometry_ringKrullDim_stalk_eq_of_isFinite_endomorphism",
+        "Theorems.Thm_GoodReductionJacobian_AbelianSchemePropertyBundle_isIntegral_of_field",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_formallyUnramified_schemeNsmul_of_forall_sqZero",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_formallyUnramified_schemeNsmul_of_forall_sqZero.lean",
+      "upstream_git_blob": "b0bc76dc2b643f27b591f48064cbacf0e318051b",
+      "upstream_sha256": "f997f018fb22a94d035a4a5b5a7a777bab47b70f23930ce51bec51f7627b4068",
+      "current_sha256": "f997f018fb22a94d035a4a5b5a7a777bab47b70f23930ce51bec51f7627b4068",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_isFinite_and_flat_schemeNsmul_of_isUnit",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_isFinite_and_flat_schemeNsmul_of_isUnit.lean",
+      "upstream_git_blob": "ce9dd21f70fa7b407dbd3cb0e05b140cad4b87ca",
+      "upstream_sha256": "904bf4c5a09e43bea6ae2f4ad6126c42dea657655bf039d7859109dff6429609",
+      "current_sha256": "904bf4c5a09e43bea6ae2f4ad6126c42dea657655bf039d7859109dff6429609",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawFibre",
+        "Definitions.Def_AlgebraicGeometry_SchemeFibreEndo",
+        "Theorems.Thm_AlgebraicGeometry_locallyQuasiFinite_of_forall_locallyQuasiFinite_schemeFibreEndo",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_fibre_schemeNsmul_eq_schemeFibreEndo",
+        "Theorems.Thm_GoodReductionJacobian_abelianSchemePropertyBundle_fibreStr",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_fibre_mul_comm",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_locallyQuasiFinite_schemeNsmul_of_isUnit",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_abelianSchemePropertyBundle",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_locallyQuasiFinite_schemeNsmul_of_finite_torsionSubset",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_locallyQuasiFinite_schemeNsmul_of_finite_torsionSubset.lean",
+      "upstream_git_blob": "76317706eea27b2c2c92f14b238b1f627e56250f",
+      "upstream_sha256": "2b4b17d268ba5cfc2ace1613b8d1bbad5779297871ada9f0455ded47cb6294c8",
+      "current_sha256": "2b4b17d268ba5cfc2ace1613b8d1bbad5779297871ada9f0455ded47cb6294c8",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_locallyQuasiFinite_schemeNsmul_of_isUnit",
+      "path": "P2M/Sol/S_GoodReductionJacobian_RelativeGroupLaw_locallyQuasiFinite_schemeNsmul_of_isUnit.lean",
+      "upstream_git_blob": "9ebf386c7332128a1bb354093031adf12ece458f",
+      "upstream_sha256": "20878cc6e6f1702f780f27729b365fe8ee903542a329a7b2e262bbd56121401d",
+      "current_sha256": "20878cc6e6f1702f780f27729b365fe8ee903542a329a7b2e262bbd56121401d",
+      "imports": [
+        "Mathlib",
+        "Theorems.Thm_AlgebraicGeometry_LocallyQuasiFinite_of_formallyUnramified_of_locallyOfFiniteType",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_formallyUnramified_schemeNsmul_of_forall_sqZero",
+        "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_eq_one_of_sqZero_of_nsmul_eq_one_of_isUnit",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_GoodReductionJacobian_abelianSchemePropertyBundle_fibreStr",
+      "path": "P2M/Sol/S_GoodReductionJacobian_abelianSchemePropertyBundle_fibreStr.lean",
+      "upstream_git_blob": "08e30402494ec04ba6b8ff39f56675abf4b29c20",
+      "upstream_sha256": "2e0558bfb716684dd82b8aafe5632185277688afcccd58413080b1b950c7ca1f",
+      "current_sha256": "2e0558bfb716684dd82b8aafe5632185277688afcccd58413080b1b950c7ca1f",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawFibre",
+        "Definitions.Def_AlgebraicGeometry_SchemeFibreEndo",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_Ideal_height_eq_height_under_of_finiteType_of_isIntegral",
+      "path": "P2M/Sol/S_Ideal_height_eq_height_under_of_finiteType_of_isIntegral.lean",
+      "upstream_git_blob": "168f3a3a1f421e442a751c0c239b3b7bcd8d674f",
+      "upstream_sha256": "69dafd3abf8fc028742ce844fb3bb981345e2b57393fe5fffc97fa759fceb07e",
+      "current_sha256": "69dafd3abf8fc028742ce844fb3bb981345e2b57393fe5fffc97fa759fceb07e",
+      "imports": [
+        "Mathlib",
+        "Theorems.Thm_Ideal_height_eq_height_under_of_isIntegrallyClosed_of_isIntegral",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_Ideal_height_eq_height_under_of_isIntegrallyClosed_of_isIntegral",
+      "path": "P2M/Sol/S_Ideal_height_eq_height_under_of_isIntegrallyClosed_of_isIntegral.lean",
+      "upstream_git_blob": "116906c573388d2a5c8074ab6418f9922aed3bd7",
+      "upstream_sha256": "11174e4a91c82de9f1e6785c67b8547fd141c5ea4b728247e5aff19979c88ce6",
+      "current_sha256": "11174e4a91c82de9f1e6785c67b8547fd141c5ea4b728247e5aff19979c88ce6",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_IsLocalRing_flat_of_isScalarTower_of_flat_of_flat_quotient_maximalIdeal_map_univ",
+      "path": "P2M/Sol/S_IsLocalRing_flat_of_isScalarTower_of_flat_of_flat_quotient_maximalIdeal_map_univ.lean",
+      "upstream_git_blob": "796f9d81f4fa22ccd22f65754398f54268eff993",
+      "upstream_sha256": "8ce39f988131a4b74a918f362a400e42d251c044cea9719b644fd086e183079a",
+      "current_sha256": "8ce39f988131a4b74a918f362a400e42d251c044cea9719b644fd086e183079a",
+      "imports": [
+        "Mathlib",
+        "Theorems.Thm_Module_flat_of_isLocalHom_of_isNoetherianRing_of_finite_of_tor_one_residueField_isZero_univ",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_Module_flat_of_isLocalHom_of_isNoetherianRing_of_finite_of_tor_one_residueField_isZero_univ",
+      "path": "P2M/Sol/S_Module_flat_of_isLocalHom_of_isNoetherianRing_of_finite_of_tor_one_residueField_isZero_univ.lean",
+      "upstream_git_blob": "77d6f9296278c062aa9c8841f545af88b97aaf76",
+      "upstream_sha256": "ec882a9149e1beadeab53e606c25f432f19347c0ebe8c4e2e9c4cefe14375fc7",
+      "current_sha256": "ec882a9149e1beadeab53e606c25f432f19347c0ebe8c4e2e9c4cefe14375fc7",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_Submodule_finite_torsionBy_pow_of_finite_torsionBy",
+      "path": "P2M/Sol/S_Submodule_finite_torsionBy_pow_of_finite_torsionBy.lean",
+      "upstream_git_blob": "c88cc7a810132049c5beeff03d7cd27e482e5399",
+      "upstream_sha256": "6235f8b07a84be59a4b9e44f69c04369309dfd0a6541d0d58a9f70bf2ff9bace",
+      "current_sha256": "6235f8b07a84be59a4b9e44f69c04369309dfd0a6541d0d58a9f70bf2ff9bace",
+      "imports": [
+        "Mathlib",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgHom_injective_of_finite_of_isFractionRing",
+      "path": "Theorems/Thm_AlgHom_injective_of_finite_of_isFractionRing.lean",
+      "upstream_git_blob": "76cc1e2141363af386a33f10238a9c3bf3ff1b88",
+      "upstream_sha256": "0ff0929aa3fef08cdedd560468d64ae52a6a3eb3bf93f7171836a201236d4b4c",
+      "current_sha256": "0ff0929aa3fef08cdedd560468d64ae52a6a3eb3bf93f7171836a201236d4b4c",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgHom_injective_of_finite_of_isFractionRing"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Algebra_trdeg_quotient_lt",
+      "path": "Theorems/Thm_Algebra_trdeg_quotient_lt.lean",
+      "upstream_git_blob": "2192e2ca4846885d222817081fbaf6e63a8dd7a2",
+      "upstream_sha256": "603030be7474f20651da4e0f0884f3b87881eb5686aca89911bd29ea905eb921",
+      "current_sha256": "603030be7474f20651da4e0f0884f3b87881eb5686aca89911bd29ea905eb921",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_Algebra_trdeg_quotient_lt"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_KwPke_kw_pke_hsep_of_isSeparable_adjoin",
+      "path": "Theorems/Thm_AlgebraicCurve_KwPke_kw_pke_hsep_of_isSeparable_adjoin.lean",
+      "upstream_git_blob": "6319d4f60e18e7179681577892148ac3d0b0afef",
+      "upstream_sha256": "4ece25d9e5618e0dd31536a1b1a7b155f67110383023d2980e2b8fede5b66769",
+      "current_sha256": "4ece25d9e5618e0dd31536a1b1a7b155f67110383023d2980e2b8fede5b66769",
+      "imports": [
+        "Definitions.Def_AlgebraicGeometry_KwPthPowerKerDExpansionEngine",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_KwPke_kw_pke_hsep_of_isSeparable_adjoin"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_Pic0_exists_injective_addMonoidHom_torsion_dlog",
+      "path": "Theorems/Thm_AlgebraicCurve_Pic0_exists_injective_addMonoidHom_torsion_dlog.lean",
+      "upstream_git_blob": "0bc57dac7ca71724da77e1e4b276927345b9ee1b",
+      "upstream_sha256": "279b890319a0b0dba8fab483e360e1938df868d19537ac6c86ed207c307d3257",
+      "current_sha256": "279b890319a0b0dba8fab483e360e1938df868d19537ac6c86ed207c307d3257",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_Pic0_exists_injective_addMonoidHom_torsion_dlog"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_Pic0_exists_nsmul_eq_of_charP",
+      "path": "Theorems/Thm_AlgebraicCurve_Pic0_exists_nsmul_eq_of_charP.lean",
+      "upstream_git_blob": "ef3cf2b5189c6173baffd4e469bcb529f41ae7a3",
+      "upstream_sha256": "f5103b5f839053f4e1e89fcd088a2ad6f3b374f9b2856e393bfc0d116cf3f3ac",
+      "current_sha256": "f5103b5f839053f4e1e89fcd088a2ad6f3b374f9b2856e393bfc0d116cf3f3ac",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_Pic0_exists_nsmul_eq_of_charP"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_Pic0_exists_relativeGroupLaw_equiv_of_curveModel",
+      "path": "Theorems/Thm_AlgebraicCurve_Pic0_exists_relativeGroupLaw_equiv_of_curveModel.lean",
+      "upstream_git_blob": "5163004ad00e7cc1130a4efbfdb1dd9e82ed9da9",
+      "upstream_sha256": "60345285f69613180a4e5a5b69fccf35801edca5625a581a689117cd008ea503",
+      "current_sha256": "60345285f69613180a4e5a5b69fccf35801edca5625a581a689117cd008ea503",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "Definitions.Def_AlgebraicCurve_CurveModel",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_Pic0_exists_relativeGroupLaw_equiv_of_curveModel"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_Pic0_finite_torsion_char",
+      "path": "Theorems/Thm_AlgebraicCurve_Pic0_finite_torsion_char.lean",
+      "upstream_git_blob": "2f882b4e9669f58ab7f2bb01e83cb17bb573c2d2",
+      "upstream_sha256": "5bd3ad03d528ac54ba7d5e4ea0e07e4a4dcf420e9fe65b9ab85ba5be6628c66d",
+      "current_sha256": "5bd3ad03d528ac54ba7d5e4ea0e07e4a4dcf420e9fe65b9ab85ba5be6628c66d",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_AlgebraicCurve_CanonicalDivisor",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_Pic0_finite_torsion_char"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_Pic0_finite_torsion_pow_char",
+      "path": "Theorems/Thm_AlgebraicCurve_Pic0_finite_torsion_pow_char.lean",
+      "upstream_git_blob": "4c7476692d9145f34bedd608bac5d6a1fb9d2a40",
+      "upstream_sha256": "14e89079d94b33a5c020d538e14a422f224e820aa3442ec7540f0c2feb1a7729",
+      "current_sha256": "14e89079d94b33a5c020d538e14a422f224e820aa3442ec7540f0c2feb1a7729",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_AlgebraicCurve_CanonicalDivisor",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_Pic0_finite_torsion_pow_char"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_Place_exists_comap_eq_toValuationSubring",
+      "path": "Theorems/Thm_AlgebraicCurve_Place_exists_comap_eq_toValuationSubring.lean",
+      "upstream_git_blob": "94f41868fac6019e772bc51a7dfde07096352300",
+      "upstream_sha256": "9abfdcce906cadaef719418c099e7759e462bc181f1b94eb37b1475e613bceb4",
+      "current_sha256": "9abfdcce906cadaef719418c099e7759e462bc181f1b94eb37b1475e613bceb4",
+      "imports": [
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_Place_exists_comap_eq_toValuationSubring"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_Place_exists_ord_algebraMap_eq_mul_ord",
+      "path": "Theorems/Thm_AlgebraicCurve_Place_exists_ord_algebraMap_eq_mul_ord.lean",
+      "upstream_git_blob": "b48ea15468ce9572d2b47af1e14698e48319807b",
+      "upstream_sha256": "722792e5e4da4062b57380646af14b9974fcfbbfe6627e2e0ef49a1dc30bdda6",
+      "current_sha256": "722792e5e4da4062b57380646af14b9974fcfbbfe6627e2e0ef49a1dc30bdda6",
+      "imports": [
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_Place_exists_ord_algebraMap_eq_mul_ord"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_Place_mem_range_algebraMap_of_forall_ord_eq_zero_of_isAlgClosed",
+      "path": "Theorems/Thm_AlgebraicCurve_Place_mem_range_algebraMap_of_forall_ord_eq_zero_of_isAlgClosed.lean",
+      "upstream_git_blob": "f5fc85139b2dea3c9cafbb53337ba4dad91d8749",
+      "upstream_sha256": "fbff2bd8ff2b7963ab81ec848513a5662e93569714599b24601f2e4dba86dcc2",
+      "current_sha256": "fbff2bd8ff2b7963ab81ec848513a5662e93569714599b24601f2e4dba86dcc2",
+      "imports": [
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Mathlib.FieldTheory.IntermediateField.Adjoin.Basic",
+        "Mathlib.RingTheory.Algebraic.Basic",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_Place_mem_range_algebraMap_of_forall_ord_eq_zero_of_isAlgClosed"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_dlog_mem_regularDifferentials_of_forall_dvd_ord",
+      "path": "Theorems/Thm_AlgebraicCurve_dlog_mem_regularDifferentials_of_forall_dvd_ord.lean",
+      "upstream_git_blob": "ec020dada834d7c93d6fb4b0df85e26f9005b49f",
+      "upstream_sha256": "546d9c128deffa1d1827f0ce633f3e6bde6548da82201fbf14e1acc2802e0292",
+      "current_sha256": "546d9c128deffa1d1827f0ce633f3e6bde6548da82201fbf14e1acc2802e0292",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_AlgebraicCurve_RegularDifferentials",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_dlog_mem_regularDifferentials_of_forall_dvd_ord"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_isCurveOver_iff_exists_transcendental_finiteDimensional",
+      "path": "Theorems/Thm_AlgebraicCurve_isCurveOver_iff_exists_transcendental_finiteDimensional.lean",
+      "upstream_git_blob": "966251a95718c0ca8abacfd3e98e577fcadd7d07",
+      "upstream_sha256": "4d6ca291ee6f38c230dc6ea1d5be5268b8319a1b2361ed04962a8e7199646f05",
+      "current_sha256": "4d6ca291ee6f38c230dc6ea1d5be5268b8319a1b2361ed04962a8e7199646f05",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_ModularCurve_CanonicalDivisor",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicCurve_isCurveOver_iff_exists_transcendental_finiteDimensional"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_IsFinite_ringKrullDim_stalk_quotient_eq_zero",
+      "path": "Theorems/Thm_AlgebraicGeometry_IsFinite_ringKrullDim_stalk_quotient_eq_zero.lean",
+      "upstream_git_blob": "9fd9769399fa188fbf68a58f7d4786ff5666d173",
+      "upstream_sha256": "9a0cda1717e5b5be5c5855352fae9c86815e9f728a3b180e6cefd5919d83eea9",
+      "current_sha256": "9a0cda1717e5b5be5c5855352fae9c86815e9f728a3b180e6cefd5919d83eea9",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_IsFinite_ringKrullDim_stalk_quotient_eq_zero"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_LocallyQuasiFinite_of_formallyUnramified_of_locallyOfFiniteType",
+      "path": "Theorems/Thm_AlgebraicGeometry_LocallyQuasiFinite_of_formallyUnramified_of_locallyOfFiniteType.lean",
+      "upstream_git_blob": "edc08b446565a1b1adbc23eb9146d1419efe4240",
+      "upstream_sha256": "c87563cc99b7bf3d326ea49950eaf80e966bfaceaf6419d66a312bad8e8d3a57",
+      "current_sha256": "c87563cc99b7bf3d326ea49950eaf80e966bfaceaf6419d66a312bad8e8d3a57",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_LocallyQuasiFinite_of_formallyUnramified_of_locallyOfFiniteType"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_isIntegral_of_isLocallyNoetherian_of_connectedSpace_of_forall_isDomain_stalk",
+      "path": "Theorems/Thm_AlgebraicGeometry_isIntegral_of_isLocallyNoetherian_of_connectedSpace_of_forall_isDomain_stalk.lean",
+      "upstream_git_blob": "54fd12bb33f7de3f8aa0131434c1a8acedc5719a",
+      "upstream_sha256": "adfadcf69e8de549022608e5ed3dc6f8a1ff29437dd5b7c81e62c150233ca78f",
+      "current_sha256": "adfadcf69e8de549022608e5ed3dc6f8a1ff29437dd5b7c81e62c150233ca78f",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_isIntegral_of_isLocallyNoetherian_of_connectedSpace_of_forall_isDomain_stalk"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_locallyQuasiFinite_of_forall_locallyQuasiFinite_schemeFibreEndo",
+      "path": "Theorems/Thm_AlgebraicGeometry_locallyQuasiFinite_of_forall_locallyQuasiFinite_schemeFibreEndo.lean",
+      "upstream_git_blob": "913640134bb930e562fd09c1c9befbac8252f59d",
+      "upstream_sha256": "ea600030a4977572bc665abd7c54ae7737828c7779fff5f5686f44fdca42063c",
+      "current_sha256": "ea600030a4977572bc665abd7c54ae7737828c7779fff5f5686f44fdca42063c",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_SchemeFibreEndo",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_locallyQuasiFinite_of_forall_locallyQuasiFinite_schemeFibreEndo"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_ringKrullDim_stalk_eq_of_isFinite_endomorphism",
+      "path": "Theorems/Thm_AlgebraicGeometry_ringKrullDim_stalk_eq_of_isFinite_endomorphism.lean",
+      "upstream_git_blob": "2dc8737935fffc4cd6a15f58e5401ff5fdc63776",
+      "upstream_sha256": "8d1e9abe8c763f48eb09a340f9bedb259ed4eab1d82755cdadd3f755584afcc2",
+      "current_sha256": "8d1e9abe8c763f48eb09a340f9bedb259ed4eab1d82755cdadd3f755584afcc2",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_ringKrullDim_stalk_eq_of_isFinite_endomorphism"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_AbelianSchemePropertyBundle_isIntegral_of_field",
+      "path": "Theorems/Thm_GoodReductionJacobian_AbelianSchemePropertyBundle_isIntegral_of_field.lean",
+      "upstream_git_blob": "c76d68dba44c103c13e311ddbd047e01844f1c74",
+      "upstream_sha256": "65d7313900477c57f582681702ae9d0d179d54e98a0ac4f92cee060e081f7c47",
+      "current_sha256": "65d7313900477c57f582681702ae9d0d179d54e98a0ac4f92cee060e081f7c47",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_AbelianSchemePropertyBundle_isIntegral_of_field"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_eq_one_of_sqZero_of_nsmul_eq_one_of_isUnit",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_eq_one_of_sqZero_of_nsmul_eq_one_of_isUnit.lean",
+      "upstream_git_blob": "d9d7c1194821dc87625fcdcf3bebeb004c5196ab",
+      "upstream_sha256": "fdf7b5a25c79dc0757c4b85b2e9bf928df9a5ad8e7e298e2ea1bb4c200ce3f10",
+      "current_sha256": "fdf7b5a25c79dc0757c4b85b2e9bf928df9a5ad8e7e298e2ea1bb4c200ce3f10",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_eq_one_of_sqZero_of_nsmul_eq_one_of_isUnit"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_fibre_mul_comm",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_fibre_mul_comm.lean",
+      "upstream_git_blob": "3aa5d90e6adeec67c37a8ee97cd1c7d5829d19c1",
+      "upstream_sha256": "eb7b7bdd53bde19223d29e2f68856f4ca5df33fd68e0331c7b1194656c15113d",
+      "current_sha256": "eb7b7bdd53bde19223d29e2f68856f4ca5df33fd68e0331c7b1194656c15113d",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawFibre",
+        "Definitions.Def_AlgebraicGeometry_SchemeFibreEndo",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_fibre_mul_comm"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_fibre_schemeNsmul_eq_schemeFibreEndo",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_fibre_schemeNsmul_eq_schemeFibreEndo.lean",
+      "upstream_git_blob": "f79fd17e18a396035ccacd0eb4ec118bb843e9b4",
+      "upstream_sha256": "849930b95754c2e8be44d41645879a95a91a408a691b0e0bfee328166aa0c41a",
+      "current_sha256": "849930b95754c2e8be44d41645879a95a91a408a691b0e0bfee328166aa0c41a",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawFibre",
+        "Definitions.Def_AlgebraicGeometry_SchemeFibreEndo",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_fibre_schemeNsmul_eq_schemeFibreEndo"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_abelianSchemePropertyBundle",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_abelianSchemePropertyBundle.lean",
+      "upstream_git_blob": "03c8048b66879481b4861e033cb84584af3c5283",
+      "upstream_sha256": "dec1bde99170858e9f749bd54f91a1531d73e82619129b11a8ed118dc49c8e93",
+      "current_sha256": "dec1bde99170858e9f749bd54f91a1531d73e82619129b11a8ed118dc49c8e93",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_abelianSchemePropertyBundle"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_field",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_field.lean",
+      "upstream_git_blob": "44faea3226a0e10d3cbdf83a6fccfb52018214a8",
+      "upstream_sha256": "e70b1c89181bef7ce7198d01779c3e41b2423a280357600fb32410b2ec968c2d",
+      "current_sha256": "e70b1c89181bef7ce7198d01779c3e41b2423a280357600fb32410b2ec968c2d",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_flat_schemeNsmul_of_isFinite_of_field"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_formallyUnramified_schemeNsmul_of_forall_sqZero",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_formallyUnramified_schemeNsmul_of_forall_sqZero.lean",
+      "upstream_git_blob": "bdeec281ea4dd8c50c8ddc43f85249d9ea6b5d26",
+      "upstream_sha256": "d6a66431011c22be142037c1a83514ed5505af86f7a29a0acf23bbda582c50b8",
+      "current_sha256": "d6a66431011c22be142037c1a83514ed5505af86f7a29a0acf23bbda582c50b8",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_formallyUnramified_schemeNsmul_of_forall_sqZero"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_isFinite_and_flat_schemeNsmul_of_isUnit",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_isFinite_and_flat_schemeNsmul_of_isUnit.lean",
+      "upstream_git_blob": "d4b007bb61745c224789a7dae4f20cf6d617d998",
+      "upstream_sha256": "8a32f8e78e6158defd598ff35d4d782770a14804ca72b80e94d5315ca72163bb",
+      "current_sha256": "8a32f8e78e6158defd598ff35d4d782770a14804ca72b80e94d5315ca72163bb",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_isFinite_and_flat_schemeNsmul_of_isUnit"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_locallyQuasiFinite_schemeNsmul_of_finite_torsionSubset",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_locallyQuasiFinite_schemeNsmul_of_finite_torsionSubset.lean",
+      "upstream_git_blob": "f55c80e9bdb1e15159595df3a71849bae7caf629",
+      "upstream_sha256": "409abe86e8c6ced18afb380d8fce7cc5ad3d692b3af19f00fd0e6366c2212110",
+      "current_sha256": "409abe86e8c6ced18afb380d8fce7cc5ad3d692b3af19f00fd0e6366c2212110",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_locallyQuasiFinite_schemeNsmul_of_finite_torsionSubset"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_RelativeGroupLaw_locallyQuasiFinite_schemeNsmul_of_isUnit",
+      "path": "Theorems/Thm_GoodReductionJacobian_RelativeGroupLaw_locallyQuasiFinite_schemeNsmul_of_isUnit.lean",
+      "upstream_git_blob": "233af52b77469adadc87da6dd4e04bc45444decb",
+      "upstream_sha256": "8d6935e867b7eb81614b678af7bc4111712997d37b43cad26b4cad8283ede48c",
+      "current_sha256": "8d6935e867b7eb81614b678af7bc4111712997d37b43cad26b4cad8283ede48c",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_RelativeGroupLaw_locallyQuasiFinite_schemeNsmul_of_isUnit"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_GoodReductionJacobian_abelianSchemePropertyBundle_fibreStr",
+      "path": "Theorems/Thm_GoodReductionJacobian_abelianSchemePropertyBundle_fibreStr.lean",
+      "upstream_git_blob": "75e2ebbbb119ed2fdbfd8cec8fea03e80cc48310",
+      "upstream_sha256": "adfe8ceb8ae77ac629c8c76450f82f917315f0a7929345ad62bbb95093863566",
+      "current_sha256": "adfe8ceb8ae77ac629c8c76450f82f917315f0a7929345ad62bbb95093863566",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawFibre",
+        "Definitions.Def_AlgebraicGeometry_SchemeFibreEndo",
+        "P2M.Util",
+        "P2M.Sol.S_GoodReductionJacobian_abelianSchemePropertyBundle_fibreStr"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Ideal_height_eq_height_under_of_finiteType_of_isIntegral",
+      "path": "Theorems/Thm_Ideal_height_eq_height_under_of_finiteType_of_isIntegral.lean",
+      "upstream_git_blob": "323359d1eca09b46bae1ee3b2fcdef4d0e522e4b",
+      "upstream_sha256": "44ea49fd82d7f7ef54070ebf844df4a782cde9f82ec363c220dbddad241be019",
+      "current_sha256": "44ea49fd82d7f7ef54070ebf844df4a782cde9f82ec363c220dbddad241be019",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_Ideal_height_eq_height_under_of_finiteType_of_isIntegral"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Ideal_height_eq_height_under_of_isIntegrallyClosed_of_isIntegral",
+      "path": "Theorems/Thm_Ideal_height_eq_height_under_of_isIntegrallyClosed_of_isIntegral.lean",
+      "upstream_git_blob": "b3e89f6df93f32f7b1dc716c9944305b266e08db",
+      "upstream_sha256": "aa88325669b12aecf1283538bc0b56413e67478529551a37bac2e4f63f08d593",
+      "current_sha256": "aa88325669b12aecf1283538bc0b56413e67478529551a37bac2e4f63f08d593",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_Ideal_height_eq_height_under_of_isIntegrallyClosed_of_isIntegral"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_IsLocalRing_flat_of_isScalarTower_of_flat_of_flat_quotient_maximalIdeal_map_univ",
+      "path": "Theorems/Thm_IsLocalRing_flat_of_isScalarTower_of_flat_of_flat_quotient_maximalIdeal_map_univ.lean",
+      "upstream_git_blob": "2ff14f1ea4a19b1f43087faaabccff26d8b030d3",
+      "upstream_sha256": "069236448d413acd9cb8b780f99e1337ba24d0a13a7dd99ab744d42ef3f179c8",
+      "current_sha256": "069236448d413acd9cb8b780f99e1337ba24d0a13a7dd99ab744d42ef3f179c8",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_IsLocalRing_flat_of_isScalarTower_of_flat_of_flat_quotient_maximalIdeal_map_univ"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Module_flat_of_isLocalHom_of_isNoetherianRing_of_finite_of_tor_one_residueField_isZero_univ",
+      "path": "Theorems/Thm_Module_flat_of_isLocalHom_of_isNoetherianRing_of_finite_of_tor_one_residueField_isZero_univ.lean",
+      "upstream_git_blob": "ba2b51a6e0099e84db8469b31ab88cafdf6df757",
+      "upstream_sha256": "b644e8c04350c88af9fbb1994fdf0b1afe0b00607b016adca8f17237d0038633",
+      "current_sha256": "b644e8c04350c88af9fbb1994fdf0b1afe0b00607b016adca8f17237d0038633",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_Module_flat_of_isLocalHom_of_isNoetherianRing_of_finite_of_tor_one_residueField_isZero_univ"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Submodule_finite_torsionBy_pow_of_finite_torsionBy",
+      "path": "Theorems/Thm_Submodule_finite_torsionBy_pow_of_finite_torsionBy.lean",
+      "upstream_git_blob": "27d8926e871beda0d6840a0c46d2bbe1497e1093",
+      "upstream_sha256": "00e3599821f726664f8790f100634e8fb627810c7f5f0784dfd41e047bbe1eb0",
+      "current_sha256": "00e3599821f726664f8790f100634e8fb627810c7f5f0784dfd41e047bbe1eb0",
+      "imports": [
+        "Mathlib",
+        "P2M.Util",
+        "P2M.Sol.S_Submodule_finite_torsionBy_pow_of_finite_torsionBy"
+      ]
+    }
+  ],
+  "selection_reason": "For the genus-two curve scope, use characteristic-p division in the actual curve Pic0. This avoids the general abelian-variety degree/Euler-characteristic dependency closure.",
+  "unchanged_checkpoint21_sources": 1527,
+  "unchanged_upstream_source_count": 72,
+  "ported_upstream_source_count": 1,
+  "compatibility_ports": [
+    {
+      "path": "P2M/Sol/S_AlgebraicGeometry_IsFinite_ringKrullDim_stalk_quotient_eq_zero.lean",
+      "upstream_sha256": "ef9c73d4e2105fbdb7691e2f62252cea12d4fdbde6eb54afb063c6538b6fd6c1",
+      "ported_sha256": "b61a056727ec2cbe17648d8a8e5fe3e5f445afbef14d891ee006b56d1a2cf177",
+      "reason": "Mathlib changed List.TFAE.out to one-based indices. Preserve the implication from IsLocalHom to maximal-ideal image inclusion by selecting statements 1 and 3. The theorem statement and all other proof steps are unchanged. Direct compilation of the original source failed with TFAE indices start at 1.",
+      "replacements": [
+        {
+          "old": "(local_hom_TFAE (algebraMap R S)).out 0 2 rfl rfl",
+          "new": "(local_hom_TFAE (algebraMap R S)).out 1 3 rfl rfl"
+        }
+      ]
+    }
+  ],
+  "deferred_general_abelian_route": {
+    "modules": 333,
+    "overlap_with_selected": 18,
+    "status": "Not part of the selected project import closure. Sources and partial compiled artifacts retained in scratch."
+  }
+}

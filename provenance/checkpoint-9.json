@@ -1,0 +1,171 @@
+{
+  "checkpoint": 9,
+  "source_archive": "supersingular-mini-checkpoint-9.zip",
+  "archive_sha256": "e02bcf22aa805cf709f26322b68bd15d4920464e3f7857bbf48aafd546d35e3e",
+  "unchanged_proof_modules": [
+    {
+      "path": "SupersingularCurves/Differentials/Cartier.lean",
+      "sha256": "7dc9251228d1aa21e253ce327981215bfcf81f53f22275d3028f2b1a2569d0bd"
+    },
+    {
+      "path": "SupersingularCurves/Differentials/Hyperelliptic.lean",
+      "sha256": "a3c3526496f3b62660fd1b6fe366a7abd06e3ebc11270ef97c27eb0b4c0c1048"
+    },
+    {
+      "path": "SupersingularCurves/Differentials/Monomials.lean",
+      "sha256": "5b8e32bb14e0e2d2ba2fc5d99ace0a721cf8b00a2d8b2aea09fb665dc12181e1"
+    },
+    {
+      "path": "SupersingularCurves/Differentials/Polynomial.lean",
+      "sha256": "a6db82ed0855e87ef8e72c3d54dfa524b13a617424319e19f7182abdf1567cfa"
+    },
+    {
+      "path": "SupersingularCurves/Differentials/Regularity.lean",
+      "sha256": "c05ce65e50d61f3706a75ecca12e06a6402995e19447928fe7a45ab62a4b7096"
+    },
+    {
+      "path": "SupersingularCurves/Elliptic/Legendre.lean",
+      "sha256": "2b1db323a5fd886a1f6af3a8d63690949f57e9f8e97b2e392a1505e6b6a28385"
+    },
+    {
+      "path": "SupersingularCurves/Elliptic/Supersingular.lean",
+      "sha256": "50bcc136fa032db5e3d05bc2a5f4c38f022800f1b000e6bdc4ebe2de1fead4aa"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/AbelianVariety.lean",
+      "sha256": "54a2f3ad927c3d75dac0dd946f9aad00590247cb9f405b00196f57038d473dcb"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/CurveModels.lean",
+      "sha256": "23c31f3ceb307e1f77c9cabccc1956dc3fd850e6597a7506a91fc501305d15b3"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/DifferentialTransport.lean",
+      "sha256": "bd7017e3914af52fe3811659df1e1f530553a7c82932b4918b0dfc5dfed127ef"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/GlobalDifferentials.lean",
+      "sha256": "b0087a3ad3d302758c1a09ee78203519c388f44c2183434daf6a418d7507cc11"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/Jacobian.lean",
+      "sha256": "996f4c6a5095d77178dcfefd13e860ea95bb76e009da1d4ae012b4b086fd83e5"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/JacobianConstruction.lean",
+      "sha256": "d8eda9b863b6a23bed94bca9c170855ca77a43edf8adffdb2bcc328e0f788ab3"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/JacobianPoints.lean",
+      "sha256": "f60c2ae14e39f73db7d1a28ca09f6c7f06c19d0ab14e22c27db377fb89c658b1"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/Superspecial.lean",
+      "sha256": "8764cb616552228025014a6f1942c32d7e05677532884b5677157ac4588607ca"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/FunctionField.lean",
+      "sha256": "13fc5f3cb26123a6b71c171e4afc94c5f4bb50e116a20c85dff12cc777d05d14"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/Genus.lean",
+      "sha256": "1b2ddf4b32fac316b019d502c66b35ab0b0e4acf139f128e50c6ee7abb96e559"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/Ramification.lean",
+      "sha256": "3b060dbea1e070d95d12b02b393214251706b488b7c1f0c738742bd6b0a7064b"
+    },
+    {
+      "path": "SupersingularCurves/IKO/CartierCompatibility.lean",
+      "sha256": "7aa81f25c8c0770b0bcb651f9339a877c91d01aa6ff383320493f245da987bff"
+    },
+    {
+      "path": "SupersingularCurves/IKO/CartierFamilies.lean",
+      "sha256": "601ebffb5725d6adf0bf127505885189575420ee229fc3714a8b18c63ad3b4d2"
+    },
+    {
+      "path": "SupersingularCurves/IKO/CoefficientMatrix.lean",
+      "sha256": "713a7ed2770318a23f337c443919e76ba50fee7a65f3d662b1f126e0f38fe023"
+    },
+    {
+      "path": "SupersingularCurves/IKO/FixedVectors.lean",
+      "sha256": "c46a6f72791856162bddf5cce8e52269a8977a259fe9b1646d5256c0183035ea"
+    },
+    {
+      "path": "SupersingularCurves/IKO/GlobalForms.lean",
+      "sha256": "34cfd51f93446afcabfb1236e533ee9d12a0838d699ee7d02d4e4bb5b6af3f1c"
+    },
+    {
+      "path": "SupersingularCurves/IKO/Jacobians.lean",
+      "sha256": "16716ad591c0b154caab830ce011fef7370aff1e9c6909467c588193be30f4d8"
+    },
+    {
+      "path": "SupersingularCurves/IKO/MatrixCriteria.lean",
+      "sha256": "e24fd2c81530c11577c531c380be611b6e4dafb3841e930028894bcb7740487b"
+    },
+    {
+      "path": "SupersingularCurves/IKO/Polynomials.lean",
+      "sha256": "b9aa07beee00f7abda895193242a177e1a112e17f905a7936f374726832b77c1"
+    },
+    {
+      "path": "SupersingularCurves/IKO/QuadraticCoefficients.lean",
+      "sha256": "cd493240e4087718eb37457cf4dfc3ac1c7529db3d0e3cc5c625765a7c54574b"
+    },
+    {
+      "path": "SupersingularCurves/IKO/RegularBasis.lean",
+      "sha256": "439f74deddf9642ca082038552a807668cf8d3ccaa9ac5b1b33f275146a67758"
+    },
+    {
+      "path": "SupersingularCurves/IKO/RegularCoordinates.lean",
+      "sha256": "d27eb874b83564e8e8c271341f2904b08ea651760fb9ab25d730c64c152e8df7"
+    },
+    {
+      "path": "SupersingularCurves/IKO/RegularFamilies.lean",
+      "sha256": "fb6bb5045eb6cd8010e95a1fe0280aa3c88915124fbf8cae2b79fad803e70796"
+    },
+    {
+      "path": "SupersingularCurves/IKO/Semilinear.lean",
+      "sha256": "690d96258fe354dfa21f83b3462bd6e56c8d1b7b1685355df0c01e8620357da7"
+    },
+    {
+      "path": "SupersingularCurves/IKO/TorsionCriteria.lean",
+      "sha256": "34a46685d3502459a384c126f9d946619dcdb327ad416cfb123115bae9d12905"
+    },
+    {
+      "path": "SupersingularCurves/IKO/UniformMatrices.lean",
+      "sha256": "d1b94a62aa6322cf2622badb8733d1a9026ac5f552788e14ceda15b6bd0638ee"
+    },
+    {
+      "path": "SupersingularCurves/NewtonPolygon/Basic.lean",
+      "sha256": "66d9be604923b30d75c8a586e28d214654cd4866de66c26d9b4da6068972d791"
+    },
+    {
+      "path": "SupersingularCurves/NewtonPolygon/Examples.lean",
+      "sha256": "117af11f2921a5f92f13b3aa4352b630a0771b5763ea3e8d0e07bd9c393da770"
+    },
+    {
+      "path": "SupersingularCurves/NewtonPolygon/HalfSlope.lean",
+      "sha256": "c80c6cac5b940a47b738bc3540aea473d8b22ec03653a7737ba75f7b20669a0e"
+    },
+    {
+      "path": "SupersingularCurves/NewtonPolygon/Isocrystal.lean",
+      "sha256": "9801817d2821a3b4dae033a05d97c5f8e2ed61628f05179d1e36577b8963094e"
+    },
+    {
+      "path": "SupersingularCurves/NewtonPolygon/WittValuation.lean",
+      "sha256": "3eaaa4ec31982036a9635ab249f5fddbd2f01f1aba8d78757b212ab2aaca489f"
+    },
+    {
+      "path": "SupersingularCurves/PicardTorsion/Cartier.lean",
+      "sha256": "de067a7c16ba0351b6d5cd86cc67da5bdde435af655ec4eb3df7fc5476ef6026"
+    },
+    {
+      "path": "SupersingularCurves/PicardTorsion/Equivalence.lean",
+      "sha256": "4f5faf2401f8bd1422c1d8c6d0da00a810df5af50095b013d6ca2a6455d1e8ce"
+    },
+    {
+      "path": "SupersingularCurves/PicardTorsion/Logarithm.lean",
+      "sha256": "56bfb264d4266fdff8d79cd98de02c710c094ae7ceef72c03cb92794ea6cb000"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+import SupersingularCurves.Geometry.SmoothFiniteQuotientDimension
+
+#print axioms SupersingularCurves.Geometry.FiniteQuotientGeometry.topologicalKrullDim_eq_of_finite_surjective
+#print axioms SupersingularCurves.Geometry.FiniteQuotientGeometry.smoothOfRelativeDimension_of_finite_surjective

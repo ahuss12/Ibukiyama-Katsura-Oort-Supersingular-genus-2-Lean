@@ -1,0 +1,46 @@
+{
+  "checkpoint": 23,
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/CartierVerschiebungRank.lean",
+      "sha256": "05f6a31f1f52f61d87ae28b64100cd715f0bbc5224e3b35b087f5e43583f5263"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/VerschiebungNaturality.lean",
+      "sha256": "bab859b7f71516739d256b2a977f994bc21832014981384cdb4019b2569085d3"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/FifthPowerClassification.lean",
+      "sha256": "3069c1f715db6700eaff2b8e0500e4ce12ce5683c1230634a02be97aad62529a"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/GenusTwoOrdinary.lean",
+      "sha256": "2b09c70c8399ad9ed2463ed1692fd5d6ffb89c2d9f6c563e04eb1e9abc8cefee"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/GenusTwoOrdinaryVerschiebung.lean",
+      "sha256": "1fb3e7d970a05af241b3d2ef48a4c10a612ffb4997b76bbc560a82dc35c8cbf2"
+    },
+    {
+      "path": "SupersingularCurves/IKO/FifthPowerCongruences.lean",
+      "sha256": "4a959ddbbef3bed9717aa079d2be54b821505a4e412541357ed60d16eed86819"
+    },
+    {
+      "path": "SupersingularCurves/IKO/GenusTwoOrdinaryFixedVectors.lean",
+      "sha256": "779d8f4bb5487c14c442fbed384bbdbe0b9b6ae674a7ebc23aae5fb5a5add8ce"
+    },
+    {
+      "path": "SupersingularCurves/IKO/SemilinearInvertibility.lean",
+      "sha256": "f3b3d90eb88db888ea2dffd755cb1ca01e77a5d4de4aaab036ed2a1e8a10db35"
+    }
+  ],
+  "vendor_additions": [],
+  "new_compatibility_ports": [],
+  "source_attribution": "New arbitrary-matrix fixed-vector elimination and distinct-root argument using pinned Mathlib polynomial separability; new all-prime fifth-power coefficient calculations and actual-model integration; new genuine scheme/cotangent naturality and invertibility comparisons using existing project and pinned foundations.",
+  "classification_scope": "General presented genus-two ordinary criterion, fifth-power operator/p-rank congruences, and genuine Verschiebung naturality. The supersingular converse and general superspecial equivalence remain open.",
+  "unchanged_definitions": [
+    "SupersingularCurves/Geometry/AbelianVariety.lean",
+    "SupersingularCurves/Geometry/Superspecial.lean",
+    "SupersingularCurves/Geometry/Jacobian.lean"
+  ]
+}

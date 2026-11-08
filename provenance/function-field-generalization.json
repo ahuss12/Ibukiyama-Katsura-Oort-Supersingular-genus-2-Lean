@@ -1,0 +1,24 @@
+{
+  "source_archive": "supersingular-genus-5-checkpoint-12-legendre-cartier-verified-2026-09-14(1).zip",
+  "original_path": "supersingular-genus-5/SupersingularGenus5/Direct/LegendreField.lean",
+  "original_sha256": "4228143779d7e9d82b7be4d56deef476d540b1ee0cc4a21ef91479d00a1dd7a9",
+  "new_path": "SupersingularCurves/Hyperelliptic/FunctionField.lean",
+  "new_sha256": "13fc5f3cb26123a6b71c171e4afc94c5f4bb50e116a20c85dff12cc777d05d14",
+  "adaptation": "Generalizes the Legendre construction to a polynomial with an actual simple root. The Eisenstein prime becomes X-C(root); the curve equation is generalized. The degree-two field, coordinate equivalence, separability and nonzero differential arguments follow the previous construction. This is a mathematical adaptation, not an unchanged import.",
+  "generalized_public_theorems": [
+    "monic_equation",
+    "irreducible_equation",
+    "polynomial_eq",
+    "monic_polynomial",
+    "finrank_functionField",
+    "y_sq",
+    "equation_in_functionField",
+    "transcendental_x",
+    "x_ne_zero",
+    "radicand_ne_zero",
+    "y_ne_zero",
+    "coordinateEquiv_compatible",
+    "separable_polynomial",
+    "dx_ne_zero"
+  ]
+}

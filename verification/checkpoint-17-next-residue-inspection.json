@@ -1,0 +1,41 @@
+{
+  "commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "new_checked_dependencies": false,
+  "files": [
+    {
+      "path": "Theorems/Thm_AlgebraicGeometry_RelPicard_exists_isDeformationClassMap.lean",
+      "local_path": "/workspace/scratch/071b87c96e86/upstream-inspection/checkpoint17/Thm_AlgebraicGeometry_RelPicard_exists_isDeformationClassMap.lean",
+      "git_blob": "41db470350fe057a9bcb79dd2e8a159ce6816f54",
+      "sha256": "c307eac6a26e5689be3a014f001e1f4dd25046b096d5bc73ae6710741c8f74b6",
+      "inspection_only": true
+    },
+    {
+      "path": "Theorems/Thm_AlgebraicGeometry_RelPicard_IsDeformationClassMap_natural.lean",
+      "local_path": "/workspace/scratch/071b87c96e86/upstream-inspection/checkpoint17/Thm_AlgebraicGeometry_RelPicard_IsDeformationClassMap_natural.lean",
+      "git_blob": "ec1817b391f1330ced2d3c33215de2bdb75e4ea8",
+      "sha256": "3cdcec9d258c01ff7f7011445a5c103176224fa9d048c7d010cd4e78dea30fc9",
+      "inspection_only": true
+    },
+    {
+      "path": "Theorems/Thm_AlgebraicGeometry_RelPicard_IsDeformationClassMap_cechH1ToH1_germ_eq_of_two_covers.lean",
+      "local_path": "/workspace/scratch/071b87c96e86/upstream-inspection/checkpoint17/Thm_AlgebraicGeometry_RelPicard_IsDeformationClassMap_cechH1ToH1_germ_eq_of_two_covers.lean",
+      "git_blob": "727e7284e472583212bc9cdf99e629289f78ec1e",
+      "sha256": "bdd1b4abd7a21e9b5165afd9c013ea33776e96d42169edadb491900da16e42e2",
+      "inspection_only": true
+    },
+    {
+      "path": "Definitions/Def_AlgebraicCurve_SerrePairing.lean",
+      "local_path": "/workspace/scratch/071b87c96e86/upstream-inspection/checkpoint17/Def_AlgebraicCurve_SerrePairing.lean",
+      "git_blob": "4abcfe35474bfb213a0f8ba4b0941abe3e41a3e4",
+      "sha256": "8632bd1ee1e90940521eb799a38fa3a6a5a7638921b3f68b71484845df96c69f",
+      "inspection_only": true
+    },
+    {
+      "path": "Theorems/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_HomOver_serrePairingInt_map.lean",
+      "local_path": "/workspace/scratch/071b87c96e86/upstream-inspection/checkpoint17/Thm_AlgebraicGeometry_Scheme_TwoAffineOpenCover_HomOver_serrePairingInt_map.lean",
+      "git_blob": "5e35fe7261ddcfe278d48d4551abb05bb0c92775",
+      "sha256": "7245c13651d835e21466421ed6eefbfdbcc89d247d12794286f9f7107d1f310e",
+      "inspection_only": true
+    }
+  ]
+}

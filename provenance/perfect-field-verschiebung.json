@@ -1,0 +1,462 @@
+{
+  "checkpoint": 15,
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Geometry/FrobeniusTwistGroup.lean",
+      "sha256": "3ec85abf6f22d62f9c790343f2527614018b21435599b6fc65c86717d7a5d060"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/Verschiebung.lean",
+      "sha256": "4518fb06d83bfc8d7aad365ff24b73de7d8e88b9dfbac38d6940f746f3e77f96"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/PointedCotangent.lean",
+      "sha256": "f05355b646ec83abc515a9daa56b822144f1d09a0e07e648ad7350c580269e07"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/JacobianVerschiebung.lean",
+      "sha256": "f38975a6770b8809c44323c68f0c0ecf0d299b9bd7554862b1e3045a68c0c00e"
+    },
+    {
+      "path": "SupersingularCurves/Geometry/PicardFrobeniusTwist.lean",
+      "sha256": "c9b6979fe47b468745f77011d441234a01315567484d9b84a208d6be5486c846"
+    }
+  ],
+  "vendor_additions": [
+    {
+      "module": "Definitions.Def_AlgebraicGeometry_NeronSpecialFibreRestriction",
+      "path": "Definitions/Def_AlgebraicGeometry_NeronSpecialFibreRestriction.lean",
+      "upstream_git_blob": "31e7e43331302957334f45a51d3e1a6d9cffcbc8",
+      "upstream_sha256": "dc947b48c74a11e2fee7ff133e867fd7eeb99f6b9f1ad09b96d30d9b780a1595",
+      "current_sha256": "dc947b48c74a11e2fee7ff133e867fd7eeb99f6b9f1ad09b96d30d9b780a1595",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier"
+      ]
+    },
+    {
+      "module": "Definitions.Def_AlgebraicGeometry_RelativePic0DesignationBaseChange",
+      "path": "Definitions/Def_AlgebraicGeometry_RelativePic0DesignationBaseChange.lean",
+      "upstream_git_blob": "b6ce790d953bb34532dc2c98bc9b9eb267f5f438",
+      "upstream_sha256": "3476d37554eb05969e890a2bf2caaa188385d2523b12bc135802db20a759d0f4",
+      "current_sha256": "3476d37554eb05969e890a2bf2caaa188385d2523b12bc135802db20a759d0f4",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_SmoothProperCurveBase"
+      ]
+    },
+    {
+      "module": "Definitions.Def_CerednikDrinfeld_FakeEllipticFrobenius",
+      "path": "Definitions/Def_CerednikDrinfeld_FakeEllipticFrobenius.lean",
+      "upstream_git_blob": "474320fb2683420cd46cc7501478009482349dd2",
+      "upstream_sha256": "69638291b21001231a373d7c714c92a65fb324f1f61b25e475ba6eb878cf69f6",
+      "current_sha256": "69638291b21001231a373d7c714c92a65fb324f1f61b25e475ba6eb878cf69f6",
+      "imports": [
+        "Mathlib.Algebra.CharP.Frobenius",
+        "Definitions.Def_CerednikDrinfeld_QMModuliProps"
+      ]
+    },
+    {
+      "module": "Definitions.Def_CerednikDrinfeld_JPrimeTorsionDatum",
+      "path": "Definitions/Def_CerednikDrinfeld_JPrimeTorsionDatum.lean",
+      "upstream_git_blob": "6c9e2a939035a695c10236a651c80c8949d758ee",
+      "upstream_sha256": "cb1121bb6c32a30eed8da3f4d9d15aed910c22d373ffd4bd8e92e6ae87bbc179",
+      "current_sha256": "cb1121bb6c32a30eed8da3f4d9d15aed910c22d373ffd4bd8e92e6ae87bbc179",
+      "imports": [
+        "Definitions.Def_CerednikDrinfeld_Ribbon",
+        "Definitions.Def_HeckeGalois_EichlerShimura",
+        "Definitions.Def_Compat_Mathlib430"
+      ]
+    },
+    {
+      "module": "Definitions.Def_CerednikDrinfeld_QMModuli",
+      "path": "Definitions/Def_CerednikDrinfeld_QMModuli.lean",
+      "upstream_git_blob": "ceb479c5f5b68e2542e7ebd12e9dc893eb8e03cc",
+      "upstream_sha256": "d10edd01c08e31bc4fdc4c1bc41995328f57fd74ffabe5f2e09cbab897e5c6cb",
+      "current_sha256": "d10edd01c08e31bc4fdc4c1bc41995328f57fd74ffabe5f2e09cbab897e5c6cb",
+      "imports": [
+        "Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion",
+        "Mathlib.AlgebraicGeometry.Morphisms.Finite",
+        "Mathlib.AlgebraicGeometry.Morphisms.FinitePresentation",
+        "Mathlib.AlgebraicGeometry.Morphisms.FlatRank",
+        "Mathlib.AlgebraicGeometry.FunctionField",
+        "Mathlib.Topology.KrullDimension",
+        "Mathlib.Algebra.DualNumber",
+        "Mathlib.LinearAlgebra.Trace",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "Definitions.Def_CerednikDrinfeld_ShimuraCurve"
+      ]
+    },
+    {
+      "module": "Definitions.Def_CerednikDrinfeld_QMModuliProps",
+      "path": "Definitions/Def_CerednikDrinfeld_QMModuliProps.lean",
+      "upstream_git_blob": "c55bc010b4d322c5e111da8c0d24026f98c8c121",
+      "upstream_sha256": "17f176591612701b9e8445cb4b24a13683eb38b22381086d95e0fcb516cc81c7",
+      "current_sha256": "17f176591612701b9e8445cb4b24a13683eb38b22381086d95e0fcb516cc81c7",
+      "imports": [
+        "Mathlib.AlgebraicGeometry.Morphisms.Smooth",
+        "Definitions.Def_CerednikDrinfeld_QMModuli"
+      ]
+    },
+    {
+      "module": "Definitions.Def_CerednikDrinfeld_Ribbon",
+      "path": "Definitions/Def_CerednikDrinfeld_Ribbon.lean",
+      "upstream_git_blob": "43d8c2f8a3d170d29c4f35e0f595274ad2050362",
+      "upstream_sha256": "b752737dccbb7365a86f210a840df5e22d82b9d264e1d195198198bf44e0dc9c",
+      "current_sha256": "b752737dccbb7365a86f210a840df5e22d82b9d264e1d195198198bf44e0dc9c",
+      "imports": [
+        "Definitions.Def_ModularCurve_ComponentGroup",
+        "Mathlib.LinearAlgebra.Matrix.ToLin",
+        "Mathlib.Data.Nat.Prime.Defs",
+        "Mathlib.Data.PNat.Defs",
+        "Mathlib.Algebra.Module.Submodule.LinearMap",
+        "Mathlib.LinearAlgebra.Quotient.Defs"
+      ]
+    },
+    {
+      "module": "Definitions.Def_CerednikDrinfeld_ShimuraCurve",
+      "path": "Definitions/Def_CerednikDrinfeld_ShimuraCurve.lean",
+      "upstream_git_blob": "140fce35d13d352475b449c13cd961634638699a",
+      "upstream_sha256": "aff2aaa9d5a00b421616275de8d599053e9cd2b7ab90601780016e79a6118f25",
+      "current_sha256": "aff2aaa9d5a00b421616275de8d599053e9cd2b7ab90601780016e79a6118f25",
+      "imports": [
+        "Definitions.Def_QuaternionAlgebra_EichlerOrder",
+        "Definitions.Def_QuaternionAlgebra_ReducedNorm",
+        "Definitions.Def_ModularCurve_UniformizedHeckeCurve",
+        "Definitions.Def_AlgebraicCurve_BaseChangeGalois",
+        "Definitions.Def_AlgebraicCurve_IsCurveOver",
+        "Definitions.Def_CerednikDrinfeld_TwoPlaceTorsionDatum",
+        "Definitions.Def_Compat_Mathlib430"
+      ]
+    },
+    {
+      "module": "Definitions.Def_CerednikDrinfeld_TwoPlaceTorsionDatum",
+      "path": "Definitions/Def_CerednikDrinfeld_TwoPlaceTorsionDatum.lean",
+      "upstream_git_blob": "c163f9c6dbac848fa3824adf90d3e9cffb018263",
+      "upstream_sha256": "f452168326b04e2bf650ca49f0eabfd80a668810f5d44cf4bb3110c014ebd9bd",
+      "current_sha256": "f452168326b04e2bf650ca49f0eabfd80a668810f5d44cf4bb3110c014ebd9bd",
+      "imports": [
+        "Definitions.Def_CerednikDrinfeld_JPrimeTorsionDatum",
+        "Definitions.Def_Compat_Mathlib430"
+      ]
+    },
+    {
+      "module": "Definitions.Def_GoodReductionJacobian_RelativeGroupLawBaseChange",
+      "path": "Definitions/Def_GoodReductionJacobian_RelativeGroupLawBaseChange.lean",
+      "upstream_git_blob": "c60b5bab3df3faa1630f521490bd57230d9140e4",
+      "upstream_sha256": "d7f0788a3d67bd367199faf79ea7bc3f1bd7437c959b322af7c1379834894e0f",
+      "current_sha256": "d7f0788a3d67bd367199faf79ea7bc3f1bd7437c959b322af7c1379834894e0f",
+      "imports": [
+        "Mathlib.AlgebraicGeometry.Pullbacks",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "Definitions.Def_AlgebraicGeometry_NeronModelEndomorphismExtension",
+        "Definitions.Def_AlgebraicGeometry_NeronSpecialFibreRestriction",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawFibre"
+      ]
+    },
+    {
+      "module": "Definitions.Def_GoodReductionJacobian_RelativeGroupLawFibre",
+      "path": "Definitions/Def_GoodReductionJacobian_RelativeGroupLawFibre.lean",
+      "upstream_git_blob": "d54ccf03ef76d53f580a52c58f30420a20d02285",
+      "upstream_sha256": "12f292db2440608d9a490079ad13029a16f60d0ec559e64aa0c4f4e013beb694",
+      "current_sha256": "12f292db2440608d9a490079ad13029a16f60d0ec559e64aa0c4f4e013beb694",
+      "imports": [
+        "Mathlib.AlgebraicGeometry.ResidueField",
+        "Mathlib.AlgebraicGeometry.Pullbacks",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel"
+      ]
+    },
+    {
+      "module": "Definitions.Def_ModularCurve_ComplexPlaceDictionary",
+      "path": "Definitions/Def_ModularCurve_ComplexPlaceDictionary.lean",
+      "upstream_git_blob": "79c16cf65a07a165a79940f9c7a88edf4fa5fc96",
+      "upstream_sha256": "0e3a31ab5dd3bd209f94420406bebef13a763d5f4237707935f82f8b567e877b",
+      "current_sha256": "0e3a31ab5dd3bd209f94420406bebef13a763d5f4237707935f82f8b567e877b",
+      "imports": [
+        "Mathlib.NumberTheory.ModularForms.QExpansion",
+        "Mathlib.NumberTheory.ModularForms.CongruenceSubgroups",
+        "Mathlib.Analysis.Meromorphic.Order",
+        "Definitions.Def_ModularCurve_X0",
+        "Definitions.Def_ModularCurve_LaurentCoeff",
+        "Definitions.Def_AlgebraicCurve_DivisorClassGroup"
+      ]
+    },
+    {
+      "module": "Definitions.Def_ModularCurve_ComponentGroup",
+      "path": "Definitions/Def_ModularCurve_ComponentGroup.lean",
+      "upstream_git_blob": "4a933a9c2b6c54766462a15749db3293d0473ffa",
+      "upstream_sha256": "e496b03ac438f2670128d9f085d88020293140f731605942f7526f4a6883db26",
+      "current_sha256": "e496b03ac438f2670128d9f085d88020293140f731605942f7526f4a6883db26",
+      "imports": [
+        "Mathlib.LinearAlgebra.Dual.Defs",
+        "Mathlib.Data.ZMod.QuotientRing",
+        "Mathlib.Algebra.Exact",
+        "Mathlib.Algebra.BigOperators.Group.Finset.Basic"
+      ]
+    },
+    {
+      "module": "Definitions.Def_ModularCurve_UniformizedHeckeCurve",
+      "path": "Definitions/Def_ModularCurve_UniformizedHeckeCurve.lean",
+      "upstream_git_blob": "04f634187af7a457de6ecf5a556e9e94fb621187",
+      "upstream_sha256": "9eef961b0526a1c627ec55672dadf05d66dfe4df7c0b9a9a66fffee8c6f710e9",
+      "current_sha256": "9eef961b0526a1c627ec55672dadf05d66dfe4df7c0b9a9a66fffee8c6f710e9",
+      "imports": [
+        "Mathlib.SetTheory.Cardinal.Finite",
+        "Definitions.Def_ModularCurve_ComplexPlaceDictionary",
+        "Definitions.Def_ModularForm_HeckeOperator"
+      ]
+    },
+    {
+      "module": "Definitions.Def_ModularForm_HeckeOperator",
+      "path": "Definitions/Def_ModularForm_HeckeOperator.lean",
+      "upstream_git_blob": "3f852a83541ad60554122d0fd7c511046a4a5394",
+      "upstream_sha256": "ac6a30184b33dd69229db91dfe206bc269ebca76463c25b970dbba7d37abe86e",
+      "current_sha256": "ac6a30184b33dd69229db91dfe206bc269ebca76463c25b970dbba7d37abe86e",
+      "imports": [
+        "Mathlib.NumberTheory.ModularForms.SlashActions"
+      ]
+    },
+    {
+      "module": "Definitions.Def_QuaternionAlgebra_EichlerOrder",
+      "path": "Definitions/Def_QuaternionAlgebra_EichlerOrder.lean",
+      "upstream_git_blob": "797c862f06ba64259393d33fd758be5bd317c785",
+      "upstream_sha256": "6da872eec7bc51c1482426073820a03ce47ddda7e5c0ba94910699d1693d7926",
+      "current_sha256": "6da872eec7bc51c1482426073820a03ce47ddda7e5c0ba94910699d1693d7926",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Submodule_LocalBox",
+        "Definitions.Def_QuaternionAlgebra_Order"
+      ]
+    },
+    {
+      "module": "Definitions.Def_QuaternionAlgebra_Order",
+      "path": "Definitions/Def_QuaternionAlgebra_Order.lean",
+      "upstream_git_blob": "ec95ca689b29fe53f1c3764ff350991da0e25f39",
+      "upstream_sha256": "faccac85465d034680318fbad412d3fa8dd1d2c7a97464fe5b937ca956ddf921",
+      "current_sha256": "faccac85465d034680318fbad412d3fa8dd1d2c7a97464fe5b937ca956ddf921",
+      "imports": [
+        "Mathlib"
+      ]
+    },
+    {
+      "module": "Definitions.Def_QuaternionAlgebra_Order_FiniteIdele",
+      "path": "Definitions/Def_QuaternionAlgebra_Order_FiniteIdele.lean",
+      "upstream_git_blob": "ff053b7ed629fbaa0bb711dc57b5141da1c028a7",
+      "upstream_sha256": "6e868bfe3fd2a6eb6072f54eafed8a01f6551f286b05ebfe92b7a7b1d8c84e53",
+      "current_sha256": "6e868bfe3fd2a6eb6072f54eafed8a01f6551f286b05ebfe92b7a7b1d8c84e53",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Submodule_FiniteAdeleBox",
+        "Definitions.Def_QuaternionAlgebra_Order"
+      ]
+    },
+    {
+      "module": "Definitions.Def_QuaternionAlgebra_ReducedNorm",
+      "path": "Definitions/Def_QuaternionAlgebra_ReducedNorm.lean",
+      "upstream_git_blob": "8135f20fd9b8709b0c919519cc54d76a29d59f8b",
+      "upstream_sha256": "358779c1f6c238c8673c5dff83c2e45e55ee638a1bf116d73c0aed67954d86c1",
+      "current_sha256": "358779c1f6c238c8673c5dff83c2e45e55ee638a1bf116d73c0aed67954d86c1",
+      "imports": [
+        "Mathlib"
+      ]
+    },
+    {
+      "module": "Definitions.Def_Submodule_FiniteAdeleBox",
+      "path": "Definitions/Def_Submodule_FiniteAdeleBox.lean",
+      "upstream_git_blob": "f266b98a211105fb86233a4a5149c485e96fc9f5",
+      "upstream_sha256": "598bdda75aa88d57ba6bfb02bcab270b8b3d9b9025363d6e8a99a286c16ace41",
+      "current_sha256": "598bdda75aa88d57ba6bfb02bcab270b8b3d9b9025363d6e8a99a286c16ace41",
+      "imports": [
+        "Mathlib"
+      ]
+    },
+    {
+      "module": "Definitions.Def_Submodule_LocalBox",
+      "path": "Definitions/Def_Submodule_LocalBox.lean",
+      "upstream_git_blob": "3f186fd8de0c8ed6b74ef9f8020229e624efb0e6",
+      "upstream_sha256": "2b6e53ebd3616a6fa313522cbeda930c8fac127f0ed414d8840dc4c7dbfd590c",
+      "current_sha256": "2b6e53ebd3616a6fa313522cbeda930c8fac127f0ed414d8840dc4c7dbfd590c",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_Submodule_FiniteAdeleBox",
+        "Definitions.Def_QuaternionAlgebra_Order_FiniteIdele"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_RelPicard_baseChange_relativeGroupLaw_mul_compat",
+      "path": "P2M/Sol/S_AlgebraicGeometry_RelPicard_baseChange_relativeGroupLaw_mul_compat.lean",
+      "upstream_git_blob": "664d9be86ccdf4c80f8c155d54652c59251455da",
+      "upstream_sha256": "e683f448fc4ec9b3984b2a0e1e9f35ad2cf3b55a449df57f8c6ecec619c85431",
+      "current_sha256": "e683f448fc4ec9b3984b2a0e1e9f35ad2cf3b55a449df57f8c6ecec619c85431",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_RepresentsRelSubPic",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicPresheaf",
+        "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroCut",
+        "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroGroupCut",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicGroup",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLawGrpObj",
+        "Definitions.Def_SheafOfModules_Monoidal",
+        "Definitions.Def_AlgebraicGeometry_ModulesPullbackMonoidal",
+        "Definitions.Def_AlgebraicGeometry_SmoothProperCurveBase",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicBaseChange",
+        "Definitions.Def_AlgebraicGeometry_RelativePic0DesignationBaseChange",
+        "Theorems.Thm_AlgebraicGeometry_RelPicard_RepresentsRelSubPic_nonempty_poincare_pullbackAlong_mul_iso",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_RelPicard_exists_representsRelSubPic_baseChange",
+      "path": "P2M/Sol/S_AlgebraicGeometry_RelPicard_exists_representsRelSubPic_baseChange.lean",
+      "upstream_git_blob": "a2e9a215dd9c99d4c65d886007d3bf5c16caf1f7",
+      "upstream_sha256": "8987d4069031a132f3994fbe24a2b929c3786decbd82932e80a6f68a1f42b867",
+      "current_sha256": "8987d4069031a132f3994fbe24a2b929c3786decbd82932e80a6f68a1f42b867",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_RepresentsRelSubPic",
+        "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroCut",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_SmoothProperCurveBase",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicBaseChange",
+        "Definitions.Def_AlgebraicGeometry_RelativePic0DesignationBaseChange",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicGeometry_RelPicard_relativeGroupLaw_baseChange_eq",
+      "path": "P2M/Sol/S_AlgebraicGeometry_RelPicard_relativeGroupLaw_baseChange_eq.lean",
+      "upstream_git_blob": "253cab620c96cbccc773f1e8c6c9a7c677c5881c",
+      "upstream_sha256": "fc06228cd646dcfd11e70446b2cf02d0da791fb9d3ff2528e755aa27fcb5778e",
+      "current_sha256": "fc06228cd646dcfd11e70446b2cf02d0da791fb9d3ff2528e755aa27fcb5778e",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_RepresentsRelSubPic",
+        "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroCut",
+        "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroGroupCut",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicGroup",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "Definitions.Def_AlgebraicGeometry_SmoothProperCurveBase",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicBaseChange",
+        "Definitions.Def_AlgebraicGeometry_RelativePic0DesignationBaseChange",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawBaseChange",
+        "Theorems.Thm_AlgebraicGeometry_RelPicard_baseChange_relativeGroupLaw_mul_compat",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "P2M.Sol.S_CerednikDrinfeld_QM_FakeEllipticCurve_nsmulPt_eq_of_mapPt_relFrobenius_eq",
+      "path": "P2M/Sol/S_CerednikDrinfeld_QM_FakeEllipticCurve_nsmulPt_eq_of_mapPt_relFrobenius_eq.lean",
+      "upstream_git_blob": "204f3c149bd30c3b9d746c6f0d12f500ad9989e7",
+      "upstream_sha256": "b6839d55ac2b9abd354a60750419549c43124c21a16e627bf0319f07d7614acd",
+      "current_sha256": "b6839d55ac2b9abd354a60750419549c43124c21a16e627bf0319f07d7614acd",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_CerednikDrinfeld_FakeEllipticFrobenius",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawKernel",
+        "Definitions.Def_AlgebraicGeometry_SchemeFrobenius",
+        "P2M.Util"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_RelPicard_baseChange_relativeGroupLaw_mul_compat",
+      "path": "Theorems/Thm_AlgebraicGeometry_RelPicard_baseChange_relativeGroupLaw_mul_compat.lean",
+      "upstream_git_blob": "ef6b0f5e07ba03ed0507c4e4136cde439bceef3c",
+      "upstream_sha256": "f266c47943c9a6fc910c7b6c978977cd30cf069228ac4d907069b5408b36386c",
+      "current_sha256": "f266c47943c9a6fc910c7b6c978977cd30cf069228ac4d907069b5408b36386c",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_RepresentsRelSubPic",
+        "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroCut",
+        "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroGroupCut",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicGroup",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "Definitions.Def_AlgebraicGeometry_SmoothProperCurveBase",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicBaseChange",
+        "Definitions.Def_AlgebraicGeometry_RelativePic0DesignationBaseChange",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_RelPicard_baseChange_relativeGroupLaw_mul_compat"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_RelPicard_exists_representsRelSubPic_baseChange",
+      "path": "Theorems/Thm_AlgebraicGeometry_RelPicard_exists_representsRelSubPic_baseChange.lean",
+      "upstream_git_blob": "a84fb2a748793aa7b81bb9d4f3321454aed16aa8",
+      "upstream_sha256": "5485dbbdb626737b440a9fab5ad20693f48c24d6b520c3438826fd724e7cf35c",
+      "current_sha256": "5485dbbdb626737b440a9fab5ad20693f48c24d6b520c3438826fd724e7cf35c",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_NeronModelPropertyBundleCarrier",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_RepresentsRelSubPic",
+        "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroCut",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_SmoothProperCurveBase",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicBaseChange",
+        "Definitions.Def_AlgebraicGeometry_RelativePic0DesignationBaseChange",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_RelPicard_exists_representsRelSubPic_baseChange"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicGeometry_RelPicard_relativeGroupLaw_baseChange_eq",
+      "path": "Theorems/Thm_AlgebraicGeometry_RelPicard_relativeGroupLaw_baseChange_eq.lean",
+      "upstream_git_blob": "9e50b5a717f026dab36e0aee7031de81cf0148cf",
+      "upstream_sha256": "1193308da28e85219853733c79573902c29e77e8102746d307fd20b47ace03ae",
+      "current_sha256": "1193308da28e85219853733c79573902c29e77e8102746d307fd20b47ace03ae",
+      "imports": [
+        "Mathlib",
+        "Definitions.Def_AlgebraicGeometry_RelativePicardFunctor",
+        "Definitions.Def_AlgebraicGeometry_RepresentsRelSubPic",
+        "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroCut",
+        "Definitions.Def_AlgebraicGeometry_RelPicardAlgEquivZeroGroupCut",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicGroup",
+        "Definitions.Def_JacJ1Iface",
+        "Definitions.Def_AlgebraicGeometry_RelativeGroupLaw",
+        "Definitions.Def_AlgebraicGeometry_SmoothProperCurveBase",
+        "Definitions.Def_AlgebraicGeometry_RelSubPicBaseChange",
+        "Definitions.Def_AlgebraicGeometry_RelativePic0DesignationBaseChange",
+        "Definitions.Def_GoodReductionJacobian_RelativeGroupLawBaseChange",
+        "P2M.Util",
+        "P2M.Sol.S_AlgebraicGeometry_RelPicard_relativeGroupLaw_baseChange_eq"
+      ]
+    }
+  ],
+  "new_vendor_modules": 28,
+  "new_compatibility_ports": [],
+  "prior_proof_modules_modified": 0,
+  "prior_vendor_modules_modified": 0,
+  "main_reused_sources": [
+    {
+      "path": "P2M/Sol/S_CerednikDrinfeld_QM_FakeEllipticCurve_nsmulPt_eq_of_mapPt_relFrobenius_eq.lean",
+      "declaration": "RelVersch.comp_schemeNsmul_eq",
+      "scope": "General commutative group scheme over any characteristic-p field; no fake-elliptic or quaternionic hypothesis. The entire source and closure are retained, unchanged."
+    },
+    {
+      "path": "P2M/Sol/S_AlgebraicGeometry_RelPicard_exists_representsRelSubPic_baseChange.lean",
+      "scope": "Actual Picard representability and Poincare bundle base change, applied along field Frobenius."
+    },
+    {
+      "path": "P2M/Sol/S_AlgebraicGeometry_RelPicard_relativeGroupLaw_baseChange_eq.lean",
+      "scope": "Tensor-product group law agrees with actual base-changed group law."
+    },
+    {
+      "path": "P2M/Sol/S_AlgebraicGeometry_Scheme_exists_tangentPoints_equiv_linearMap_cotangentSpace.lean",
+      "scope": "Local maximal-ideal cotangent space, with actual square-zero points and coefficient naturality; already vendored."
+    }
+  ],
+  "project_proof_route": "Extend the checkpoint-14 faithfully flat descent and F-times-F group-law proof to the actual twist. Generalize the local cotangent construction functorially, then apply it to the independent representing Jacobian. Apply pinned Picard base-change theorems with Frobenius as the algebra map.",
+  "scope": "Actual V for every smooth commutative group scheme over a perfect field of characteristic p, both factorization identities, uniqueness, base/zero/group compatibility. Actual Jacobian cotangent differential to the twisted cotangent. Actual Picard representation on the twisted scheme with compatible Poincare bundle and group law. No Cartier identity or geometric genus-two classification."
+}

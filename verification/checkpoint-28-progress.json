@@ -1,0 +1,20 @@
+{
+  "checkpoint": 28,
+  "state": "checked_foundation_checkpoint",
+  "saved_at_utc": "2026-09-23T08:49:09.920468+00:00",
+  "last_fully_audited_checkpoint": 28,
+  "block_1_complete": false,
+  "full_aggregate_build_completed": true,
+  "full_new_declaration_audit_completed": true,
+  "global_zero_dV_product_isogeny_proved": false,
+  "product_isogeny_from_actual_closed_subgroup_proved": true,
+  "cartier_zero_implies_geometric_superspecial_proved": false,
+  "cartier_square_zero_implies_geometric_supersingular_proved": false,
+  "verification_record": "verification/checkpoint-28-run.json",
+  "remaining": [
+    "Construct the first actual elliptic subgroup of an arbitrary zero-dV surface. The Tate route still needs uniformly bounded very ample polarizations on actual lattice quotients, finite-model recurrence, normalized actual operators, and an actual nonzero elliptic-map/image construction.",
+    "Complete transfer between arbitrary elliptic factors and Oort integral subgroup-straightening/quotient induction to obtain the unpolarized product isomorphism from zero dV.",
+    "Apply that global classification to C=0 implies geometric superspeciality and C-squared=0 implies geometric supersingularity. Both converses remain open; checkpoint 26 already supplies an isogeny to a zero-dV surface in the square-zero case.",
+    "The wider sheet/IKO scope still needs the remaining abstract-curve/perfect-field scope, actual crystalline Newton comparison, and section-one automorphism, quotient, cyclic-cover and isomorphism-class results."
+  ]
+}

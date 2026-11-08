@@ -1,0 +1,13 @@
+'SupersingularCurves.Geometry.GroupScheme.zero_coe_eq_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.baseChange_zero_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.groupIsoOfPullbackOfOne' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.groupIsoOfPullbackOfOne_hom_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.exists_finiteField_abelian_iso_model_of_verschiebungCotangent_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

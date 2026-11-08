@@ -1,0 +1,36 @@
+{
+  "checkpoint": 12,
+  "started_at_utc": "2026-09-18T05:46:58.898293+00:00",
+  "toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "verification_command": "bash verification/verify.sh",
+  "fresh_project_compile_units": 57,
+  "retained_checkpoint_11_proof_modules": 50,
+  "new_proof_modules": 6,
+  "current_checked_source_hashes": 98,
+  "proof_sources_unchanged_after_gate": true,
+  "verification_script_exit_code": 0,
+  "environment_note": "Pinned Linux x86_64 Lean distribution; included executable-path shim; LEAN_NUM_THREADS=4; compiled external Mathlib and selected FLT dependencies reused. Project build artifacts cleared before the final gate. No change to Lean proof checking.",
+  "execution_note": "Initial tool session became unavailable after the complete fresh build; source hashes were rechecked and all remaining verification steps were resumed with the completed build log preserved.",
+  "completed_at_utc": "2026-09-18T05:58:01.395169+00:00",
+  "audited_project_declarations": 1267,
+  "audited_flt_declarations": 24884,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "all_verification_checks_passed": true,
+  "fresh_project_compile_units_observed": 57,
+  "log_sha256": {
+    "checkpoint-12-verification.log": "740491c82e0205644c86c9a13e27c446568ed610518796f2789438eacdd17b46",
+    "project-build.log": "684a72422400cb56f45e33cfce4db98034057716e6a59fa89fd413b8faebd0d4",
+    "source-audit.log": "edfa7112dd16caa51dbed1a3526a0323286409ad7b03e781c1c2c7cf9d1e0638",
+    "basis-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "torsion-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "geometric-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simple-root-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "superspecial-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "general-genus-two-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "axiom-audit.log": "08d2c92bbc1eea04c556b22a5f36e81ae9ddd5a68a3567f991402f7fb569e4c4"
+  }
+}

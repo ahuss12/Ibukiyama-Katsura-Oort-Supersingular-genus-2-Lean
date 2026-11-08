@@ -1,0 +1,3 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.exists_fixedField_polarized_model' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

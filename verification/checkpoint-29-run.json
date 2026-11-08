@@ -1,0 +1,61 @@
+{
+  "checkpoint": 29,
+  "completed_at_utc": "2026-09-23T17:46:01.225479+00:00",
+  "all_current_checks_passed": true,
+  "build_exit_code": 0,
+  "source_checks_exit_code": 0,
+  "source_scan_exit_code": 0,
+  "new_module_axiom_audit_exit_code": 0,
+  "build_target": "SupersingularCurves.Geometry.ScalarFrobeniusTateEllipticSubgroup",
+  "build_jobs": 11115,
+  "new_project_modules": 5,
+  "project_proof_modules": 328,
+  "new_public_theorems": 16,
+  "new_private_supporting_lemmas": 0,
+  "project_public_theorems": 1825,
+  "project_private_supporting_lemmas": 82,
+  "new_vendor_modules": 4,
+  "vendor_modules": 4666,
+  "new_compatibility_ports": 0,
+  "prior_proof_modules_unchanged": 323,
+  "prior_vendor_lean_files_unchanged": 4662,
+  "new_module_declaration_entries_audited": 28,
+  "new_project_declaration_entries_audited": 20,
+  "new_vendor_declaration_entries_audited": 8,
+  "audited_new_project_modules": 5,
+  "audited_new_vendor_modules": 4,
+  "source_files_scanned": 4995,
+  "checked_source_hashes": 478,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "clean_rebuild_of_all_dependencies": false,
+  "full_aggregate_build_rerun": false,
+  "historical_integration_examples_rerun": false,
+  "full_previous_audit_rerun": false,
+  "verification_mode": "Targeted new final module and full import closure built; all 16 new public theorem names resolved; all 28 new stored declaration entries audited by types, bodies, generated/private entries, and transitive axioms; all source hashes, pinned provenance, and admission/native-evaluation markers checked. Retained source-identical historical evidence and dependency caches reused.",
+  "proved": [
+    "Construct actual smooth connected closed elliptic subgroup from an actual elliptic-to-surface morphism with nonzero induced rational Tate map.",
+    "Construct actual smooth connected closed elliptic subgroup from an actual surface-to-elliptic morphism with nonzero induced rational Tate map, proving the reduced kernel identity component has dimension exactly one.",
+    "Given the existing actualEndSpan graph operator and p-rank zero, construct actual supersingular elliptic-product isogenies in both directions and prove the existing IsSupersingularOver predicate."
+  ],
+  "still_open": [
+    "Global existence of the nonzero actualEndSpan graph operator or actual elliptic map for an arbitrary zero-dV surface.",
+    "Uniformly bounded very ample polarizations for the actual nonprincipal quotient roots, finite-model recurrence, and normalized actual operators in the current Tate route.",
+    "Integral splitting for the superspecial product isomorphism.",
+    "Both positive geometric Cartier converses, the full geometric classification block, and the remaining wider IKO/Newton scope."
+  ],
+  "geometric_classification_block_complete": false,
+  "full_iko_section_1_complete": false,
+  "global_zero_dV_product_isogeny_proved": false,
+  "elliptic_subgroup_from_either_nonzero_elliptic_map_proved": true,
+  "product_isogenies_from_actualEndSpan_graph_proved": true,
+  "log_sha256": {
+    "checkpoint-29-project-build.log": "8840a7ff078dfa242ba9c95cffe8ff9cd01df0cd2379aba6ebde7158bd9a3cbd",
+    "checkpoint-29-axiom-audit.log": "43c6293bf6488ad2ff61fda82429170c791f0f431ea5b585d0f8eb0d7ba089af",
+    "checkpoint-29-source-audit.log": "8a3f1000496d30501a643ce83667badd4a0ba067ddf0ca27466414e3d5962b3e",
+    "checkpoint-29-toolchain.log": "544b4920040fb4a18fbbf04c48a65f06739ab3268fc7d3c756bc1b64e823a094"
+  }
+}

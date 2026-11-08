@@ -1,0 +1,48 @@
+{
+  "checkpoint": 21,
+  "completed_at_utc": "2026-09-20T01:43:18.706937+00:00",
+  "all_current_checks_passed": true,
+  "build_exit_code": 0,
+  "source_checks_exit_code": 0,
+  "cartier_verschiebung_examples_exit_code": 0,
+  "general_prank_examples_exit_code": 0,
+  "new_module_axiom_audit_exit_code": 0,
+  "build_jobs": 10389,
+  "recovered_modules_freshly_recompiled": 10,
+  "new_modules_compiled": 2,
+  "prior_proof_modules_unchanged": 85,
+  "new_module_declaration_entries_audited": 196,
+  "integration_examples": 14,
+  "source_files_scanned": 1625,
+  "checked_source_hashes": 177,
+  "standard_axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "full_previous_audit_rerun": false,
+  "clean_rebuild_of_all_dependencies": false,
+  "new_vendor_modules": 0,
+  "log_sha256": {
+    "checkpoint-21-project-build.log": "1685dd84b689b715a9df6802a75112241820d8869ad4d5b80baf97c76132e20e",
+    "checkpoint-21-fresh-build.log": "b8e684419ea0caca24f3fdb474dc4501e7003a7c94d7f7fcad269caf360ed8e0",
+    "checkpoint-21-source-audit.log": "4ddc35eb18bd06ab9002cf39d7f02c07d10e4c38a2b7df0f74cbc0154a1fe194",
+    "cartier-verschiebung-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "genus-two-prank-examples.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checkpoint-21-axiom-audit.log": "0571da2db71dba379b550605f7d8ca9f4bcb3f0658c56f7adab8d14c1c075d1f",
+    "checkpoint-21-toolchain.log": "544b4920040fb4a18fbbf04c48a65f06739ab3268fc7d3c756bc1b64e823a094"
+  },
+  "proved": [
+    "Arbitrary-pole local Cartier/residue identity",
+    "Global Frobenius/Cartier residue adjointness",
+    "Cartier/V comparison under independently specified cohomological untwist",
+    "Actual Jacobian V cotangent zero iff Cartier zero; matrix and IKO family criteria",
+    "General presented genus-two p-rank zero iff Cartier square zero iff twisted matrix square zero, on regular and global forms"
+  ],
+  "still_open": [
+    "Cohomological untwist equals actual Jacobian projection cotangent map",
+    "Geometric superspecial and supersingular classification criteria",
+    "Actual curve/Jacobian crystalline Newton attachment and comparison",
+    "Remaining IKO Section 1 and sheet identifications"
+  ]
+}

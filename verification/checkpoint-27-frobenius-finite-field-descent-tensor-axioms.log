@@ -1,0 +1,6 @@
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.invariantTensorPowerIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.FrobeniusFiniteFieldDescent.invariantTensorPower_properties' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

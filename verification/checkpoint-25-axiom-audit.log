@@ -1,0 +1,20 @@
+Audited 12 declarations from SupersingularCurves.Geometry.CotangentDifferentialKernel.
+Audited 8 declarations from SupersingularCurves.Geometry.FrobeniusCotangentVanishing.
+Audited 18 declarations from SupersingularCurves.Geometry.FrobeniusFactorGroup.
+Audited 4 declarations from SupersingularCurves.Geometry.FrobeniusFactorIsomorphism.
+Audited 41 declarations from SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroup.
+Audited 9 declarations from SupersingularCurves.Geometry.FrobeniusVerschiebungSubgroupDimension.
+Audited 14 declarations from SupersingularCurves.Geometry.LocalizedDifferentialDetection.
+Audited 8 declarations from SupersingularCurves.Geometry.PRankZeroFiniteSubgroup.
+Audited 11 declarations from SupersingularCurves.Geometry.PRankZeroVerschiebungKernel.
+Audited 12 declarations from SupersingularCurves.Geometry.PointedCotangentFibre.
+Audited 8 declarations from SupersingularCurves.Geometry.PointedCotangentFibreExact.
+Audited 6 declarations from SupersingularCurves.Geometry.RationalCotangentFrobenius.
+Audited 6 declarations from SupersingularCurves.Geometry.ReducedModuleDetection.
+Audited 8 declarations from SupersingularCurves.Geometry.SmoothDifferentialDetection.
+Audited 11 declarations from SupersingularCurves.Geometry.VerschiebungFrobeniusCriterion.
+Audited 10 declarations from SupersingularCurves.Hyperelliptic.CharacteristicThreeObstruction.
+Audited 3 declarations from SupersingularCurves.Hyperelliptic.GenusTwoFiniteSubgroup.
+Audited 8 declarations from SupersingularCurves.Hyperelliptic.GenusTwoFrobeniusIsomorphism.
+Inspected 2 shared generated entries by stored type/body as well as resolved declaration.
+Checkpoint 25 transitive axiom audit passed: 197 new project/vendor declaration entries.

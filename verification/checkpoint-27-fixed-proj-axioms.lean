@@ -1,0 +1,4 @@
+import SupersingularCurves.Geometry.FrobeniusFiniteFieldDescentFixedGrading
+#print axioms SupersingularCurves.Geometry.FrobeniusDescent.fixedGrading
+#print axioms SupersingularCurves.Geometry.FrobeniusDescent.fixedGradedAlgebra
+#print axioms SupersingularCurves.Geometry.FrobeniusDescent.exists_fixedField_proj_model

@@ -1,0 +1,22 @@
+'SupersingularCurves.Geometry.EllipticTorsionLiftingEndResidue.UnramTheta.exists_irreducible_element' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.EllipticTorsionLiftingEndScalarImage.maximal_order_range_eq_frobenius_fixed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.EllipticTorsionLiftingEndScalarImage.rationalEnd_range_eq_frobenius_fixed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.endBaseChange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SupersingularCurves.Geometry.AbelianVariety.endBaseChange_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.WeierstrassGroupModel.exists_baseChanged_cotangentScalarRingHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.WeierstrassGroupModel.exists_endomorphism_of_frobenius_scalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SupersingularCurves.Geometry.WeierstrassGroupModel.exists_baseChanged_endomorphism_of_frobenius_scalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

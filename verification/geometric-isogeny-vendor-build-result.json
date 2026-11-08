@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "root": "Theorems.Thm_AlgebraicCurve_Pic0_exists_nsmul_eq_of_charP",
+  "upstream_commit": "aa2d8b34692b16c70f699536de0d8e75b9a3e9ef",
+  "command": "LEAN_NUM_THREADS=4 lake build Theorems.Thm_AlgebraicCurve_Pic0_exists_nsmul_eq_of_charP",
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "selected_added_source_modules": 73,
+  "selected_new_compatibility_ports": 1,
+  "vendor_source_modules": 1600,
+  "baseline_source_modules_retained_unchanged": 1527,
+  "lake_jobs": 10110,
+  "log": "verification/geometric-isogeny-picard-division-build-ported.log",
+  "log_sha256": "b98dfd7207907c5434ffd4b0f6307a1ffdb267193b18b0239176387aa59ceae7",
+  "source_manifest_sha256": "9792a8b1828df8b775be8dc22092a943de4562c37c614ce97b344679f1059f59",
+  "port_manifest_sha256": "1d83d6e32174cb0ebaea259186d699f3ba9236e0914b81e2958ef186c57e4868",
+  "scope": "Compilation of the selected upstream Pic0 division theorem and its dependency closure. Project geometric integration and transitive axiom auditing are separate gates owned by the root task."
+}

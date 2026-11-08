@@ -1,0 +1,41 @@
+{
+  "checkpoint": 12,
+  "scope": "Every presented separable quintic/sextic model over an algebraically closed field of odd characteristic; no geometric classification converse.",
+  "new_modules": [
+    {
+      "path": "SupersingularCurves/Hyperelliptic/Reciprocal.lean",
+      "sha256": "9423b2337a604d541e69525afa1ddd50f8e8a6a4dcc03c7a86c1bd0be2af88df"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/GenusTwoBasis.lean",
+      "sha256": "1b0b20630ac9c007a5d94ecb1d2cf3c048987dabf7e642e936e81667fe1cb8ec"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/GenusTwoCartier.lean",
+      "sha256": "b1d658f2e596de88c1d4302d835ea6707d43f23216435322a74d03b9fa997e2c"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/GenusTwoGlobalForms.lean",
+      "sha256": "ba9e6932086cab8d36dc2d9b8505224787b20bb8588bb6c5c7dad01ee0e1f677"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/GenusTwoJacobian.lean",
+      "sha256": "511d1594b710579378731d2f1a0cab404e77315e4a4665bae17ec3b47a8bf47e"
+    },
+    {
+      "path": "SupersingularCurves/Hyperelliptic/CharacteristicThree.lean",
+      "sha256": "e25ee2d8cef46602241dd163a80baa2aeb24708c5f5889505c6bf84d95617705"
+    }
+  ],
+  "main_reused_theorems": [
+    "Mathlib polynomial reflection, separability, finite-dimensional linear equivalences",
+    "Retained project all-place regularity from two separable charts, quadratic function-field construction, Riemann-Hurwitz genus theorem, and actual Cartier coefficient formula",
+    "Retained project canonical generic-restriction equivalence between scheme-global and regular forms",
+    "Retained project Picard logarithm, Cartier-fixed torsion identification, actual Jacobian construction and arbitrary representing Jacobian point-group equivalence",
+    "AlgebraicCurve.constantsAreBase_of_isAlgClosed"
+  ],
+  "proof_adaptation": "Generalizes the project IKO/RegularBasis.lean and IKO/GlobalForms.lean interfaces from the two explicit families to any separable polynomial of degree five or six; proves the previously missing reciprocal-chart separability and regularity.",
+  "new_vendor_modules": 0,
+  "prior_proof_modules_modified": 0,
+  "mathematical_reference": "IKO (1986), Section 1.1 equations (1.1)-(1.5), and characteristic-three case associated with Proposition 1.13. The presentation of every abstract genus-two curve by a hyperelliptic equation and the geometric supersingular/superspecial equivalences are not proved."
+}
