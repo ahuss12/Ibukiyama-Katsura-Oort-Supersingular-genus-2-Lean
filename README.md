@@ -1,10 +1,3 @@
-# Checkpoint 32: checked isotropic graphs and product polarizations
-
-Twelve new public theorems in five modules are compiled and axiom-audited.
-Block 1 remains incomplete. Seven continuation files are explicitly unchecked.
-Run `bash verification/verify_checkpoint32.sh`; see `CONTINUATION_STATUS.md`
-for the exact results, build blocker and remaining mathematical gaps.
-The sections below are historical.
 
 ## Build
 
