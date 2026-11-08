@@ -6,44 +6,6 @@ Run `bash verification/verify_checkpoint32.sh`; see `CONTINUATION_STATUS.md`
 for the exact results, build blocker and remaining mathematical gaps.
 The sections below are historical.
 
-# Checkpoint 31: checked graph quotient step
-
-The actual quotient degrees, rational-graph integral rank/complement, pairing
-divisibility and degree-controlled zero-dV quotient families are checked.
-There are ten new public theorems in three modules. Block 1 and the global
-zero-dV elliptic-map theorem remain incomplete. Five further modules are
-explicitly unchecked drafts, outside the project import tree.
-
-Run `bash verification/verify_checkpoint31.sh`. See `CONTINUATION_STATUS.md`
-and `verification/CHECKPOINT_31_REPORT.md` for the exact scope and evidence.
-The following older sections are historical.
-
-# Supersingular curves: Lean mini-project
-
-Checkpoint 30 proves that finitely many actual graph-quotient models produce an actual nonzero elliptic map, and actual supersingular elliptic-product isogenies in both directions for a p-rank-zero surface. The recurrence and integral compactness proof constructs a nonzero operator in the span of actual geometric endomorphisms, then applies the checkpoint-29 elliptic subgroup and checkpoint-28 complement constructions.
-
-**The finite-model hypothesis has not been proved from zero dV. The global elliptic-map theorem, the unconditional isogeny classification, and Block 1 remain unfinished.** The current route still needs uniform projective embedding bounds for the nonprincipal quotient-root polarizations and the numerical/descent/moduli assembly. Oort's integral splitting for the superspecial product isomorphism remains open separately.
-
-Four new proof modules contain 15 public theorems. All 328 earlier project proof modules and 4,666 vendor modules are unchanged. Exact statements and verification are in `verification/CHECKPOINT_30_REPORT.md` and `provenance/checkpoint-30-recurrence.md`. Run `bash verification/verify_checkpoint30.sh` to check the new target and audit.
-
-Checkpoint 28's checked finite-field abelian-variety descent, actual Tate quotients, Riemann pairings, line-bundle roots, chosen-model local endomorphism lifting, and complementary-product isogenies are retained unchanged.
-
-Checkpoint 26 constructs the **actual order-p simultaneous Frobenius/Verschiebung subgroup, its actual abelian quotient, and the degree-p residual Frobenius and Verschiebung isogenies** for the nonzero square-zero Cartier branch of every represented separable genus-two quintic or sextic over an algebraically closed field of odd characteristic. The quotient preserves p-rank and its actual Verschiebung cotangent differential is zero. Thus C² = 0 alone constructs an actual isogeny from the original Jacobian to an actual abelian surface with dV = 0, including both Cartier branches. The proof establishes the actual twice-iterated Verschiebung differential and all required factor ranks, retaining both actual Frobenius twists.
-
-**Block 1 remains incomplete:** Cartier zero still needs an actual supersingular elliptic-product isomorphism, and Cartier square zero still needs an actual elliptic-product isogeny. The quotient and Frobenius-periodicity constructions do not supply those elliptic factors. See `verification/CHECKPOINT_29_REPORT.md` and `SECTION1_COVERAGE.md`. The original professor's sheet is at `references/ProfessorSheet.jpeg`.
-
-Checkpoint 25's actual factorization criterion is retained: zero actual Verschiebung cotangent at the identity is equivalent to V factoring through relative Frobenius with a residual group-scheme isomorphism A^(p²) ≅ A. For every presented separable quintic/sextic, this is equivalent to Cartier zero on the entire regular/global form space. The actual simultaneous subgroup H has cotangent dimension one when C² = 0 and C ≠ 0; checkpoint 26 now proves its order is p, constructs its quotient, and establishes the actual factor maps and their degrees. When C = 0, H instead has order p^g. Every presented separable genus-two quintic or sextic in characteristic three is proved geometrically non-superspecial.
-
-Checkpoint 24 proved **geometrically superspecial ⇒ actual Verschiebung cotangent map zero ⇒ Cartier zero** for every presented separable quintic/sextic over an algebraically closed field of odd characteristic. The abelian-variety Verschiebung implication holds in every dimension. It uses actual elliptic factors, finite kernel schemes, cotangent spaces, multiplication/Frobenius degrees, products, and base-change isomorphisms.
-
-The actual fifth-power model y² = x⁵ − 1 is now proved geometrically **not superspecial** when p is 2 or 3 modulo 5. The retained uniform Cartier calculations and p-rank results cover every odd prime p ≠ 5. Positive geometric supersingularity in residue classes 2, 3, 4, positive superspeciality in class 4, and identification with automorphism class (6) remain unproved.
-
-Checkpoint 23 proves **ordinary ⇔ det(M) ≠ 0 ⇔ global Cartier bijective ⇔ actual Verschiebung cotangent map bijective** for every presented separable quintic/sextic, for any representing Jacobian and base point. Checkpoint 22 proves **geometrically supersingular ⇒ Cartier square zero ⇔ actual Jacobian p-rank zero ⇔ M^(p)M = 0** for those models. Their geometric definitions are unchanged.
-
-The retained checkpoint-13 comparison identifies actual Jacobian cotangent functionals with infinitesimal Poincare line-bundle deformations and proves compatibility with pointed curve pullback.
-
-The retained development constructs genuine Picard-representing Jacobians for both IKO families, with Abel–Jacobi morphisms and group-compatible divisor-class identifications. It proves their geometric p-torsion counts, p-ranks, and ordinary loci. It also identifies global differential sections on the actual curve models with the regular function-field differentials by canonical generic restriction, and transfers the bases and Cartier matrix/root criteria. The existing Newton-polygon work is retained unchanged. The converse Cartier-zero ⇒ geometric superspeciality, the supersingularity equivalence, the crystalline Newton comparison, and remaining IKO §1 results are unfinished.
-
 ## Build
 
 With elan/Lean available, run from this directory:
