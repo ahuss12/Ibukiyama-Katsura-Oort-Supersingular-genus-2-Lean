@@ -1,1 +1,1 @@
-Supersingular cuves formalization in lean- work in progress
+Supersingular curves formalization in lean- work in progress
